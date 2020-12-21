@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-2-falktx" />
+<link rel="shortlink" href="/node/167" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #2: falkTX | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"1J391lLfaKyUn9QaKyvh547Gvv0TgukhVuSRiWL0tZQ","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/167":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-167 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #2: falkTX                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-167" class="node node-article node-promoted clearfix" about="/articles/friday-interview-2-falktx" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #2: falkTX" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-11T09:31:22+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:44</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the second edition of the Friday Interview! This week, we're joined by the creator and maintainer of <a href="http://kxstudio.linuxaudio.org/" target="_blank" title="KXStudio website">KXStudio</a>. I'm very happy to introduce the second participant of this new series, interviewee #2: <em>falkTX</em>! Lets get started!</p>
+<h2>Introducing falkTX</h2>
+<div class="well"><strong>Filipe Coelho</strong> is the creator, maintainer and all around hero of <a href="http://kxstudio.linuxaudio.org/" target="_blank" title="KXStudio website">KXStudio</a>, one of the greatest distributions for making music with Linux today. He is also the author of <a href="/tools/carla" target="_blank" title="Carla application">Carla</a>, <a href="/tools/cadence" target="_blank" title="Cadence application">Cadence</a>, <a href="http://kxstudio.sourceforge.net/Applications:Claudia" target="_blank" title="Claudia application">Claudia</a> and many more excellent pieces of audio software for Linux. He's a talented programmer, and rumors are he taught himself how to code. He also absolutely loves Japanese culture.</div>
+<div class="well"> </div>
+<div style="width: 347px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx.jpg" /><em>falkTX, dressed in a Linux-worthy beard.</em>
+<p> </p>
+</div>
+<p><strong>Hey falkTX, thank you very much for joining me in this interview! First, what's your name and where are you from?</strong></p>
+<p>Hi there!</p>
+<p>My name is Filipe, and I currently live in my Viseu, Portugal, with my mother and grandmother.</p>
+<p>I was in Switzerland some years ago, where I first learned about Linux. I have no intentions to go back there though.  </p>
+<p><strong>falkTX (corrected after reading your response ;))... That's an interesting nickname, is there a story behind choosing that nickname?</strong></p>
+<p>Yes, the first four letters (FALK) comes from my full name:</p>
+<p>Filipe Alexandre Lopes "Coelho" (converted to 'K').</p>
+<p>I had a logo designed since I was little, see <a href="http://qtsixa.sourceforge.net/pngs/falk-logo.png" target="_blank">this link to the logo</a>.</p>
+<p>I changed my nickname to falkTsshiddán I think around 2002, which later I abbreviated to falkTX. The history behind the "Tsshiddán" is a long boring one, and I prefer not to get in much details.</p>
+<p>One thing to note though - the nickname is "falkTX" and NOT "FalkTX" or "FalkTx"! the first lowercase 'f' is on purpose, but often people ignore this... :(  </p>
+<p><strong>As we're talking making music with Linux, what's your musical background like? What kind of music do you listen to, and do you play any instruments?</strong></p>
+<p>I'm not currently making music in Linux, and have not made "real" songs with it yet (yes, even after all this time!).</p>
+<p>I don't have really a musical background. I don't sing, I don't know music theory, I was never in a band and I barely know how to play keys. BUT I have a deep interest in multimedia production (specially audio), which is all that matters. I have a <a href="/answer/midi-keyboard">MIDI keyboard</a> that was offered to me as a gift, and that's what I use when I feel inspired.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-screenshot-1024x575.png" /><em>The idle desktop of falkTX, using KXStudio.</em>
+<p> </p>
+</div>
+<p><strong>How did you get in to Linux, and making music using Linux specifically?</strong></p>
+<p>My first experience with Linux was in Switzerland, a friend showed to me and its cool Compiz effects. At the time I didn't care much, mostly cause I didn't understand what it really was.</p>
+<p>Later on, now in Portugal, I learned about Ubuntu and free+open software from a computer magazine. Until that day I had no idea there was such thing as a fully-open OS... I learned about Linux and how things worked for some time and got comfortable.</p>
+<p>I can't say I'm making music with Linux right now, sadly. When I started making noise I was on Windows using FL Studio. Since the change to Linux I've been making test songs and playing with various things live, but not something I would consider a real song.</p>
+<p>In my specific case, Linux is lacking the tools I need to keep me inspired and producing sounds. But that's exactly why I'm here! I'm coding the tools (and setup) I need to make great music! :D  </p>
+<p><strong>We need to address the rumors. Did you teach yourself to code?</strong></p>
+<p>Yes, that's correct.</p>
+<p>My family is poor so I never had the chance to get into universities, college or anything like that. And anyway, the universities usually teach very basic stuff or Java (which I kinda hate...).</p>
+<p>I first started with basic bash scripting, then python+PyQt and finally C/C++. I know a lot about programming now, but I still learn new things every week.</p>
+<h2>KXStudio</h2>
+<p style="text-align: center;"><img alt="" src="/sites/default/files/articles/falktx-kxstudio.png" /></p>
+<p><strong>You've done an amazing job with making Linux usable for the average Joe (and Jolina!) through your KXStudio, and you have made a lot of loyal users and fans. </strong></p>
+<p><strong>What's next for KXStudio, do you have anything specific in the works? Do you have some sort of a vision of where you want to bring KXStudio?</strong></p>
+<p>Well, as you probably know, the focus now is to get a new KXStudio ISO release out there (12.04.3). I hope to get a new DISTRHO release out before the ISO, but we'll see.</p>
+<p>After the ISO is done, I'll focus on the new Debian <a href="/answer/software-repository">repos</a>. They are working right now and already have happy users, but they are missing of lot of stuff. I'll make an official announcement when everything is ready.</p>
+<p>I have many other plans, like Carla 2.0 with carla-as-plugin, <a href="/tools/zynaddsubfx">zynaddsubfx</a>-lv2, dssi-vst 1.0, etc but I want to focus on the ISO, DISTRHO and Debian repos first.  </p>
+<p><strong>For those of us who don't know, could you tell us a bit about the DISTRHO project?</strong></p>
+<p>The DISTRHO project was something that came up when I was looking at some linux and opensource vst plugins. I first created a repo for easy access and compilation, which started to grow easily.</p>
+<blockquote><p>"The name came up on <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a>, between the many proposals someone mispelled 'linux distro'. For some reason I loved the name, so DISTRHO it is!"</p></blockquote>
+<p>Having a random code repository named "vst-plugins" sounded bad to me, not just the name but because I might later add <a href="/answer/lv2">lv2</a> variants. I though about making it another semi-project inside KXStudio, but I feared people would think sorta "part of KXStudio, it only works there".</p>
+<p>So a new project was planned. The name came up on IRC, between the many proposals someone mispelled 'linux distro'. For some reason I loved the name, so DISTRHO it is!</p>
+<p>I started to port some good known working plugins (TAL and drowaudio) and slowly added more. I also decided to do some of my own, based on some existing code. I spoke with a friend of mine which is a Graphic Artist/Designer and he agreed to do the plugin UI design.</p>
+<p>Right now the DISTRHO project is under a code cleanup and overall fix, with hopefully new release in Oct 2013.</p>
+<div style="width: 1010px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-distrho.jpg" /><em>The DISTRHO Project created by falkTX.</em>
+<p> </p>
+</div>
+<p><strong>And also maybe tell us a bit about KXStudio moving to Debian? Why is that?</strong></p>
+<div class="alert alert-warning"><lmp-term><strong>A note from falkTX</strong>: <em>the current KXStudio ISO release, on 12.04.x series, is, and will be, unaffected.</em></lmp-term></div>
+<div class="alert alert-warning"> </div>
+<p>There are 2 main reasons for this "move".</p>
+<p>The first is that maintaining 3 or more versions of packages is a lot of work in Ubuntu (for 12.04, 12.10, 13.04 and 13.10). Having a common repository for all those versions will reduce the number of packages.</p>
+<p>Then, I'm not happy with the current future of Ubuntu and Canonical.</p>
+<p>Kubuntu developers said that they are unsure what's their future, and KXStudio (ISO distribution) is based on it. If the KXStudio repos were to move to Debian, it will help the first point and also serve as a 2nd plan in case Canonical does something unpredictable again. There has been a lot of people complaining about Canonical's decisions and jumping to other distros, we just don't know what to expect.</p>
+<p>I still run Ubuntu 12.04 + KXStudio as my main OS, and will keep fully supporting it until 14.04 comes. Ubuntu LTS releases have all been top-quality so far, let's see what 14.04 becomes.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-screenshot-carla-2-1024x575.png" /><em>A screenshot of Carla in action.</em>
+<p> </p>
+</div>
+<p><strong>You've also made quite a few applications yourself. The biggest/most comprehensive one probably being Carla, that recently hit stable 1.0 (congrats!). Do you have any new projects in the works?</strong></p>
+<p>Kinda. There is a "new" app coming next year (2014), but I prefer to not speak much about it right now. I can say two things - it's the app I've been waiting for all this time, which will complement Carla perfectly :D  </p>
+<p><strong>Intriguing! Looking forward to hearing more about it. </strong></p>
+<h2>His own music</h2>
+<p><strong>Regarding making music.. Do you have any time for that, or are you only developing?</strong></p>
+<p>Yeah, I'm not making any music right now, only developing. But things will change in 2014 ;)</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-workstation-2-1024x768.jpg" /><em>The place where falkTX does most of his work. Kudos for the fan, I have one too, placed just like that.</em>
+<p> </p>
+</div>
+<p><strong>Do you have any musical project you would like to eventually get around to doing?</strong></p>
+<p>I already thought of one I'd love to do.</p>
+<p>I want to pick old classical songs (those under Public Domain), and remix them a little bit. Nothing major, just some small drums and ambient/fx sounds, you know, making it a bit more modern (does "new age" style fit here?) I suck at writing melodies, and there are amazing ones out there for free, why not (re-)use them?  </p>
+<h2>Final questions</h2>
+<p><strong>Do you feel that anything is lacking in Linux Audio today? What would you like to see more of?</strong></p>
+<blockquote><p>"I love the modularity of <a href="/answer/jack">JACK</a>, but we're missing some things to make it work 100%... I'd love to see a fully-featured <a href="/answer/midi">MIDI</a>-sequencer, with focus on the *MIDI and JACK*."</p></blockquote>
+<p>We are missing the "pro" tools Windows and Mac have, mostly the all-in-one DAW apps.</p>
+<p>I know a lot of users coming from other OSes are waiting to see some big app announcement happen before making the switch. But honestly those big apps don't interest me right now.</p>
+<p>I love the modularity of JACK, but we're missing some things to make it work 100%. More specifically, I'd love to see a fully-featured MIDI-sequencer, with focus on the *MIDI and JACK*. There are some candidates to this place, but nothing that has convinced me yet. Perhaps this is something I can fix myself, if you know what I mean...  </p>
+<p><strong>What can users do to contribute to KXStudio, and your various applications? People who can't do coding, what can they help out with instead?</strong></p>
+<p>We need video tutorials!!</p>
+<p>Seriously, male <span class="text-info"><small>(<em><a href="/articles/friday-interview-4-jonathan-liles">Jonathan Liles</a>, author of the <a href="http://non.tuxfamily.org" target="_blank" title="The Non Tools">non-tools</a>. Rumor has it an interview's coming up with him soon here!)</em></small></span> has fixed the ffmpeg screen recording issues (thanks very much!) and I've put it together with some scripts to make screencasting in KXStudio real easy. See: <a href="http://linuxmusicians.com/viewtopic.php?f=47&amp;t=9661" target="_blank">http://linuxmusicians.com/viewtopic.php?f=47&amp;t=9661</a></p>
+<p>There are no more excuses to not make tutorials! Even I started to make them, but for now only tests: <a href="https://www.youtube.com/user/kxstudioteam" target="_blank"> The KXStudio YouTube</a></p>
+<p>PS: donations are always welcome too of course.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-screenshot-carla-1024x575.png" /><em>Another screenshot of Carla in action.</em>
+<p> </p>
+</div>
+<p><strong>On the (unfortunately rare) occasions you do make music these days, what's your favorite free and open source plugin?</strong></p>
+<p>This is a hard choice.</p>
+<p>I love zynaddsubfx, although it has issues. <a href="/tutorials/sound-synthesis-tal-noizem4k3r">Noisemaker</a> is also very cool and powerful, but consumes a bit too much CPU at times. My favourite plugin is Pianoteq, but that's not free or open.</p>
+<p>I would say zynaddsubfx or noisemaker, but I feel like people are tired of them being selected already (too mainstream!). So, for now, I'm going to say TAL-Reverb-2. I use it a lot when using instruments, there's nothing like a small sweet ambient reverb.</p>
+<p>My favourite will change soon though, when a new upcoming plugin is ready.</p>
+<p>It's not a plugin in the way most people think of plugins, but since it will be LV2 I can call it that.</p>
+<p>PS: It's carla itself :P  </p>
+<p><strong>Where can people find your work? Both applications [and] music.</strong></p>
+<p>All my (audio) projects are related to KXStudio, so KXStudio website I guess. I have a website falktx.com, but not finished. I wish I had motivation to work on websites... For music, you can see: <a href="http://www.jamendo.com/en/artist/361154/falktx" target="_blank"> </a></p>
+<p><a href="http://www.jamendo.com/en/artist/361154/falktx" target="_blank">falkTX on Jamendo</a></p>
+<p><a href="https://soundcloud.com/falktx/" target="_blank">falkTX on Soundcloud</a></p>
+<p>but both only contain old music made in the old Windows days. (sorry!)  </p>
+<p><strong>How can people get in touch with you? Do you have a Facebook page, Google+ group or similar for yourself/KXStudio?</strong></p>
+<p>First of all, I don't care about social media. I probably make 4 posts a year. But anyway, here's your precious links ;)</p>
+<p><a href="http://facebook.com/falktx" target="_blank" title="falkTX on Facebook">falkTX on Facebook</a></p>
+<p><a href="https://plus.google.com/116902712123643685540/" target="_blank" title="falkTX on Google+">falkTX on Google+</a></p>
+<p>There's a KXStudio Facebook page:</p>
+<p><a href="https://www.facebook.com/pages/KXStudio/166202240203426" target="_blank" title="KXStudio on Facebook">KXStudio on Facebook</a></p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/falktx-carla-code-1024x575.png" /><em>The internals of Carla. falkTX is obviously not limited to only Portuguese or English. This is what we in Sweden call "rena grekiskan" for non-developers!</em>
+<p> </p>
+</div>
+<p><strong>Finally, anything you'd like to add to the interview yourself?</strong></p>
+<p>How long till Bitwig gets an open beta!? damn it</p>
+<p>.hehe, nah, can't think of anything else now.  </p>
+<p><strong>Okay, thank you very much for your time and interest!</strong></p>
+<p class="well">That was falkTX of <a href="http://kxstudio.linuxaudio.org/" target="_blank" title="KXStudio website">KXStudio</a>. Thanks to falkTX for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-2-falktx" st_title="Friday Interview #2: falkTX" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/167" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-PmT77tgfyVBF-zPC_NT9-rXb5N7-ToorYl2oOf3UKeU" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/167" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-SZ7L9LrQXg0567-gtwS6Gmi1I2XGSpdJpDNChFH0lx8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

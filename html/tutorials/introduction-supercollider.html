@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="https://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="https://purl.org/dc/terms/"
+  xmlns:foaf="https://xmlns.com/foaf/0.1/"
+  xmlns:og="https://ogp.me/ns#"
+  xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="https://rdfs.org/sioc/ns#"
+  xmlns:sioct="https://rdfs.org/sioc/types#"
+  xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="https://www.w3.org/2001/XMLSchema#">
+
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/introduction-supercollider by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:37:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="https://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
+<link rel="canonical" href="introduction-supercollider.html" />
+<link rel="shortlink" href="../node/412.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Introduction to SuperCollider | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.based837.css?pxvqxa");
+@import url("../modules/system/system.menusd837.css?pxvqxa");
+@import url("../modules/system/system.messagesd837.css?pxvqxa");
+@import url("../modules/system/system.themed837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.mind837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenewsd837.css?pxvqxa");
+@import url("../modules/comment/commentd837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_api/dated837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7d837.css?pxvqxa");
+@import url("../modules/field/theme/fieldd837.css?pxvqxa");
+@import url("../modules/node/noded837.css?pxvqxa");
+@import url("../modules/search/searchd837.css?pxvqxa");
+@import url("../modules/user/userd837.css?pxvqxa");
+@import url("../sites/all/modules/video_filter/video_filterd837.css?pxvqxa");
+@import url("../sites/all/modules/views/css/viewsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctoolsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeletond837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/styled837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/buttonsd837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/layoutd837.css?pxvqxa");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colorsd837.css?pxvqxa");
+</style>
+  <script type="text/javascript" src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery-extend-3.4.01cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupald837.js?pxvqxa"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min3899.js?v=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenud837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelementd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalyticsd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"8JRdyHP80tOoIRgMyWZp6K8fvCZkDWFa-BSOh-fH7N4","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/introduction-supercollider":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-412 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Introduction to SuperCollider                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-412" class="node node-tutorial clearfix" about="/tutorials/introduction-supercollider" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Introduction to SuperCollider" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-12-05T18:25:37+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2016-03-10 15:57</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../category/programming.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">programming</a></div><div class="field-item odd"><a href="../category/synthesis.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">synthesis</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/supercollider.html">Supercollider</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This article is the first of a series of articles on LMP that will explore the SuperCollider programming language.  In addition to learning about the language and how to use the program interface, you will learn how to download SuperCollider and begin experimenting on your own. You will also find links to helpful documents and additional resources throughout the article and in the Links section at the end.</p>
+<p>If you are already familiar with SuperCollider (or SC3 as it will often be referred to) you may still learn something here, but keep an eye out for future installments where we will dissect examples, provide strategies for making music with SuperCollider and more. If you have requests for follow-up articles, please leave your suggestions in the comments.</p>
+<h2>Table of Contents</h2>
+<ol><li>Introduction and History</li>
+<li>SuperCollider Design Overview and IDE</li>
+<li>Language Description</li>
+<li>Simple Code Exposition</li>
+<li>First steps</li>
+<li>Links and further reading</li>
+</ol><h2>1. Introduction and History</h2>
+<p>As mentioned above, SuperCollider is an audio programming language where you can write code that makes noise (among other things.) Here is a really simple example:</p>
+<p>Ex. 1: The Ubiquitous “Computer Thinking in Space”</p>
+<div class="lmp-code">play{FreeVerb.ar(SinOsc.ar(LFNoise0.kr(10, 1000, 1100)).clip)!2}</div>
+<div class="lmp-code"> </div>
+<p>And here’s what it sounds like:</p>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex1.ogg"> </audio></p><p>SuperCollider is much more than this, though.  It is an interpreted, object-oriented programming language that can be used for real-time audio DSP, algorithmic composition, sound design, interaction and improvisation, the creation of fixed-media pieces, audio installations and much more. If you want to do it, you can with SuperCollider. </p>
+<p>First released in 1996, SuperCollider was open-sourced in 2002 and is now at version 3.6.6 with the release of 3.7 right around the corner.  As a text-based audio programming language (as opposed to graphical programming languages like PureData, MaxMSP, etc) SC3 is a defacto descendent of the Music-N series of languages written by Max Mathews in the 1950s and 1960s. (For more on this, <a href="https://scacinto.wordpress.com/2014/03/10/music-v-back-to-the-future/" target="_blank">see a short post I wrote here</a>.)</p>
+<p>The prominent family trait shared between them is the Unit Generator, or UGen.  A UGen is a pre-compiled object/instrument that does some sort of job for you.  An example of a UGen in SC3 is the SinOsc object.  As its name implies, SinOsc generates a sine tone. Practically, this means that while you could write your own sine oscillator object, one has already been provided. SC3 contains hundreds of UGens that include periodic oscillators, chaotic generators, filters, and signal processing and flow control objects.  So, while you need to learn the SC3 language to make music with SuperCollider, you do not have to redesign the wheel.</p>
+<p>Additionally, there are a number of things that SC3 does really well that are very difficult or impossible to achieve with a DAW, plugins, or a tracker.  Here are a *few* examples.</p>
+<ul><li><strong>Randomness and uncertainty</strong>: real, acoustic sounds are complex and contain a good amount of randomness at the micro scale.  Often, electronic instruments do not sound great because they lack this complexity and micro-varation.  It is very simple to introduce both micro and macro randomness to signals and structures in SC3.</li>
+<li><strong>Modulation / Control Signals</strong>: have you ever wanted to modulate one sound with another?  Or even have an audio file affect the pitch, timbre, or amplitude of a MIDI track or vice versa?  In SC3 any signal can modulate any other signal. </li>
+<li><strong>Automation and Generation</strong>: it is trivial to introduce indeterminate elements into code that can be run <em>x</em> number of times to produce variations and permutations. So, instead of having to hard-code parameters by hand and manually change them repeatedly, processes can be automated so you only have to sift through the results until you find something you like.</li>
+</ul><p>You can see examples of all of these features in Section 4 below, the Brief Code Exposition.  Before we get there, though, lets look at how the SuperCollider program and language work.</p>
+<h2>2. SuperCollider Design Overview and IDE</h2>
+<p>For simplicity’s sake, let’s consider SuperCollider as essentially three parts:</p>
+<ol><li>The IDE: where you write code and interact with the client/server</li>
+<li>The Interpreter / client: interprets your SuperCollider code - acts as client to the synthesis server</li>
+<li>The synthesis / server -- where all audio processing takes place</li>
+</ol><p>As a client/server application, code is written and evaluated in the language and sent via OSC messages to the server where all audio computation takes place.  This may sound a bit wonky, but one big advantage to this approach is that any client on any computer can send OSC messages to any server on any computer and vice versa.  Another advantage of this is that the language and server can be restarted independent of each other in case of an error or a crash.</p>
+<p>Most of the time when you want to make sound with SC3 you will fire up the application, write some code and evaluate it to send it to the server to make sound. If this sounds un-musical, don’t worry, you can also use your MIDI controller or your iPhone or Android to control SuperCollider because it can send and receive MIDI and OSC messages as well as process audio and control signals. It can also read and write text files and read and write audio files to disk. Furthermore, SuperCollider can also interact with the unix command on both Linux and OS X systems. In short, it can communicate with any kind of electronic instrument or computer program including over a network.</p>
+<p>While SuperCollider is extremely flexible and accommodates many modes of interaction, at the very least you will have to create code and interpret that code in order to start audio processing.  Let's look at the IDE to understand how this is done.</p>
+<h3>The SuperCollider IDE</h3>
+<p>As mentioned above, since version 3.6, SuperCollider has been available as an IDE, which stands for <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" target="_blank">Integrated Development Environment</a>. The IDE replaced numerous graphical front-ends to the language and provides a unified environment to make music and accomplish audio-related research.</p>
+<p><a href="../sites/default/files/tutorials/sc3_tut1_img_ex1_orig.png"><img alt="" src="../sites/default/files/tutorials/sc3_tut1_img_ex1_small.png" style="width: 600px; height: 482px;" /></a></p>
+<p>The red box encapsulates the current open document. This is where code is created and evaluated.</p>
+<p>The green box is the post window. This window provides feedback and debugging information for the code you evaluate and the IDE functions you call such as re-compiling the class library or booting the server. Here you can see that I have evaluated the code “YOUR CODE GOES HERE”.postln; which does nothing but post what is contained in the string (between the “”) to the post window.</p>
+<p>The blue box encapsulates the help and documentation window. The built-in help system is indispensable to the novice and the experienced coder alike.  It allows you to find help documents for almost every program class (object) as well as browse tutorials. To get help for any object you only have to</p>
+<ul><li>Select the object for which you want information, lets say the SinOsc UGen above (exclude the . and any messages that follow it)</li>
+<li>Press <strong>ctrl + d</strong> (or cmd + d on Mac) and the help file for the SinOsc UGen will be displayed in the Help Browser.</li>
+</ul><p>In addition to seeing all of the available instance methods and arguments for any given class or UGen, there are often code examples that use that specific object at the bottom of the help file. This is very useful for discovering extended and non-intuitive uses for UGens you come across in your exploration of the program.</p>
+<p><img alt="" src="../sites/default/files/tutorials/sc3_tut1_img_ex2_orig.png" style="width: 400px; height: 416px;" /></p>
+<p>Another element of the IDE are the dropdown menus. Above we see the <strong>Language</strong> menu, one of the most useful in the IDE. Using it you can boot or reboot the interpreter or server as well as stop running audio. You can also get information about objects within the language. Note that you can do much of the above using keyboard shortcuts or commands directly from the code window. For example, evaluating</p>
+<div class="lmp-code">s.boot;</div>
+<div class="lmp-code"> </div>
+<p>will boot the default sound server, as will pressing <strong>ctrl + b</strong> (or cmd + b on a Mac.)</p>
+<p>So far we have talked generally about the application, communication protocols, IDE and usage. Now we are going to look at the language itself.</p>
+<h2>3. Language Description</h2>
+<p>As I mentioned above, SC3 is an <a href="https://en.wikipedia.org/wiki/Interpreted_language" target="_blank">interpreted</a>, <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" target="_blank">object-oriented</a> programming language. As an object oriented language, everything in SC3 (numbers, arrays, UGens, etc) is an object that</p>
+<ul><li>has a state of being</li>
+<li>returns values or performs functions in response to messages sent to the object.</li>
+</ul><p><strong>Messages</strong> (the words that follow the dots at the end of Ugens or other Classes) are used to access features of the object and to “get things done” by supplying necessary information.  To illustrate this, let’s use the sandwich analogy.</p>
+<p>Let’s say we want to make a sandwich. The sandwich we want is a Tofurkey® lettuce and tomato sandwich. In this case, the sandwich is made of two bread objects, a Tofurkey® object, a lettuce object, and a tomato object. Our bread object takes two arguments, the type of bread desired, and a number that describes how many pieces we want. We will assign the Bread object to the variable ‘bread’ for more concise use with the ‘sandwich’ object later.</p>
+<div class="lmp-code">var bread = Bread(wheat, 2);</div>
+<div class="lmp-code"> </div>
+<p>Lets define some other ingredients. You can probably guess what the arguments are using the above pattern.</p>
+<div class="lmp-code">var tomato = Tomato(seeded, 2);<br />var lettuce = Lettuce(3);</div>
+<div class="lmp-code"> </div>
+<p>Next we will create a sandwich variable that references a Sandwich object.  We use the ‘make’ message on the object and supply the bread argument so the Sandwich class knows what kind of bread and how much is being used. Then, we use the .with message to fill the bread sandwich with tasty ingredients.</p>
+<div class="lmp-code">var sandwich = Sandwich.make(bread).with(Tofurkey®, lettuce, tomato);</div>
+<div class="lmp-code"> </div>
+<p>So the variable ‘sandwich’ is now an instance of the class Sandwich that is defined as have two slices of wheat bread, Tofurkey®, three slices of lettuce, and two seeded slices of tomato. Of course, once made we know what to do with it...</p>
+<div class="lmp-code">sandwich.eat;</div>
+<div class="lmp-code"> </div>
+<p>The above example implies that the Sandwich class responds to at least three messages, .make, .eat, and .with, and that it does something when it receives those messages. Using the analogy above, the .eat message makes total sense with our Sandwich class, but might not with another made-up class, for example the Automobile class.  However, the .make message <em>does</em> make sense in both cases if you are building a sandwich or building a car.  The fact that you can use the same message (.make) with different classes is called Polymorphism.  The important thing to remember is that the Automobile class receiving the message .make *may* do something completely different or unexpected with it such as make the car start or make the ejector seat fire.  <em>It's up to the object to define what .make means to it rather than .make impose an action on the object.</em>  To see a good real-world example of this, type 'play' into the IDE, select it and hit <strong>ctrl + d</strong> to pull up the implementations of it in the Help Browser.  Now have a look at what the Function class and the Routine class do with the .play message.</p>
+<p>Okay, enough of analogies, let’s look at some real code.</p>
+<h2>4. Simple Code Exposition</h2>
+<p>Here's our old friend the “Computer Thinking in Space”.</p>
+<div class="lmp-code">play{FreeVerb.ar(SinOsc.ar(LFNoise0.kr(10, 1000, 1100)).clip)!2}</div>
+<div class="lmp-code"> </div>
+<p>The FreeVerb object is a reverb UGen. The .ar message tells it to run at the audio rate. The stuff that comes after it, SinOsc.ar(..., are <strong>arguments</strong> to the object.  <strong>Arguments</strong> to UGens supply signals (inputs) or data necessary for the class to work.  FreeVerb's audio rate arguments look like this:</p>
+<div class="lmp-code">*ar (in, mix: 0.33, room: 0.5, damp: 0.5, mul: 1, add: 0)</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">in = the input signal, in the above example the input is the SinOsc object.<br />mix    = dry/wet balance.<br />room = the size of the virtual, reverberant space.<br />damp = the amount of high-frequency damping.<br />mul    = amplitude (how loud the sound coming out is)<br />add    = DC offset</div>
+<div class="lmp-code"> </div>
+<p>In our example, the input is a SinOsc UGen. All the other arguments that supply information about the size of the room, the mix, etc, are left to their defaults.  (Again, you can copy and paste this code into SC3 and select FreeVerb and press ctrl+d to pull up the Help File.  It will show you all the input arguments for the class.)</p>
+<p>The SinOsc object only has one argument supplied as well, that for the frequency of the oscillator.</p>
+<p>The LFNoise0 object is a step noise UGen that is supplying the frequency for the SinOsc UGen. Ten times a second, the LFNoise0 object chooses random values between 100 Hz and 2100 Hz.</p>
+<p>The .clip at the end of the SinOsc Ugen clips its output, changing it from a pure sine tone to a slightly squared-off tone. The ! 2 message duplicates the whole shebang so that the audio, which would have gone only to the left channel, goes to the right channel as well.</p>
+<p>Just to blow your mind, here’s another way to code the exact same thing:</p>
+<div class="lmp-code">{var lfo = LFNoise0.kr(10, 1000, 1100);</div>
+<div class="lmp-code">var sine = SinOsc.ar(lfo);</div>
+<div class="lmp-code">FreeVerb.ar(sine.clip)!2</div>
+<div class="lmp-code">}.play</div>
+<div class="lmp-code"> </div>
+<p>This is a good way to illustrate that in SuperCollider, there is almost always more than one way to code something.  You may find the above harder or easier to read. The only difference is that instead of nesting the UGens inside each other, we use variables to reference them. For clarity, I’ve also moved the play message to the end of the function and put the dot in front of it, but the code sounds exactly the same.</p>
+<p>To illustrate just how just how dynamic and expressive the SC3 language can be, lets look at some SCTweets -- short 140 character snippets of code.</p>
+<p>Ex. 2: Untitled -- Jonatan Liljedahl (from sccode.org)</p>
+<div class="lmp-code">play{p=LFPulse;tanh(p.ar([50,52])*p.kr([2,1]/4)+mean({|n|</div>
+<div class="lmp-code">(p.ar(n*3e2+99*p.kr(2-n/[1,5,7],</div>
+<div class="lmp-code">(0..2)/10).sum+2e2)*p.kr(n+1*6,0,0.8).lag)}!2)/2)};</div>
+<div class="lmp-code"> </div>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex2.ogg"> </audio></p><p>Ex. 3: "The Record Player is Broken" -- Scacinto (me!)</p>
+<div class="lmp-code">play{a=LFNoise1.kr(0.7);b=a.range(4);c=Dust.ar(b);d=RLPF.ar(CombC.ar(c+LocalIn.ar()*b/2,4,b,b).clip,a.range(12000),b/8);LocalOut.ar(d);d!2};</div>
+<div class="lmp-code"> </div>
+<p class="lmp-code"> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex3.a.ogg"> </audio></p><p>Here is the same code run a second time.</p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex3.b.ogg"> </audio></p><p>Ex. 4: "auto rhythm" -- Jonatan Liljedahl (from sccode.org)</p>
+<div class="lmp-code">play{Mix({a=LFNoise1.ar(0.2.rand);DelayC.ar(BPF.ar(WhiteNoise.ar(Dust2.ar(a*a*4**2).lag(8e-3)),10e3.rand+300,0.09),3,a*1.5+1.5,45)}!80).dup}</div>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex4.ogg"> </audio></p><p>Ex 5.a: selection from "more, more, more ( was Re: endless Roger Corman movie" --Alln4tural</p>
+<div class="lmp-code">fork{loop{play{Splay.ar({Klank.ar(`[13.rand*(55/4)*(1..8)],Crackle.ar(2,0.005))*LFGauss.ar(9,1/4,0,0,2)}!3)};1.wait;}};</div>
+<div class="lmp-code"> </div>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex5.a.ogg"> </audio></p><p>Ex 5.b: selection from "more, more, more ( was Re: endless Roger Corman movie" --Alln4tural</p>
+<div class="lmp-code">fork{loop{play{Splay.ar({Klank.ar(`[((55/2)+(7.rand*2*(55/24)))*(2**(0..8))],Crackle.ar(2,0.005))*LFGauss.ar(9,1/4,0,0,2)}!5)};1.wait;}};</div>
+<div class="lmp-code"> </div>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex5.b.ogg"> </audio></p><p>Notice how, in Ex 5.b, small code changes make a <em>big</em> sonic difference.</p>
+<p>Still, these one-liners are limited in their scope for change and complicated pieces often involve a lot of code. Here’s a slightly more complicated example where musical events are scheduled in time.</p>
+<p>Ex. 6: Drones and Pulses -- Scacinto</p>
+<div class="lmp-code">(</div>
+<div class="lmp-code">SynthDef("clicky", {arg freq=50, spd=0.5, lvl=0.6, tms=4, mx=0.4, rm=0.6;</div>
+<div class="lmp-code">var env = EnvGen.kr(Env.new([0, lvl, lvl, 0], [tms, tms-2, tms]), doneAction:2);</div>
+<div class="lmp-code">var snd = RLPF.ar(Pulse.ar(spd, 0.5,0.1), freq, 0.15)*env;</div>
+<div class="lmp-code">var vrb = FreeVerb.ar(snd, mx, rm);</div>
+<div class="lmp-code">Out.ar([0,1], vrb);</div>
+<div class="lmp-code">}).add;</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">SynthDef("droney", {arg freq=50, mx=0.3, lvl=0.5, tms=5;</div>
+<div class="lmp-code">var env, lfof, lfoa, saws, sound, vrb;</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">env = EnvGen.kr(Env.new([0, lvl, lvl, 0], [tms, tms-2, tms]), doneAction:2);</div>
+<div class="lmp-code">lfof = Array.fill(5, {LFNoise1.kr(1, 0.005*freq, 0) + PinkNoise.kr(0.008)});</div>
+<div class="lmp-code">lfoa = Array.fill(5, {LFNoise1.kr(15, 0.1, 1)});</div>
+<div class="lmp-code">saws = Array.new(5);</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">5.do({|i| saws.add(Saw.ar(freq + lfof[i], env*lfoa[i]) + RLPF.ar(PinkNoise.ar(),freq,0.01, 0.01))});</div>
+<div class="lmp-code">sound = Mix(saws);</div>
+<div class="lmp-code">vrb = FreeVerb.ar(Splay.ar(RLPF.ar(saws, 1000)), mx);</div>
+<div class="lmp-code">Out.ar(0, vrb);</div>
+<div class="lmp-code">}).add;</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">SynthDef("kuh-droney", {arg freq=50, mx=0.3, lvl=0.5, tms=5, lfa=4; var env, lfof, lfoa, saws, sound, cmp, vrb;</div>
+<div class="lmp-code">env = EnvGen.kr(Env.new([0, lvl, lvl, 0], [tms, tms-2, tms]), doneAction:2); lfof = Array.fill(5, {LFNoise1.kr(1, 0.005*freq, 0) + PinkNoise.kr(0.008)}); lfoa = Array.fill(5,</div>
+<div class="lmp-code">{LFNoise1.kr(15, 0.1, 1)}); saws = Array.new(5); 5.do({|i| saws.add(Saw.ar(freq + lfof[i], env*lfoa[i]) + RLPF.ar(PinkNoise.ar(),freq, 0.01, 0.01))}); saws = Mix(saws); cmp =</div>
+<div class="lmp-code">Compander.ar(saws, saws, thresh: 0.2, slopeBelow: 1, slopeAbove: 0.5, clampTime: 0.01, relaxTime: 0.01)* Saw.kr(lfa);</div>
+<div class="lmp-code">vrb = FreeVerb.ar(PanAz.ar(2, RLPF.ar(cmp, 3000)), mx);</div>
+<div class="lmp-code">Out.ar(0, vrb);</div>
+<div class="lmp-code">}).add; )</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">({</div>
+<div class="lmp-code">~sections = Array(3); ~array1 = [50,100,200,400,500,600,700,800,900,1000,1100]; ~array2 = [50,100,200,300,400,500,600,700,800]; ~array3 = [1000, 1100, 1200, 1300];</div>
+<div class="lmp-code">~sections.add({ "***Section 1***".postln; 3.do({ Synth("droney", [\freq, ~array1.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]); [Silent.ar(), Synth("droney",</div>
+<div class="lmp-code">[\freq, [1000, 1100, 1200, 1300].choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.4,0.6), \tms, rrand(6,12)])].choose; Synth("droney", [\freq, [50,100].choose, \mx, rrand(0.4,0.9), \lvl,</div>
+<div class="lmp-code">rrand(0.7,1), \tms, rrand(6,12)]); 10.wait; });</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">Synth("droney", [\freq, ~array1.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]); [Silent.ar(), Synth("droney", [\freq, ~array3.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.4,0.6), \tms, rrand(6,12)])].choose; Synth("droney", [\freq, [50,100].choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]); 10.wait; // 0:30-0:40</div>
+<div class="lmp-code">});</div>
+<div class="lmp-code">~sections.add({ "***Section 2 -- 0:40***".postln;</div>
+<div class="lmp-code">Synth("clicky", [\freq, ~array2.choose, \spd, [0.25, 0.5, 0.75, 1, 2].choose, \lvl, rrand(0.2,0.4), \tms, rrand(6,12), \mx, rrand(0.2,0.9), \rm, rrand(0.7, 1.0)]);</div>
+<div class="lmp-code">Synth("droney", [\freq, ~array1.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]);</div>
+<div class="lmp-code">Synth("droney", [\freq, ~array3.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.4,0.6), \tms, rrand(6,12)]);</div>
+<div class="lmp-code">Synth("droney", [\freq, [50,100].choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]);</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">10.wait; // 0:40-0:50</div>
+<div class="lmp-code">});</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">~sections.add({ "***Section 3 -- 0:50***".postln;</div>
+<div class="lmp-code">Synth("clicky", [\freq, 33, \spd, [0.25, 0.5].choose, \lvl, rrand(0.4,0.6), \tms, rrand(6,12), \mx, rrand(0.2,0.4), \rm, rrand(0.7, 1.0) ]);</div>
+<div class="lmp-code">Synth("droney", [\freq, ~array1.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]); Synth("droney", [\freq, ~array3.choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.4,0.6), \tms, rrand(6,12)]); Synth("droney", [\freq, [33,33].choose, \mx, rrand(0.4,0.9), \lvl, rrand(0.7,1), \tms, rrand(6,12)]); Synth("kuh-droney", [\freq, [33,33].choose, \mx, rrand(0.2,0.3), \lvl, rrand(0.7,1), \tms, rrand(6,12)]);</div>
+<div class="lmp-code">10.wait; // 0:50-1:00</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">"***ALL DONE***".postln;</div>
+<div class="lmp-code">});</div>
+<div class="lmp-code"> </div>
+<div class="lmp-code">~sections[0].();</div>
+<div class="lmp-code">~sections[1].();</div>
+<div class="lmp-code">~sections[2].();</div>
+<div class="lmp-code">}.fork;<br />)</div>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex6.a.ogg"> </audio></p><p>Remember at the beginning of the article where I talked about some of the things that SC3 is good at and mentioned micro and macro randomness?  Because I've used a lot of random features in my code (the .choose and rrand objects), the music is slightly different each time it is run.  Here's another recording of the same code evaluated a second time:</p>
+<p> </p>
+<p><audio id="audioplayer" src="../sites/default/files/tutorials/sc3_tut1_audio_ex6.b.ogg"> </audio></p><p>Without getting bogged down in the details, the above example does a few simple things.</p>
+<ul><li>First, it defines some synths using the SynthDef class. A SynthDef is basically a recipe for a synth that is used as a blueprint to create a Synth (capitol S) when one is created later using the Synth.new( ) code.</li>
+<li>Next, it defines a few functions where I supply pitch information to those synths. I then put those functions (the code between the curly brackets) into an array called ~sections.</li>
+<li>At the end, the .fork method is used to wrap the functions in the ~sections array into Routines so I can schedule them in time.  The only timing used is the .wait statements that you see at the end of the functions that say how long to wait before either creating more synths or moving on to the next section.</li>
+</ul><h2>5. First steps</h2>
+<p>You now know something about SC3, what it is, how it works, and you’ve seen enough examples to perhaps give you a headache.  What comes next?  Download SuperCollider and get started of course!</p>
+<ol><li>Here is a <a href="https://supercollider.github.io/download.html">link to the download page</a> for the program. I have written many guides on installing SC3 over the years, but these days installation is pretty easy. Pick your OS and download the installer or install it from your Linux distribution’s repositories.</li>
+<li>Next, open the program by double-clicking the application, or on Linux start JACK (if it’s not already running…) and then<br /><ol start="1" style="list-style-type: lower-roman;"><li>either type ‘supercollider’ or ‘scide’ into your launcher or</li>
+<li>run ‘scide’ from the terminal.</li>
+</ol></li>
+<li>Boot the sound server from the Language menu or by pressing <strong>ctrl + b</strong> (cmd + b on Mac). Alternatively, you can start coding right now and type s.boot; in the code window and then, with the cursor on the code line press <strong>ctrl + return</strong> (cmd + return on OS X) to evaluate it.</li>
+<li>Either type some code, or just copy and paste some from this article or from sccode.org. Try the “Thinking Computer in Space” example from above.</li>
+<li>When you can’t stand the retro-awesomeness any more, press <strong>ctrl + .</strong> (period) or cmd + . on OS X to stop the audio.</li>
+</ol><p>If you feel adventurous, you can copy and paste the above “Drones and Pulses” code into SC3 and run it yourself.</p>
+<ul><li>Double-click the opening or closing parenthesis to select all the SynthDefs and evaluate that first (<strong>ctrl + return</strong>).</li>
+<li>Then do the same for the next chunk of code.</li>
+</ul><p>Remember you can always press <strong>ctrl + .</strong> to stop the audio at any time. Try changing the numbers in the ~array1/2/3 arrays and listen to how the harmonies change.</p>
+<p>Congratulations, you’re a SuperColliderer!</p>
+<h2>6. Links and Further Reading</h2>
+<p>Once you have collected a bunch of code you like and have settled on learning SC3 as your new life-goal, you should work your way through the getting started tutorials available in the help browser. Just click the “Home” tab at the top and then scroll down to the tutorials. They are required reading for proceeding on the SC3 path. Don’t get bogged down in trying memorize every little thing. Just try to get the feel for the big issues like the Client vs Server issues, Synths and SynthDefs and things like Routines and Patterns.  Additionally:</p>
+<ul><li>You absolutely NEED to subscribe to the <a href="https://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/SuperCollider-Users-New-Use-this-f2676391.html">SuperCollider mailing list and troll the Nabble forum</a>.</li>
+<li><a href="https://sccode.org/">SC3 code/example site</a>: this is a great site with lots of code you can download and run.</li>
+<li><a href="https://supercolliderbook.net/">SuperCollider Book</a>: this book is now slightly out of date, but it contains a lot of really useful information and lots of example code.</li>
+<li>I link to Nick Collins below, but I'm linking to <a href="https://composerprogrammer.com/teaching/supercollider/advanced/index.html">his tutorials</a> here because there is a metric tonne of great information there you shouldn't miss.</li>
+</ul><p>And last but not least here are some links to people working, developing, and making music with SuperCollider.</p>
+<h2>People (in no order)</h2>
+<ul><li><a href="https://www.realizedsound.net/josh/SuperCollider.html">Joshua Parmenter</a></li>
+<li><a href="https://www.dewdrop-world.net/sc3/index.php">James Harkins</a></li>
+<li><a href="https://scottwilson.ca/scottwilson.ca/Software.html">Scott Wilson</a></li>
+<li><a href="https://www.mcld.co.uk/">Dan Stowell</a></li>
+<li><a href="https://www.fonurgia.unito.it/wp/">Andrea Valle</a></li>
+<li><a href="https://www.sussex.ac.uk/Users/nc81/code.html">Nick Collins</a></li>
+<li><a href="https://modularbrains.net/supercollider.html">Stelios Manousakis</a></li>
+</ul><h2>Groups</h2>
+<ul><li><a href="https://soundcloud.com/groups/supercollider">Soundcloud</a></li>
+<li><a href="https://www.facebook.com/groups/supercollider/">Facebook</a></li>
+</ul><p>Written by <a href="../articles/lmp-asks-15-interview-scott-petersen.html">Scott Petersen</a></p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/introduction-supercollider" st_title="Introduction to SuperCollider" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="https://www.libremusicproduction.com/tutorials/introduction-supercollider" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-NUgISn0JRda6aadixBpFo5u7Qeh-QHFLprSOrLaCHl0" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="https://www.libremusicproduction.com/tutorials/introduction-supercollider" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-hRwmOUQs7wMLj7B3bAJSRiPjJMnBBblAdZCs60eQ5N8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="../contact.html">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="https://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="https://www.drupalizing.com/" target="_blank">Drupalizing</a>, a Project of <a href="https://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. Original design by <a href="https://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/introduction-supercollider by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:37:59 GMT -->
+</html>

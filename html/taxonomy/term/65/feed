@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - orchestral</title>
+ <link>http://libremusicproduction.com/genre/orchestral</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Nandakumar Edamana</title>
+ <link>http://libremusicproduction.com/music/nandakumar-edamana</link>
+ <description></description>
+ <pubDate>Wed, 10 Aug 2016 21:35:14 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">490 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/nandakumar-edamana#comments</comments>
+</item>
+<item>
+ <title>Florian Bador</title>
+ <link>http://libremusicproduction.com/music/florian-bador</link>
+ <description></description>
+ <pubDate>Sat, 16 May 2015 09:18:45 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">358 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/florian-bador#comments</comments>
+</item>
+<item>
+ <title>zthmusic</title>
+ <link>http://libremusicproduction.com/music/zthmusic</link>
+ <description></description>
+ <pubDate>Mon, 29 Sep 2014 18:06:36 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">201 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/zthmusic#comments</comments>
+</item>
+<item>
+ <title>FaTony</title>
+ <link>http://libremusicproduction.com/music/fatony</link>
+ <description></description>
+ <pubDate>Tue, 23 Sep 2014 15:28:27 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">194 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/fatony#comments</comments>
+</item>
+</channel>
+</rss>

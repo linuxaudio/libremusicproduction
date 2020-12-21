@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - alternative</title>
+ <link>http://libremusicproduction.com/genre/alternative</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Mark! Silver</title>
+ <link>http://libremusicproduction.com/music/mark-silver</link>
+ <description></description>
+ <pubDate>Tue, 22 Aug 2017 21:36:38 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">564 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/mark-silver#comments</comments>
+</item>
+<item>
+ <title>Die AG - AktivGruppe</title>
+ <link>http://libremusicproduction.com/music/die-ag-aktivgruppe-0</link>
+ <description></description>
+ <pubDate>Sun, 20 Aug 2017 20:35:32 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">563 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/die-ag-aktivgruppe-0#comments</comments>
+</item>
+<item>
+ <title>Majorana</title>
+ <link>http://libremusicproduction.com/music/majorana</link>
+ <description></description>
+ <pubDate>Fri, 05 May 2017 11:25:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">548 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/majorana#comments</comments>
+</item>
+<item>
+ <title>Johnito</title>
+ <link>http://libremusicproduction.com/music/johnito</link>
+ <description></description>
+ <pubDate>Sat, 08 Apr 2017 22:18:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">546 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/johnito#comments</comments>
+</item>
+<item>
+ <title>in giro</title>
+ <link>http://libremusicproduction.com/music/ingiro</link>
+ <description></description>
+ <pubDate>Fri, 02 Dec 2016 13:11:39 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">528 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/ingiro#comments</comments>
+</item>
+<item>
+ <title>Die AG - AktivGruppe</title>
+ <link>http://libremusicproduction.com/music/die-ag-aktivgruppe</link>
+ <description></description>
+ <pubDate>Thu, 29 Sep 2016 14:43:17 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">501 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/die-ag-aktivgruppe#comments</comments>
+</item>
+<item>
+ <title>Marius Stärk</title>
+ <link>http://libremusicproduction.com/music/marius-st%C3%A4rk</link>
+ <description></description>
+ <pubDate>Thu, 02 Jun 2016 12:03:10 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">460 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/marius-st%C3%A4rk#comments</comments>
+</item>
+<item>
+ <title>John Option</title>
+ <link>http://libremusicproduction.com/music/john-option</link>
+ <description></description>
+ <pubDate>Tue, 26 May 2015 09:24:29 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">362 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/john-option#comments</comments>
+</item>
+<item>
+ <title>The Quarks</title>
+ <link>http://libremusicproduction.com/music/quarks</link>
+ <description></description>
+ <pubDate>Sat, 16 May 2015 19:30:41 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">359 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/quarks#comments</comments>
+</item>
+<item>
+ <title>unfa</title>
+ <link>http://libremusicproduction.com/music/unfa</link>
+ <description></description>
+ <pubDate>Sat, 14 Feb 2015 18:03:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">308 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/unfa#comments</comments>
+</item>
+</channel>
+</rss>

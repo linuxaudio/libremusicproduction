@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - mixing</title>
+ <link>http://libremusicproduction.com/area/mixing</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>LSP plugins version 1.1.0 released. Farewell to GTK!</title>
+ <link>http://libremusicproduction.com/news/20180212-lsp-plugins-version-110-released-farewell-gtk</link>
+ <description></description>
+ <pubDate>Thu, 21 Dec 2017 15:22:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">574 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20180212-lsp-plugins-version-110-released-farewell-gtk#comments</comments>
+</item>
+<item>
+ <title>Calf Studio Gear 0.90.0 released</title>
+ <link>http://libremusicproduction.com/news/20171104-calf-studio-gear-0900-released</link>
+ <description></description>
+ <pubDate>Sat, 04 Nov 2017 21:25:39 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">572 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20171104-calf-studio-gear-0900-released#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.12 released</title>
+ <link>http://libremusicproduction.com/news/20170916-ardour-512-released</link>
+ <description></description>
+ <pubDate>Sat, 16 Sep 2017 20:06:15 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">571 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170916-ardour-512-released#comments</comments>
+</item>
+<item>
+ <title>fat1.lv2 - AutoTune</title>
+ <link>http://libremusicproduction.com/tools/fat1lv2-autotune</link>
+ <description></description>
+ <pubDate>Sun, 27 Aug 2017 19:14:42 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">569 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/fat1lv2-autotune#comments</comments>
+</item>
+<item>
+ <title>a-plugins</title>
+ <link>http://libremusicproduction.com/tools/plugins</link>
+ <description></description>
+ <pubDate>Sun, 27 Aug 2017 14:54:26 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">567 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/plugins#comments</comments>
+</item>
+<item>
+ <title>LSP plugins 1.0.24 released</title>
+ <link>http://libremusicproduction.com/news/20170519-lsp-plugins-1024-released</link>
+ <description></description>
+ <pubDate>Fri, 19 May 2017 17:21:20 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">555 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170519-lsp-plugins-1024-released#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.9 is released</title>
+ <link>http://libremusicproduction.com/news/20170519-ardour-59-released</link>
+ <description></description>
+ <pubDate>Fri, 19 May 2017 17:16:08 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">554 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170519-ardour-59-released#comments</comments>
+</item>
+<item>
+ <title>Open Stage Control</title>
+ <link>http://libremusicproduction.com/tools/open-stage-control</link>
+ <description></description>
+ <pubDate>Thu, 02 Mar 2017 07:55:12 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">543 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/open-stage-control#comments</comments>
+</item>
+<item>
+ <title>Open Stage Control, v0.17.0 is released, now with MIDI support!</title>
+ <link>http://libremusicproduction.com/news/20170302-open-stage-control-v0170-released-now-midi-support</link>
+ <description></description>
+ <pubDate>Thu, 02 Mar 2017 07:47:36 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">542 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170302-open-stage-control-v0170-released-now-midi-support#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.6 released</title>
+ <link>http://libremusicproduction.com/news/20170212-ardour-56-released</link>
+ <description></description>
+ <pubDate>Sun, 12 Feb 2017 10:11:31 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">540 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170212-ardour-56-released#comments</comments>
+</item>
+</channel>
+</rss>

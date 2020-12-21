@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - programming</title>
+ <link>http://libremusicproduction.com/category/programming</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Building SuperCollider 3.7.0 from Source (Debian)</title>
+ <link>http://libremusicproduction.com/tutorials/building-supercollider-370-source-debian</link>
+ <description></description>
+ <pubDate>Mon, 21 Mar 2016 20:53:02 +0000</pubDate>
+ <dc:creator>Scott Petersen</dc:creator>
+ <guid isPermaLink="false">437 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/building-supercollider-370-source-debian#comments</comments>
+</item>
+<item>
+ <title>SuperCollider 3.7.0 Released</title>
+ <link>http://libremusicproduction.com/news/20160321-supercollider-370-released</link>
+ <description></description>
+ <pubDate>Mon, 21 Mar 2016 19:33:39 +0000</pubDate>
+ <dc:creator>Scott Petersen</dc:creator>
+ <guid isPermaLink="false">436 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160321-supercollider-370-released#comments</comments>
+</item>
+<item>
+ <title>Introduction to SuperCollider</title>
+ <link>http://libremusicproduction.com/tutorials/introduction-supercollider</link>
+ <description></description>
+ <pubDate>Sat, 05 Dec 2015 18:25:37 +0000</pubDate>
+ <dc:creator>Scott Petersen</dc:creator>
+ <guid isPermaLink="false">412 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/introduction-supercollider#comments</comments>
+</item>
+</channel>
+</rss>

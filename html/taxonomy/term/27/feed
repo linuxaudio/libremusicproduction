@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - pop</title>
+ <link>http://libremusicproduction.com/genre/pop</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Iron Mike Norton</title>
+ <link>http://libremusicproduction.com/music/iron-mike-norton</link>
+ <description></description>
+ <pubDate>Thu, 28 Mar 2019 15:33:23 +0000</pubDate>
+ <dc:creator>Magno</dc:creator>
+ <guid isPermaLink="false">578 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/iron-mike-norton#comments</comments>
+</item>
+<item>
+ <title>Violizando</title>
+ <link>http://libremusicproduction.com/music/violizando</link>
+ <description></description>
+ <pubDate>Sat, 22 Jul 2017 08:30:49 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">558 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/violizando#comments</comments>
+</item>
+<item>
+ <title>Johnito</title>
+ <link>http://libremusicproduction.com/music/johnito</link>
+ <description></description>
+ <pubDate>Sat, 08 Apr 2017 22:18:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">546 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/johnito#comments</comments>
+</item>
+<item>
+ <title>Erwan Lerale</title>
+ <link>http://libremusicproduction.com/music/erwan-lerale</link>
+ <description></description>
+ <pubDate>Sat, 08 Apr 2017 22:05:15 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">545 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/erwan-lerale#comments</comments>
+</item>
+<item>
+ <title>Yassin Philip </title>
+ <link>http://libremusicproduction.com/music/yassinphilip</link>
+ <description></description>
+ <pubDate>Tue, 08 Dec 2015 17:10:35 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">415 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/yassinphilip#comments</comments>
+</item>
+<item>
+ <title>The Quarks</title>
+ <link>http://libremusicproduction.com/music/quarks</link>
+ <description></description>
+ <pubDate>Sat, 16 May 2015 19:30:41 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">359 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/quarks#comments</comments>
+</item>
+<item>
+ <title>Südwestlicht</title>
+ <link>http://libremusicproduction.com/music/s%C3%BCdwestlicht</link>
+ <description></description>
+ <pubDate>Tue, 23 Sep 2014 15:17:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">192 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/s%C3%BCdwestlicht#comments</comments>
+</item>
+<item>
+ <title>Lyndon Daniels</title>
+ <link>http://libremusicproduction.com/music/lyndon-daniels</link>
+ <description></description>
+ <pubDate>Sun, 21 Sep 2014 21:30:30 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">188 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/lyndon-daniels#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - general</title>
+ <link>http://libremusicproduction.com/area/general</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>FLOSS music convention in Germany in November</title>
+ <link>http://libremusicproduction.com/news/20170812-floss-music-convention-germany-november</link>
+ <description></description>
+ <pubDate>Sat, 12 Aug 2017 20:25:35 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">561 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170812-floss-music-convention-germany-november#comments</comments>
+</item>
+<item>
+ <title>MOD Duo and Max/MSP integration</title>
+ <link>http://libremusicproduction.com/news/20170802-mod-duo-and-maxmsp-integration</link>
+ <description></description>
+ <pubDate>Wed, 02 Aug 2017 10:21:24 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">560 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170802-mod-duo-and-maxmsp-integration#comments</comments>
+</item>
+<item>
+ <title>Paul Davis, Ardour and JACK creator/developer, talks at Linux Audio Conference 2017</title>
+ <link>http://libremusicproduction.com/news/20170520-paul-davis-ardour-and-jack-creatordeveloper-talks-linux-audio-conference-2017</link>
+ <description></description>
+ <pubDate>Fri, 19 May 2017 23:39:26 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">556 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170520-paul-davis-ardour-and-jack-creatordeveloper-talks-linux-audio-conference-2017#comments</comments>
+</item>
+<item>
+ <title>ZARAZA releases new album entirely recorded with Libre Music tools</title>
+ <link>http://libremusicproduction.com/news/20170508-zaraza-releases-new-album-entirely-recorded-libre-music-tools</link>
+ <description></description>
+ <pubDate>Sat, 06 May 2017 21:56:32 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">551 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170508-zaraza-releases-new-album-entirely-recorded-libre-music-tools#comments</comments>
+</item>
+<item>
+ <title>French translation of LMP article over at LibraZiK</title>
+ <link>http://libremusicproduction.com/news/20161119-french-translation-lmp-article-over-librazik</link>
+ <description></description>
+ <pubDate>Sat, 19 Nov 2016 11:40:41 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">527 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161119-french-translation-lmp-article-over-librazik#comments</comments>
+</item>
+<item>
+ <title>JACK-Matchmaker - new tool to autoconnect</title>
+ <link>http://libremusicproduction.com/news/20161113-jack-matchmaker-new-tool-autoconnect</link>
+ <description></description>
+ <pubDate>Sun, 13 Nov 2016 23:16:34 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">525 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161113-jack-matchmaker-new-tool-autoconnect#comments</comments>
+</item>
+<item>
+ <title>OSMP Episode 81 - New Tricks with Ardour 5 </title>
+ <link>http://libremusicproduction.com/news/osmp-episode-81-new-tricks-ardour-5</link>
+ <description></description>
+ <pubDate>Tue, 08 Nov 2016 14:46:21 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">522 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/osmp-episode-81-new-tricks-ardour-5#comments</comments>
+</item>
+<item>
+ <title>Generate &quot;automagic&quot; music videos with ffmpeg &amp; friends</title>
+ <link>http://libremusicproduction.com/tutorials/generate-automagic-music-videos-ffmpeg-friends</link>
+ <description></description>
+ <pubDate>Thu, 20 Oct 2016 14:17:12 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">512 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/generate-automagic-music-videos-ffmpeg-friends#comments</comments>
+</item>
+<item>
+ <title>John Option release new song, &quot;Lifestyle obsession&quot;</title>
+ <link>http://libremusicproduction.com/news/20160929-john-option-release-new-song-lifestyle-obsession</link>
+ <description></description>
+ <pubDate>Thu, 29 Sep 2016 11:10:53 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">500 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160929-john-option-release-new-song-lifestyle-obsession#comments</comments>
+</item>
+<item>
+ <title>QStuff* End of Summer&#039;16 Release</title>
+ <link>http://libremusicproduction.com/news/20160914-qstuff-end-summer16-release</link>
+ <description></description>
+ <pubDate>Wed, 14 Sep 2016 15:46:09 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">495 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160914-qstuff-end-summer16-release#comments</comments>
+</item>
+</channel>
+</rss>

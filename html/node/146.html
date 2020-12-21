@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../tutorials/recording-audio-and-using-midi-ardour-3.html" />
+<link rel="shortlink" href="146.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="../feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="../feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Recording audio and using MIDI in Ardour 3 | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.min.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenews.css%3Fpxt43l.css");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("../sites/all/modules/date/date_api/date.css%3Fpxt43l.css");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7.css%3Fpxt43l.css");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("../sites/all/modules/video_filter/video_filter.css%3Fpxt43l.css");
+@import url("../sites/all/modules/views/css/views.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeleton.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/style.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/buttons.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/layout.css%3Fpxt43l.css");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colors.css%3Fpxt43l.css");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js%3Fv=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenu.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelement.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"744cajfkpDye-CJ3V2Qz39hL9QwdnH-ycmq8Q22avDE","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/146":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-146 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="146.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Recording audio and using MIDI in Ardour 3                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-146" class="node node-tutorial node-promoted clearfix" about="/tutorials/recording-audio-and-using-midi-ardour-3" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Recording audio and using MIDI in Ardour 3" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="32" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-08-11T18:06:59+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2016-06-06 10:02</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../area/audio-editing.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">audio editing</a></div><div class="field-item odd"><a href="../area/audio-recording.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">audio recording</a></div><div class="field-item even"><a href="../area/midi.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item odd"><a href="../area/plugins.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="../area/recording.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div><div class="field-item odd"><a href="../area/sequencing.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sequencing</a></div><div class="field-item even"><a href="../category/technique.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/category/workflow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This video series features a basic overview of <em>recording and editing audio</em>, plus<em> basic recording and editing of <a href="../answer/midi.html">MIDI</a></em>, using Ardour 3. We start by setting up Ardour and creating a new session. After that, we add MIDI tracks, connect our MIDI keyboard, record, and edit MIDI.</p>
+<p>Next we add a few audio tracks and record some short segments of guitar. Finally, we do some basic editing of that recording, and some basic arrangements.</p>
+<p>This video uses the following gear and software:</p>
+<ul><li><a href="../tools/ardour.html">Ardour</a> 3</li>
+<li>A MIDI keyboard connected via USB</li>
+<li>A guitar connected via the sound card/audio interface</li>
+<li>The <a href="http://drobilla.net/software/mda-lv2/">MDA ePiano LV2</a> electric piano instrument plugin</li>
+</ul><p>You're welcome to ask any questions you might have in the comments section below. We welcome all questions, no matter how basic they may seem. You may not be the only person wondering the same things so, ask away!</p>
+<h3 class="yt" id="watch-headline-title"><span class="watch-title   watch-editable" dir="ltr" id="eow-title" title="Basic mixing in Ardour 3: Part 1 - Introduction">Part 1 - Introduction and setting up a new session in Ardour 3</span></h3>
+<p>We start by introducing what this series will cover, and setting up a new session in Ardour 3.</p>
+<p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p>
+<div class="embed-container">
+<iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/jfIq-X-chQU"></iframe></div>
+<p> </p>
+<h3><span class="watch-title   watch-editable" dir="ltr" title="Basic mixing in Ardour 3: Part 1 - Introduction">Part 2 -</span> Setting up MIDI track and adding an instrument</h3>
+<p>In this part, we set up a new MIDI track, go through what the various buttons in the channel strip are and what they do, and finally add an <a href="http://libremusicproduction.com/answer/lv2">LV2</a> instrument to the MIDI track.</p>
+<p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p>
+<div class="embed-container">
+<iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/StaZ1Nwi_00"></iframe></div>
+<h3>Part 3 - Basic MIDI editing</h3>
+<p>We do some basic MIDI editing, including exposing and using the piano roll, drawing notes, manipulating single notes, and duplicating + working with MIDI regions.</p>
+<p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p>
+<div class="embed-container">
+<iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/NnzYSXLsUFI"></iframe></div>
+<p> </p>
+<h3>Part 4 - Recording MIDI, quantizing, transposing + more</h3>
+<p>In this part we record MIDI, and do various edit operations on it, like quantizing it to tempo, transposing it, and more.</p>
+<p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p>
+<div class="embed-container">
+<iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/k-XBkwOPV7Q"></iframe></div>
+<p> </p>
+<h3>Part 5 - Recording and editing audio</h3>
+<p>In the final part, we record audio (our guitar), and do some basic editing operations on it.</p>
+<p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p>
+<div class="embed-container">
+<iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/8jBj0cKk6EU"></iframe></div>
+<p> </p>
+<p> </p>
+<p>Thanks for watching! As previously stated, you're welcome to ask any questions you might have either below in the comments section, or in the YouTube comments. Thanks again!</p>
+<p>Written by <a href="http://www.zthmusic.com/">Gabriel Nordeborn</a></p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tutorials/basic-mixing-ardour-3.html">Basic mixing in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">Sidechaining in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together </a></div><div class="field-item even"><a href="../tutorials/ardroid-android-application-how-use-it-ardour.html">Ardroid (Android application): How to use it with Ardour </a></div><div class="field-item odd"><a href="../articles/ardour-3-tips-and-tricks.html">Ardour 3 Tips and Tricks </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour">How to use outboard gear in Ardour </a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3" st_title="Recording audio and using MIDI in Ardour 3" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="146.html" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-0Ax31Gydyk4ymET6aRwuqYpm_Qrf0XRKFBbEjz30M7o" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="146.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-iiZWAR_7WuhYV7iX_xD4Y95aJ0HLpSaDhCYevFU9tA0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="http://libremusicproduction.com/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="../rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="../feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="../feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

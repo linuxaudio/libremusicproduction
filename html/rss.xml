@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production</title>
+ <link>http://libremusicproduction.com</link>
+ <description>Libre Music Production feed.</description>
+ <language>en</language>
+<item>
+ <title>The future of LMP</title>
+ <link>http://libremusicproduction.com/news/20190914-future-lmp</link>
+ <description></description>
+ <pubDate>Sat, 14 Sep 2019 06:14:47 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">579 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20190914-future-lmp#comments</comments>
+</item>
+<item>
+ <title>Libre Music Production is taking a break</title>
+ <link>http://libremusicproduction.com/news/20181223-libre-music-production-taking-break</link>
+ <description></description>
+ <pubDate>Sun, 23 Dec 2018 23:17:57 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">576 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20181223-libre-music-production-taking-break#comments</comments>
+</item>
+<item>
+ <title>Libre Music Production is back online!</title>
+ <link>http://libremusicproduction.com/news/20180212-libre-music-production-back-online</link>
+ <description></description>
+ <pubDate>Mon, 12 Feb 2018 13:41:45 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">575 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20180212-libre-music-production-back-online#comments</comments>
+</item>
+<item>
+ <title>LSP plugins version 1.1.0 released. Farewell to GTK!</title>
+ <link>http://libremusicproduction.com/news/20180212-lsp-plugins-version-110-released-farewell-gtk</link>
+ <description></description>
+ <pubDate>Thu, 21 Dec 2017 15:22:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">574 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20180212-lsp-plugins-version-110-released-farewell-gtk#comments</comments>
+</item>
+<item>
+ <title>Qtractor 0.8.5 is released</title>
+ <link>http://libremusicproduction.com/news/20171210-qtractor-085-released</link>
+ <description></description>
+ <pubDate>Sun, 10 Dec 2017 18:03:26 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">573 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20171210-qtractor-085-released#comments</comments>
+</item>
+<item>
+ <title>Calf Studio Gear 0.90.0 released</title>
+ <link>http://libremusicproduction.com/news/20171104-calf-studio-gear-0900-released</link>
+ <description></description>
+ <pubDate>Sat, 04 Nov 2017 21:25:39 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">572 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20171104-calf-studio-gear-0900-released#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.12 released</title>
+ <link>http://libremusicproduction.com/news/20170916-ardour-512-released</link>
+ <description></description>
+ <pubDate>Sat, 16 Sep 2017 20:06:15 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">571 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170916-ardour-512-released#comments</comments>
+</item>
+<item>
+ <title> LMP Asks #24: An interview with Luciano Dato</title>
+ <link>http://libremusicproduction.com/articles/lmp-asks-24-interview-luciano-dato</link>
+ <description></description>
+ <pubDate>Sun, 27 Aug 2017 08:48:46 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">565 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/articles/lmp-asks-24-interview-luciano-dato#comments</comments>
+</item>
+<item>
+ <title>FLOSS music convention in Germany in November</title>
+ <link>http://libremusicproduction.com/news/20170812-floss-music-convention-germany-november</link>
+ <description></description>
+ <pubDate>Sat, 12 Aug 2017 20:25:35 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">561 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170812-floss-music-convention-germany-november#comments</comments>
+</item>
+<item>
+ <title>MOD Duo and Max/MSP integration</title>
+ <link>http://libremusicproduction.com/news/20170802-mod-duo-and-maxmsp-integration</link>
+ <description></description>
+ <pubDate>Wed, 02 Aug 2017 10:21:24 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">560 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170802-mod-duo-and-maxmsp-integration#comments</comments>
+</item>
+</channel>
+</rss>

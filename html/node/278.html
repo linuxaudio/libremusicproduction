@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../tutorials/setting-and-using-drumgizmo-ardour.html" />
+<link rel="shortlink" href="278.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="../feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="../feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Setting up and using Drumgizmo in Ardour | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"Te4y2sereCvQhuyHnGJDVsnKyOJ9wTi3143rI1SyVkg","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/278":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-278 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="278.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="https://libremusicproduction.com/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="https://libremusicproduction.com/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="https://libremusicproduction.com/workflow">Workflow</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/articles" title="">Articles</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/interviews">Interviews</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tools">Tools</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/music">Music</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/resources">Resources</a></li>
+<li class="last leaf"><a href="https://libremusicproduction.com/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Setting up and using Drumgizmo in Ardour                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-278" class="node node-tutorial node-promoted clearfix" about="/tutorials/setting-and-using-drumgizmo-ardour" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Setting up and using Drumgizmo in Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="18" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-15T11:24:46+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2016-11-19 16:16</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/area/audio-recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">audio recording</a></div><div class="field-item odd"><a href="../category/drums.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">drums</a></div><div class="field-item even"><a href="https://libremusicproduction.com/area/midi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/area/plugins" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="https://libremusicproduction.com/category/sampler" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sampler</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/area/sequencing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sequencing</a></div><div class="field-item even"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/tools/drumgizmo">Drumgizmo</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><em>A French translation of this article can be <a href="https://librazik.tuxfamily.org/doc/tutoriels/utilisation_de_drumgizmo_avec_ardour">found over at LibraZik</a>. Thanks to Olivier for this.</em></p>
+<h3>What is Drumgizmo?</h3>
+<p><a href="http://www.drumgizmo.org/wiki/">Drumgizmo</a> is a drum sampler plugin available in the <a href="../answer/lv2.html">LV2</a> plugin format. It is also available as a standalone version. There are already drum samplers available for Linux, so what's so different about Drumgizmo?</p>
+<p><img alt="" src="../sites/default/files/tutorials/1_drumgizmo.png" /></p>
+<p>Drumgizmo's main aim is to simulate a real drum kit. It supports the following features -</p>
+<ul><li>Multiple layer velocities</li>
+<li><a href="https://www.youtube.com/watch?v=Cp9f11AlWkc">Velocity groups</a></li>
+<li>Mic bleed simulation</li>
+<li>Multichannel output</li>
+</ul><p>Velocity layers give each drum piece dynamics, from soft hits to harder hits. On top of that floating velocity groups allow randomization of velocity layers, giving it a more human feel. Both of these help avoid Drumgizmo sounding robotic or suffering from machine gun drum rolls.</p>
+<p>In addition, Drumgizmo also supports mic bleed simulation, just as you would have when micing up a real drum kit. If you trigger a snare sample in Drumgizmo, you will also hear the snare sound bleeding into Drumgizmo other output channels, mimicking how other mics would pick it up. Part of why miced up drum kits 'gel' together in a mix is due to mic bleed so having this simulation gives Drumgizmo an added layer of realism.</p>
+<p>In this tutorial I will show you how to -</p>
+<ul><li>Load up Drumgizmo as a plugin in <a href="https://libremusicproduction.com/tools/ardour">Ardour</a></li>
+<li>Load up a drum kit</li>
+<li>Correctly route Drumgizmo</li>
+<li>Test out Drumgizmo with a sample MIDI file</li>
+</ul><h3>What you will need</h3>
+<p>For this tutorial, I will be using the following -</p>
+<ul><li>Ardour</li>
+<li>Drumgizmo</li>
+<li>A Drumgizmo drum kit, in this case, the DRSkit (<a href="http://www.drumgizmo.org/wiki/doku.php?id=kits:drskit">download it here</a>)</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/2_drskit.png" /></p>
+<p><em>Picture of the DRSkit being sampled</em></p>
+<h3>Drumgizmo's inputs and outputs</h3>
+<p>Drumgizmo itself has a very minimalist interface. This is because it deals only with the playback of samples. Its audio outputs are then routed and processed elsewhere, in our case inside of Ardour.</p>
+<p>Drumgizmo has 1 MIDI input and 16 audio outputs. MIDI events from your DAW's MIDI editor or a MIDI instrument, such as an electronic drumkit, trigger samples in Drumgizmo. These are then routed out of its audio outputs and into channels in your DAW, where you can mix and process them individually.</p>
+<p><img alt="" src="../sites/default/files/tutorials/3_drumgizmo_signalpath.png" /></p>
+<p><strong><em>Note</em></strong> - Different drum kits use different output configurations, so refer to any documentation about the kit you are using to make sure you know what each output is.</p>
+<h3>The set up</h3>
+<p>First, load up Ardour and create your new session. Next we want to create a MIDI track with Drumgizmo loaded up on to it. Then we will route its outputs so that we can mix and process each individual drum piece as we would if it were a real drum kit. Let's get started -  </p>
+<ul><li>Go to <lmp-term>Track &gt; Add Track or Bus</lmp-term></li>
+<li>Choose 1 MIDI track and select Drumgizmo from the drop down instrument list</li>
+<li>Name your track and click add. I'll simply call this track '<em>Drumgizmo</em>'</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/4_adding_dg.png" /></p>
+<p>Now that Drumgizmo is added to our session, let's load up a drum kit.</p>
+<p>Double click on Drumgizmo to open up its interface. Before we get any sound of of Drumgizmo, we need to load up two files from the drum kit that we downloaded. These are -</p>
+<ul><li>Drumkit file (this file tells Drumgizmo where to find a drum kits samples)</li>
+<li>Midimap file (this tells Drumgizmo what MIDI note values will trigger which samples)</li>
+</ul><p>I have extracted the DRSkit into a folder within my home directory called '<em>drumkits</em>', so I will navigate to this folder within Drumgizmo's browser. If you need to move back a folder when navigating, double clicking '..' will do this for you.</p>
+<p>First browse for the drumkit file and select '<em>DRSKit_basic.xml</em>'.</p>
+<p><img alt="" src="../sites/default/files/tutorials/5_browse_kit.png" /></p>
+<p>Then browse for the Midimap file and select the drum kits corresponding file '<em>Midimap_basic.xml</em>'.</p>
+<p><img alt="" src="../sites/default/files/tutorials/6_browse_midimap.png" /></p>
+<p>When you have both files loaded up, you will see a progress bar that will let you know when the kit is fully loaded. Wait for it to load up.</p>
+<h3>Editing a MIDI map file (optional)</h3>
+<p>The MIDI maps included with the drum kits found on the Drumgizmo website use notes values specified by the <a href="https://en.wikipedia.org/wiki/General_MIDI">General MIDI</a> standard. If you have a need to change these settings for any reason, eg. If your drum module has fixed MIDI output values not tied to <a href="https://en.wikipedia.org/wiki/General_MIDI#Percussion">General MIDI's drum mapping</a>, you can easily edit any of the MIDI map files to suit your needs.</p>
+<p>One of the drum modules I have has fixed output values. For example, the snare is fixed to send out on note 31, while the General MIDI standard uses 38. I can easily open up the MIDI map file in a text editor and amend this, or any other values, in the MIDI map file and save it.</p>
+<p><img alt="" src="../sites/default/files/tutorials/7_edit_midimap.png" /></p>
+<h3>Routing</h3>
+<p>Once you have Drumgizmo loaded up, you can increase your MIDI tracks height to reveal the piano roll. Using ctrl + f on a selected track will resize it to fit in the editor window. If you press the notes on the piano roll (C2 to C4 for most drum kits MIDI mapping) you will now hear some drum hits. This means that Drumgizmo is playing the samples loaded up, but to take full advantage of Drumgizmo, we need to make sure we have its outputs routed correctly.</p>
+<p>Before going any futher, make sure the pan control on the Drumgizmo track is bypassed. You can do this by right clicking on the panner and selecting bypass. If you don't do this, Drumgizmo will not route audio out of its outputs as expected. It is important you do this for things to work correctly.</p>
+<p><img alt="" src="../sites/default/files/tutorials/8_disable_panner.png" /></p>
+<p>There are two approaches to routing that I will show you. We can either route Drumgizmo's outputs to individual busses, or to individual audio tracks. Which way you choose to do this is down to personal workflow preferences. First we will look at routing Drumgizmo to bus tracks.</p>
+<h3>Routing to bus tracks</h3>
+<p>Routing Drumgizmo to busses is a common user case. How you route Drumgizmo's outputs depends on which drum kit you are using. You can find notes about which outputs are active, and what they are, on the drum kit section of the Drumgizmo website. For this tutorial we are using the DRSkit. On the websites documentation for this kit we can see that 13 of the outputs are active and that there are two stereo pairs for ambience and overhead.</p>
+<p><img alt="" src="../sites/default/files/tutorials/9_track_setup.png" /></p>
+<p>This means that we only need to create 11 bus tracks for Drumgizmo to be routed to.</p>
+<p>This is what our outputs should look like -</p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Track Number</th>
+<th scope="col">Name</th>
+<th scope="col">Configuration</th>
+</tr></thead><tbody><tr><td>Bus 1</td>
+<td>Ambience</td>
+<td><strong>Stereo</strong></td>
+</tr><tr><td>Bus 2</td>
+<td>Kick back</td>
+<td>Mono</td>
+</tr><tr><td>Bus 3</td>
+<td>Kick front</td>
+<td>Mono</td>
+</tr><tr><td>Bus 4</td>
+<td>Hihat</td>
+<td>Mono</td>
+</tr><tr><td>Bus 5</td>
+<td>Overheads</td>
+<td><strong>Stereo</strong></td>
+</tr><tr><td>Bus 6</td>
+<td>Ride cymbal</td>
+<td>Mono</td>
+</tr><tr><td>Bus 7</td>
+<td>Snare bottom</td>
+<td>Mono</td>
+</tr><tr><td>Bus 8</td>
+<td>Snare top</td>
+<td>Mono</td>
+</tr><tr><td>Bus 9</td>
+<td>Tom 1</td>
+<td>Mono</td>
+</tr><tr><td>Bus 10</td>
+<td>Tom 2</td>
+<td>Mono</td>
+</tr><tr><td>Bus 11</td>
+<td>Tom 3</td>
+<td>Mono</td>
+</tr></tbody></table><p>So let's create our bus tracks. We will first add 9 mono buses, then 2 stereo buses. We can easily rearrange the position of our stereo buses by dragging their position in the 'tracks and busses' tab of the editor list window (<lmp-term>View &gt; Show Editor List</lmp-term>). When we have our buses added and their orders arranged, name them as in the above table.</p>
+<p>Your mixer window should now look like in the image below (<em>click for full sized image</em>).</p>
+<p><a href="../sites/default/files/tutorials/10_mixer_big.png"><img alt="" src="../sites/default/files/tutorials/10_mixer_small.png" /></a></p>
+<p>We now have our bus tracks ready to be routed into. As already noted, when we play the piano roll, we can hear Drumgizmo. This is because by default, Ardour will connect Drumgizmo's outputs to the master bus but what we want is to route them through the bus tracks we have just created. So, let's first disconnect Drumgizmo from the master bus.</p>
+<p>At the bottom of Drumgizmo's MIDI channel, you will see the number '<em>16</em>' indicating that there are 16 output connections being made from that channel. If you hover over this button you will see a tooltop showing you that all of those connections are being made to the master bus.</p>
+<p>We could use the matrix connection window and manually disconnect each one, but a quicker way of disconnecting all connections is to left click (right click on versions of Ardour prior to Ardour 4) and select '<em>Disconnect</em>' from the menu.</p>
+<p><img alt="" src="../sites/default/files/tutorials/11_disconnect.png" /></p>
+<p>Next we want to connect our drum kits 13 active outputs to our bus tracks that we created. When making multiple connections in one go, it's easiest to do this from the audio connections manager window. This can be found in <lmp-term>Window &gt; Audio Connections</lmp-term>.</p>
+<p>From the tabs on the left hand side, click on '<em>Ardour Tracks</em>' and you will see all of Drumgizmo's audio outputs. If you then click on the '<em>Ardour Busses</em>' tab at the bottom, you will see all of our bus inputs. To connect Drumgizmo's output correctly, your window should now look like this -</p>
+<p><img alt="" src="../sites/default/files/tutorials/12_dg_routing.png" /></p>
+<p>Now when you trigger Drumgizmo from the piano roll, you will see the meters responding on the bus tracks. Success! We now have Drumgizmo fully set up.</p>
+<p><img alt="" src="../sites/default/files/tutorials/13_meters.png" /></p>
+<p><em><strong>Note</strong></em> – the reason why all meters respond upon triggering a single MIDI note is due to the simulated mic bleed. This is expected behaviour.</p>
+<p>Using bus tracks to route Drumgizmo into allows you to program/record MIDI, edit it at any stage, and mix/process each individual audio outputs from Drumgizmo. This is a flexible way of working but as Drumgizmo's drum kits are quite large and consume a considerable amount of RAM, it might not be best suited for everyone's workflow. Let's look at an alternative way of routing Drumgizmo.</p>
+<h3>Routing to audio tracks</h3>
+<p>Another way to route Drumgizmo is by using audio tracks. This set up is identical to the previous example with one exception, you create audio tracks and route Drumgizmo into these instead of bus tracks.</p>
+<p>One thing to note is that by default, any audio tracks that you add to Ardour will automatically connect themselves to your soundcard's inputs. Before routing Drumgizmo into your audio tracks, make sure to disconnect these connections in addition to disconnecting Drumgizmo from your master bus.</p>
+<h3>Why use audio tracks?</h3>
+<p>This method can be used if you intend to '<em>print</em>' (record) the audio output of Drumgizmo to audio tracks. Some people prefer to '<em>print</em>' audio to tracks when they have committed to a final sound/take. This can be helpful as it allows you to move forward with a mix and prevent the temptation to endlessly tweak your MIDI track. It can also free up system resources for mixing if you intend on deleting Drumgizmo from your session once you have the audio from your Drumgizmo tracks recorded.</p>
+<p><strong><em>Note</em></strong> - If you are using this method, make sure to have the input monitor buttons engaged on each track that you have Drumgizmo being routed to.</p>
+<p><img alt="" src="../sites/default/files/tutorials/14_monitor_inputs.png" /></p>
+<p>In this way you can monitor Drumgizmo the same as you did when you were using busses. When you have a final mix that you are happy to commit to, you can then arm these tracks and record Drumgizmo's outputs onto these audio tracks. At this point you can disable input monitoring to allow you to listen to the playback from your recorded tracks.</p>
+<h3>Inputting MIDI to Drumgizmo</h3>
+<p>Now you have Drumgizmo fully set up and ready for action. There are two ways you can work with Drumgizmo, either manually inputting notes into Ardour's MIDI editor window, or using a MIDI instrument to record in notes in realtime.</p>
+<p>If you want to manually draw notes into the MIDI editor window, you can get to work right away. Check out '<a href="https://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3">Recording audio and using MIDI in Ardour 3</a>' if you are not familiar with MIDI concepts in Ardour.</p>
+<p>If you would like to use a MIDI instrument to play in notes, you will first need to make sure Drumgizmo's MIDI input is connected up to your MIDI instruments MIDI output port. My electronic drum kit is connected up to my soundcards MIDI input, so I can left click (right click on versions of Ardour prior to Ardour 4) on Drumgizmo's channel strip input and select that as my MIDI input.</p>
+<p><img alt="" src="../sites/default/files/tutorials/15_midi_input.png" /></p>
+<h3>A note about latency</h3>
+<p>If you are using a MIDI instrument to record using Drumgizmo, you will have to make sure that you have a suitable buffer size setting, or else there will be a noticeable delay in the samples being triggered. A setting between 64 and 256 for your buffer size should work best. It is recommended to use an <a href="https://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution">audio orientated distro</a> as this will allow you to get the best performance/stability when trying to achieve low latency monitoring.</p>
+<h3>Sample MIDI file</h3>
+<p>If you would like to experiment with Drumgizmo without having to worry about programming in or playing drums, I have prepared a MIDI file that you can import into your Drumgizmo track. It contains a basic drum beat but it should give you a feel for what Drumgizmo is capable of and how the DRSkit sounds. It can also be used as a starting point for experimenting.</p>
+<p>You can download the MIDI file <a href="../sites/default/files/tutorials/sample.mid">here</a>.</p>
+<p>Let's import the file to our MIDI track. First make sure that your Drumgizmo track is selected in Ardour's editor window. Then go to <lmp-term>Session &gt; Import</lmp-term> and navigate to the MIDI file. From the '<em>Add files as</em>' drop down menu choose, '<em>to selected tracks</em>' and press '<em>OK</em>'. The MIDI file should now be imported onto the Drumgizmo track.</p>
+<p><em><strong>Tip</strong></em> - By default, Ardour MIDI tracks are displayed in 'sustained' note mode. When working with drums, it might be preferred to work using 'percussive' note mode. You can set your MIDI track to display notes this way by right clicking on your MIDI tracks header and navigating to <lmp-term>Note Mode &gt; Percussive</lmp-term>.</p>
+<p><img alt="" src="../sites/default/files/tutorials/16_percussive_notes.png" /></p>
+<h3>Templates</h3>
+<p>It doesn't take too long to correctly set up Drumgizmo in an Ardour session, however, if you are using the same set up each time it makes sense to create a template.</p>
+<p>Once you have everything set up as you want it to be, go to <lmp-term>Session &gt; Save Template</lmp-term> and give it a name. In this case I’ll call it '<em>Drumgizmo-template</em>'. Press '<em>Save</em>'.</p>
+<p>Whenever you start Ardour in future and click on '<em>New session</em>', you will see the option to '<em>Use this template</em>'. Give your new session a name, make sure the '<em>Use this template</em>' box is ticked, select '<em>Drumgizmo-template</em>' from the drop down menu, and you're ready to go.</p>
+<p><img alt="" src="../sites/default/files/tutorials/17_template.png" /></p>
+<h3>Create your own kits</h3>
+<p>If you want to create your own drum kits, the Drumgizmo developers have also created Dgedit. This allows you to easily load up your recorded drum hits, intelligently split them up and organise them by velocity.</p>
+<p><img alt="" src="../sites/default/files/tutorials/18_dgedit.png" /></p>
+<p>The developers have done great work on this editor to make the work involved in sampling a real drum kit a lot less tedious. Dgedit was previously bundled with Drumgizmo but has since been moved into its own separate project. Using Dgedit is beyond the scope of this tutorial but for anyone interested you can check out the <a href="http://git.drumgizmo.org/dgedit.git/">dgedit git repository</a>.</p>
+<p>If you do create a drum kit for Drumgizmo, why not make it available to the community!</p>
+<h3>Summary</h3>
+<p>Drumgizmo is a great piece of software and is very capable of creating realistic drum recordings. There are various proprietary drum plugins out there on other platforms that have high quality sample kits. Where Drumgizmo really has the edge over these is that you can create your own drum kits. This is not something other comparable drum plugins allow you to do, as you are tied into only using their proprietary sample kits. This makes Drumgizmo open in more ways than one, allowing anyone to create and share drum kits. As well as the impressive results it yields, it is also this openness and expansiveness that really makes it an interesting piece of software.</p>
+<p><em>Written by Conor Mc Cormack</em></p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tutorials/recording-audio-and-using-midi-ardour-3.html">Recording audio and using MIDI in Ardour 3</a></div><div class="field-item odd"><a href="../tutorials/basic-mixing-ardour-3.html">Basic mixing in Ardour 3 </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">Sidechaining in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together</a></div><div class="field-item even"><a href="../tutorials/ardroid-android-application-how-use-it-ardour.html">Ardroid (Android application): How to use it with Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour </a></div><div class="field-item even"><a href="../articles/ardour-3-tips-and-tricks.html">Ardour 3 Tips and Tricks </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour" st_title="Setting up and using Drumgizmo in Ardour" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="https://libremusicproduction.com/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="278.html" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-j_BprpUWKLscQFyNdcEMzmhQQIVNmojFO6XvN9Ho8xg" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="278.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-M1ia6YeqYUeCt3A_VemmaKdVKumAJpcXSNo0z9UhyZ0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="https://libremusicproduction.com/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="https://libremusicproduction.com/faq">FAQ</a> section. If you are missing something, please <a href="https://libremusicproduction.com/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="../rss.xml"><img alt="RSS Feed icon." src="https://libremusicproduction.com/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="../feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="../feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="https://libremusicproduction.com/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="https://libremusicproduction.com/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

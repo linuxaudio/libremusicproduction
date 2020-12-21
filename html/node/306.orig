@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/ultimate-guide-getting-started-guitarix" />
+<link rel="shortlink" href="/node/306" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Ultimate Guide to Getting Started With Guitarix  | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"sFSEmBg6ok1SCavOLe4N13yto1KylBjpf1XBM86SMf8","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/306":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-306 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Ultimate Guide to Getting Started With Guitarix                 </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-306" class="node node-tutorial node-promoted clearfix" about="/articles/ultimate-guide-getting-started-guitarix" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Ultimate Guide to Getting Started With Guitarix " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="31" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-02-13T08:25:23+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2016-07-17 13:14</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/audio-recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">audio recording</a></div><div class="field-item odd"><a href="/area/plugins" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="/area/recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/guitarix">Guitarix</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2><img alt="" src="/sites/default/files/tutorials/guitar_website_logo_0.png" /></h2>
+<h2>What is Guitarix?</h2>
+<p><a href="/tools/guitarix">Guitarix</a> is a <a href="/answer/modular">modular</a>, virtual amplifier for Linux. With Guitarix you can choose different <a href="/answer/preamp">preamp</a> and amp models, combine them with various effects and speaker cabinet emulations to come up with your very own tones. Guitarix comes as a standalone application but its modules are also available in the <a href="/answer/lv2">LV2</a> plugin format, which you can incorporate into your <a href="/answer/daw">DAW</a> of choice. Furthermore, it can even be run headless, so you can turn a Raspberry Pi, or any other such devices, into a dedicated amp modeler. You can even control Guitarix via a <a href="/answer/midi-controller">MIDI controller</a> or foot-board.</p>
+<p><img alt="" src="/sites/default/files/news/gx_gui_update.png" /></p>
+<h2>Connecting up your guitar into Guitarix</h2>
+<p>Before you get started, you will need to know how to correctly get your guitar signal into your computer. You will first need to make sure your audio interface is selected by the <a href="/answer/jack">Jack Audio Connection Kit</a>. This must be selected and JACK must be started before starting up Guitarix. There are various ways to do this but two of the most popular are to use <a href="/tools/qjackctl">Qjackctl</a> or alternatively, <a href="/tools/cadence">Cadence</a>, which is bundled with KXStudio. To learn more about getting JACK set up and to understand the fundamentals of using it, you can read the LMP guide -</p>
+<p><a href="/articles/demystifying-jack-–-beginners-guide-getting-started-jack">Demystifying JACK – A Beginners Guide to Getting Started with JACK</a></p>
+<p>Your next consideration depends on what type of <a href="/answer/audio-interfacesoundcard">audio interface</a> you are using. It's important to match the guitars high output impedance level to that of your audio interfaces input or else there will be degradation of the guitar signal, notably, the high frequencies will drop off and you will have a thin, noisy and possibly distorted signal. There are a few ways to do this correctly -</p>
+<ul><li>If your audio interface has an instrument input, use this. Alternatively, some interfaces have inputs that can be switched between 'line in' and 'instrument'. In this case, make sure the input you are using is set to 'instrument'. Note that on some interfaces, instrument inputs are labeled Hi-Z.</li>
+<li>If your audio interface doesn't have an instrument input, you will need a DI box. This will correct the impedance mismatch so that you can then connect it up to a 'line in' or 'mic' input.</li>
+</ul><p>Next, start up Guitarix. When you have your guitar hooked up into your computers soundcard, you will next need to connect up it up to Guitarix. You can use the patchbay area of Qjackctl or alternatively more graphical programs such as <a href="/tools/patchage">Patchage</a> or Catia, to make your connections. For the standalone Guitarix application, here is how your connections should look.</p>
+<p><img alt="Guitarix connections and signal path in Patchage" src="/sites/default/files/articles/Standalone%20connections.png" /><br /><em>The guitar is connected into input one on the audio interface. It is then routed through Guitarix while the sound goes out through output 1 and 2 of the interface and into the speakers</em></p>
+<p>Note that Guitarix is broken up into two JACK modules. The first one is called gx_head_amp, which is a mono module containing the amp and mono rack effects. The second is a stereo module for stereo rack effects. If these are not correctly connected up, make sure the output of the amp is going into the input of the stereo effects section. You can then treat them as one module in most cases; however, you can <a href="/answer/insert">insert</a> effects from other JACK applications in between gx_head_amp and gx_head_fx if you wish.</p>
+<h2>Understanding and setting your latency settings</h2>
+<p>Latency is the length of time that it takes your computer to process a signal and give you back the result. Audio latency is not something that you want if you are playing your guitar live through Guitarix. This will result in the sound being played back through your speakers with a slight delay. These delays, while small, can completely throw you off your performance. For this reason, you will want to get your audio latency low enough that the delay is not perceivable. However, this comes at the cost of increased CPU usage.</p>
+<p>How low you can get your latency settings depends on both your hardware and software set up. For this purpose, an <a href="/articles/advantages-choosing-audio-orientated-linux-distribution">audio based Linux distribution</a> is recommended, as these will have a low latency <a href="/answer/kernel">kernel</a> and other optimizations that will allow you to get superior performance over stock Linux distributions for low latency audio.</p>
+<p>You can adjust your latency (frame rate) in Qjackctl or Cadence but if you are using the standalone Guitarix client, there is an easier way of doing this. If you go to <lmp-term>Engine &gt; Latency</lmp-term>, you can choose your frame rate setting here. The advantage of changing it from within Guitarix is that you can change the setting on the fly, i.e. there is no need to stop and restart JACK each time you change the setting. It will default to either 1024 or 512 frames. Those settings will typically cause a noticeable delay. Try lowering the frame rate in increments until you get the audio latency low enough that it is not perceivable. A setting between 64 and 256 will usually give you the best results.</p>
+<h2>Interface explained</h2>
+<p>When you first start up Guitarix, you will be presented with the amp head and nothing more. You will find some toggle buttons along the top. These do the following -</p>
+<h3>Pool</h3>
+<p>Toggles the visibility of the effects plugin bar</p>
+<h3>Order</h3>
+<p>Collapses the height of all effects modules and allows you to easily click and drag around their order. This is useful for reordering large amounts of effects.</p>
+<h3>Tuner</h3>
+<p>Toggles the visibility of the tuner rack</p>
+<h3>Rack</h3>
+<p>Toggles the visibility of rack effects modules.</p>
+<h3>Split</h3>
+<p>Displays rack modules across two columns, mono plugins in the left column, stereo plugins in the right.</p>
+<h3>Fold and Show buttons</h3>
+<p>The 'Fold' button collapses the height of all rack effects modules. The 'Show' button expands them again. As opposed to the 'Order' button which is for reordering your signal path, 'Fold' doesn't collapse the height of the amp head and folded modules still have access to a slider control, presets, etc.</p>
+<h3>Live play</h3>
+<p>Shows a minimal fullscreen display with preset information. Useful for live performance.</p>
+<p><img alt="" src="/sites/default/files/tutorials/interface_explained.png" /></p>
+<p>Next you will want to start adding and arranging modules and effects. Press the 'Effects' toggle button. You will now see all available plugins and effects down the left hand side. These are categorized into collapsible boxes. You can expand any of these categories by clicking on a category box.</p>
+<p><img alt="" src="/sites/default/files/tutorials/plugin_sidebar.png" /></p>
+<p><img alt="" src="/sites/default/files/tutorials/arranging_effects.png" /></p>
+<p>To add an effect to your signal chain, simply click and drag it across to the rack area and drop it into position. Effects default to disabled when first added to the rack. On the left hand side of each effect module is a button, which you can toggle to enable or disable the effect. These modules can be moved around in various orders, and can be added before (above) or after (below) the preamp section. Just hover over the rack handles on either side of a module, click and drag to rearrange the order. To remove a module from the rack, grab it and drag it back into the plugin bar. The signal is processed through these modules from top to bottom.</p>
+<p><strong><em>Note</em></strong> – If you add stereo plugins, they can only be added to the bottom of the rack. This is because stereo effects are processed after mono effects, and hence why Guitarix shows up as two separate JACK modules. If you are using the horizontal option for displaying rack effects, the signal flows from top to bottom through the mono rack on the left and then into the stereo rack on the right, again being processed from top to bottom.</p>
+<h2>More about Signal Flow</h2>
+<p>The order of your signal chain is important. Below is the basic structure that will mimic a real amp and speaker cabinet set up. You will need to add a tonestack and cabinet module below (after) the preamp. You will find both of these modules in the 'Tone control' category.</p>
+<p><img alt="" src="/sites/default/files/articles/Basic%20amp%20structure.png" /></p>
+<p>Preamp – boosts your guitar signal, with tube emulation<br />Tone Stack – processes the guitar sound. There are selectable amp models which you can choose<br />Cabinet – emulates the playback through selectable guitar cabinets</p>
+<p>Guitarix comes with the following preamp models</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col" style="text-align: center;">Tube</th>
+<th scope="col" style="text-align: center;">Type</th>
+<th scope="col" style="text-align: center;">Application</th>
+</tr></thead><tbody><tr><td style="width: 200px;">12AX7 (also known as ECC83)</td>
+<td style="width: 200px;">Dual Triode (high gain)</td>
+<td style="width: 200px;">Most common preamp tube, notably used in Marshall and Vox amps</td>
+</tr><tr><td style="width: 200px;">12AU7 (also known as ECC82)</td>
+<td style="width: 200px;">Dual Triode (low gain)</td>
+<td style="width: 200px;">Used in some vintage Gibson and Marshall amps</td>
+</tr><tr><td style="width: 200px;">12AT7 (also known as ECC81)</td>
+<td style="width: 200px;">Dual Triode (medium gain)</td>
+<td style="width: 200px;">Used in driver and phase-inverter stages</td>
+</tr><tr><td style="width: 200px;">6DJ8 (also known as ECC88)</td>
+<td style="width: 200px;">High Transconductance Dual Triode (medium gain)</td>
+<td style="width: 200px;">Used in some Hi-Fi amps, also in TV's</td>
+</tr><tr><td style="width: 200px;">6C16</td>
+<td style="width: 200px;">Triode-Pentode</td>
+<td style="width: 200px;">Used in some Hi-Fi and headphone amps</td>
+</tr><tr><td style="width: 200px;">6V6</td>
+<td style="width: 200px;">Beam power tetrode</td>
+<td style="width: 200px;">Very common power amp tube</td>
+</tr></tbody></table><h2>Amp Head Controls</h2>
+<p>Pregain – input level of the guitar<br />Master gain - amount of signal sent from the pre-amp to the power section<br />Clean/dist – amount of distortion<br />Drive – signal gain</p>
+<p><img alt="" src="/sites/default/files/articles/Guitarix%20head%20controls.png" /></p>
+<p>Master out – This control is an exception to the top to bottom signal flow rule. Turning this up and down it will boost or attenuate the final output signal (to JACK signal). This is useful for attenuating the signal so it doesn't clip on its way out of Guitarix.</p>
+<h2>Effects modules</h2>
+<p>Guitarix comes with an extensive list of effects including compression, distortion, modulation, reverb, delay, <a href="/answer/eq">EQ</a>, etc. Some of the effects modules that are included in Guitarix are influenced by some popular hardware units, for example the Tube Screamer is, not surprisingly, based off of the Ibanez Tube Screamer.</p>
+<p>As well as its inbuilt effects, Guitarix can also load up <a href="/answer/ladspa">LAPSPA</a> and <a href="/answer/lv2">LV2</a> plugins. These have to be specifically enabled for them to show up in the plugin sidebar. To do this, go to <lmp-term>Plugins &gt; LADSPA/LV2 Plugins</lmp-term>. Any enabled plugins will now show up in your plugin side bar under the category 'External'. Between Guitarix's built in plugins and third party plugins, there is a vast amount of effects to choose from.</p>
+<p><em>Note - while most LV2 plugins will work in Guitarix, some may use LV2 features that Guitarix does not support</em></p>
+<p><img alt="" src="/sites/default/files/articles/plugin_manager.png" /></p>
+<p>There are no hard and fast rules for which order to place your effects in. If something achieves the sound you are looking for, then it is the correct way for that purpose, however, there are some generally accepted best practices for the order in which most guitarists prefer to have their effects. The following are some effects and their recommended order, from top to bottom, in the signal chain</p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col" style="width: 200px; text-align: center;">EFFECT</th>
+<th scope="col" style="width: 200px; text-align: center;">RECOMMENDED GUITARIX MODULE</th>
+<th scope="col" style="width: 200px; text-align: center;">NOTES/TIPS</th>
+</tr></thead><tbody></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="3" scope="col" style="text-align: center;">PRE AMP EFFECTS</th>
+</tr></thead><tbody><tr><td style="text-align: left; width: 200px; vertical-align: top;">Noise gate</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Built in noise gate</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Cuts off low level noise. This is built into Guitarix as first in the signal path.</td>
+</tr><tr><td style="text-align: left; width: 200px; vertical-align: top;">Compressor</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Compressor<br />Category – Guitar Effects</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Compressors work best when placed before any sound shaping effects.</td>
+</tr><tr><td style="text-align: left; width: 200px; vertical-align: top;">Overdrive/Distortion</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Tube Screamer<br />Category - Distortion</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">The tube screamer is a popular guitar pedal. It's often used to add a signal boost without driving up the gain setting too much. This hotter signal can drive the preamp section harder.</td>
+</tr><tr><td style="text-align: left; width: 200px; vertical-align: top;">Graphic <a href="/answer/eq">EQ</a></td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Graphic EQ<br />Category – Tone Control</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Useful for sculpting your tone, cutting problematic frequencies, mid boost, etc.</td>
+</tr><tr><td style="text-align: left; width: 200px; vertical-align: top;">Wah</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">GCB 95<br />Category – Guitar Effects</td>
+<td style="text-align: left; width: 200px; vertical-align: top;">The GCB 95 is based off of a crybaby wah pedal. If you have a MIDI controlled expression pedal, you can use it to control this.<br /> </td>
+</tr><tr><td style="text-align: left; width: 200px; vertical-align: top;"><a href="/answer/chorus">Chorus</a></td>
+<td style="text-align: left; width: 200px; vertical-align: top;">Chorus Mono<br />Category – Modulation</td>
+<td style="text-align: left; width: 200px; vertical-align: top;"> </td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="3" scope="col" style="text-align: center;">POST AMP EFFECTS</th>
+</tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; width: 200px;">Reverb</td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Zita Rev1<br />Category - Reverb</td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Can add space around your guitar. More suited to clean/lead tones.</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 200px;">Delay (sometimes called Echo)</td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Digital Stereo Delay<br />Category – Echo/Delay</td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Delay, or Echo, can often be more suited than reverb. Whereas reverb can blend a guitar into the back, delay can make a guitars sound more upfront.</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 200px;"><a href="/answer/convolution">Convolution</a></td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Convolver<br />Category - Reverb</td>
+<td style="text-align: left; vertical-align: top; width: 200px;">Can be used for adding reverb impulse response files but also is a good alternative to using the cabinet module if you have impulse response files of cabinets</td>
+</tr></tbody></table><h2>Convolution</h2>
+<p>Guitarix includes a <a href="/answer/convolution">convolution</a> module, called Convolver, that allows you to load up impulse response files. You will find Convolver under the Reverb category. With this you can load up reverb impulses although another very good use for convolution is using it as a speaker cabinet emulator by loading up speaker cabinet impulses.</p>
+<p>Any impulse responses in the .wav file format can be used with Guitarix. There are many of these that can be found in various forums on the internet. To get you started though, Guitarix comes with some guitar cabinet impulse response files preinstalled. To load these up, click on the Setup button in the Convolver module. Next, click on File. You will see two bookmarks on the left called ‘amps’ and ‘bands’. In these folders you will find .wav files that you can load up as impulse responses.</p>
+<p><strong><em>Note</em></strong> – If you are using impulse responses for your cabinet emulation, make sure you disable your cabinet module.</p>
+<p><img alt="" src="/sites/default/files/articles/Convolver.png" /></p>
+<h2>Controlling Guitarix via MIDI</h2>
+<p>Almost all parameters in Guitarix can be controlled via <a href="/answer/midi">MIDI</a>. This includes changing the values of knobs right through to turning on and off modules and even scrolling through menus.</p>
+<p>Before you create any MIDI bindings, you will first need to make sure that your MIDI device is hooked up to Guitarix. You can make this connection using any of the many connection tools that Linux has to offer but here we will use the inbuilt MIDI connections window. Go to <lmp-term>Engine &gt; Jack Ports</lmp-term> and click on MIDI tab. You can select your MIDI device here.</p>
+<p><img alt="Screenshot of Patchage showing how to connect up a MIDI device to Guitarix" src="/sites/default/files/articles/Midi%20connection%20small.png" /><br /><em>Patchage showing an Akai MPK mini connected into Guitarix</em></p>
+<p>Once you have your MIDI device connected up, creating bindings is as simple as pressing the middle mouse button on whichever parameters you wish to control, followed by moving what you want to bind it to on your controller.</p>
+<p>Being able to control so much this way makes Guitarix a very good tool for live use. If you have a MIDI foot-board, for example the Behringer FCB1010, you can bind your foot switches to turn various effects modules on and off. If your <a href="/answer/midi-controller">MIDI controller</a> has knobs, you can also bind parameters to these. Expression pedals can be binded to Wah effects, etc. Bindings can be viewed and edited by navigating to <lmp-term>Engine &gt; Midi Controller</lmp-term>. These bindings can also be saved in presets so that they can easily be recalled.</p>
+<p><img alt="MIDI controller settings" src="/sites/default/files/articles/Midi%20controller%20window.png" /></p>
+<h2>Preset Management</h2>
+<p>If you press the 'Preset Selection' button on the bottom left of Guitarix, the preset manager will pop up along the bottom. There are already a few presets here but it's easy to add and manage your own. To create a new preset, click on new in the scratchpad section. This will prompt you to name your preset. You can then press save to save your new preset, or tweak it more before doing so. You can also create new banks for your presets and organize them.</p>
+<p>Also, thanks to the wonderful <a href="https://musical-artifacts.com/">musical-artifacts.com</a>, you can now find and load up presets from directly within Guitarix. To do this, click on the 'Online' button on the left of the preset selection dialog. This will pop up a new window where you can search through Guitarix presets that are hosted on musical-artifacts.com. To install a preset, simply press on a presets 'download' button. This will download it and place it into your list of presets. It's really that simple.</p>
+<p><img alt="" src="/sites/default/files/articles/online_presets.png" style="width: 600px; height: 396px;" /></p>
+<p><em>Search Guitarix presets on musical-artifacts.com, without leaving Guitarix!</em></p>
+<h2>The various ways of using Guitarix</h2>
+<p>Guitarix can be used in many different ways, as a practice tool, a recording tool and a reamping tool. Having both the standalone version and LV2 plugin versions, allows for great flexibility of use -</p>
+<h3>Standalone</h3>
+<p>As a live/live practice tool<br /><img alt="Live guitarix signal flow in Patchage" src="/sites/default/files/articles/Live%20connections%20small.png" /></p>
+<p>To record directly into your DAW</p>
+<p><img alt="Record guitarix into a DAW signal flow in Patchage" src="/sites/default/files/articles/DAW%20record%20small.png" /></p>
+<p>As an insert in your DAW</p>
+<p><img alt="Use guitarix as an insert in your DAW signal flow in Patchage" src="/sites/default/files/articles/Guitarix%20as%20insert%20small.png" /></p>
+<h2>LV2 Plugins</h2>
+<p>Another option is to use the LV2 plugins on a channel strip and record your guitar signal into your <a href="/answer/daw">DAW</a> dry. This way you have great flexibility in processing your sound later, and tweaking it to perfection, as you always have the original dry performance.</p>
+<p><img alt="" src="/sites/default/files/articles/Guitarix%20LV2%20plugin.png" /><br /><em>GxAmplifier LV2 plugin running in Qtractor</em></p>
+<p>Gxamplifier is the main guitar LV2 amp modeling plugin. As you can see, this plugin consolidates the main amp signal flow mentioned above, into one plugin. So, you have the preamp choice on the left, cabinet choice in the middle and tonestack choice on the right. When switching between preamp types, the plugins skin changes to a suitable amp type and matching knobs. Additionally, the cabinet and tonestack menus have an “off” option. This is particularly useful in relation to the cabinet section, as maybe you would prefer to use an impulse response after the plugin for you cabinet emulation. In this case, disable the cabinet section with the “off” option and add an impulse response plugin after Gxamplifier. Two good choices for impulse response plugins are <a href="/tools/irlv2">IR LV2</a> and Klangfalter.</p>
+<p>Aswell as the Gxamplifier, Guitarix have also ported over many of their effects modules as LV2 plugins. All of these plugins are prefixed by Gx, so if you search for gx in your plugin manager, you will quickly find all the plugins.</p>
+<p><img alt="Selection of Guitarix LV2 plugins" src="/sites/default/files/news/gx_plugins_update.png" /></p>
+<h2>Summary</h2>
+<p>Guitarix is a very flexible tool. It can be utilized in many different types of set ups. An interesting project is the MOD, which is a hardware sound processing pedal running Guitarix and its various modules. If you want to check out some of the sounds that Guitarix can make, you can check out the <a href="http://moddevices.com/">MOD website</a> where you will find some sound demos.</p>
+<p>Written by Conor Mc Cormack</p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/articles/lmp-asks-2-interview-hermann-meyer-guitarix">LMP Asks #2: An interview with Hermann Meyer of Guitarix </a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix" st_title="Ultimate Guide to Getting Started With Guitarix " class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/306" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-3R5wfqAjiCT49pCQp55E4PWnyRFb90DRUSWUrcZJIFc" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/306" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-AmKDJy_1-XJZx-cgPO6FpvRGyXvk7ghOn587B3DuybU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

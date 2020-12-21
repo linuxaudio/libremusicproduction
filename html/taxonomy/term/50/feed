@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - producer</title>
+ <link>http://libremusicproduction.com/music-type/producer</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Iron Mike Norton</title>
+ <link>http://libremusicproduction.com/music/iron-mike-norton</link>
+ <description></description>
+ <pubDate>Thu, 28 Mar 2019 15:33:23 +0000</pubDate>
+ <dc:creator>Magno</dc:creator>
+ <guid isPermaLink="false">578 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/iron-mike-norton#comments</comments>
+</item>
+<item>
+ <title>Majorana</title>
+ <link>http://libremusicproduction.com/music/majorana</link>
+ <description></description>
+ <pubDate>Fri, 05 May 2017 11:25:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">548 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/majorana#comments</comments>
+</item>
+<item>
+ <title>Johnito</title>
+ <link>http://libremusicproduction.com/music/johnito</link>
+ <description></description>
+ <pubDate>Sat, 08 Apr 2017 22:18:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">546 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/johnito#comments</comments>
+</item>
+<item>
+ <title>The Indian Sonic Research Organisation</title>
+ <link>http://libremusicproduction.com/music/indian-sonic-research-organisation</link>
+ <description></description>
+ <pubDate>Sat, 17 Sep 2016 06:03:58 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">496 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/indian-sonic-research-organisation#comments</comments>
+</item>
+<item>
+ <title>Marius Stärk</title>
+ <link>http://libremusicproduction.com/music/marius-st%C3%A4rk</link>
+ <description></description>
+ <pubDate>Thu, 02 Jun 2016 12:03:10 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">460 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/marius-st%C3%A4rk#comments</comments>
+</item>
+<item>
+ <title>Yassin Philip </title>
+ <link>http://libremusicproduction.com/music/yassinphilip</link>
+ <description></description>
+ <pubDate>Tue, 08 Dec 2015 17:10:35 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">415 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/yassinphilip#comments</comments>
+</item>
+<item>
+ <title>unfa</title>
+ <link>http://libremusicproduction.com/music/unfa</link>
+ <description></description>
+ <pubDate>Sat, 14 Feb 2015 18:03:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">308 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/unfa#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - recording</title>
+ <link>http://libremusicproduction.com/area/recording</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Ardour 5.12 released</title>
+ <link>http://libremusicproduction.com/news/20170916-ardour-512-released</link>
+ <description></description>
+ <pubDate>Sat, 16 Sep 2017 20:06:15 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">571 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170916-ardour-512-released#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.9 is released</title>
+ <link>http://libremusicproduction.com/news/20170519-ardour-59-released</link>
+ <description></description>
+ <pubDate>Fri, 19 May 2017 17:16:08 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">554 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170519-ardour-59-released#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.6 released</title>
+ <link>http://libremusicproduction.com/news/20170212-ardour-56-released</link>
+ <description></description>
+ <pubDate>Sun, 12 Feb 2017 10:11:31 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">540 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170212-ardour-56-released#comments</comments>
+</item>
+<item>
+ <title>New overdrive stompbox plugin, GxSD1 LV2 released </title>
+ <link>http://libremusicproduction.com/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released</link>
+ <description></description>
+ <pubDate>Tue, 31 Jan 2017 20:48:01 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">537 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released#comments</comments>
+</item>
+<item>
+ <title>Guitarix 0.35.2 released</title>
+ <link>http://libremusicproduction.com/news/20161011-guitarix-0352-released</link>
+ <description></description>
+ <pubDate>Tue, 11 Oct 2016 11:35:10 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">506 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161011-guitarix-0352-released#comments</comments>
+</item>
+<item>
+ <title>Setting up and using a TerraTec DMX-6Fire-USB external soundcard</title>
+ <link>http://libremusicproduction.com/tutorials/setting-and-using-terratec-dmx-6fire-usb-external-soundcard</link>
+ <description></description>
+ <pubDate>Thu, 06 Oct 2016 08:45:38 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">504 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/setting-and-using-terratec-dmx-6fire-usb-external-soundcard#comments</comments>
+</item>
+<item>
+ <title>Ardour 5.4 released</title>
+ <link>http://libremusicproduction.com/news/20161001-ardour-54-released</link>
+ <description></description>
+ <pubDate>Sat, 01 Oct 2016 19:06:05 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">502 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161001-ardour-54-released#comments</comments>
+</item>
+<item>
+ <title>Qtractor 0.7.9 - A Snobbier Graviton release</title>
+ <link>http://libremusicproduction.com/news/20160921-qtractor-079-snobbier-graviton-release</link>
+ <description></description>
+ <pubDate>Wed, 21 Sep 2016 15:50:43 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">498 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160921-qtractor-079-snobbier-graviton-release#comments</comments>
+</item>
+<item>
+ <title>New major release of Ardour, version 5 is released!</title>
+ <link>http://libremusicproduction.com/news/20161021-new-major-release-ardour-version-5-released</link>
+ <description></description>
+ <pubDate>Fri, 12 Aug 2016 17:56:41 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">492 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161021-new-major-release-ardour-version-5-released#comments</comments>
+</item>
+<item>
+ <title>SuperBoucle</title>
+ <link>http://libremusicproduction.com/tools/superboucle</link>
+ <description></description>
+ <pubDate>Thu, 11 Aug 2016 20:17:16 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">491 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/superboucle#comments</comments>
+</item>
+</channel>
+</rss>

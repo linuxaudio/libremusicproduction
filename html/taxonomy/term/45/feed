@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - metal</title>
+ <link>http://libremusicproduction.com/genre/metal</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Mortticia</title>
+ <link>http://libremusicproduction.com/music/mortticia</link>
+ <description></description>
+ <pubDate>Sun, 13 Aug 2017 23:20:15 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">562 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/mortticia#comments</comments>
+</item>
+<item>
+ <title>Majorana</title>
+ <link>http://libremusicproduction.com/music/majorana</link>
+ <description></description>
+ <pubDate>Fri, 05 May 2017 11:25:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">548 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/majorana#comments</comments>
+</item>
+<item>
+ <title>Forzee</title>
+ <link>http://libremusicproduction.com/music/forzee</link>
+ <description></description>
+ <pubDate>Tue, 21 Jun 2016 10:49:12 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">477 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/forzee#comments</comments>
+</item>
+<item>
+ <title>A Violent Whisper </title>
+ <link>http://libremusicproduction.com/music/violent-whisper</link>
+ <description></description>
+ <pubDate>Mon, 27 Oct 2014 19:30:48 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">236 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/violent-whisper#comments</comments>
+</item>
+</channel>
+</rss>

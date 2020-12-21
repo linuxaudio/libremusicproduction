@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-4-jonathan-liles" />
+<link rel="shortlink" href="/node/169" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #4: Jonathan Liles | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"-mRi-0b7Bb2hqhAPT_s6RtA6hquOr2ZEzw20h_wf7MY","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/friday-interview-4-jonathan-liles":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-169 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #4: Jonathan Liles                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-169" class="node node-article node-promoted clearfix" about="/articles/friday-interview-4-jonathan-liles" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #4: Jonathan Liles" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-25T11:28:08+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:46</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the fourth edition of the Friday Interview! This week, we're joined by the creator of <a href="http://non.tuxfamily.org/" target="_blank" title="The Non website">the Non tools</a>, a modular <a href="/answer/daw">digital audio workstation</a>. I'm very happy to introduce the fourth participant of this series, interviewee #4: <em>Jonathan Liles</em>! Lets get started!</p>
+<h2>Introducing Jonathan Liles</h2>
+<div class="well"><strong>Jonathan Liles</strong>, aka <strong>male</strong>, is a software architect from Memphis, TN, USA, currently living in Oregon, USA. He's the author of the modular DAW called <a href="http://non.tuxfamily.org" target="_blank" title="The website of Non">Non</a>.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is the production of music, usually by conventional recording techniques, as opposed to electronic music. He wants to push the envelope on flexibility and performance, which he thinks are often considered to be mutually exclusive.</div>
+<div class="well"> </div>
+<div class="well">When he's not in the wonderful world of Linux audio, he likes to do different types of writing, photography, and also getting out in the wilderness of Oregon whenever he can.</div>
+<div class="well"> </div>
+<div style="width: 310px;display:block;margin:0 auto;">
+<p><img alt="" src="/sites/default/files/articles/male-workstation-300x198.jpg" /></p>
+<p><em>Jonathan Liles, aka male, at his workstation. That's a tiny screen right there!</em></p>
+<p> </p>
+</div>
+<p><strong>Hi male! Thanks a lot for doing this interview! What's your real name and where do you live?</strong></p>
+<p>Thanks for having me. My name is Jonathan Moore Liles and I live in Portland, OR, USA.  </p>
+<p><strong>What's your musical background like? What music do you like, and do you play any instruments?</strong></p>
+<p>My musical background is informal. I've been writing prose and poetry for a long time, but I didn't really start writing songs/making music until about 10 years ago. I saw a guitar for $1 at a yard sale and figured, "what the hell?". I bought it and soon learned that making something that sounds roughly like music wasn't nearly as hard as I had previously thought. I like music with meaning, and usually that means good lyrics and a voice that can deliver them.</p>
+<p>I play a number of instruments to various degrees. Guitar, piano, violin, cello, misc. percussion. I'm by no means a master of any of these, but that's fine because to me the instrumentation is secondary and with digital audio I'm able to play small parts on each instrument and combine those into something that sounds more or less like a full band.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/non-stuff-huge-1024x576.png" /><em>A Non-session in action.</em>
+<p> </p>
+</div>
+<p><strong>What's your history with Linux, and with using Linux for audio?</strong></p>
+<p>I've been running Debian GNU/Linux since about 1997, so 16 years. I probably would have started using it sooner, but all I kept hearing about it at the time was related to it being able to run X Windows, and I had zero interest in graphical user interfaces then. Before that I had been a CP/M and DOS user, and was deeply into the BBS scene.</p>
+<p>I've been involved in Linux Audio for about 8 years I guess. I started out trying to record some music into <a href="/tools/audacity">Audacity</a> instead of using my reel-to-reel tape deck. It was more or less a disaster--mainly because Audacity was the wrong tool for the job. Eventually I discovered <a href="/answer/jack">JACK</a> and was inspired by the flexibility it offered. I found <a href="/tools/ardour">Ardour</a> and used that for a while. It had some issues but it worked for the most part. Then came the change to from GTK1 to GTK2 and the beginnings of Ardour2, and at that time usability went down hill very quickly and I found myself unable to produce music on Linux anymore. My eyes had been opened to the power of digial audio and multitracking, though, and I couldn't go back to just using the reel-to-reel. Around this time wrote some utilities for dealing with <a href="/answer/alsa">ALSA</a> MIDI (lsmi, asspatch and midipus).</p>
+<h2>The Non tools</h2>
+<p><strong>Could you talk a little about what the Non tools are, how they came about, and what the philosophy behind them is?</strong></p>
+<p>Sure. <a href="http://non.tuxfamily.org/" target="_blank" title="The Non website">Non is a modular DAW</a> where each major component is completely independent of the others and runs in its own process--connected via JACK. The philosophy is basically KISS (Keep It Simple, Stupid). Non is meant to be fast, light and reliable above all else. Any feature that cannot be implemented in a fast, light, reliable way will simply not be implemented. Thus, the codebase of Non is small, currently around 43k lines of code. That's extremely small for any substantial program, much less a DAW, and I fully intend to keep it that way. And yet it is capable of doing a lot, including many things I never imagined myself.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/jonathan-liles-non-sequencer-1024x789.png" /><em>The Non Sequencer, part of the Non tools.</em>
+<p> </p>
+</div>
+<p>Getting back to the history... Around 2007 JACK <a href="/answer/midi">MIDI</a> had just come out and I was frustrated with the sync issues I was having with ALSA MIDI sequencers (which were all there was at the time). I had been a seq24 user, but decided to write a sequencer from scratch designed from the ground up around JACK MIDI. That became Non Sequencer, and thus began the Non project. I continued struggling with Ardour and spent several months trying to track down the bugs and performance problems that were interfering with my activities. Eventually I came to the conclusion that the problems were architectural and couldn't be solved without some deep changes and that it would take less time to just write a new DAW from scratch. About six months later I released Non DAW. On the hardware I had at the time (a dual slot-1 PIII 400Mhz), the performance difference was impressive. With nothing to really compare it to, I had been thinking that doing any serious digital multitracking was going to require a serious hardware upgrade.</p>
+<p>I was wrong, the hardware was quite capable of handling the workload. It was the software that had to change. The name Non DAW was a bit misleading though, as it was really just the timeline/arranger part of a DAW. I relied on external programs connected via JACK for other functionality. I had Non Sequencer for dealing with MIDI and I used SpiralSynthModular and LiveMix for plugin hosting and mixing. SpiralSynthModular was very flexible, but also a pain to set up--plus it had a tendency to crash a lot when using the JACK driver. LiveMix was more stable, but its QT GUI was extremely slow, and it had no way to accept gain or plugin parameter automation. Thus, I began work on writing Non Mixer. I appreciated the utility of having a standalone mixer like LiveMix, so I decided to continue with the modular theme and keep Non Mixer entirely independent of Non DAW.</p>
+<div style="width: 732px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/jonathan-liles-non-parameter-editor.png" /> The parameter editor in the Non tools.
+<p> </p>
+</div>
+<p>The rest is history. Ardour, <a href="/tools/qtractor">QTractor</a> have continued to develop and improve in this period, other projects have fallen to the wayside, a few new ones have crashed and burned while at the same time projects have popped up to fill other niches, and the whole of Linux Audio in general has grown a lot. Proprietary DAWs have (finally?) come to Linux--and it's a shame to see how many people are willing to toss money at them but not willing to invest anything in the community that built the free/libre platform we have.</p>
+<p>I use Non daily in my own work and will continue to push the project forward. There will always be a place for the fast and light, because even though computers now are far faster than they were 7 years ago, we always want to do more with them, and Non scales up and down better than anything else.  </p>
+<p><strong>With Non, what are you currently working on, and what are your current future plans for it?</strong></p>
+<p>Well, my TODO list is about a mile long, but I’m currently working, with the help of fundamental (of <a href="/tools/zynaddsubfx">ZynAddSubFX</a>), generic filter response plotting, for any plugin, which integrates into Non Mixer's module parameter editor, and also a room simulator to improve the accuracy of ambisonic early reflections coming from the Spatializer.</p>
+<p>As to my future plans, I’d like to get another release out. The last official release was over a year ago, and a huge amount of work has gone into Non since then. It doesn’t matter much practically, as everybody who’s serious about it follows the bleeding edge in GIT, but it’s still something I’d like to do more often.</p>
+<p>In the long term I’m interested in developing a way to better combine pattern oriented and linear sequencing workflows–part of this effort will likely involve splitting non-sequencer’s engine off into a library that other programs can use. I’m also interested in developing a plugin API that can replace <a href="/answer/ladspa">LADSPA</a> with something more capable and *simpler*, if you can believe it. Improving workflow and integration in general is a goal of mine, but it’s a big problem to tackle. Non Mixer’s Spatializer and Spatialization Console have gone a long way towards taming massive mixes, and I’d like to continue to refine and extend that idea.</p>
+<p>And in general, I plan to continue the to extend the Unix tradition of small, sharp tools into the world of Linux Audio. I've devoted nearly a decade of my life to this effort because I believe that tools that enable creativity should be open and free. I designed this software not only to meet my own needs but to meet needs that I haven't even imagined. To me, that is a primary goal. Catering to specific workflows is icing on the cake--but the cake itself should be one that everyone can enjoy. With the release of the <a href="/tools/nsm-non-session-manager">Non Session Manager</a>, I took a big step forward in integrating all of this Linux Audio stuff in a way that everyone can benefit from. This is just the beginning. I see Non not as just another <a href="/answer/daw">DAW</a>, but part of the glue and vital blood of a thriving ecosystem of free/libre audio software. I've spent a lot of time developing Non, but barely any promoting it, and that's something I hope to remedy. This conversation is a step in the right direction.  </p>
+<div style="width: 860px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/jonathan-liles-non-spatializer.png" /><em>The spatializer in Non Mixer. Something Jonathan has recently worked on!</em>
+<p> </p>
+</div>
+<p><strong>What can users do to contribute to Non? Users that cannot code, what can they help out with?</strong></p>
+<p>Users can contribute in many ways; artwork, design, documentation, troubleshooting, tutorials, videos and things of that nature are always welcome. Money helps too! I spend pretty much all of my free time working on this stuff. I’d love to be able to work on it more, but I just can’t afford to. Of course, I enjoy just hearing from people who use Non and how it's helped them. Every now and then I hear from someone who's done a radio broadcast or mixed an orchestra with Non and that's rewarding for me because I never designed it to do that specifically--I just designed it to be as flexible as possible.  </p>
+<p><strong>If people want to follow the development of Non, what's the easiest way for them? Do you have a Google+ page or similar?</strong></p>
+<p>The best way to follow the development is via <a href="http://git.tuxfamily.org/non/non/?p=non/non.git;a=summary" target="_blank" title="The Non Git">GIT</a> and <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a>. Non has a <a href="http://non.tuxfamily.org/wiki/Community" target="_blank" title="The Non community page">mailing list</a> which I occasionally post to.</p>
+<p>I do have a G+ page at: <a href="https://plus.google.com/101248132798651706167/posts" target="_blank" title="Jonathan Liles on Google+"> https://plus.google.com/101248132798651706167/posts</a>, but it's mostly photography.</p>
+<h2>Your music</h2>
+<p><strong>Are you currently involved in any musical projects?</strong></p>
+<div>Yes, I just released my debut album, Sad Pretty Girl. The whole album is made with Non, of course, and mixed in Ambisonics using Non Mixer's Spatialization features. There's not a lot of music out there released in Ambisonics format, and certainly not a lot of signger/songwriter type material, so that is interesting ground to break.</div>
+<div> </div>
+<p>It can be found at <a href="http://jonliles.bandcamp.com/album/sad-pretty-girl" target="_blank" title="Sad Pretty Girl, by Jonathan Liles">http://jonliles.bandcamp.com/<wbr></wbr>album/sad-pretty-girl</a></p>
+<div style="width: 310px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/sad-pretty-girl-300x297.jpg" /><em>Sad Pretty Girl, the debut album of Jonathan Liles.</em>
+<p> </p>
+</div>
+<p><strong>What software do you mainly use when making music?</strong></p>
+<p>Well, first and foremost I use GNU/Linux (of the Debian breed). I don't even have another operating system in the studio. On top of that sits JACK. On top of that is the Non Session Manager, Non Timeline, Non Mixer and Non Sequencer. I use ZynAddSubFX a lot for organ and other parts and fluidsynth (via nedko's fluidjack) for SF2 (drums). Lately I've also been using LisaloQT+calfbox as an SFZ sampler. Ambdec and jconvolver are also in every mix, as I do everything in Ambisonics these days. I also use SoX here and there for manipulating wave files 'offline' and JAAA for peeking at frequency responses. I'm sure there are plenty of things I'm forgetting to mention (LADSPA plugins etc.). That's a complete, in the box studio composed entirely of free/libre software.  </p>
+<p><strong>Is there any specific type of musical project you haven't done, that you'd like to do in the future if possible?</strong></p>
+<p>I think it would be fun to, one day, make a song that people could actually dance to. So far this has eluded me.</p>
+<h2>Final questions</h2>
+<p><strong>Do you feel like anything is lacking in Linux audio today, and if so, what?</strong></p>
+<p>Most of what's lacking is just integration. This is the 'polish' kind of thing, a role that there's rarely a person to fill. I think we're still lacking a decent plugin API. LADSPA is very limited and <a href="/answer/lv2">LV2</a>, while in some way 'extensible' (although one could just tack stuff onto the LADSPA API too and call that an extension), is, to put it mildly, at least as overcomplicated as it is overhyped. We're still missing a good sampler. LinuxSampler is an ugly beast with a bad license. Calfbox is the up and coming underdog, but there's still a long way to go and it seems to be a rather nebulous project anyway. We also need a few bits and bobs related to Ambisonics support--like an easy way to just playback b-format audio files without a lot of fiddling or an easy way to decode b-format to binaural with periphony. I have a wish list of things which could be added to JACK to improve integration--some of which are finally on the horizon.</p>
+<p>But for the most part, everything anybody needs is there in spades (plenty of choices of DAW/Sequencer etc)--just not as integrated or easy to use as it could be. It's sure a hell of a lot more usable than it was even 5 years ago though.  </p>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>Interesting question. I don't really rely on plugins all that much. A touch of EQ or compression here and there and that's about it. I do use TAP TubeWarmth on vocals a lot. That and SC4 Mono and Fons' 4-Band Parametric Filter are the only plugins you'd be likely to find in my mixes these days.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/jonathan-liles-non-mixer-with-spatializer-1024x638.png" /><em>The Non Mixer and Spatializer together.</em>
+<p> </p>
+</div>
+<p><strong>Where can people find the non project, and where will you eventually publish your music?</strong></p>
+<p>The Non home page at: <a href="http://non.tuxfamily.org" target="_blank" title="The Non Homepage">http://non.tuxfamily.org</a></p>
+<p>When I finish the album I'm sure I'll post something about it on the website and G+ and elsewhere. I'm leaning toward bandcamp as a platform.  </p>
+<p><strong>How can people get in touch with you the easiest way?</strong></p>
+<p>male at tuxfamily.org  </p>
+<p><strong>Anything you'd like to add to the interview yourself?</strong></p>
+<p>Just this: Be free, have fun, and make music!  </p>
+<p><strong>Thank you very much for the interview!</strong></p>
+<p class="well">That was Jonathan Liles (aka male), of the Non tools. Thanks to Jonathan for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-4-jonathan-liles" st_title="Friday Interview #4: Jonathan Liles" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/friday-interview-4-jonathan-liles" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-2NcZhER2yeeTG90TwSpNCVFP08KTHDNX2qEt_MUaC8o" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/friday-interview-4-jonathan-liles" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-cYxL3R0JfhWcUgyjRu_CNz3uiUGvKxFJLJzOtTLNbR0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

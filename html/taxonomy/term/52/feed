@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - acoustic</title>
+ <link>http://libremusicproduction.com/genre/acoustic</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Mark! Silver</title>
+ <link>http://libremusicproduction.com/music/mark-silver</link>
+ <description></description>
+ <pubDate>Tue, 22 Aug 2017 21:36:38 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">564 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/mark-silver#comments</comments>
+</item>
+<item>
+ <title>Violizando</title>
+ <link>http://libremusicproduction.com/music/violizando</link>
+ <description></description>
+ <pubDate>Sat, 22 Jul 2017 08:30:49 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">558 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/violizando#comments</comments>
+</item>
+<item>
+ <title>in giro</title>
+ <link>http://libremusicproduction.com/music/ingiro</link>
+ <description></description>
+ <pubDate>Fri, 02 Dec 2016 13:11:39 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">528 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/ingiro#comments</comments>
+</item>
+<item>
+ <title>Shoichi Chou</title>
+ <link>http://libremusicproduction.com/music/shoichi-chou</link>
+ <description></description>
+ <pubDate>Sun, 07 Aug 2016 13:47:07 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">489 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/shoichi-chou#comments</comments>
+</item>
+<item>
+ <title>Emily Fox</title>
+ <link>http://libremusicproduction.com/music/emily-fox</link>
+ <description></description>
+ <pubDate>Wed, 13 Jul 2016 05:57:27 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">481 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/emily-fox#comments</comments>
+</item>
+<item>
+ <title>Yassin Philip </title>
+ <link>http://libremusicproduction.com/music/yassinphilip</link>
+ <description></description>
+ <pubDate>Tue, 08 Dec 2015 17:10:35 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">415 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/yassinphilip#comments</comments>
+</item>
+<item>
+ <title>John Option</title>
+ <link>http://libremusicproduction.com/music/john-option</link>
+ <description></description>
+ <pubDate>Tue, 26 May 2015 09:24:29 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">362 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/john-option#comments</comments>
+</item>
+<item>
+ <title>Superdirt²</title>
+ <link>http://libremusicproduction.com/music/superdirt%C2%B2</link>
+ <description></description>
+ <pubDate>Tue, 23 Sep 2014 15:41:13 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">196 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/superdirt%C2%B2#comments</comments>
+</item>
+</channel>
+</rss>

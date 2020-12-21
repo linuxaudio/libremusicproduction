@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - hip hop</title>
+ <link>http://libremusicproduction.com/genre/hip-hop</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>zthmusic</title>
+ <link>http://libremusicproduction.com/music/zthmusic</link>
+ <description></description>
+ <pubDate>Mon, 29 Sep 2014 18:06:36 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">201 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/zthmusic#comments</comments>
+</item>
+</channel>
+</rss>

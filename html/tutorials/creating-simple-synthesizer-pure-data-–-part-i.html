@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="https://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="https://purl.org/dc/terms/"
+  xmlns:foaf="https://xmlns.com/foaf/0.1/"
+  xmlns:og="https://ogp.me/ns#"
+  xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="https://rdfs.org/sioc/ns#"
+  xmlns:sioct="https://rdfs.org/sioc/types#"
+  xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="https://www.w3.org/2001/XMLSchema#">
+
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-i by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:17:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="https://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
+<link rel="canonical" href="creating-simple-synthesizer-pure-data-%e2%80%93-part-i.html" />
+<link rel="shortlink" href="../node/288.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Creating a simple synthesizer in Pure Data –  Part I | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.based837.css?pxvqxa");
+@import url("../modules/system/system.menusd837.css?pxvqxa");
+@import url("../modules/system/system.messagesd837.css?pxvqxa");
+@import url("../modules/system/system.themed837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.mind837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenewsd837.css?pxvqxa");
+@import url("../modules/comment/commentd837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_api/dated837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7d837.css?pxvqxa");
+@import url("../modules/field/theme/fieldd837.css?pxvqxa");
+@import url("../modules/node/noded837.css?pxvqxa");
+@import url("../modules/search/searchd837.css?pxvqxa");
+@import url("../modules/user/userd837.css?pxvqxa");
+@import url("../sites/all/modules/video_filter/video_filterd837.css?pxvqxa");
+@import url("../sites/all/modules/views/css/viewsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctoolsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeletond837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/styled837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/buttonsd837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/layoutd837.css?pxvqxa");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colorsd837.css?pxvqxa");
+</style>
+  <script type="text/javascript" src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery-extend-3.4.01cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupald837.js?pxvqxa"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min3899.js?v=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenud837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelementd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalyticsd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"4GCDolb6brKTP8jEeLEqJ2Pc4FCj6iG6OF1aZmoKhHw","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/creating-simple-synthesizer-pure-data-%e2%80%93-part-i":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-288 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Creating a simple synthesizer in Pure Data –  Part I                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-288" class="node node-tutorial clearfix" about="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Creating a simple synthesizer in Pure Data –  Part I" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="13" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-27T11:17:23+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-02-06 08:55</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../area/midi.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item odd"><a href="../category/synthesis.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">synthesis</a></div><div class="field-item even"><a href="../category/technique.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div><div class="field-item odd"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/pure-data.html">Pure Data</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3>What is the objective of this tutorial?</h3>
+<p>In this tutorial we're going to make a very simple synthesizer using <a href="../tools/pure-data.html">Pure Data</a> and learn its concepts and workflow along the way. The objective is to get you started with the software in a kind of hands-on approach, doing something relatively useful, relatively quick. If you want in-depth stuff, there are some great sites on the internet. See <a href="https://pd-tutorial.com/">pd-tutorial.com</a> and the <a href="https://en.flossmanuals.net/pure-data/">Pure Data FLOSS manual</a>.</p>
+<h3>What is Pure Data?</h3>
+<p>Pure Data (aka pd) is a visual programming language for creating interactive multimedia works. It can be used to make algorithmic compositions, live performances, visual data representation, interaction with sensors and lots of other things. In this tutorial we will focus on audio synthesis.</p>
+<h3>What do I need to start?</h3>
+<p>To follow this tutorial you should have pd installed. Version 0.46.1 is used in this tutorial.</p>
+<p>I recommend using it with <a href="../articles/demystifying-jack-%e2%80%93-beginners-guide-getting-started-jack.html">JACK</a>, because then you will be able to have low latency and (if you wish) connect the audio output of your patch to additional processing outside pd before outputting to the speakers. If JACK is already running, selecting <lmp-term>Media→jack</lmp-term> should be enough.</p>
+<p>You will also need a way to input <a href="../answer/midi.html">MIDI</a> to your patch. If you don't have a <a href="../answer/midi-controller.html">MIDI controller</a>, you can use some kind of virtual controller, like <a href="../tools/vmpk-virtual-piano-keyboard.html">VMPK</a>.</p>
+<p><img alt="" src="../sites/default/files/tutorials/vmpk.png" /></p>
+<p><em>VMPK, a virtual MIDI controller</em></p>
+<p>Remember that pd cannot receive JACK MIDI input, so use ALSA MIDI output in your controller (you can also use <a href="../tools/a2jmidid.html">a2jmidid</a> to be able to connect JACK and ALSA MIDI ports). Go to <lmp-term>Media→ALSA-MIDI</lmp-term>.</p>
+<p>You can use a software like <a href="../tools/patchage.html">Patchage</a> to manage both JACK and ALSA connections. VMPK can also connect itself to pd in <lmp-term>Edit→Midi Connections</lmp-term>.</p>
+<p><img alt="" src="../sites/default/files/tutorials/pd_connections.png" /><br /><em>Patchage showing both a MIDI keyboard and virtual keyboard connected up to Pure Data</em></p>
+<p>Go to <lmp-term>Media→Test Audio and MIDI</lmp-term>.... This will open an interactive patch. Click the buttons under <lmp-term>TEST TONES</lmp-term> and you should hear some sounds. When you play something on your MIDI keyboard, you should see things happening in the <lmp-term>MIDI IN</lmp-term> section.</p>
+<p>If something is not working, make some research on how to configure <a href="../articles/demystifying-jack-%e2%80%93-beginners-guide-getting-started-jack.html">JACK</a> in your system. This is outside the scope of this tutorial.</p>
+<h3>Getting started</h3>
+<p>When you open pd you will see a window where there's not much you can do. The DSP you see here stands for Digital Signal Processing and, as the name says, signals will only be processed when this is on. You will learn what a signal is in a second, but you should know that outputting sound depends on this, so, if you are having problems with sound, check if this is on before anything else. The white space below is a console where pd will output different kinds of information for the user (aka you).</p>
+<p><img alt="" src="../sites/default/files/tutorials/information.png" /><br /><em>Pure Data's main window</em></p>
+<p>Click <lmp-term>File→New</lmp-term>. Now this is the real stuff. This window that appeared is your patch. It's where you will be getting all the work done. Programming in pd is done by placing objects on the canvas and connecting them, and that's exactly what we are going to do now.</p>
+<ul><li>Press <em>Ctrl+1</em> and click somewhere to place the object, then write <lmp-term>osc~</lmp-term> and click outside it to confirm. This object is an oscillator.</li>
+<li>Repeat the previous step but write <lmp-term>dac~</lmp-term> inside this second object and place it below the first one. dac stands for <a href="../answer/digital-analog-converter-d.html">Digital-Analog converter</a> (or Digital Audio Converter, it's not very clear). This is used to output sound.</li>
+<li>Now press <em>Ctrl+3</em> and place this new object above the <lmp-term>osc~</lmp-term> object. Note that this one is a little different in shape. It will be used to set the frequency of the oscillator.</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/first_objects.png" /><br /><em>pd patch with your first objects</em></p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="2" scope="col"><strong>Object types</strong></th>
+</tr></thead><tbody><tr><td colspan="2">
+<p><img alt="" src="../sites/default/files/tutorials/pd_objects.png" /></p>
+<p>You have now created 2 types of objects: “Normal” objects and a Number object. The kinds of objects you will use the most when working with pd are <lmp-term>Object</lmp-term> (<em>Ctrl+1</em>), <lmp-term>Message</lmp-term> (<em>Ctrl+2</em>) and <lmp-term>Number</lmp-term> (<em>Ctrl+3</em>).</p>
+<p>You can also use the <lmp-term>Put</lmp-term> menu to add all kinds of objects and see their keyboard shortcuts.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>Inlets and Outlets</strong></th>
+</tr></thead><tbody><tr><td>
+<p>The little rectangles on the top and bottom of each object are inlets and outlets, respectively. To connect the objects, click and drag from one object's outlet to the others' inlet.</p>
+<p>A mouse cursor change will tell you when you're clicking the right place, but in some systems the poor choice of mouse cursor may give you the impression that you are doing something wrong. Just ignore it.</p>
+<p>Remember that you'll not be able to connect everything to everything. Some inlets expect <lmp-term>control data</lmp-term> and some expect <lmp-term>signal data</lmp-term>, concepts that you will learn right now.</p>
+</td>
+</tr></tbody></table><p>Connect the output of the Number object to the left input of the <lmp-term>osc~</lmp-term> object and the output of the <lmp-term>osc~</lmp-term> object to both inputs of the <lmp-term>dac~</lmp-term> object. You will see two different lines linking the objects. The thin line linking the Number object and the <lmp-term>osc~</lmp-term> object represents a <lmp-term>control data</lmp-term> connection. The thicker ones linking the <lmp-term>osc~</lmp-term> object to the <lmp-term>dac~</lmp-term> object represent <lmp-term>signal data</lmp-term> connections.</p>
+<p><img alt="" src="../sites/default/files/tutorials/objects_connected.png" /><br /><em>Objects connected</em></p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>Control Data and Signal Data</strong></th>
+</tr></thead><tbody><tr><td>
+<p><lmp-term>Control Data</lmp-term> is sent from an object only when an event happens. A Number object, like the one you have in your patch right now, only sends the number as data when you change that number, or when it receives a <lmp-term>bang</lmp-term> message.</p>
+<p>Bang messages are used to tell objects that you want something to happen in that exact moment, like triggering an object's action or a message. A bang message can be sent by clicking in a Message object with “bang” written on it or with a special Bang object (<em>Ctrl+Shift+B</em>).</p>
+<p>While Control Data is pretty easy on the CPU, being only processed when ordered to, <lmp-term>Signal Data</lmp-term> is constantly being sent at a rate equal to the sample rate of your system. If your system's sample rate is 44,100 Hz (the sample rate of audio CDs) every Signal Data connection will have 44,100 numbers, or samples, going through it per second. This will only happen if DSP is on, so you can turn off DSP to save CPU power when it's not needed and to avoid undesirable sound while you edit your patch. All objects that work with signals have a tilde '~' at the end of their name.</p>
+</td>
+</tr></tbody></table><h3>Making some sound!</h3>
+<p>Now that the stage is set, we can use our patch to produce some sound. First we will need to switch from <lmp-term>Edit Mode</lmp-term> to <lmp-term>Execute Mode</lmp-term>, so we can control our Number object. Just press <em>Ctrl+E</em>.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>Edit Mode and Execute Mode</strong></th>
+</tr></thead><tbody><tr><td>
+<p>Edit Mode is meant to be used only while you are editing your patch, as the name says. It will allow actions such as moving objects, connecting them and editing their contents.</p>
+<p>Execute Mode will not allow editing, but will allow you to interact with the objects the way they were meant to, like clicking Messages to send them, using sliders, buttons, etc. So, when you're going to actually “use” your patch, you should always be in Execute Mode.</p>
+<p>You know which mode you are in by looking at the mouse cursor. In Edit Mode it will be a hand and in Execute Mode an arrow.</p>
+</td>
+</tr></tbody></table><p>Now make sure DSP is on, then click on the Number object and drag up and down to change its value. The value will be the frequency produced by the oscillator. While the value is smaller than 20 you will not be able to hear a thing, because human hearing starts somewhere around the 20Hz. After that the more you raise the value, the higher the pitch you hear will be.</p>
+<p>Each inlet of the <lmp-term>dac~</lmp-term> object represents an audio channel in your sound card. By default you will have two of them, for stereo output.</p>
+<p>Anyway, now is as good a time as any to introduce you to Pure Data's help system. When you right-click any (or almost any) object in your patch and choose <lmp-term>Help</lmp-term>, it will open a new patch with information about that particular object. This is a patch like any other and you can interact with it to see how that object works. It's a really cool and useful help system. If you want to, you can open the <lmp-term>dac~</lmp-term> help patch now and learn a little more about its usage.</p>
+<p><img alt="" src="../sites/default/files/tutorials/dac_help.png" /><br /><em>Help page for dac~</em></p>
+<p>But you might as well not want to do that, so let's move forward.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>A tip for editing patches</strong></th>
+</tr></thead><tbody><tr><td>
+<p>Pure Data cares very little (or nothing) about helping you to make your patches look good. There's nothing to help you with aligning objects or spacing them adequately.</p>
+<p>The best thing you can do to make things look something close to good is to select objects and move them with the keyboard arrows. To select an object without editing it, hold down the mouse button in some empty space close to it and drag the selection rectangle so it touches only the object(s) you want.</p>
+<p>Each time you press an arrow key alone the object will move a pixel in that particular direction. Pressing an arrow key while holding down <em>Shift</em> will move it a bunch of pixels. I use this to align objects properly and space them equally, so it won't hurt my eye too much.</p>
+</td>
+</tr></tbody></table><h3>Making some useful sound!</h3>
+<p>Since what we want to achieve here is a subtractive synthesizer, even if I haven't told you so before, we will now ditch our oscillator in favor of another that creates lots of overtones. A subtractive synthesizer creates different timbres by taking a sound with lots of harmonics and selectively filtering some of them out, and we can't filter harmonics that do not exist.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Oscillators</th>
+</tr></thead><tbody><tr><td>
+<p>Pure Data features two kinds of built-in oscillators: <lmp-term>osc~</lmp-term> and <lmp-term>phasor~</lmp-term>. <lmp-term></lmp-term></p>
+<p><lmp-term>osc~</lmp-term> will give you a sinusoid. A sinusoid is a pure frequency or pure sound, with no overtones.</p>
+<p><lmp-term>phasor~</lmp-term> will generate a sawtooth wave, which contains a lot of harmonics added to the fundamental frequency (all of them, actually).</p>
+<p>In Pure Data, <lmp-term>osc~</lmp-term> will always oscillate between -1 and 1, while <lmp-term>phasor~</lmp-term> will give values between 0 and 1.</p>
+<p><img alt="" src="../sites/default/files/tutorials/oscillators.png" style="width: 600px; height: 253px;" /></p>
+</td>
+</tr></tbody></table><p>Change your <lmp-term>osc~</lmp-term> into a <lmp-term>phasor~</lmp-term> (to do that you just need to rename it) and delete the Number object by selecting it and pressing delete.</p>
+<p>Your MIDI controller will now come into play. Insert a new object and call it <lmp-term>notein</lmp-term>. This object will have three outlets. Insert three Number objects, remembering to deselect each one of them before inserting the next, or they will automatically connect. Then connect each of the <lmp-term>notein</lmp-term> outlets to one of the number objects.  If you play some keys on your keyboard and numbers appear inside the number objects, things are going well. If not, you need to find the problem and solve it before moving on.</p>
+<p>You can remove these number objects at this point if you wish as they were just for testing.</p>
+<p>In a <lmp-term>notein</lmp-term> object, the first outlet from the left will give us the MIDI number of the note you played. The second will give the velocity and the third will contain the MIDI channel. If you want to hear the sound of the note you played, you need to somehow connect the note's frequency to the <lmp-term>phasor~</lmp-term> object. Since the <lmp-term>notein</lmp-term> object is not giving us a frequency, but a MIDI code, we need to make a conversion using the <lmp-term>mtof</lmp-term> object.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>mtof and ftom</strong></th>
+</tr></thead><tbody><tr><td>These are easy. <lmp-term>mtof</lmp-term> will convert from MIDI value to frequency and <lmp-term>ftom</lmp-term> will do the opposite.</td>
+</tr></tbody></table><p>So now we must connect the left outlet of <lmp-term>notein</lmp-term> to mtof and connect <lmp-term>mtof</lmp-term> to the <lmp-term>phasor~</lmp-term> object's left input. Now when you play a note you should hear the correct pitch, but it will never stop, and it will be loud and it will hurt your ear pretty fast. Don't worry, we'll fix that soon enough.</p>
+<p><img alt="" src="../sites/default/files/tutorials/sounds_like.png" /><br /><em>Sounds like crap and never stops</em></p>
+<p>Let's start by adding a volume control using an arithmetic operator with a slider.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>Arithmetic operators</strong></th>
+</tr></thead><tbody><tr><td>
+<p>If you insert an object with one arithmetic operator, it will allow you to do calculations between two numbers or operands. The two inlets are the left and right operands and the outlet is the result.</p>
+<p>A lot of operators are available, but we will use the <lmp-term>*</lmp-term> (multiplication) operator for now. A <lmp-term>*</lmp-term> object will multiply only Control Data. If you want signal multiplication, use <lmp-term>*~</lmp-term>.</p>
+<p>If you want you can put a default value for the right operand by passing an argument to the object.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>Object arguments</strong></th>
+</tr></thead><tbody><tr><td>
+<p>Arguments are values that are passed to objects by writing those values after the object name.</p>
+<p>Remember to always have a space between the object name and the argument and also between arguments, if there's more than one.</p>
+<p>In any arithmetic operator object, for example, the argument will be a default value for the right operand. Check each object's help patch to see what arguments can do for that particular object.</p>
+</td>
+</tr></tbody></table><p>Create a signal multiplication object, <lmp-term>*~</lmp-term>, and connect the output of your <lmp-term>phasor~</lmp-term> to its left inlet. Remove the <lmp-term>phasor~</lmp-term>'s connections to <lmp-term>dac~</lmp-term> by clicking the connection line itself and pressing delete. Then connect the <lmp-term>*~</lmp-term> object's outlet to both <lmp-term>dac~</lmp-term> inlets, just like the <lmp-term>phasor~</lmp-term> was connected before.</p>
+<p>Now let's create a special object: a slider. You can create a horizontal slider with <em>Ctrl+Shift+H</em> and a vertical one with <em>Ctrl+Shift+V</em>. You can choose the one you prefer and, after placing it, connect its outlet to the right inlet of the signal multiplication.</p>
+<p>Every number that comes from the oscillator will be multiplied by the value of the slider before it reaches the speakers. To configure the numbers that the slider will output, right click it and select <lmp-term>Properties</lmp-term>. Set <lmp-term>left</lmp-term> to 0 and <lmp-term>right</lmp-term> to 1 (<lmp-term>bottom</lmp-term> and <lmp-term>top</lmp-term> if you choose vertical). Since you're already at it, set the Label to “Volume”.</p>
+<p>Now, just by sliding this in Execute Mode you can control the output level of your patch.</p>
+<p><img alt="" src="../sites/default/files/tutorials/still_crap.png" /></p>
+<p><em>Still crap, but now under control</em></p>
+<p>Now we need to be able to stop the sound when the key is not being pressed anymore. The way it works is: when a key is pressed, you get a velocity value greater than zero. In a real MIDI keyboard this value is higher the faster (harder) you press down the key. When a key is released you get a note off signal, that is actually the same as a key press, but with velocity 0.</p>
+<p>Since, for now, we are making the most simple synthesizer possible, we will do everything in the simplest way. We will just project the velocity to a value between 0 and 1 and multiply the signal by this.</p>
+<p>Start by breaking the connection between the <lmp-term>phasor~</lmp-term> and the multiplication that you already got there and create a new signal multiplication object (<lmp-term>*~</lmp-term>) between the old one and the <lmp-term>phasor~</lmp-term>. Connect the result of this new multiplication to the first inlet of the old one and connect the <lmp-term>phasor~</lmp-term>'s output to the new multiplication's left inlet.</p>
+<p>Since in MIDI velocity values go up to 127, we'll just divide it by 127 to get the value between 0 and 1 that we need. Add a division by 127 object, <lmp-term>/ </lmp-term><lmp-term><lmp-term>127</lmp-term></lmp-term> (remember to have a space between “/” and “127”, since “/” is the name of the object and “127” is the argument) and connect the second outlet of <lmp-term>notein</lmp-term> (the velocity value) to the left input of this division.</p>
+<p>Now you can connect the output of this division to the right input of the multiplication you just created and voila. You should now have sound only while you are pressing a key in your MIDI controller. Remember to put some volume using your slider or nothing will come out of the speaker.</p>
+<p><img alt="" src="../sites/default/files/tutorials/almost_there.png" /></p>
+<p><em>Almost there</em></p>
+<p>You may notice pretty soon that this cheap solution will break as soon as you press more than one key. The first problem is that you have just one oscillator, so there's no way to produce two notes. This is not really a problem, because mono synths do exist! The real problem is that when you release the first note, the second note will stop sounding and that's not the desired result.</p>
+<p>To solve this problem we're going to use a set of objects that, at first glance, will look kinda overkill. After seeing the possibilities with this new setup you'll certainly understand the reason why I had to introduce you to all these new objects. They are: <lmp-term>poly</lmp-term>, <lmp-term>pack</lmp-term>, <lmp-term>route</lmp-term> and <lmp-term>unpack</lmp-term>.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>poly</strong></th>
+</tr></thead><tbody><tr><td>
+<p>The <lmp-term>poly</lmp-term> object can take the pitch and velocity from your <lmp-term>notein</lmp-term> object and add a voice value to it, outputting those three values.</p>
+<p>Using the voice number you will be able to handle each note  separately, eliminating the problem of one interfering with the other and allowing you to make a polyphonic synth!</p>
+<p>The first argument you give will be the number of voices and the second needs to either 1 or 0 to, respectively, allow or disallow “voice stealing”.</p>
+<p>With voice stealing, when all voices are occupied a new note played can take one of the voices to itself.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>pack and unpack</strong></th>
+</tr></thead><tbody><tr><td>
+<p><lmp-term>pack</lmp-term> will allow you to take a lot of inputs and then output one single list that contains all values. This is useful to create valid input for objects that expect to receive lists on their inlets, like <lmp-term>route</lmp-term>.</p>
+<p><lmp-term>unpack</lmp-term> will convert this list back to multiple outputs. The number of inlets of <lmp-term>pack</lmp-term> and the number of outlets of <lmp-term>unpack</lmp-term> will depend on the number of arguments we pass.</p>
+<p>If you pass a number as one of the arguments, the respective inlet will expect a number and will be initialized to the value you passed. So, if you pass <lmp-term>0 0 0</lmp-term> as arguments to pack, the object will create three inlets, each of them expecting a number and initialized to zero.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col"><strong>route</strong></th>
+</tr></thead><tbody><tr><td>
+<p>The route object will receive a list, like the one produced by pack, as input and will output the contents of the list to different outlets depending on the first value of the list.</p>
+<p>The number of outlets will equal the number of arguments plus one. An object created as <lmp-term>route 1 8 3 15</lmp-term> will have 5 outlets.</p>
+<p>Every list starting with <lmp-term>1</lmp-term> will go to the first outlet., with <lmp-term>8</lmp-term> to the second outlet and so on. The fifth outlet will get all lists that start with a value that was not given as an argument. The output will not contain the first value, that was used only for routing.</p>
+</td>
+</tr></tbody></table><p>Let's do it, step by step:</p>
+<ul><li>Disconnect the <lmp-term>notein</lmp-term> object from the <lmp-term>mtof</lmp-term> and <lmp-term>/ </lmp-term><lmp-term><lmp-term>127</lmp-term></lmp-term> objects and open up a lot of space between <lmp-term>notein</lmp-term> and the rest of the patch.</li>
+<li>Insert a <lmp-term>poly 1 1</lmp-term> object (a poly object with <lmp-term>1 1</lmp-term> as parameters, to be more correct, but I'll use this kind of notation to keep it simple) and connect the two first outlets of <lmp-term>notein</lmp-term> to the two inlets of <lmp-term>poly</lmp-term>.</li>
+<li>Insert a <lmp-term>pack 0 0 0</lmp-term> object and connect each <lmp-term>poly</lmp-term> outlet to the respective <lmp-term>pack</lmp-term> inlet.</li>
+<li>Insert a <lmp-term>route 1</lmp-term> object and connect the <lmp-term>pack</lmp-term> outlet to the left <lmp-term>route</lmp-term> inlet.</li>
+<li>Insert a <lmp-term>unpack 0 0</lmp-term> object and connect the left <lmp-term>route</lmp-term> outlet to its inlet.</li>
+<li>The <lmp-term>unpack</lmp-term> object now must connect like <lmp-term>notein</lmp-term> was connected before. Connect its left outlet to <lmp-term>mtof</lmp-term> and its right outlet to the division by 127.</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/there.png" /></p>
+<p><em>There! ...but still crap</em></p>
+<h3>We're done!</h3>
+<p>You should now be able to play your synthesizer with no problems. I would not even call that a synthesizer yet, but we are getting close. In the next tutorial we're going to add an <a href="../answer/adsr-envelope.html">ADSR envelope</a> to it and will also allow polyphony.</p>
+<p>Written by Eduardo Mezêncio</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-i" st_title="Creating a simple synthesizer in Pure Data –  Part I" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-i" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-6M3e5R8JzeM3S1mXgyMo3bYOB2QlM8N0-WobH7-fo7s" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-i" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-NIIxXpO4m9e-XOLyZZIz3XnRxb5y00z4KyNh3BT8WAQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="../contact.html">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="https://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="https://www.drupalizing.com/" target="_blank">Drupalizing</a>, a Project of <a href="https://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. Original design by <a href="https://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-i by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:17:20 GMT -->
+</html>

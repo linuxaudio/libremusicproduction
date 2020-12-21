@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Music | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"QrjiU5ImMqtDSvWgDbKTf6iLyF9qxhOSOAr5VN-CMgc","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/music\/philip-yassin":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-music page-music-philip-yassin" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf active-trail"><a href="/music" class="active-trail active">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Music                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-music view-id-music view-display-id-page view-dom-id-e6cb26981db9e83f3dec7e816f50955a">
+            <div class="view-header">
+      <p>Are you creating music with FLOSS tools? <a href="/music/application">Send us a brief description of your style of music, along with the tools you use</a>.</p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/violent-whisper">A Violent Whisper </a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/violent-whisper"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/aviolentwhisper.jpg?itok=_jqeDgxt" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">A Violent Whisper is a one man band that could be described best as electro rock music. It is heavily influenced by, but not only, Nine Inch Nails and late Radiohead...
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">electronic experimental industrial metal rock</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Alsa Modular Synth ams-lv2 Ardour Calf Plugins Hydrogen  Ingen Luppp</div>  </div>  </div>
+  <div class="views-row views-row-2">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/aisyk">Aisyk</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/aisyk"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/aisyklogo.png?itok=yjwC0yZ8" width="100" height="77" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Aisyk is born in 1996. He begins with Fast Tracker 2, and he moves to Modplug Tracker. Since 2006, he produce electronic music on Linux, first due to wine and Open Modplug Tracker, and progressively with Ardour and Hydrogen.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">ambient electro electronic</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Hydrogen </div>  </div>  </div>
+  <div class="views-row views-row-3">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/christie-isaac">Christie Isaac</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/christie-isaac"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/Christieisaac.jpg?itok=EsrI6A7E" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Christie Isaac is an alternative singer-songwriter from Colchester, Essex.
+With 3 self-released EPs under his belt, he is no stranger to the stage nor to the recording studio and brings his own style with him wherever he goes.
+Described as "...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">singer-songwriter</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins Hydrogen </div>  </div>  </div>
+  <div class="views-row views-row-4">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/craig-pidruchny">Craig Pidruchny</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/craig-pidruchny"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/craig_pidruchny.jpg?itok=k0iRgeIT" width="73" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Just a guy recording music at home as a creative outlet.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">blues rock</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Audacity Calf Plugins Guitarix Hydrogen </div>  </div>  </div>
+  <div class="views-row views-row-5">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/crocoduck">CrocoDuck</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/crocoduck"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/croccolor2-white.jpg?itok=mjlLnQcy" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">CrocoDuck is a physical acoustics student with a passion for open source and music. Why not mix them all together?
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">electronic experimental soul</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins FreqTweak Guitarix Hydrogen  JAMin</div>  </div>  </div>
+  <div class="views-row views-row-6">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/die-ag-aktivgruppe-0">Die AG - AktivGruppe</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/die-ag-aktivgruppe-0"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/ag.jpg?itok=EmDkC0R-" width="100" height="71" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">We made some music videos and mixed the multitrack recordings with Ardour 5.10 using Calf compressor and reverb, eq10q and AT1.
+Watch the videos (@ Club Wakuum).
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">alternative electronic indie rock</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins EQ10Q Zita AT-1</div>  </div>  </div>
+  <div class="views-row views-row-7">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/die-ag-aktivgruppe">Die AG - AktivGruppe</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/die-ag-aktivgruppe"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/front_seite.jpg?itok=QciHHVFH" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">We proudly present our new album "Wischn/noisiV" which is produced with Ardour, Audacity, Zita AT1, Calf Plugins, Eq10q, ZamGate, Xwax, Rakarrack
+Also the artwork was made with free software. (Gimp, Xsane, Libre Office and Scribus)
+All songs...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">alternative electronic rock</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Audacity Calf Plugins EQ10Q zam-plugins Zita AT-1</div>  </div>  </div>
+  <div class="views-row views-row-8">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/dj-afifa">dj afifa</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/dj-afifa"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/djafifaprofilepic.png?itok=Xf3l3fNw" width="98" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">I am a selecta. I make sound projects and spaces inspired by music. As a selecta my catalogue includes genres such as roots reggae, dub, jazz, funk, hip hop, experimental, and electronic. I use the mixxx software as a selecta. As a producer my...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">ambient experimental new age soundtrack</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Audacity</div>  </div>  </div>
+  <div class="views-row views-row-9">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/dolce-farniente">Dolce Farniente</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/dolce-farniente"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/dolce_farniente.jpg?itok=-B0pnpvH" width="100" height="96" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Rustic-rock from Argentina
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">blues rock traditional world</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Audacity Calf Plugins Guitarix setBfree</div>  </div>  </div>
+  <div class="views-row views-row-10">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/doosc">DoosC</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/doosc"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/doosc.png?itok=ozj55UrQ" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">DoosC is a french composer, arranger and producer, born in 1979, native of the Alps, and lives today in the Grand Duchy of Luxembourg.
+ 
+DoosC musical project, has its roots in the internet culture and the copyleft movement. DoosC makes extensive...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">ambient electro electronic experimental indie</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Carla LMMS ZynAddSubFX</div>  </div>  </div>
+  <div class="views-row views-row-11">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/d%C5%BEoni-promis">Džoni Promis</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/d%C5%BEoni-promis"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/Promis.jpg?itok=jFjAXQl_" width="100" height="79" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Multimedia artist, crafting art/music since 1992. Full time FLOSS user since 2010.
+Through his work one can see that he is not genre oriented. He freely uses everything he needs to create what he wants at that particular moment. Because of this we...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">alternative experimental rock soundtrack</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Calf Plugins Guitarix LinuxSampler MusE Yoshimi</div>  </div>  </div>
+  <div class="views-row views-row-12">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/emily-fox">Emily Fox</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/emily-fox"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/emily_fox.JPG?itok=WFjvwgz3" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">I make cover videos and record original songs, mainly on my YouTube channel. Sometimes I do massively multi-track productions, other times I do live versions, sometimes you'll find me dueting with myself and occasionally you'll even find me...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">acoustic folk indie singer-songwriter</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Hydrogen  JAMin</div>  </div>  </div>
+  <div class="views-row views-row-13">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/erwan-lerale">Erwan Lerale</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/erwan-lerale"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/avatars-000286012997-5k2hak-t500x500.jpg?itok=W1hGQ8T9" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">I'm a network engineer born in the 70s. I have been using Linux for more than 20 years. I'm a bad musician but I like creating some ambiances :) I'm mainly using Ubuntu and Kxstudio repo. My music is mostly influenced by the 80s.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">electronic pop world</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins Carla Guitarix Hydrogen  Pure Data ZynAddSubFX</div>  </div>  </div>
+  <div class="views-row views-row-14">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/fatony">FaTony</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/fatony"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/fatony.png?itok=Lfl-ciN4" width="92" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">FaTony creates CC-BY-SA 4.0 music using mostly FLOSS software and samples (only exception being Linuxsampler). He publishes all of his music's 'source code' in a git repo.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">classical orchestral</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Audacity Calf Plugins Guitarix LinuxSampler Rosegarden</div>  </div>  </div>
+  <div class="views-row views-row-15">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/florian-bador">Florian Bador</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/florian-bador"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/florian-bador.jpg?itok=hu-ZC1hW" width="100" height="56" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Florian Bador is an orchestral music composer, computer programmer, and the founder of the music platform Trust Music.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">orchestral soundtrack</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour LinuxSampler</div>  </div>  </div>
+  <div class="views-row views-row-16">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/forzee">Forzee</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/forzee"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/forzee.png?itok=veFdyLMQ" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Forzee are a band from Saint-Petersburg playing mixed genres of metal.
+Critics have lost many time to define various musical material they're playing. That's why their playlist contains Heavy Metal songs, grim Doom Metal-styled music and also fast...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">experimental metal</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins Qjackctl TuxGuitar</div>  </div>  </div>
+  <div class="views-row views-row-17">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/glen-macarthur">Glen MacArthur</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/glen-macarthur"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/glen_macarthur.jpg?itok=OPB1M70h" width="100" height="56" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Glen MacArthur, the maintainer of AVLinux, writes original songs and collaborations that celebrate his Rootsy Blues and Soul influences.
+Read an interview with Glen.
+</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">blues soul</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Calf Plugins Hydrogen </div>  </div>  </div>
+  <div class="views-row views-row-18">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/hanspeter-portner">Hanspeter Portner</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/hanspeter-portner"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/hanspeterportner.jpg?itok=V6JLax9x" width="66" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Open source hardware developer interested in novel expressive electronic music controllers which interface to software synthesizers.
+My music controllers are open in in design and they are developed with an open source software tool chain on Linux....</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">electronic experimental</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">AMSynth Ardour Guitarix Pure Data Supercollider Yoshimi</div>  </div>  </div>
+  <div class="views-row views-row-19">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/harney-barrow">Harney-Barrow</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/harney-barrow"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/barrow.png?itok=M3eNb1KI" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Harney-Barrow is a multimedia project run by web alias Alejandro Ramos Ferrer out of an isolated rural town in the United States.
+Music has influences ranging from 70s Soft Rock/Pop Rock to more modern or contemporary musicians like Oneohtrix Point...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">electronic experimental folk singer-songwriter soundtrack</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Audacity Calf Plugins Fluidsynth LMMS Qtractor</div>  </div>  </div>
+  <div class="views-row views-row-20">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/ingiro">in giro</a></span>  </div>  
+  <div class="views-field views-field-field-music-image">        <div class="field-content"><a href="/music/ingiro"><img typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/thumbnail/public/music/ingiro.jpg?itok=cQ-V_VtX" width="100" height="100" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">On the move, in motion, out and about: that's “in giro”, and that we are. we pick up things in our travels, pluck them from limbs, absorb or excavate or simply remember them, and during layovers we stitch these together and sing. being in giro is...</span>  </div>  
+  <div class="views-field views-field-field-music-genre">    <span class="views-label views-label-field-music-genre">Genre: </span>    <div class="field-content">acoustic alternative indie progressive rock rock</div>  </div>  
+  <div class="views-field views-field-field-music-tools">    <span class="views-label views-label-field-music-tools">Tools: </span>    <div class="field-content">Ardour Audacity Calf Plugins Fluidsynth Guitarix Hexter LinuxSampler Non software suite x42-plugins Yoshimi</div>  </div>  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/music/philip-yassin?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/music/philip-yassin?page=2">3</a></li>
+<li class="pager-next"><a title="Go to next page" href="/music/philip-yassin?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/music/philip-yassin?page=2">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/music/philip-yassin" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-3sbzTA9t-poU-R7-Xp_9xKODXL6ZtltLCGYtVlheAgM" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/music/philip-yassin" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-5gG36UZd4jyBQXszZa6FPID41bvtbtUMd10do4l0NYo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

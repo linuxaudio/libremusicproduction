@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" />
+<link rel="shortlink" href="/node/378" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"DM2xmiTk2flIHnse_JKeUYxEMxxLL9SCv9k3WGNq118","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/378":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-378 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-378" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-07-10T09:05:16+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 14:01</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/calf-plugins">Calf Plugins</a></div><div class="field-item even"><a href="/tools/lmms">LMMS</a></div><div class="field-item odd"><a href="/tools/midifilterlv2">Midifilter.lv2</a></div><div class="field-item even"><a href="/tools/zynaddsubfx">ZynAddSubFX</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This month we talk to Tobiasz Karoń, better known online as Unfa. Tobiasz's passion is electronic music and open source software. He creates music using GNU/Linux based systems and is a massive fan of ZynAddSubFX. His favourite distro is KXStudio and his favourite DAWs are LMMS and Ardour. LMMS for sequencing and synthesizing, Ardour for recording, editing and mastering.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa.jpg" style="width: 600px; height: 450px;" /></p>
+<p><strong>Hi Tobiasz and thank you for taking the time to do the interview. Where do you live, and what do you do for a living?</strong></p>
+<p>I live in Warsaw, Poland and I work as a graphic designer in a small local company. I also make some music and sound design for video games for mobile platforms.</p>
+<p><strong>What is your musical background?</strong></p>
+<p>I started messing around with computer music around 2004 using FL Studio 5. I knew nothing about music theory at that time, I just had fun making simple compositions.</p>
+<p>Around that time I also started singing inspired by System of a Down's vocal harmonies. Around 2011 I started serving with my voice in a local church group. Around 2012 I joined the Choir of Warsaw Medical University as baritone/bass.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_wallet.jpg" style="width: 600px; height: 400px;" /><br /><em>Unfa is a big fan of System of a Down. Can you tell?</em></p>
+<p>I also was playing as a drummer and messing around with electric guitar. Since my early years I dreamed about a keyboard – I was staring at the shiny Casio workstations with floppy disk drives exposed in stores. In April 2015 I finally started following that dream – I bought a <a href="/answer/midi-controller">MIDI controller</a> keyboard and in May 2015 I started attending individual piano lessons. I'm also writing songs and some poetry.</p>
+<p>My main instrument is my voice – singing, rapping, screaming, scatting, beatboxing, playing mouth-saxophone and voice acting. A good showcase are three tracks from my album “<a href="https://unfa.bandcamp.com/album/static">Static</a>”: “<a href="https://www.youtube.com/watch?v=qoNFXltw244">Beepson Junior</a>”, “<a href="https://www.youtube.com/watch?v=FGpSzRkT9zg">I gotta tell you something</a>” and “<a href="https://www.youtube.com/watch?v=KuiyXEpX4oY">Not The End</a>”.</p>
+<p>One of my long-term goals is to prove that open source software is capable of producing top quality music, that can achieve commercial success just like the music created with closed-source, proprietary software. I had some success in this field, I sold a bunch (20? 30?) of CD's after a premiere concert for the “Static” album. It was “name your price” and I was surprised of how much cash I got in the end. The buyers all waited for an autograph and were very positive about the event.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_performing.jpg" style="width: 600px; height: 786px;" /><br /><em>Unfa performing live in a local church during a Christmas event</em></p>
+<p>The only thing I didn't like about all this was my sore throat. I screamed much too much. This made me think a lot about what may destroy my voice and if I want to carry on performing this way. I knew I don't. I now scream sporadically and I don't want to make my music rely on this type of performance. Some vocalists seem to be scream-proof (Mike Patton, Robert “Litza” Friedrich) but I don't seem to be one of them. However I value screaming as an extremely powerful musical device when used sparingly and carefully.</p>
+<p><strong>Tell us a bit about your releases to date?</strong></p>
+<p>To this day I've released 4 longplays of electronic music, 3 made with <a href="/tools/lmms">LMMS</a>, <a href="/tools/zynaddsubfx">ZynAddSubFX</a> and <a href="/tools/ardour">Ardour</a>.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_discography.png" style="width: 600px; height: 525px;" /></p>
+<p><em>Unfa's 3 longplay releases along with 5 singles. <i>Unfa designs his cover images himself.</i></em></p>
+<p>There's one longplay that isn't listed above, it's called Jooze (availabile on <a href="http://www.lastfm.pl/music/unfa/Jooze">Last.fm</a>) and it's a work that I don't promote, because I used other people's drum samples, which I don't do any more, as I synthesize all sound by myself. This is my first ever longplay released. I mastered this in Audacity, all tracks are made with MODPLug Tracker (OpenMPT) using various free VSTs and VSTis. I made this on Windows XP system, before I switched to Linux.</p>
+<p>There's also an industrial-ambient soundtrack mini-album (EP?) called The Zone that I wasn't able to upload to Bandcamp due to some technical issues, but it's availabile on <a href="https://www.jamendo.com/pl/track/1226884/the-zone">Jamendo</a> and <a href="https://www.youtube.com/watch?v=di8Q5LU1_No">YouTube</a>. The Zone is a very recent production (published 4th of may 2015), made with LMMS and ZynAddSubFX entirely on Linux. I was asked to make a soundtrack for a YouTube channel dedicated to S.T.A.L.K.E.R gameplays. After it was done I decided to publish it under a <a href="https://creativecommons.org/licenses/">creative commons license</a>.</p>
+<p>"<a href="https://www.youtube.com/watch?v=5_hKm7Uqu-U">Spoken</a>" from album "Static" is my most recognized song. It was included in LMMS demo songs (minus the vocal sample) and was <a href="https://www.youtube.com/watch?v=uWPfIIaAHQg">promoted on it's main page</a> for over a year.</p>
+<p><strong>Are there any other projects you are working on at the moment?</strong></p>
+<p>I'm currently working on a collaboration with Combustible Lemonade. We're making a little album together. The inspirations include classical music, jazz, progressive rock, and various flavours of EDM like drum&amp;bass. It's gonna be crazy. Combustible Lemonade is mostly responisble for the composition, I'm doing the sound design. We're very excited about this project. I hope we'll be able to tell some more soon.</p>
+<p>Also there's a very <a href="https://www.youtube.com/watch?v=reHJ2J2zlm4">recent video of me performing</a> solo with the Choir of Warsaw Medical University. I won't tell you more, because it's a surprise.</p>
+<p><strong>What is your typical workflow when making music?</strong></p>
+<p>The unique aspect of my workflow is that I don't use any drum samples (with a few exceptions) or other people's presets. I synthesize all sounds from scratch with ZynAddSubFX. It took me a few years to develop a satisfying drum sound. I don't say that samples are bad. But that's easy and unoriginal. Early on I decided I want to develop a recognizable sound, and the synthesizers are one way of achieving that.</p>
+<p>I learned to use the mouse and piano roll tandem to transfer my musical ideas into LMMS. Also my work was completely done by intuition, “by ear” as I didn't receive formal music training. I often start with a beat. Kick, snare, hihat. Sometimes I start a track humming a lead or bass line, putting it quickly into the sequencer and working around that.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_lmms.png" style="width: 600px; height: 337px;" /></p>
+<p>Since april 2015 I started practising a new way. I try to start my work by laying down a chord progression, and build the bass and lead lines on top of that. Combustible Lemonade teaches me a bit about harmony and I'm trying to incorporate that.</p>
+<p>I very like distortion as a tool to make my synths more aggressive, harsh, analogue-like and rich. I frequently use a few types of distortion, I filter that, pan it left and right and mix in a small amount of that distorted and filtered signal with the dry original. ZynAddSubFX's distortion unit is fantastic for this, it's very easy and time-efficient for setting up such effects.</p>
+<p>Also I frequently layer a few slightly different versions of one synth, panning them around, detuning slightly, filtering and blending them together. This is where ZynAddSubFX shows it's power – I can layer 8 voices very easily with it, or layer 30, technically the sky (and the CPU) is the limit.</p>
+<p>One instance of ZynAddSubFX can synthesize an entire track. It has 16 parts (one for each MIDI channel) each part has 3 effect slots, plus there are 4 global send effects and 8 insert effect to use for a single part or master channel. If you want to learn more, <a href="https://www.youtube.com/watch?v=npw4sGiWaMo">here's a video to watch</a>.</p>
+<p><strong>What tools would you suggest to newcomers who are into your specific genre of music?</strong></p>
+<p>If you've started you musical journey with FL Studio (like me), you should feel comfortable with LMMS, as it is similar in design. It lacks some functionality and has bugs (like everything), but it can let you make great sequenced music.</p>
+<p>If you like synthesizers, want to use your old VSTi collection or just drop in some samples and make a beat - go ahead and try it :) You can also <a href="https://lmms.io/lsp/?action=browse&amp;user=unfa">download my projects</a> (as I synthesise all stuff, you might need some extra plugins, but no samples) and tear them apart, I really like learning new software this way.</p>
+<p>When it comes to recording songs, LMMS is not enough though. I did my older stuff with Audacity, but it's not really designed for music production, it's for general sound editing and works great in that field. If you're into recording vocals or live instruments, or combining this with sequenced electronic stuff - or even scoring a movie - Ardour is gonna make you happy. If you go for Ardour 4 (available from <a href="http://kxstudio.linuxaudio.org/Repositories">KXStudio repositories</a>) you don't need to setup JACK and can go with pure ALSA. If you're lost, I advise reading the manual.</p>
+<p><strong>MIDI plays a big part in your workflow. What kind of improvements would you like to see in MIDI on Linux?</strong></p>
+<p>Actually it should have, but 99% of my discography was done entirely with a mouse.</p>
+<p>I used to live in a cave - you know - spending hours and hours alone clicking music out of my mind into the computer. There are just a few tracks that contain material I actually played on a keyboard (Hammond solo in "Spin" for instance - it's a trick recording I performed that in 4 times slower tempo, so it's a cheat anyway, also I used an AKAI MPK mini).</p>
+<p>Now I'm leaving the cave and slowly preparing myself for the stages, so reliable live MIDI processing is starting to get important just like the daily piano practice. My current plan is to use Ardour 4 for realtime audio routing, processing and effect control plus <a href="/tools/midifilterlv2">x42 MIDI filter plugins</a> to filter the signals and drive multiple virtual instruments with one m-audio Oxygen 49 (MKIV) MIDI keyboard controller.</p>
+<p>Anyway, I can't understand the thing with JACK-MIDI and ALSA-MIDI. In Catia (an audio &amp; MIDI patchbay program) I can have green, red and even orange MIDI ports. I never know what is what, I just remember the red likes the orange and hates the green.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_patchbay.png" style="width: 600px; height: 378px;" /><br /><em>An example of Unfa's connections as seen in Catia</em><i>. Note the red, orange and green MIDI ports.</i></p>
+<p>Also the JACK-ALSA MIDI bridge fails me regularly - I don't quite feel like playing anything fancy live with that right now. I even thought my new MIDI keyboard is broken, but <a href="/tools/midisnoop">MIDI Snoop</a> has proven me wrong. So I'd like some clean up in this field, simplifying things, making MIDI signals universally understood across all Linux audio processes, just like SIGKILL is.</p>
+<p><strong>Tell us a bit about your hardware set up</strong></p>
+<p>My main sound recording device is Zoom H2. I chose it, as it was a highly portable and economic all-in-one sound capture device that I'm using for field recording, line recording of live events or electric instruments, and as a stereo home-studio microphone. I've recorded tens of hours of podcasts, many songs, hundreds of gigabytes of sounds, rehearsals, concerts, events, talks...  It's 5-6 years old now. it's durable and has a satisfying sound quality for the price. I was thinking about getting Zoom H2n, but I decided that the old one is still fine and I don't need a new recorder. I'll probably get a XLR-enabled 24-bit USB sound interface in the future.</p>
+<p>I used to work on a 15" ASUS K52Jc laptop with Intel i5 processor and 8GB or RAM. Recently I switched to a Dell Lattitude 3550 shipped with Ubuntu 14.04 LTS with i7, 8GB of RAM and 1TB disk drive, FHD display (lots of pixels!). Since 2011 I work on laptops and can't imagine myself confined to one desk right now.</p>
+<p>I got an AKAI MPK mini MKI keyboard controller around 2012, but a friend of mine was right about it when he said: “you need a bigger keyboard”.</p>
+<p>Since I'm always working with headphones, the first serious purchase in the field were Denon AH-D301. I bought them around 2008. I had to resolder the wires inside one headphone, I turned the muffs inside out and added dampeners made from scotch, because the rig was making clapping noises when I was walking quickly wearing the headphones.</p>
+<p>I switched to Superlux HD-660 in 2014, a cheap imitation of Beyerdynamic DT 770. However they sound very good for their price and are quite comfortable.</p>
+<p>Proper studio monitors were way to expensive for me most of my life, but I'm now saving for a pair of Behringer NEKKST K8. I guess the collaborative project with Combustible Lemonade will be mixed and mastered with them.</p>
+<p>The most recently purchased hardware I own (excluding the new Dell laptop) is the M-Audio Oxygen 49 MKIV USB MIDI controller keyboard. I chose it for it's big potential for live performance and versatility.</p>
+<p><strong>What is your history with Linux?</strong></p>
+<p>I started using GNU/Linux around 2008. I think my first distribution was Ubuntu 8.04. I was dual-booting Window XP for a few months, before I switched completely to GNU/Linux. After that I became a distro vagabond. I used <a href="http://ubuntustudio.org/">Ubuntu Studio</a>, Crunchbang Linux, Debian, Gentoo, 64 Studio, Linux Mint, <a href="http://www.bandshed.net/AVLinux.html">AV Linux,</a> <a href="http://artistx.org/">ArtistX</a> and <a href="http://kxstudio.linuxaudio.org">KXStudio</a>. I used to change the distribution every time something broke and I wasn't able to fix it (it has to work elsewhere!).</p>
+<p>After a few years of more and more desperate searching for an unbreakable distribution I settled down with KXStudio. I realized that my attitude is wrong and I'm not helping to make things better. So instead of reinstalling my system as an ultimate fix, I started reporting bugs and providing feedback to developers. As for KXStudio that I'm using for a year now - I value it's powerful and convenient KDE desktop, fantastic set of cutting-edge tools available through it's own repositories, good support and custom applications that are developed for it.</p>
+<p><strong>Why do you feel open source is important, and what for you is the most important aspect of Linux audio?</strong></p>
+<p>I believe open source is the future of all computing. It's the Gospel of software, the good news, the freedom and joy of serving each other without demanding a pay. I think our global mentality as software users is slowly changing from “I pay therefore I demand” to “I value therefore I support”. I think very interesting things will emerge as this mentality spreads – Blender seems to be the biggest self-funding open source project that's showing new possibilities for other FLOSS projects.</p>
+<p>I personally use Blender and Inkscape every day in my regular job and in 2015 I also started supporting the projects I use with small donations from time to time (LMMS, Ardour, Blender, KXStudio, Calf).</p>
+<p><strong>What do you feel is currently lacking in Linux audio?</strong></p>
+<p>A linear phase EQ plugin.</p>
+<p><strong>What is your favourite FLOSS plugin?</strong></p>
+<p>For instruments it's ZynAddSubFX. It's capable of 95% of what I need, and it's very convenient to use for creating complex, layered sounds with lots of motion, effects and detail. It's like 100 plugins in one, packed in a slick box.</p>
+<p>For effect processors, I extremely value <a href="/tools/calf-plugins">Calf plugin suite</a>. These are top notch and I think the Linux audio community can show them with pride.</p>
+<p><strong>Are there any FLOSS projects that you are excited about at the moment?</strong></p>
+<p>Ardour 4. It's a fabulous project. I think Paul Davis is the father of Linux pro audio and without JACK and Ardour, there'd be little room for serious studio work on Linux.</p>
+<p><img alt="" src="/sites/default/files/articles/unfa_mastering.png" style="width: 600px; height: 337px;" /><br /><em>Unfa mastering his songs in Ardour</em></p>
+<p>Also LMMS is developing nicely, it's made great progress in last year (I made some contribution to that) and I can't wait to see what comes next.</p>
+<p><strong>What resources have your found most useful on your Linux audio journey?</strong></p>
+<p>It's hard to point something discrete, because that was (and still is) a broadband ocean of resources. I really like using Synaptic (a popular graphical package manager) to search for tools I need to get something done, or just putting in random tags and looking for interesting titles or descriptions. I've discovered a lot of great software by having fun with it's quick filter.</p>
+<p>Also the forums at <a href="http://linuxmusicians.com/">linuxmusicians.com</a> are a great place to hang out, ask and share the love. There's also an Open source Musician's Podcast. I think all that can help people who are new to Linux audio to discover the power and get going. Be free and rock out!</p>
+<p><strong>What changes, if any, would you like to see within the Linux Audio community?</strong></p>
+<p>I'm personally concerned about software crashes and data loss. I feel desktop computers generally work better with GNU/Linux systems and applications. I'd like to draw more attention to stability, crash recovery, backups, autosave, and making software catastrophe-resistant.</p>
+<p>Why? Because that's what it takes to allow live performance with open source software. If something crashes every two hours, you won't be playing a concert with it. And live gigs are the biggest source of income for musicians. Happy musicians will donate more money to the software they use. Extrapolating this formula means open source projects can pay programmers to work full-time on the software. This is the revolution I'm expecting. Blender has already proven this is feasible.</p>
+<p><a href="http://teragonaudio.com/ChaosChimp.html">Chaos Chimp</a> is a plugin that might be helpful for Linux audio developers – it deliberately causes trouble so you can prepare your software for that eventuality.</p>
+<p><strong>What advise would you give to a new Linux Audio user?</strong><br /> <br />Take your time to explore the tools. Once you have your favourites - start supporting them.. Report problems, get to know the people who create the software, use your talents to push it forward. Next generations will bless you for doing so.</p>
+<p>Also if you have any trouble or questions, feel free to e-mail me (<a href="mailto:unfa@unfamusic.com">unfa@unfamusic.com</a>), I'll do my best to help you get on your feet. We're all brothers in open source :)</p>
+</div></div></div><div class="field field-name-field-article-related-articles field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/music/unfa">Unfa in LMP&#039;s FLOSS music section</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-10-interview-tobiasz-karo%C5%84-aka-unfa" st_title="LMP Asks #10: An interview with Tobiasz Karoń, aka Unfa" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/378" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-aVZav1aC8L88bCxaS_uxKha86CYNOyOpR2KL2LnG5A0" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/378" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-wr2RVzZJBt44Wnz_lJj87xBOfmT_uEhXOOvpTvUUUcE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

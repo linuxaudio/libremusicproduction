@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - sequencing</title>
+ <link>http://libremusicproduction.com/area/sequencing</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Qtractor 0.8.5 is released</title>
+ <link>http://libremusicproduction.com/news/20171210-qtractor-085-released</link>
+ <description></description>
+ <pubDate>Sun, 10 Dec 2017 18:03:26 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">573 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20171210-qtractor-085-released#comments</comments>
+</item>
+<item>
+ <title>Qtractor 0.8.1 released</title>
+ <link>http://libremusicproduction.com/news/20170221-qtractor-081-released</link>
+ <description></description>
+ <pubDate>Sat, 18 Feb 2017 21:31:04 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">541 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170221-qtractor-081-released#comments</comments>
+</item>
+<item>
+ <title>Hydrogen 0.9.7 released</title>
+ <link>http://libremusicproduction.com/news/20161113-hydrogen-097-released</link>
+ <description></description>
+ <pubDate>Sun, 13 Nov 2016 22:15:05 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">524 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161113-hydrogen-097-released#comments</comments>
+</item>
+<item>
+ <title>Using AVL drumkits with a-Fluid Synth in Ardour</title>
+ <link>http://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour</link>
+ <description></description>
+ <pubDate>Wed, 19 Oct 2016 09:12:02 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">511 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour#comments</comments>
+</item>
+<item>
+ <title>AVL Drumkits updated to version 1.1</title>
+ <link>http://libremusicproduction.com/news/20161021-avl-drumkits-updated-version-11</link>
+ <description></description>
+ <pubDate>Wed, 19 Oct 2016 08:31:54 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">510 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161021-avl-drumkits-updated-version-11#comments</comments>
+</item>
+<item>
+ <title>Linux Show Player 0.4.1 released</title>
+ <link>http://libremusicproduction.com/news/20161013-linux-show-player-041-released</link>
+ <description></description>
+ <pubDate>Wed, 12 Oct 2016 21:12:13 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">509 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20161013-linux-show-player-041-released#comments</comments>
+</item>
+<item>
+ <title>Qtractor 0.7.9 - A Snobbier Graviton release</title>
+ <link>http://libremusicproduction.com/news/20160921-qtractor-079-snobbier-graviton-release</link>
+ <description></description>
+ <pubDate>Wed, 21 Sep 2016 15:50:43 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">498 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160921-qtractor-079-snobbier-graviton-release#comments</comments>
+</item>
+<item>
+ <title>Radium</title>
+ <link>http://libremusicproduction.com/tools/radium</link>
+ <description></description>
+ <pubDate>Sat, 13 Aug 2016 10:44:55 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">493 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/radium#comments</comments>
+</item>
+<item>
+ <title>SuperBoucle</title>
+ <link>http://libremusicproduction.com/tools/superboucle</link>
+ <description></description>
+ <pubDate>Thu, 11 Aug 2016 20:17:16 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">491 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/superboucle#comments</comments>
+</item>
+<item>
+ <title>New video tutorial describing a complete audio production workflow using Muse and Ardour</title>
+ <link>http://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour</link>
+ <description></description>
+ <pubDate>Sun, 17 Apr 2016 16:19:48 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">452 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour#comments</comments>
+</item>
+</channel>
+</rss>

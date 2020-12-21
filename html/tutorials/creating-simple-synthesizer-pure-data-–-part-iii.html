@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="https://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="https://purl.org/dc/terms/"
+  xmlns:foaf="https://xmlns.com/foaf/0.1/"
+  xmlns:og="https://ogp.me/ns#"
+  xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="https://rdfs.org/sioc/ns#"
+  xmlns:sioct="https://rdfs.org/sioc/types#"
+  xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="https://www.w3.org/2001/XMLSchema#">
+
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-iii by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:37:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="https://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
+<link rel="canonical" href="creating-simple-synthesizer-pure-data-%e2%80%93-part-iii.html" />
+<link rel="shortlink" href="../node/403.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Creating a simple synthesizer in Pure Data – Part III | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.based837.css?pxvqxa");
+@import url("../modules/system/system.menusd837.css?pxvqxa");
+@import url("../modules/system/system.messagesd837.css?pxvqxa");
+@import url("../modules/system/system.themed837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.mind837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenewsd837.css?pxvqxa");
+@import url("../modules/comment/commentd837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_api/dated837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7d837.css?pxvqxa");
+@import url("../modules/field/theme/fieldd837.css?pxvqxa");
+@import url("../modules/node/noded837.css?pxvqxa");
+@import url("../modules/search/searchd837.css?pxvqxa");
+@import url("../modules/user/userd837.css?pxvqxa");
+@import url("../sites/all/modules/video_filter/video_filterd837.css?pxvqxa");
+@import url("../sites/all/modules/views/css/viewsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctoolsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeletond837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/styled837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/buttonsd837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/layoutd837.css?pxvqxa");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colorsd837.css?pxvqxa");
+</style>
+  <script type="text/javascript" src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery-extend-3.4.01cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupald837.js?pxvqxa"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min3899.js?v=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenud837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelementd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalyticsd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"VF7-Q946xtg0YOIySHdHUkuGqgFcLrPCxL3YNxpfpU8","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/creating-simple-synthesizer-pure-data-%e2%80%93-part-iii":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-403 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Creating a simple synthesizer in Pure Data – Part III                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-403" class="node node-tutorial node-promoted clearfix" about="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Creating a simple synthesizer in Pure Data – Part III" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="3" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-10-20T01:56:40+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2015-11-11 11:28</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../area/midi.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item odd"><a href="../category/synthesis.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">synthesis</a></div><div class="field-item even"><a href="../category/technique.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div><div class="field-item odd"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/pure-data.html">Pure Data</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Part I: <a href="creating-simple-synthesizer-pure-data-%e2%80%93-part-i.html">Creating a simple synthesizer in Pure Data - Part I</a><br />Part II: <a href="creating-simple-synthesizer-pure-data-%e2%80%93-part-ii.html">Creating a simple synthesizer in Pure Data - Part II</a></p>
+<h2>The steps:</h2>
+<p>We now have two important steps to finish our little project: the first is to add a filter that will finally turn our synthesizer into a subtractive synthesizer and the second is to create a simple user interface to make our patch more intuitive and pleasant to the end user.</p>
+<h2>Adding the filter</h2>
+<p>So we&amp;'re here, finally. As you may remember from Part I, <strong><lmp-term>subtractive </lmp-term><lmp-term>synthesis</lmp-term></strong> is a kind of synthesis where we take a sound with lots of harmonics (even white noise) and filter some of them out, thus creating a rich sound that would practically impossible to obtain with <strong><lmp-term>additive </lmp-term><lmp-term>synthesis</lmp-term></strong>. Additive synthesis would start from total silence and then add the desired harmonics, one by one.</p>
+<p> </p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Filter</th>
+</tr></thead><tbody><tr><td>
+<p>Filters are used to remove or attenuate frequencies from a signal. Since Pure Data has objects that implement different types of filters, you don't need to know exactly <i>how</i> this is achieved, but it's important to know <i>what</i> each type of filter does.</p>
+<p>The simplest filters that you can create in Pure Data are:</p>
+<ul><li>
+<p><lmp-term><strong>Low pass filter</strong></lmp-term>: allows only frequencies that are below a given <lmp-term><strong>cutoff frequency</strong></lmp-term> to pass, meaning that the frequencies above are filtered out. Implemented by the <lmp-term><strong>lop~</strong></lmp-term> object.</p>
+</li>
+<li>
+<p><lmp-term><strong>Band pass filter</strong></lmp-term>: allows frequencies that are close to a given <lmp-term><strong>center frequency</strong></lmp-term> to pass, while filtering out all the others. The width of the band will be given by the <lmp-term><strong>Q factor</strong></lmp-term>. The greater this dimensionless parameter is, the narrower the band will be. Implemented by the <lmp-term><strong>bp~</strong></lmp-term> object.</p>
+</li>
+<li>
+<p><lmp-term><strong>High pass filter</strong></lmp-term>: same as the low pass filter, but inverted. Frequencies above the <lmp-term><strong>cutoff frequency</strong></lmp-term> are allowed to pass, while frequencies below are filtered out. Implemented by the <lmp-term><strong>hip~</strong></lmp-term> object.</p>
+</li>
+</ul><p>These 3 objects are very easy to use and you can check the documentation to learn how to use them. The reason why I'm not explaining this here is simple: we are not going to use any of these objects in our synthesizer. All of the objects listed above take a frequency (<lmp-term><strong>cutoff frequency</strong></lmp-term> in low pass / high pass filters and <lmp-term><strong>center frequency</strong></lmp-term> in band pass filter) as <lmp-term><strong>control data</strong></lmp-term> input. Using control data means that it will not be possible to change this frequency smoothly throughout time as we want to do (you'll see why soon).</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">vcf~</th>
+</tr></thead><tbody><tr><td>
+<p>This is the object that we are actually going to use to implement our filter. <lmp-term><strong>vcf</strong></lmp-term> stands for <lmp-term><strong>voltage-controlled filter</strong></lmp-term>. In 'real life', a voltage-controlled filter can change its cutoff frequency by means of a voltage applied to its inputs, which may sound strange since we can't input voltage to our Pure Data objects. In Pure Data you can change the cutoff frequency by inputting a signal.</p>
+<p>The <lmp-term><strong>vcf~</strong></lmp-term> has 3 inlets: the first is the signal you want to apply the filter to, the second is the signal data that will control the cutoff frequency and the third is a control data input for the Q factor.</p>
+<p>The first outlet will output the result of a band pass filter applied to your original signal, while the second outputs a low pass filter.</p>
+</td>
+</tr></tbody></table><p>Let's start by adding some sliders to the main patch. You can add four sliders (Ctrl+Shift+H for horizontal and Ctrl+Shift+V for vertical, but you should already know that) and name them, respectively, <lmp-term><strong>Start</strong></lmp-term>, <lmp-term><strong>End</strong></lmp-term>, <lmp-term><strong>Time</strong></lmp-term> and <lmp-term><strong>Q</strong></lmp-term>. Here's the configuration that I'll recommend for now:</p>
+<ul><li>
+<p>Start: set send symbol to <lmp-term><strong>start</strong></lmp-term> and output range from 20 to 20000 in log mode</p>
+</li>
+<li>
+<p>End: set send symbol to <lmp-term><strong>end</strong></lmp-term> and output range from 20 to 20000 in log mode</p>
+</li>
+<li>
+<p>Time: set send symbol to <lmp-term><strong>time</strong></lmp-term> and output range from 10 to 10000 in log mode</p>
+</li>
+<li>
+<p>Q: leave send symbol blank and set output range from 1 to 256 in log mode, then connect the slider to a <lmp-term><strong>- 1</strong></lmp-term> object and this last object to a <lmp-term><strong>s q</strong></lmp-term> object</p>
+</li>
+</ul><p><img alt="Adding filter sliders" src="../sites/default/files/tutorials/pd-3-filter-sliders.png" style="width: 568px; height: 353px;" /></p>
+<p>The output of <lmp-term><strong>Start</strong></lmp-term> and <lmp-term><strong>End</strong></lmp-term> are frequencies in hertz. The filter center frequency will ramp from <lmp-term><strong>Start</strong></lmp-term> to <lmp-term><strong>End</strong></lmp-term> in the time interval given by <lmp-term><strong>Time</strong></lmp-term>, in milliseconds, every time a note is played. Logarithmic scales are great for all of these values, even time and Q factor, because you can have a finer control over the small values. We want to be able to output 0 as Q factor, so we need the <lmp-term><strong>- 1</strong></lmp-term> object.</p>
+<p>When we're done, you can tweak all the values as you see fit. Other than the frequency values, I choose the maximum values in a somewhat arbitrary manner.</p>
+<p>We are done with our main patch. Let's move on to note.pd.</p>
+<p>The first thing to do in note.pd is to add the filter, by creating a <lmp-term><strong>vcf~</strong></lmp-term> object and placing it between the last signal multiplication object (<lmp-term><strong>*~</strong></lmp-term>) and the <lmp-term><strong>outlet~</strong></lmp-term> object. You need to connect the multiplication to the first inlet of the <lmp-term><strong>vcf~</strong></lmp-term> and then the first outlet of the <lmp-term><strong>vcf~</strong></lmp-term> to the <lmp-term><strong>outlet~</strong></lmp-term>.</p>
+<p>The second and third inlets of the filter are for center frequency and Q factor, respectively. Controlling the center frequency will be a slightly more complex task, so we're going to put it in a subpatch. Create a <lmp-term><strong>pd filter</strong></lmp-term> object and a new window will open for you to edit its contents (you can open it anytime by clicking the object in <lmp-term><strong>Execute Mode</strong></lmp-term>). In this window you need to create only two objects for now: an <lmp-term><strong>inlet</strong></lmp-term> and an <lmp-term><strong>outlet~</strong></lmp-term>, then just close the window. Now you'll notice the <lmp-term><strong>pd filter</strong></lmp-term> has an inlet and an outlet, so let's connect it. Connect the second outlet from the <lmp-term><strong>sel 0</strong></lmp-term> object to the inlet of <lmp-term><strong>pd filter</strong></lmp-term> and the outlet of <lmp-term><strong>pd filter</strong></lmp-term> to the second inlet of the <lmp-term><strong>vcf~</strong></lmp-term> object.</p>
+<p>The Q factor part is easier. Just create a <lmp-term><strong>r q</strong></lmp-term> object and connect it to the third inlet of the <lmp-term><strong>vcf~</strong></lmp-term>.</p>
+<p><img alt="Filter modifications for note.pd" src="../sites/default/files/tutorials/pd-3-note.png" style="width: 456px; height: 335px;" /></p>
+<p>Now, all the remaining work to make our filter functional is inside of the <lmp-term><strong>pd filter</strong></lmp-term> subpatch. Just in case you don't remember, the outlet of <lmp-term><strong>sel 0</strong></lmp-term> that we connected to the inlet of our subpatch will output a number when a note is played, but nothing when the note is released. This number is the midi velocity of the note, but it does not matter for our current purpose.</p>
+<p>So, let's work inside the subpatch. Start by adding below the inlet, in this order, the following objects: a <lmp-term><strong>bang</strong></lmp-term>, an <lmp-term><strong>f</strong></lmp-term> and then a <lmp-term><strong>t b f</strong></lmp-term>. Connect the first outlet of each object to the first inlet of the next, starting from the <lmp-term><strong>inlet</strong></lmp-term> object. Then create a <lmp-term><strong>r start</strong></lmp-term> object and connect it to the second inlet of the <lmp-term><strong>f</strong></lmp-term> object.</p>
+<p><img alt="Filter subpatch part 1" src="../sites/default/files/tutorials/pd-3-filter-1.png" style="width: 297px; height: 230px;" /></p>
+<p>Each time a note is played the <lmp-term><strong>bang</strong></lmp-term> will be activated and it will trigger the number stored in <lmp-term><strong>f</strong></lmp-term> (the value from the Start slider in the main patch) and then another bang. This will be used to set the start value for the frequency ramp and then get it going.</p>
+<p>Now create a <lmp-term><strong>pack 0 0 0</strong></lmp-term> object and connect the first outlet of the <lmp-term><strong>t b f</strong></lmp-term> object to its first inlet. Create an <lmp-term><strong>r end</strong></lmp-term> and an <lmp-term><strong>r time</strong></lmp-term> objects and connect them to the second and third inlets, respectively. Create a <lmp-term><strong>route 0</strong></lmp-term> object and connect the first outlet from <lmp-term><strong>pack 0 0 0</strong></lmp-term> to its first inlet and then its first outlet to the first inlet of a <lmp-term><strong>line~</strong></lmp-term> object. The second outlet from the <lmp-term><strong>t b f</strong></lmp-term> object will also be connected to the first inlet of this <lmp-term><strong>line~</strong></lmp-term> object. Finally, connect the <lmp-term><strong>line~</strong></lmp-term> object to <lmp-term><strong>outlet~</strong></lmp-term>.</p>
+<p><img alt="Filter subpatch part 2" src="../sites/default/files/tutorials/pd-3-filter-2.png" style="width: 296px; height: 294px;" /></p>
+<p>Believe it or not, we are done with the filter. Yes, it was that easy. If you have problems, try to reload your patch, because sometimes the changes are not applied to all instances of edited abstractions.</p>
+<p>What happens here is that <lmp-term><strong>t b f</strong></lmp-term> sends the value of Start to <lmp-term><strong>line~</strong></lmp-term>, making it jump immediately to that value. Then the <lmp-term><strong>pack</strong></lmp-term> / <lmp-term><strong>route</strong></lmp-term> objects are used to send a package with both the End and Time values, so <lmp-term><strong>line~</strong></lmp-term> starts a ramp to the End value that takes Time milliseconds to complete. This kind of usage of <lmp-term><strong>pack</strong></lmp-term> and <lmp-term><strong>route</strong></lmp-term> together was described and explained in the part 2 of the tutorial, inside of the <lmp-term><strong>adsr</strong></lmp-term> abstraction.</p>
+<h2>Creating an user interface</h2>
+<p>If you came all the way from the beginning of this tutorial, you probably had already enough experience to notice that the focus of Pure Data is not exactly to make things look good. But that does not means you need to see all the inner workings of your patch while you are using it. One of the most interesting uses of Pure Data is for live performance and you would imagine a nice interface would make things a lot easier for the performer.</p>
+<p>I'll show three different things you can do to organize your patch and make it look better, so you can use your creativity to customize your patch to your liking.</p>
+<h3>Graph-On-Parent</h3>
+<p><lmp-term><strong>Graph-On-Parent</strong></lmp-term> allows you to change the way a subpatch or abstraction will appear in the patch that contains it. Instead of appearing as a normal object with its name, it can appear as a part of the subpatch/abstraction contents or as a graph. We're going to use the former here.</p>
+<p>Open your main synthesizer patch, then select everything (Ctrl+A) and cut (Ctrl+X). Now create a new object in this empty canvas called <lmp-term><strong>pd synth</strong></lmp-term> and paste everything inside its window. Now everything that was inside your main patch is inside the subpatch and this subpatch is the only object inside you main patch. Inside the subpatch window, right-click some empty spot and select <lmp-term><strong>Properties</strong></lmp-term>.</p>
+<p><img alt="Properties dialog" src="../sites/default/files/tutorials/pd-3-properties.png" style="width: 374px; height: 233px;" /></p>
+<p>Check the <lmp-term><strong>Graph-On-Parent</strong></lmp-term> option and press OK. The rectangle that appears now in your canvas is the area that will be shown in the parent patch. For now, if you check your main patch you will see a gray rectangle. This happens because the content of the rectangle is not rendered while the subpatch is opened. After you close the subpatch window, you will see whatever was inside of that rectangle instead of just a gray color.</p>
+<p>Open the subpatch <lmp-term><strong>Properties</strong></lmp-term> again. You need to adjust the Margin and Size values. You can think of the X and Y Margin values as the X and Y coordinates of the top-left corner of the rectangle. Set an appropriate size and then try to put all your sliders inside the rectangle, because the sliders are the only objects that the user will need to interact with. You may also want to enable the <lmp-term><strong>Hide object name and arguments</strong></lmp-term>. If you don't check this option you will see a label with the name of the object in the top-left corner of the rectangle.</p>
+<p><img alt="Graph-On-Parent rectangle" src="../sites/default/files/tutorials/pd-3-ui-1.png" style="width: 486px; height: 477px;" /></p>
+<p>If you close the subpatch and take a look at you main patch, you will see a very simple interface with the sliders and without the ugly and confusing connections.</p>
+<p><img alt="Graph-On-Parent result" src="../sites/default/files/tutorials/pd-3-ui-2.png" style="width: 326px; height: 273px;" /></p>
+<h3>Canvas</h3>
+<p>To better organize your interface you can use the <lmp-term><strong>Canvas</strong></lmp-term> object (Ctrl+Shift+C). It is possible to do a lot of stuff with this object, but we are going to use it as a simple colored rectangle with an optional label.</p>
+<p>Open your subpatch and place a <lmp-term><strong>Canvas</strong></lmp-term> object. Now select every other object leaving the canvas out of the selection, then cut (Ctrl+X) and paste (Ctrl+V). The reason why you need to do that is because the last object to be placed always appear on top of the other objects and we want the canvas in the background. Now that it is in the background you can simply open its properties and select a color, an optional label and set its size. You can use as many of these as you want on top of each other.</p>
+<p><img alt="Canvas example" src="../sites/default/files/tutorials/pd-3-ui-3.png" style="width: 364px; height: 274px;" /></p>
+<h3>Color</h3>
+<p>You probably have already noticed this, but you can change colors of some objects just like you did with the canvas. Just open the <lmp-term><strong>Properties</strong></lmp-term> of a given object and you will see which colors you can change. In this case, we will change only the color of the sliders.</p>
+<p><img alt="After changing colors" src="../sites/default/files/tutorials/pd-3-ui-4.png" style="width: 364px; height: 274px;" /></p>
+<h2>Conclusion</h2>
+<p>That's it, we're done. I hope you had some fun and learned something by following this tutorial. This synthesizer is very poor if compared to any synthesizer you will find out there, but you can make something interesting and unique if you invest some time to learn and to implement your ideas.</p>
+<p>I'll list here some ideas of projects that you can try to do by yourself to make your synthesizer more interesting.</p>
+<ul><li>
+<p><strong>Add a preset feature</strong>. Pure Data can manipulate files, meaning that you can save and load presets. You can use Pure Data's help to search for the objects that deal with files.</p>
+</li>
+<li>
+<p><strong>Make a better envelope for the filter</strong>. Instead of only Start and End, you can have a variation of the ADSR envelope or anything else you can imagine to make the sound more interesting.</p>
+</li>
+<li>
+<p><strong>Add a waveform selector</strong>, where you can select other kinds of wave instead of always using sawtooth. You can have square, sine, triangle and noise, for example. (The sine wave will not work well with the filter, because it does not contain harmonics)</p>
+</li>
+<li>
+<p>Add an option to <strong>make the filter frequencies relative to the note played</strong>, instead of always using absolute frequencies.</p>
+</li>
+<li>
+<p><strong>Add a vibrato</strong> with a slider to control it. Also, optionally make it controllable by the MIDI controller.</p>
+</li>
+<li>
+<p>Add an option to use it as a <strong>monophonic synthesizer with glide / glissando</strong> between notes.</p>
+</li>
+<li>
+<p><strong>Add additive synthesis capabilities</strong> by allowing more than one waveform to be used together. You can also make the second oscillator be at some interval from the first.</p>
+</li>
+<li>
+<p><strong>Add modulation</strong>. If you have no idea about what this is, search for Frequency Modulation and Amplitude Modulation (FM and AM).</p>
+</li>
+<li>
+<p>Add a cool <strong>graph that shows the waveform of what you are playing in real time</strong>. You'll need to learn how to use arrays.</p>
+</li>
+<li>
+<p><strong>Change the MIDI channel</strong> that the synthesizer will "receive". By making this (and some other adjustments, like change the names of sends and receives to use the $0 variable) you should be able to launch various instances of the synthesizer with different sounds and play them by using different MIDI channels.</p>
+</li>
+</ul><p>I'll not teach how to do any of these (I have done some of these, but I don't think I have the patience to even try some of the others) but if I see a lot of interest in some particular feature, I may write some kind of Appendix to this tutorial in the future.</p>
+<p>Here's a picture of a synthesizer that I created when I was learning Pure Data. It has some of the features listed above, but not a lot of them.</p>
+<p><img alt="Example of synthesizer interface" src="../sites/default/files/tutorials/pd-3-final.png" style="width: 394px; height: 438px;" /></p>
+<p>Bye!</p>
+<p>Written by Eduardo Mezêncio</p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="creating-simple-synthesizer-pure-data-%e2%80%93-part-i.html">Creating a simple synthesizer in Pure Data –  Part I</a></div><div class="field-item odd"><a href="creating-simple-synthesizer-pure-data-%e2%80%93-part-ii.html">Creating a simple synthesizer in Pure Data –  Part II</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" st_title="Creating a simple synthesizer in Pure Data – Part III" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-iii" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-v0wCcTV5JKii73ySQWz75tktiZJ14O_6oJK9rbzzNW8" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="https://www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-iii" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-nZKlsmrgX-mM5R-BMvwegf9AKlHQ9euDR9vxvrjma8U" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="../contact.html">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="https://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="https://www.drupalizing.com/" target="_blank">Drupalizing</a>, a Project of <a href="https://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. Original design by <a href="https://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-–-part-iii by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:37:18 GMT -->
+</html>

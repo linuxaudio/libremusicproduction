@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-8-julien-claassen" />
+<link rel="shortlink" href="/node/175" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #8: Julien Claassen | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"ADWi9v5t2wNqISgBi9FSVL5ncOwgusNIZmjOa4LF1KE","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/175":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-175 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #8: Julien Claassen                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-175" class="node node-article node-promoted clearfix" about="/articles/friday-interview-8-julien-claassen" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #8: Julien Claassen" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="7" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-22T13:35:25+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:27</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 8th edition of the Friday Interview! This week, we're joined by a talented musician with a knack for doing big, epic compositions, who also always has time over for delivering great feedback on other people's work. He is also a shining example that you can make very complex and good music using Linux, even if you're actually blind. I'm very happy to introduce the eighth participant of the series, interviewee #8: <em>Julien Claassen</em>! Lets get started!</p>
+<h2>Introducing Julien Claassen</h2>
+<div class="well"><strong>Julien Claassen</strong> is a student and accessibility consultant, currently studying Computer Science and Electrical Engineering at the University of Paderborn.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is recording and mixing music, although he has started playing more with both soft synths and <a href="/answer/midi">MIDI</a> for a few years.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys playing his hardware synths and talking to numerous people from all over the world (the farther away, the better!).</div>
+<div class="well"> </div>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Julien-Claassen-1024x768.jpg" /><em>Julien himself!</em>
+<p> </p>
+</div>
+<p><strong>Hi Julien! Thanks a lot for doing this interview! What's your full name, and where do you live?</strong></p>
+<p>My full name is known on the list anyway, so here it is: Julien Patrick Claassen. I live in North-Rhein-Westfalia in Germany, I have done so for all my life, in varying places, but not more than 200 km apart. :-)  </p>
+<p><b>What's your musical background like? What music do you like, and do you play any instruments?</b></p>
+<p>I always enjoyed music. I had images in my head, when I listened to music, when I was really young, starting from early kindergarden days. My parents' taste in music was eclectic and so my own taste did grow to be eclectic. I certainly wouldn't say, that I listen to everything, but my main interests are in progressive rock (the more symphonic the better, at least in composition), some melodic metal (including Symphony X, Dream Theatre and Sonata Arctica), baroque music, namely Johann Sebastian Bach, early to mid 90s and early 2000s pop music (as in Britney Spears, Ace of Base, Roxette or Jeanette). There's also jazz, especially saxophonist Eddie Harris, some dubstep, some electronica... I practically hate mozart (lower case intended), which someone - rightly - described as the "Dieter Bohlen of classical music". That might translate to Simon Cowell. :-)</p>
+<p>My own musical education started early with glockenspiel. They tried me on the piano, but I was a little awed by it. So huge an instrument and me so tiny. :-) I went through four years of recorder in primary school and enjoyed it. I still have my own and my mother's alto recorder and I have used them in a recording once or twice. At age ten I started on keyboard. I got my first own keyboard, shortly before my eleventh birthday, i.e. christmas. It was a purely FM-based sound engine with all fixed parameters and a miserable excuse for a speaker.</p>
+<p>I progressed through other Yamaha keyboards, until I bought my own first virtual analogue synthesizer, when I was 17. There the addiction started and now I'm sharing my room with nine hardware instruments, from a Hohner Clavinet to a Clavia Nordlead3.</p>
+<p>My education on keys was kicked off by keyboard lessons. I progressed to piano, when I was 17. I had played a few classical pieces in my time, but I never had any intention to really change that. But then we listened to the D minor two part invention by Bach, played by Glenn Gould. We followed that with the two part invention in C major. Even though I don't like pieces in major keys much, I was fascinated, by the clarity of the playing and the intricate composition. There was I, a snot-nosed simple keyboard player, listening to a counterpunctual composition for the first time with open ears and I could follow both melody lines at the same time.</p>
+<p>Since then I haven't played much else in my lessons. I still take them, for I never learned how to read braille notes. It's possible, if you put your mind to it. :-) So I'm still doing it by ear. The relationship between my piano teacher and me, is now allowed to drive a car, drink alcohol anywhere in the world and be fully responsible for any crime it commits. :-) I think neither of us has regretted it. :-)  </p>
+<p><b>What's your history with Linux, and with using Linux for audio?</b></p>
+<p>My first experience with computers at all was an MSDOS notebook. More like a portable computer. Together with the braille display it weighed about 15-20kg. Then I got my own second hand 386 small tower. I tried to install some audio software and even got a soundcard. But it didn't do anything much for me. All really useful audio software was graphical or unusable for me.</p>
+<p>Then my brother introduced me to Linux. He was studying computer science. In 2000 I got his Linux machine, since he was off for a while, studying abroad. Then we got internet as well. So I searched the net for audio software and discovered Ecasound. With Ecasound I made my first recordings. Not much in the way of high quality, but what do you expect from a novice in Linux and an SB16 soundcard? :-) I had been recording music on my home keyboards up to that point. They included a step sequencer. So recording now meant something very different. It meant playing live and having to mix everything without the restricted, but also caring, system of my keyboards. In 2002 I got my first really good soundcard, that worked. My first piece, properly recorded and even released to the net was a 13 minute progressive piece. The beginning of my first album. Two or three years later, I came to meet Fluidsynth and thus fantastic drum sounds. They improved my comfort and sound quality.</p>
+<div style="width: 964px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/ecasound-1.7.5d11.jpg" /><em>Ecasound in action.</em>
+<p> </p>
+</div>
+<p>Nowadays I rely just as much on my hardware as I rely on software. Almost every sampled instrument I use is courtesy of LinuxSampler. My Hammond is setBfree, formerly Beatrix, my pipe organ is Aeolus. I've also thrown in the occasional bit of <a href="/tools/zynaddsubfx">ZynAddSubFX</a> - now Yoshimi - and Csound.</p>
+<p>Back in 2008 Joel Roth, the author of Nama, wrote to me, asking, if I could test Nama and tell him, if it was usable for blind people. I was skeptical, but I thought, I'd give it a try and write a report. By that time, I'd been working with pure, unaided Ecasound for eight years and had recorded quite a bit of music. I did test Nama and have never looked back.</p>
+<p>In the beginning Joel and me made up all of the Nama family. I'm glad to say, that this has changed a bit, though there are still far too few users for such a great software. Of course, every project has its own little quirks, but they do have their advantages as well. Nama has a fantastic built-in help system, good scriptability, a sturdy sound engine - Ecasound - and some helpful capabilities, which even <a href="/tools/ardour">Ardour</a> lacks. Of course, there are quite a few things, that Ardour has, that we don't have. It's all a question of what you need.</p>
+<p>Well Nama has improved my mixes and ambitions tremendously. With Ecasound I mixed off-line and I avoided more complex setups. Now all the real complexity and the long command chains are taken care of by Nama and I am free to worry about sound, arrangement, special effects and mixing techniques. When Midish - a MIDI sequencer - came into the picture, I even returned to my old haunt of popular music for a while. It was a good experience to do some tracking, quantising and once in my life, use cut, copy and paste. :-) But I've mostly stuck to progressive rock and the occasional baroque recordings through the years.  </p>
+<p><strong>For those of us who don't know, what is Nama? Could you explain Nama, and how you make use of it?</strong></p>
+<p>If you have read any musical submission of mine in the past four or five years, you will have stumbled across the software named Nama. Nama is a DAW. It's most interesting feature is, that it is text-based. So I have a shell, where I can type commands. We took great care over time to keep command names consistent, wherever possible. Nama has a small GUI as well, which also includes a prompt window. Old hands in the business will know, that having a way to script or shortcut functionality is always helpful, once you know your environment. So you can easily treat multiple tracks with the same kind of processing in a for loop. Or you can just as easily consult the help, as any beginner will need to do.</p>
+<p> </p>
+<div style="width: 706px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/nama-screenshot-1.jpg" /><em>Nama in its text-mode, perfectly functional with a screenreader.</em>
+<p> </p>
+</div>
+<p>Nama isn't as big as Ardour, but it is big enough. You will find most of the major concepts and ideas flying around in the audio editing and recording world and you will find a few ideas, which are rather special, I would say unique, but I won't do that, until I have verified it. :-) Nama has a very nice, helpful and small community. Joel, its developer and father, is very supportive and engaged in the project, when his time allows it. Nama allows recording, editing and mixing of audio and recording of MIDI through Midish.</p>
+<p>I have used Nama for live recordings and dubbing over other live recordings. I'm mostly playing progressive rock and some baroque music. You can get an idea of my work on my website <a href="http://juliencoder.de" target="_blank" title="Julien's website">http://juliencoder.de</a>. If not otherwise stated, music has been realised with Nama. I've also done cutting of presentations in Nama, though that was a little time-consuming. I've created podcasts in Nama, edited some samples, tried my best to polish some old tape recordings and practically everything, that springs to mind. I haven't yet made a pot of tea with it. Though once my water-cooker is hooked up to the net, I'll give it a go. :-)  </p>
+<h2>Your music</h2>
+<p><strong>You've published quite a lot of music through the years, spanning a wide range of styles. Could you talk a bit about your favorite musical projects, and how they came about?</strong></p>
+<p>My interests in music are eclectic and of course I had an intention to try and imitate most of them. If only to see, that I can. That was why, I published a few electronic pieces back in this summer. Naturally it was great fun to do. I haven't enjoyed myself so much in a production for a very long time. Especially "be Frank" pleased me. The way I could record and produce it. This was together with Midish. the synchronisation between MIDI and audio is still slightly difficult, but manageable, if you know what you are doing. Fortunately these experiences and some new software, that has risen of late (jpmidi), will improve that in future and there are definite plans to hide the whole mechanism under the hood.</p>
+<p>Though the project, that filled me with the most joy and pleasure has been "Soit-il la vie, Intense, Aimante?" I worked together with two other musicians, one recording with Nama, one recording with a different software. Jörn designed a beautiful booklet for it, added very creative ideas of his own to my original thoughts. Even more were involved by listening to it, giving me very productive feedback and criticism on the productions. I have never done something so widely cooperative and so professional before or after. In only six months the album was complete. Every, but one, track is downloadable from <a href="http://www.juliencoder.de" target="_blank" title="Julien's website">my website</a>.  </p>
+<p><em><strong>More about "<a href="http://juliencoder.de/nama/soit_il_la_vie" target="_blank" title="Soit-il la vie, Intense, Aimante? Album">Soit-il la vie, Intense, Aimante?</a>"</strong></em></p>
+<p>It was written as a concept album of sorts. You can find it in the music. There are musical quotations linking the pieces amongst each other, take Whispers and Raw Magic, they are almost linked in a chain. There are instrumental links. Take a look at Shout, the first track. Listen onwards from nine and a half minutes. You'll hear the tron flute and the synth lead. It's a conversation. You can find these same sounds all through the album, picking up on that theme. In shout itself at that point, I tried to paint an auditory picture. A river at night with two bell-towers close by, slowly drifting into the background. I played a little with words and even print, of which I'm proud, albeit it is silly. :-) Though linked on a higher level as a concept album, the pieces wander through different styles.</p>
+<p>The last piece, the title track, is a symphonic poem. Each couplet is represented by one musical section. Again I cited some music, but this time not my own. I also used something, that I hadn't used in year and even back then, I have never used it with success. Using notes as letters. It's easy, there is the B A C H fugue, by Johann Sebastian Bach. I used the German system of notation, meaning that H is international B and B is international Bb. When I reached H, I just counted onwards on the white keys. There are probably more elaborate systems to do it, but it worked for me. In one part of the song, you will hear a bell, which is taken almost word for word from the original text. I used Csound, a tutorial on the creation of bells, numerous samples as basic guidance, to create it from scratch. Since I wanted my very own, personal bell. A member of the brethren of bell-lovers would have done better, yet it was satisfactory and the best I could do. :-) In that poem I also took a shot at the tried method of programmatic music, by just using the melody and rhythm to convey a notion. You can probably hear the notion of dancing somewhere near the beginning, it can't be missed, if you know, what you are listening for.</p>
+<p>Technically this album was challenging as well. I had a special drum sound in mind. I'm always anal about my drums. I wanted a good acoustic room for the snare, which should only really come out with soft hits. So I created this acoustic room in Csound. I had to process the snare through Csound off-line, since it took up a lot of CPU and then load it back into the project. I still kept the original snare and then parallel compressed it. Also this was really the first time, that I cooperated in public. One of my two best friends from Düsseldorf played a lot of guitar for me, my other friend from the community also played some lap steel for me. In Raw Magic I also wrote the first real synaesthetic section of any length. Synaesthesia is the interconnection of two or more senses. So a sound can be green for me or red. I have these associations with numbers, words and letters as well. If you listen to Raw Magic starting around 11:30min, you will jump into the green section. Everything but the vocals and drums is green.</p>
+<p>In short, the whole album was a pleasure to record and produce and cooperate on. It was also an education and the best thing, that I ever did, compositorially and technically speaking. Oh yes: and I played the flute. I'm not a flutist, as can easily be ascertained, I haven't been taught officially. But my good, old secretive friend knows how to play the flute and he told me the basics, the rest took time and some effort. :-) So I covered a lot of new ground with this album. :-)  </p>
+<p><em><strong>More about the other projects</strong></em></p>
+<p>Another project, in which I took part, was the Packet-in.org project. It started as the Linux Audio Chillout-Band, back in 2008 or there abouts, when some good minds considered a list-based musical project. The project still exists and usually meets for the RPM challenge, which takes place every february. I've been involved three times. The first time with only one tune or so. The next time I played some keyboards and had two tunes thrown in the mix. The last time was RPM12, to which I contributed a few pieces and did a lot of recording. That has always been fun. It has not only shown me the joys of working together with other musicians from around the world, who introduce loads of different skills, but it has also demonstrated, that it is easily possible to join a multi-software project with Nama. A piece of cake to import tracks and export them for the others to do their thing. We've been working with Ardour, <a href="/tools/audacity">Audacity</a> and probably more recording/mixing software and we all got along just fine.</p>
+<p>Another piece, which means a lot to me, is still my first proper Linux recording from back in 2002. I had just bought my Nordlead3 and I already had an XP-30 (sample based). Thirteen minutes for a first isn't too bad. :-) All the albums, that I have recorded have educated me. Ecasound and then Nama have taught me lots of techniques and general concepts. Another project with some personal value has been the "Life on a Bridge" album, which was inspired by the Krämerbrücke in Erfurt, Germany. It's a bridge with houses built on both sides, so you can't actually see the river Gera. A friend of mine lives there and runs her pottery. The bridge in itself is a village inside the town of Erfurt. That album hasn't been the only homage to my friends there. The other short side-note were the "Erfurt Sketches", a first stab at some jazz. Those pieces are as much homage to Erfurt, as they were greeting and picture to a friend, who couldn't accompany me.</p>
+<p>Currently I'm working on two pieces I started last year. I want to see them finished quickly or never. One of them will be a nice long track with some cooperation again. The other will be of mid-length. I had to play drums for the one I'm currently working on, since a drummer, who wanted to join me for this, had to bow out. I was sorry to hear it, but "needs must, when the devil drives". :-( It will now mean a lot of mixing, some editing and then mastering. I will skip the lyrics, since they will have no meaning now and no recipient and I'm short on time to meet my deadline. :-) No, I don't usually set myself a deadline, but sometimes you must, or you'll never finish, what you start. Usually a piece gets started and finished in one go. It's a strange feeling to come back to an old work under construction and figure out again, what you were about to do. Both of them will come out as good, honest prog a la Claassen in the end. In the piece I'm on now, you will find some new influences. Some Spanish, almost Arabic, some big band jazz and all that gets thrown into the pot of my brand of symphonic progressive rock. Let's see, how it works out.  </p>
+<p><strong>Do you have any type of musical project you haven't done, that you'd eventually like to do?</strong></p>
+<p>In my surreal moments I always wanted to compose and record an oboe concerto, which I haven't done and probably never will do. There was an idea for a piano concerto, well a simple one, but still. This will have to wait for a long while I'm sure. :-) - Beyond that I think, that I have done everything, that I wanted to do. I've covered all the styles, done my concept album with all the kinds of links, hints, quotations, images and whatever else there can be in stylistics. I've tracked some electronic pieces, I even did some almost dubstep with some rapping, which turned out far better than I could have expected. Here I'd like to bow to Karhu and their album "Sinfonia for a blunt Sword", especially the piece "Vakuum (feat. Audio88)". This has been an inspiration for the rapped part. There's perhaps one thing, that I might have done, if I had got my arse off the ground at the time and that was composing an electro-acoustic piece called "Stairs". Something, which we usually call "pling, plang plong" music, which isn't fair to all artists.  </p>
+<p><strong>Where would you recommend other musically interested people with vision impairment to start, if they wanted to follow along your path and learn to use Linux for music?</strong></p>
+<p>I have done exactly that, taken one or two users under my wing, if they will excuse the phrase, and tried to bring them on a road, where they could travel to their own kind of happiness. I'd recommend starting with Nama and Midish. Nama is still a little hard to install for a newbie, when he wants the latest version, which is recommended, but that will change over time, when new features and fixes slow down. It hasn't happened yet, which is good. Midish is a good MIDI sequencing tool with a lot of functionality and a wonderful online manual. Otherwise I'd always recommend my favourite software instruments, i.e. LinuxSampler, setBfree, ZynAddSubFX (only for playback or hand-editing files), Aeolus and last but not least Csound. Csound is the power tool for the more ambitious project. I've used it for some 3D-editing and creation of customised rooms and other clever processing effects. Oh and never forget to install jconvolver and loads of <a href="/answer/ladspa">LADSPA</a> and <a href="/answer/lv2">LV2</a> plugins. They are my bread and butter. Then they should join the Linux Audio Users' mailinglist and probably the mailinglists for Nama and Midish. That should see them through the scratchy beginning. They will find over time, that these tools are the ground of a sane and happy production environment. Not comparable to the big software giants on other proprietary platforms, but valuable and valid enough to do some good music and sound production. The advantages of a system, such as I use it, are numerous. Starting at the slim interface, which is easily viewed with a braille display or speech. There are workflows designed for a non-visual approach and the surrounding system environment is safe and reliable. I haven't seen a console or my braille driver (BRLTTY) crash yet. Only if I really, really pissed the system off explicitly with root privileges and sinister intentions. :-)</p>
+<h2>Final questions</h2>
+<p><strong>Do you feel like anything is lacking in Linux audio today, and if so, what?</strong></p>
+<p>There are always things, that you can wish for. I personally would like more applications with text-based interfaces, though there already are quite a few and people are usually nice about it! I'd love to see better MIDI audio integration with my tools, though that is on the way. I would like to see synth emulator Bristol with the option to load LADSPA or LV2 plugins for filters and sound generators, since the ncurses - vi-like - interface is fantastic!!! For my normal everyday audio work I do have everything though. I have the sample-libraries I need and I can load them and play them with LinuxSampler, with SFZ support now, I can even create my own sample-libraries or change something in existing configurations. I can record, mix, process ad nauseam and have all the weird fun in the world with it. There are things, which I can't access, but I haven't seen a way to access them anywhere else, so that doesn't count. - Don't ask me about the graphics, I've never been interested. I'd much rather like to spend my CPU-power on audio-related tasks then GUI overhead. :-)  </p>
+<p><strong>What?s your favorite free and open source plugin currently?</strong></p>
+<p>There's a difficult choice to name a favourite. I love the LADSPA phaser with unique ID 33924, it's so Isao Tomita! But I rarely use it, my music is not open enough. I still have a fondness for the Canyon delay, even though I haven't used that in a long time. We used it at LinuxTag 2002 or 2003, when the fair was closed and we jammed some on the Linux Audio booth. Someone set there constructing an effect network in Glame - I think that was the name - and we had a microphone, <a href="/tools/muse">MusE</a> playing a simple hihat sequence and someone playing with some synth, probably <a href="/tools/alsa-modular-synth">AMS</a>. When we stopped all audio input, the sound took one minute to die away. :-) How can't you love a plugin mainly involved in such a treatment? :-) Most frequently used plugins and most helpful plugins would contain Fons' 4-band parametric EQ, the stereo compressor with LADSPA unique ID 3309 and the CAPS plate reverb 2x2 (1795) and Fons' g2verb (1950).  </p>
+<p><strong>Where can people get a hold of you, and where can they find your work and music?</strong></p>
+<p>Almost all my music and some other work can be found on my website <a href="http://juliencoder.de" target="_blank" title="Julien's website">http://juliencoder.de</a> . When I'm around, I am found by an e-mail or on the list. Well, when I'm not, I'm not. :-) But you'd search forever on any so-called "social network" for me. Absolutely hate the data-mining brutes! :-)  </p>
+<p><strong>Thank you very much for the interview Julien!</strong></p>
+<p class="well">That was Julien Claassen. Thanks to Julien for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-8-julien-claassen" st_title="Friday Interview #8: Julien Claassen" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/175" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-XxUJ6CyHUPDSwwZLGNNl6NilLYqO3YTOvHhfy26Mz_g" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/175" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-lSG1S52GUNSJwNgUqnwBoIocYtH-VECWCsU9T0v9NJ0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

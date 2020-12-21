@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/tutorials/autotuning-pitch-correction-zita-at1-ardour" />
+<link rel="shortlink" href="/node/483" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Autotuning &amp; pitch correction with Zita-AT1 in Ardour | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"dGQtIoajBL8LN6b5qvxZtm--RFlvDv1w3ZMxyyd4buE","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/autotuning-pitch-correction-zita-at1-ardour":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-483 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Autotuning &amp; pitch correction with Zita-AT1 in Ardour                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-483" class="node node-tutorial node-promoted clearfix" about="/tutorials/autotuning-pitch-correction-zita-at1-ardour" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="21" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2016-07-25T08:20:37+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2016-07-27 07:55</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/fx" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">fx</a></div><div class="field-item odd"><a href="/area/midi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item even"><a href="/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item odd"><a href="/area/plugins" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="/category/workflow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/zita-1">Zita AT-1</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Be it for correcting those slightly out-of-tune notes from your singer, or going all the way to a Cher effect, an auto-tune plugin might come in handy. There’s not a lot of those designed for Linux, though choices do exist :</p>
+<ul><li><a href="http://tombaran.info/autotalent.html">Autotalent</a>, a LADSPA plugin by Tom Baran</li>
+<li><a href="https://code.google.com/archive/p/talentledhack/">TalentedHack</a> which is a port of the former to the LV2 format with some additional work by Jeremy Salwen</li>
+<li><a href="http://hyperglitch.com/dev/VocProc">VocProc</a>, another LV2 plugin by Igor Brkić</li>
+<li><a href="/tools/zita-1">Zita-AT1</a> by <a href="/articles/friday-interview-16-fons-adriaensen">Fons Adriaensen</a>.</li>
+</ul><p>The 3 formers have not seen any development since 2010, and the consensus tends to favor Zita-AT1 for the job, for its quality. Igor Brkić (author of VocProc) commented <em>“there is zita-at1 which does pretty much same job but much better”</em>.</p>
+<p>So we’ll go ahead and make use of Zita-AT1 in <a href="/tools/ardour">Ardour</a>. Unfortunately (for this use case), Zita-AT1 is not a plugin you can add in the mixer strip, but an autonomous <a href="/answer/jack">JACK</a> app. So setting it up is not as straightforward, but remains easy enough.</p>
+<h2>Setup and connections</h2>
+<p>We’ll suppose we already have JACK running, and Ardour launched with a mono track called <em>Vocals</em>, on which is our recording. Zita-AT1 should be started, too.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_01.png" /></p>
+<h3>Step 1 - Create the result track</h3>
+<p>Create a new track : right click under the <em>Vocals</em> track header or <em>Track &gt; Add Track or bus</em>. This track should be mono too (as Zita-AT1 is mono). Let's call it “Corrected” and leave the rest at their defaults.</p>
+<h3>Step 2 - Connecting Ardour to Zita-AT1</h3>
+<p><img alt="" src="/sites/default/files/tutorials/zita_02.png" /></p>
+<p>Select the <em>Vocals</em> track header. On the left is the corresponding mixer strip (Go to <em>View &gt; Show Editor Mixer</em> if this is not visible). We need to make the signal go from the Vocals track to Zita-AT1 to be processed. So, the OUT of the vocals track should be connected to the IN of Zita-AT1.</p>
+<p>You can see on the screenshot above, in the strip, a button labeled <em>Master</em>. It's the output button deciding where the audio goes. It is by default set to go to Ardour’s Master bus, which is itself connected to your speakers. Let's click on that and choose <em>Routing Grid</em>.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_03.png" /></p>
+<p>You’ll be prompted with the window shown above. It may seem complicated, but it makes a lot of sense.</p>
+<ul><li>At the top, you have this tracks output so Vocals out, splitted in “L” and “R” for left and right. Even if the track is mono, you may use the panner or a stereo plugin which requires a stereo output, so it makes sense.</li>
+<li>On the right side, you have all the possible connections you can make inside and outside Ardour, be it a track, bus, an external processor etc…</li>
+</ul><p>We’ll disconnect the track from the Master by clicking the 2 green dots connecting <em>Vocals out L</em> and <em>R</em> to the <em>Master bus L</em> and <em>R</em> (in the <em>Ardour Busses</em> tab). Then we ’ll go to the <em>Other</em> tab<em>. </em>On the <em>Vocals </em>track we will connect either L or R to zita-at1 by clicking in the intersections in the table. The Vocal track is mono, so both L and R outputs of the tracks are the same at the moment (we have not modified the panning), so tick only one box, either L or R. If you check both boxes, this will sum the two outputs, risking clipping (thanks Erik Marsk for the comment).</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_04.png" style="width: 337px; height: 278px;" /></p>
+<p>Now the Vocals track’s output is plugged into Zita-AT1’s input. Let's close the <em>Routing Grid</em> window.</p>
+<h3>Step 3 - Connecting Zita-AT1 back to Ardour</h3>
+<p>Now select the <em>Corrected</em> track header. We want to connect the input of this track to the output of Zita-AT1. Let's open the input routing grid by clicking the button in the mixer strip, just under the track’s name <em>Corrected</em>.</p>
+<p>The logic is the same as the output grid : at the bottom is your track’s input, and on the left are the numerous source that you can connect to the input of your track.</p>
+<p>By default, your system’s audio interface should be connected (<em>Hardware</em> tab, <em>system</em>/<em>capture_1</em> or <em>capture_2</em> should have a green dot). Click on the green dot(s) to disconnect your audio interface from the input of this track. We’ll connect the output of AT1 instead, so go to the <em>Other</em> tab and create a link between <em>zita-at1</em> and <em>Corrected in</em>.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_05.png" /></p>
+<h3>Step 4 - Monitoring input</h3>
+<p>If you press <em>Play</em> right now, you’ll hear… Nothing ! Don’t worry, this will soon make sense. We need to tell Ardour to listen to whatever is inputted into the <em>Corrected</em> track, even though it’s not recording.</p>
+<p>Select the <em>Corrected</em> track and, in the mixer strip, click the <em>In</em> button just right of the big red record button. This allows Ardour to monitor the input.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_06.png" /></p>
+<p>It’s now time to press <em>Play</em> again and… Hopefully it works !</p>
+<h2>Quick guide to Zita-AT1</h2>
+<p><img alt="" src="/sites/default/files/tutorials/zita_07.png" /></p>
+<p>Let’s see how Zita-AT1 works by exploring its interface. From left to right :</p>
+<ul><li>The <em>MIDI</em> button allows you to control what the target note should be at every moment. More on this later !</li>
+<li>On the top left is a blue keyboard. When you play your track through Zita-AT1, the detected notes will appear in yellow. You can use this keyboard by clicking any of this notes (which then turns black) to forbid the use of this note. Eg. if you know your singer should not hit an F note, click on it and AT1 will not use the F note and change the pitch to the closer between an E and an F sharp.</li>
+<li>On the bottom left is a meter, centered around AT1’s target note and showing the shift between the target note and the detected one. The more the distance between this two notes, the more AT1 has to shift the pitch to correct it.</li>
+<li>The <em>Tuning</em> knob allows to set the pitch wanted for an A : the default is 440 Hz but some may have a use for a different reference for the A (like 442 Hz for some orchestras). For our use, we don’t need it.</li>
+<li>The <em>Bias</em> knob allows to slightly shift the target value in AT1 allowing it to be less strict when choosing the target note.</li>
+<li>The <em>Filter</em> knob sets the time between the beginning of the note and the moment the correction kicks in. For a natural, slight correction, set it to be slower, and to get a Cher effect, set it to fast. The transition will be audible.</li>
+<li>The <em>Correction</em> knob decides how much of the error is corrected, from 0 to 1 (=100%). Like the <em>Filter</em> knob, the more you correct the pitch, the more robotic / Cher it sounds. So for a slight correction, set it to .5 or less.</li>
+<li>Last, the <em>Offset</em> knob allows to shift the pitch by this many semitones. So a detected E with an offset of -2 would be transformed by AT1 to a D (2 semitones down). Do not use this for pure correction.</li>
+</ul><h2>(Optional) Zita-AT1’s MIDI input, and how to set it up in Ardour</h2>
+<p>As we’ve seen before, Zita-AT1 allows one to plug in a <a href="/answer/midi">MIDI</a> signal to force the note at any given moment instead of basing the target note upon the detected one.</p>
+<p>This can be useful for some kind of electronic music, or to correct a very bad singer, as long as he is rhythmically well synchronized with the MIDI track. For those in the know, it acts as a MIDI vocoder.</p>
+<p>Let’s put that to good use.</p>
+<h3>Step 1 - Create a MIDI track</h3>
+<p>Back to Ardour, add a track as seen previously, but this time choose <em>MIDI Tracks</em>. Let's name it <em>MIDI</em>. Yeah I know… Leave all the rest at default except the instrument. You can set this to <em>none</em> unless you first want to hear what you create before feeding it to AT1.</p>
+<h3>Step 2 - Create a melody</h3>
+<p>Switch to <em>Draw mode</em> by hitting “D” on your keyboard or choosing the pencil tool in the toolbar. If the piano roll does not appear left of the MIDI track, resize the track header until it appears. (Note : the “F” keyboard shortcut allow to put the selected track in full screen).</p>
+<p>Then draw a rectangle in the MIDI track, by left clicking and dragging along your MIDI tracks timelime, to create an editable region where you want to create your melody.</p>
+<p>Using the <em>Draw</em> tool, add your notes to the MIDI region by left clicking, to compose your melody.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_08.png" /></p>
+<h3>Step 3 - Connecting the MIDI track to Zita-AT1’s input</h3>
+<p>We want the output of our MIDI track to be fed into AT1’s MIDI input.</p>
+<p>Let's do like in step 2, click the output button (which should be labeled <em>Master</em> at the moment), then <em>Routing Grid</em>.</p>
+<p>Our <em>MIDI</em> track has 3 outputs, the 2 stereo audio outputs (as an instrument plugin is used to create a sound out of MIDI informations, and this instrument plugin can output audio in stereo), <em>and</em> a “pure” MIDI which sends MIDI informations (note on, note off, etc…). It is this MIDI information we need, so let's connect <em>MIDI out 1</em> (not <em>L</em> nor <em>R</em>) to <em>zita-at1</em> in the <em>Other</em> tab. There are 2 <em>zita-at1</em> possible outputs but only one (the “MIDI in” of AT1) can be connected to <em>MIDI out 1</em>, as Ardour tells apart MIDI inputs/outputs from audio ones.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_09.png" /></p>
+<h2>Recording the result</h2>
+<p>From now on, if you want to get the result the next time you’ll launch Ardour, you have to think about launching Zita-AT1 too, and probably redo all the connections. It can be a little cumbersome, so we should record our resulting track to freeze our result, and be able to avoid having to reset everything next time.</p>
+<h3>Step 1 - Disable the monitoring</h3>
+<p>Select the <em>Corrected</em> track, and disable <em>Monitor Input</em> by clicking the yellow <em>In</em> button in the mixer strip (cf. step 4).</p>
+<h3>Step 2 - Arm the track and Ardour for recording</h3>
+<p>Either in the track header or in the mixer strip, click the red circle button arming the track for recording. Click the main <em>Toggle recording</em> Button in Ardour’s toolbar. As the output from AT1 is already routed to the input of our <em>Corrected</em> track, that’s all there is to it.</p>
+<p>Click play, and let the recording take place.</p>
+<p><img alt="" src="/sites/default/files/tutorials/zita_10.png" /></p>
+<h3>Step 3 (optional) - Cleaning up</h3>
+<p>You can now safely unlink Ardour and Zita-AT1 :</p>
+<ul><li>Select the <em>Vocal</em> track and click it’s output button at the bottom of the mixer strip (now labeled <em>zita-at1</em>). Choose <em>Disconnect</em>.</li>
+<li>Select the <em>Corrected</em> track, click its input button (<em>zita-at1</em>) at the top of the mixer strip and choose <em>Disconnect</em> too.</li>
+<li>Select the <em>MIDI</em> track, click its output button and choose (again) <em>Disconnect</em>.</li>
+<li>You can now safely close Zita-AT1 and save your session.</li>
+</ul><p>We could have deleted the <em>Vocal</em> and <em>MIDI</em> tracks, as they are not connected to anything anymore. It is good practice to keep it though, if you later want to change anything, like change the amount of correction or slightly change the MIDI melody. Plus, keeping the <em>Vocal</em> track allows, if you connect its output back to the <em>Master</em> bus, to have both the original and corrected tracks together, allowing you to mix between those two sources to get a maybe more natural sound.</p>
+<p>Another point worth mentioning : As you may have noted by looking at the last screenshot, Zita-AT1 creates a slight delay between the processed track and the source. To keep your voice perfectly in sync with your other tracks, you should shift the processed region a few milliseconds to the left to align in perfectly with your unprocessed track.</p>
+<p>And that is it !</p>
+<p>It should be noted that this method of routing the signal from inside Ardour is just one way of doing it, as all the connections could be done from JACK outside of Ardour (eg. with <a href="/tools/qjackctl">QjackCtl</a> or Catia). Feel free to do it your own way !</p>
+<p><em>Written by Edouard</em></p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp;amp; pitch correction with Zita-AT1 in Ardour" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour" st_title="Autotuning &amp; pitch correction with Zita-AT1 in Ardour" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/tutorials/autotuning-pitch-correction-zita-at1-ardour" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-Ne1xljqy0QKFeyYGJz4HfAmcjo51Dw9U2pi6uUMs3Oc" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/tutorials/autotuning-pitch-correction-zita-at1-ardour" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WOb7aNACo5C_2dAeeUC8xEmkP6PwOAAqaJ0_Fs4oJR8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

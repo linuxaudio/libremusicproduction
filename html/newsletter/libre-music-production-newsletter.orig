@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - Libre Music Production newsletter" href="https://libremusicproduction.com/taxonomy/term/23/feed" />
+<link rel="canonical" href="/newsletter/libre-music-production-newsletter" />
+<link rel="shortlink" href="/taxonomy/term/23" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/newsletter/libre-music-production-newsletter" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="Libre Music Production newsletter" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Libre Music Production newsletter | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"HJuNARptWDm6Krv7X4DQMaEIeG2hZfQJF3vHqkso1rs","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/newsletter\/libre-music-production-newsletter":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-23" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>Libre Music Production newsletter</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Libre Music Production newsletter                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-23" class="taxonomy-term vocabulary-newsletter">
+
+  
+  <div class="content">
+    <div class="taxonomy-term-description"><p>Libre Music Production newsletter categories.</p>
+</div>  </div>
+
+</div>
+</div><div id="node-515" class="node node-simplenews node-promoted node-teaser clearfix" about="/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more">October 2016 - Interview with Marius Stärk, new tutorials and more!</a>
+    </h2>
+    <span property="dc:title" content="October 2016 - Interview with Marius Stärk, new tutorials and more!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2557" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2016-10-24T23:19:54+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2016-10-24 23:19</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/logo.png" style="width: 902px; height: 50px;" /></p>
+<p>Welcome to our October newsletter.</p>
+<h2>LMP Asks Interview</h2>
+<p>In this interview we talked to Marius Stärk, Linux enthusiast and musician who produces all his music with FLOSS tools.</p>
+<p><a href="http://libremusicproduction.com/articles/lmp-asks-20-interview-marius-st%C3%A4rk">LMP Asks # : An interview with Marius Stärk</a></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more" rel="tag" title="October 2016 - Interview with Marius Stärk, new tutorials and more!">Read more<span class="element-invisible"> about October 2016 - Interview with Marius Stärk, new tutorials and more!</span></a></li>
+<li class="comment-comments"><a href="/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more#comments" title="Jump to the first comment of this posting.">2557 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-479" class="node node-simplenews node-promoted node-teaser clearfix" about="/newsletter/july-2016-interviews-frank-piesik-andrew-lambert-neil-cosgrove-and-vladimir-sadovnikov" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/july-2016-interviews-frank-piesik-andrew-lambert-neil-cosgrove-and-vladimir-sadovnikov">July 2016 - Interviews with Frank Piesik, Andrew Lambert &amp; Neil Cosgrove and Vladimir Sadovnikov</a>
+    </h2>
+    <span property="dc:title" content="July 2016 - Interviews with Frank Piesik, Andrew Lambert &amp; Neil Cosgrove and Vladimir Sadovnikov" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2016-07-07T00:21:24+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2016-07-07 00:21</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our July newsletter!</p>
+<h2>LMP Asks Interview x 3</h2>
+<p>This time around we have 3 brand new interviews.</p>
+<p><a href="http://libremusicproduction.com/articles/lmp-asks-17-interview-frank-piesik">LMP Asks #17: An interview with Frank Piesik</a></p>
+<p>LMP talks with Frank Piesik, a musician, inventor and educator living in Bremen.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/july-2016-interviews-frank-piesik-andrew-lambert-neil-cosgrove-and-vladimir-sadovnikov" rel="tag" title="July 2016 - Interviews with Frank Piesik, Andrew Lambert &amp; Neil Cosgrove and Vladimir Sadovnikov">Read more<span class="element-invisible"> about July 2016 - Interviews with Frank Piesik, Andrew Lambert &amp; Neil Cosgrove and Vladimir Sadovnikov</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-454" class="node node-simplenews node-teaser clearfix" about="/newsletter/april-2016-video-tutorial-about-complete-workflow-supercollider-and-configuring-linux" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/april-2016-video-tutorial-about-complete-workflow-supercollider-and-configuring-linux">April 2016 - Video tutorial about a complete workflow, Supercollider and configuring Linux for music</a>
+    </h2>
+    <span property="dc:title" content="April 2016 - Video tutorial about a complete workflow, Supercollider and configuring Linux for music" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2016-04-29T15:44:35+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-04-29 15:44</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our April newsletter. It has been a while since we last sent out a newsletter. But we are back and we have a lot of interesting stuff for you!</p>
+<h2>New frontpage</h2>
+<p>We have redesign the frontpage of Libre Music Production to better reflect the dynamics of the site. The frontpage now displays all new content of the site. We hope you will like it!</p>
+<p><a href="http://libremusicproduction.com">Libre Music Production frontpage</a>.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/april-2016-video-tutorial-about-complete-workflow-supercollider-and-configuring-linux" rel="tag" title="April 2016 - Video tutorial about a complete workflow, Supercollider and configuring Linux for music">Read more<span class="element-invisible"> about April 2016 - Video tutorial about a complete workflow, Supercollider and configuring Linux for music</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-420" class="node node-simplenews node-teaser clearfix" about="/newsletter/december-2015-qtractor-and-supercollider-tutorials-and-two-interviews" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/december-2015-qtractor-and-supercollider-tutorials-and-two-interviews">December 2015 - Qtractor and SuperCollider tutorials and two interviews!</a>
+    </h2>
+    <span property="dc:title" content="December 2015 - Qtractor and SuperCollider tutorials and two interviews!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-12-12T23:57:00+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2015-12-12 23:57</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our December newsletter.</p>
+<h2>LMP Asks Interviews</h2>
+<p>We have two new LMP Asks interviews since our last newsletter.</p>
+<p>In November we talked to Babis Kouvalis, guitarist and FLOSS enthusiast who has a YouTube channel where he demos FLOSS software, primarily Guitarix.</p>
+<p><a href="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis">LMP Asks #14: An interview with Babis Kouvalis</a></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/december-2015-qtractor-and-supercollider-tutorials-and-two-interviews" rel="tag" title="December 2015 - Qtractor and SuperCollider tutorials and two interviews!">Read more<span class="element-invisible"> about December 2015 - Qtractor and SuperCollider tutorials and two interviews!</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-404" class="node node-simplenews node-teaser clearfix" about="/newsletter/october-2015-interview-lucas-zawacki-and-arduino-midi-controller-tutorial" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/october-2015-interview-lucas-zawacki-and-arduino-midi-controller-tutorial">October 2015 - Interview with Lucas Zawacki and Arduino MIDI controller tutorial</a>
+    </h2>
+    <span property="dc:title" content="October 2015 - Interview with Lucas Zawacki and Arduino MIDI controller tutorial" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-10-30T23:15:59+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-10-30 23:24</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our October newsletter!</p>
+<h2>Want to help out with Libre Music Production?</h2>
+<p>We are currently looking for people to help us with compiling and writing news and updating our social media accounts. Want to help us and become a part of the LMP Crew? <a href="http://libremusicproduction.com/contact">We would love to see you onboard</a>!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/october-2015-interview-lucas-zawacki-and-arduino-midi-controller-tutorial" rel="tag" title="October 2015 - Interview with Lucas Zawacki and Arduino MIDI controller tutorial">Read more<span class="element-invisible"> about October 2015 - Interview with Lucas Zawacki and Arduino MIDI controller tutorial</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-399" class="node node-simplenews node-promoted node-teaser clearfix" about="/newsletter/want-be-part-libre-music-production-crew" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/want-be-part-libre-music-production-crew">Want to be a part of the Libre Music Production crew?</a>
+    </h2>
+    <span property="dc:title" content="Want to be a part of the Libre Music Production crew?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-10-02T20:10:30+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-10-02 20:10</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Hi to all our Libre Music Production subscribers!</p>
+<p>You are receiving this extra issue of the newsletter as we are currently seeking help with the following:</p>
+<p><strong>Social media:</strong> Do you want to be our link between the LMP site and our social media accounts (Facebook, Twitter)? This position involves posting links for new articles, tutorials, interviews and news items on the social media sites.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/want-be-part-libre-music-production-crew" rel="tag" title="Want to be a part of the Libre Music Production crew?">Read more<span class="element-invisible"> about Want to be a part of the Libre Music Production crew?</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-396" class="node node-simplenews node-promoted node-teaser clearfix" about="/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more">September 2015 - Interviews with drobilla and Sebastian Posch, news and more</a>
+    </h2>
+    <span property="dc:title" content="September 2015 - Interviews with drobilla and Sebastian Posch, news and more" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-09-13T21:21:50+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2015-09-13 21:23</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our August/September newsletter!</p>
+<h2>Want to help out with Libre Music Production?</h2>
+<p>We are currently looking for people to help us with <strong>compiling and writing news</strong> and <strong>updating our social media accounts</strong>. Want to help us and become a part of the LMP Crew? <a href="http://libremusicproduction.com/contact">We would love to see you onboard</a>!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more" rel="tag" title="September 2015 - Interviews with drobilla and Sebastian Posch, news and more">Read more<span class="element-invisible"> about September 2015 - Interviews with drobilla and Sebastian Posch, news and more</span></a></li>
+<li class="comment-comments"><a href="/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more#comments" title="Jump to the first comment of this posting.">4 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-382" class="node node-simplenews node-promoted node-teaser clearfix" about="/newsletter/july-2015-john-option-and-tobiasz-karo%C5%84unfa-interview-lv2-plugins-mixing-and-more" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/july-2015-john-option-and-tobiasz-karo%C5%84unfa-interview-lv2-plugins-mixing-and-more">July 2015 - John Option and Tobiasz Karoń/Unfa interview, LV2 plugins for mixing and more!</a>
+    </h2>
+    <span property="dc:title" content="July 2015 - John Option and Tobiasz Karoń/Unfa interview, LV2 plugins for mixing and more!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-07-17T17:56:34+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-07-17 17:56</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo." src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our June/July newsletter. As you may have noticed, there was no newsletter last month. This is because we are now moving to bi-monthly newsletters. You will still get the same amount of news directly into your inbox. If you want to keep up with LMP news and happenings on a more regular basis, our social media accounts and RSS feed will keep you updated as new content becomes available.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/july-2015-john-option-and-tobiasz-karo%C5%84unfa-interview-lv2-plugins-mixing-and-more" rel="tag" title="July 2015 - John Option and Tobiasz Karoń/Unfa interview, LV2 plugins for mixing and more!">Read more<span class="element-invisible"> about July 2015 - John Option and Tobiasz Karoń/Unfa interview, LV2 plugins for mixing and more!</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-360" class="node node-simplenews node-teaser clearfix" about="/newsletter/may-2015-florian-bador-interview-using-outboard-gear-ardour-and-more" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/may-2015-florian-bador-interview-using-outboard-gear-ardour-and-more">May 2015 - Florian Bador interview, using outboard gear in Ardour and more!</a>
+    </h2>
+    <span property="dc:title" content="May 2015 - Florian Bador interview, using outboard gear in Ardour and more!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-05-24T20:18:03+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2015-05-24 20:18</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo." src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our May newsletter!</p>
+<h2>LMP Asks Interview</h2>
+<p>This month we talked to Florian Bador, FLOSS audio enthusiast and founder of music distribution website, <a href="https://trustmusic.com/">Trust Music</a>, that promotes open audio formats.</p>
+<p><a href="http://libremusicproduction.com/articles/lmp-asks-8-interview-florian-bador">LMP Asks #8: An interview with Florian Bador</a></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/may-2015-florian-bador-interview-using-outboard-gear-ardour-and-more" rel="tag" title="May 2015 - Florian Bador interview, using outboard gear in Ardour and more!">Read more<span class="element-invisible"> about May 2015 - Florian Bador interview, using outboard gear in Ardour and more!</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-349" class="node node-simplenews node-teaser clearfix" about="/newsletter/april-2015-giovanni-zuliani-interview-arduino-tutorial-and-more" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/newsletter/april-2015-giovanni-zuliani-interview-arduino-tutorial-and-more">April 2015 - Giovanni A. Zuliani interview, Arduino tutorial and more!</a>
+    </h2>
+    <span property="dc:title" content="April 2015 - Giovanni A. Zuliani interview, Arduino tutorial and more!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-04-26T19:50:51+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2015-04-26 19:53</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="LMP logo" src="/sites/default/files/lmp_logo.png" style="width: 504px; height: 50px;" /></p>
+<p>Welcome to our April newsletter!</p>
+<h2>Libre Music Production tutorial features in Linux Format!</h2>
+<p>Libre Music Production's tutorial, <a href="http://libremusicproduction.com/articles/ultimate-guide-getting-started-guitarix">Ultimate Guide to Getting Started With Guitarix</a>, was <a href="http://libremusicproduction.com/news/20150321-libre-music-production-tutorial-features-linux-format">featured in April's issue of Linux Format</a> (Issue 196, April 2015).</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/newsletter/april-2015-giovanni-zuliani-interview-arduino-tutorial-and-more" rel="tag" title="April 2015 - Giovanni A. Zuliani interview, Arduino tutorial and more!">Read more<span class="element-invisible"> about April 2015 - Giovanni A. Zuliani interview, Arduino tutorial and more!</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/newsletter/libre-music-production-newsletter?page=1">2</a></li>
+<li class="pager-next"><a title="Go to next page" href="/newsletter/libre-music-production-newsletter?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/newsletter/libre-music-production-newsletter?page=1">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/23/feed" class="feed-icon" title="Subscribe to RSS - Libre Music Production newsletter"><img typeof="foaf:Image" src="https://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - Libre Music Production newsletter" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/newsletter/libre-music-production-newsletter" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-1rSaX7_mmwWirvgLWJEa5jKoK6CTo9TFCYJ_YG2egIg" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/newsletter/libre-music-production-newsletter" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-KlcAU-QIUjIBxw0SNEN1BerZs2LJBRlqNv-EVhanhSg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

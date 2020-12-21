@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" />
+<link rel="shortlink" href="/node/307" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Demystifying JACK – A Beginners Guide to Getting Started with JACK  | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"YSmAP5K5t6ubPZp_0HvmaUkExaXYAFmNL5ixitfZATk","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-307 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Demystifying JACK – A Beginners Guide to Getting Started with JACK                 </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-307" class="node node-tutorial node-promoted clearfix" about="/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-02-13T10:20:30+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-02-13 10:24</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/audio-recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">audio recording</a></div><div class="field-item odd"><a href="/area/midi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item even"><a href="/area/recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="/answer/jack">JACK</a> is the de-facto standard <a href="/answer/audio-server">audio server</a> for working with professional audio on Linux. JACK, the name of which is a recursive acronym for ‘JACK Audio Connection Kit’, is a very powerful piece of software. Some new users find it confusing at first. While its settings and functionality are extensive, you only need to know the basics to get started and take advantage of its underlying power.</p>
+<p>By the end of this guide, you will hopefully have a sufficient understanding of JACK and its workings so you can set it up, forget about it and get on with your work, utilizing the power that it provides.</p>
+<p><img alt="JACK logo" src="/sites/default/files/articles/Jacklogo.png" /></p>
+<p>For the duration of the guide I will refer to any piece of software that supports JACK as being '<a href="/answer/jack-aware">JACK aware</a>'.</p>
+<h2>What is JACK?</h2>
+<p>JACK first and foremost is a sound server optimized for the demands of audio production work. There are a few main aspects to what it does -</p>
+<h3>Settings</h3>
+<p>JACK controls your audio and <a href="/answer/midi">MIDI</a> settings. It allows you to choose your <a href="/answer/audio-interfacesoundcard">audio interface</a> as well as all the important audio settings such as <a href="/answer/sample-rate">sample rate</a>, buffer size and periods. These settings will be explained in more detail further down.</p>
+<h3>Performance</h3>
+<p>Using JACK will allow you to achieve low latencies with both audio and MIDI. This means that if you are recording an instrument into your computer, you can monitor the audio back through your speakers, or headphones, without any perceivable delay.</p>
+<p>For a good overview, and visual description of latency, check out '<a href="http://manual.ardour.org/synchronization/latency-and-latency-compensation/">Latency and Latency-Compensation</a>' from the Ardour manual</p>
+<h3>Connections and Interconnectivity</h3>
+<p>This is JACK's strong point. Any inputs and outputs from your audio interface and/or JACK aware programs can arbitrarily be connected together.</p>
+<p><img alt="Signal flow diagram of audio going into and back out of your computer" src="/sites/default/files/articles/Jack%20overview.png" /></p>
+<p>JACK not only deals with connections between programs but also within programs. Any JACK aware program uses JACK to manage its inputs and outputs. The beauty of this is that these connections are available for any other JACK aware programs to also connect to. They are not restricted to only being ‘internal’ input and outputs.</p>
+<p><img alt="Screenshot of Ardour and Qtractor" src="/sites/default/files/articles/Ardour%20and%20Qtractor.png" /><br /><em>Both <a href="/tools/ardour">Ardour</a> and <a href="/tools/qtractor">Qtractor</a> utilize JACK to manage audio and MIDI connections</em></p>
+<p>All of this makes JACK a very flexible tool and allows you to interconnect any number of JACK aware programs and have them working together, which brings us onto the next point; sync.</p>
+<h3>Sync</h3>
+<p>JACK can be used to sync up multiple programs. This means that if you want to use the MIDI sequencer from one program, and the audio sequencer from another, you can easily keep them in sync with JACK. Both programs will start and stop at the same time. Moving along the timeline in one program will be mirrored in any other programs that are set up to sync with JACK.</p>
+<h2>An Analogy</h2>
+<p>An analogy for JACK would be that it is similar to a hardware recording studio. In such a set up you would use cables to connect up various pieces of equipment in any which way or order you choose.  You could also sync various pieces of hardware using a common timemaster. JACK does these exact same things between software inside of, and hardware connected to, your computer. It can also act as timemaster for all JACK aware programs so that they remain in sync. Once you open up a JACK aware program, both its audio and MIDI inputs/outputs will be visible to JACK, and in turn, any other JACK aware programs. You can then connect up things exactly how you wish.</p>
+<p><img alt="Image of audio cables being connected, with an analogy to how JACK works" src="/sites/default/files/articles/Hardware%20analogy.jpg" /><br /><em>You make connections between, and within, programs using JACK in the exact same way you would with real hardware</em></p>
+<h2>JACK Aware</h2>
+<p>Before continuing any further, I will elaborate on JACK aware software to better explain how JACK works. People coming from Windows and Mac will be used to having their <a href="/answer/daw">DAW</a> managing all of their connections for them. The idea of a DAW using another routing system can be a bit confusing at first. The way to think of this is by creating a parallel. If you are used to your DAW managing all your connections, think of JACK in the same way, except that it is system wide. Any software that is JACK aware can be plugged into this system, similar to how a DAW would add plugins. The difference is that JACK allows you to have precise control of how to route anything you connect up to it. JACK aware software can be anything ranging from DAWS (audio and MIDI sequencers), standalone plugins and even video programs, <a href="/tools/xjadeo">Xjadeo</a> for example.</p>
+<h2>JACK does not need to be complicated</h2>
+<p>As you can tell, JACK is a very capable tool but don't be intimidated by its potential complexity. Using JACK does NOT need to be complicated. Just because it is capable of intricate workflows does not mean it's not also suited to more straightforward set ups. It will do what you want it to do, and is flexible enough to allow you to do more, if you ever need it. You can also happily work in one program and allow JACK to manage all its connections and never leave that program.</p>
+<h2>JACK Managers</h2>
+<p>We now know what JACK is and what it's capable of. How do we use it? The first thing to note is that JACK itself is a command line program; however there are various graphical managers for JACK that allow you to easily unlock its power. There are two main types of JACK managers, so you can choose the type that best suits you and your workflow. They can be categorized as -</p>
+<ul><li>JACK set up managers, which allow you to start up JACK with specific settings</li>
+<li>JACK connection managers, which primarily deal with making connections</li>
+</ul><p>The various offerings of JACK managers combine these two aspects together to varying degrees. So, why would you choose one over the other? If you are doing all of your work inside of a DAW and you use no external programs, you might be happy with a JACK set up manager to just start up JACK with your selected settings. In such a case, you can make all your software connections from within your DAW of choice so there is not as much a need for an external connection manager.</p>
+<p>For people with a more <a href="/answer/modular">modular</a> recording set up, including multiple effects processors, recording and sequencing programs, a JACK manager more geared towards making connections might be more useful, especially as some modular programs don't have connection managers themselves.</p>
+<p>The following are the most popular JACK managers</p>
+<h3>Qjackctl</h3>
+<p><img alt="Qjackctl main window, also with connection window showing" src="/sites/default/files/articles/Qjackctl.png" /></p>
+<p><a href="/tools/qjackctl">Qjackctl</a> is a very powerful, and popular, JACK manager. It allows you to access a large amount of JACK's settings and includes a connection manager, transport controls and even a manager for JACK session, which is a <a href="/answer/session-management">session management</a> program. It presents itself in a small window, allowing you to dig into only the settings you need to access. It can also be minimized to your taskbar so it can get out of your way once you have set it up and running.</p>
+<h3>Cadence</h3>
+<p><img alt="Cadence main window showing information about JACK running" src="/sites/default/files/articles/Cadence.png" /></p>
+<p><a href="/tools/cadence">Cadence</a> is an easy to use tool for setting up and starting JACK. It comes as part of the KXStudio distro and includes JACK bridges, which allow you to play normal desktop sounds, such as flash video, through JACK. Cadence can also start JACK on login, including JACK bridges. If you set it up once, there is very little maintenance thereafter.</p>
+<h3>Patchage</h3>
+<p><img alt="Screenshot of Patchage showing various connections" src="/sites/default/files/articles/Patchage.png" /></p>
+<p><a href="/tools/patchage">Patchage</a> is a very good visual connection manager for JACK. It gives you an overview of all your connections. Audio and MIDI ports are color coded so it is easier to identify your connection types. Creating connections is as simple as clicking and dragging from an output port to an input port.</p>
+<h3>Catia</h3>
+<p><img alt="Image of Catia showing various connections" src="/sites/default/files/articles/Catia.png" /></p>
+<p>Catia is another visual connection manager for JACK. It uses a canvas similar to Patchage but has extra features such as access to sample and buffer settings, and JACK transport controls. Cadence can also be easily accessed from Catia by clicking on the spanner button under the tools heading.</p>
+<h2>Understanding Basic Settings</h2>
+<p>If you are familiar with audio production on other platforms, you may already be familiar with some of the terminology used in relation to settings. If you are a new user this can be confusing as JACK has a vast array of settings. The main thing to remember here is that most of these settings are not important, at least not for starting off. If you don't know what they are, you probably don't need them just yet. Here is an explanation of the main ones that you need to worry about to get yourself up and running -</p>
+<h3>Buffer size, sometimes called frames/period</h3>
+<p>In a nutshell - Smaller buffer sizes produce less monitoring latency.</p>
+<p>More in-depth details - A lower setting will make the computer work faster, which will allow for lower latency, but at the expense of increased CPU usage. Higher (larger) settings are more stable but you won't get low monitoring latency with them. If you are looking to achieve low latency monitoring, a setting between 64 – 256 will give you usable results.</p>
+<h3>Sample Rate</h3>
+<p>In a nutshell - Higher sample rates result in less latency, for the same buffer setting.</p>
+<p>More in-depth details – This settings is dependent on the optimal settings for your audio interface and your own personal preference. Some people prefer to record at higher sample rates, others are happy with 44100 (44.1kHz), which is CD quality. Another common setting is 48000, which some interfaces work better at. The higher you go with this setting, the lower your latency will be but you will push your CPU harder, which may result in <a href="/answer/what-xrun-and-how-can-i-stop-getting-them">xruns</a> (pops and clicks).</p>
+<h3>Periods/buffer</h3>
+<p>In a nutshell – If you are using a USB device, you may achieve more stable low latency by setting this to 3. Otherwise, use a setting of 2.</p>
+<p>If you wish to achieve low latency settings, it can be a balancing act to find out what works best without pushing your CPU too hard. If you don't need to monitor your audio through your computer with low latency, there is no need to push your computer any more than it needs. You are better off staying with a higher setting and keeping reliability a high priority. If you have the option of hardware monitoring from your interface, use this to monitor your recordings instead.</p>
+<h2>How do I set up JACK?</h2>
+<p>This guide assumes that you have a properly configured realtime set up. KXStudio and AVLinux are two Linux distros that provide such an environment out of the box. I will show how to set up JACK settings with both Qjackctl and Cadence.</p>
+<h3>Qjackctl</h3>
+<p>Step 1 - Click on the Setup button</p>
+<p><img alt="Setting up qjackctl step 1" src="/sites/default/files/articles/Qjackctl%20step%201.png" /></p>
+<p>Step 2 - Make sure that the realtime option is enabled</p>
+<p><img alt="Setting up qjackctl step 2" src="/sites/default/files/articles/Qjackctl%20step%202.png" /></p>
+<p>Step 3 - Select your audio driver. <a href="/answer/alsa">ALSA</a> should be the default. Leave it at this, unless you are using a firewire device, in which case you would select firewire.  <br />Step 4 - Select your interface from the interface drop down menu<br />Step 5 - Choose the settings for your interface.<br />Step 6 - Click OK to apply settings</p>
+<p><em><strong>Note</strong></em> - Do not touch the name field. Some new users like to give their JACK server a name but this can cause JACK not to work as expected. Unless you know what you are doing, leave this alone as it will cause more hassle than it's worth.</p>
+<p><img alt="Setting up qjackctl step 3 to 6" src="/sites/default/files/articles/Qjackctl%20step%203.png" /></p>
+<p>Step 7 - Press start and Qjackctl will start JACK with your selected settings</p>
+<p><img alt="Setting up qjackctl step 7" src="/sites/default/files/articles/Qjackctl%20step%204.png" /></p>
+<p>Step 8 - If you need to monitor JACK, the monitor window will provide you with useful information</p>
+<p><img alt="Setting up qjackctl step 8" src="/sites/default/files/articles/Qjackctl%20step%205.png" /></p>
+<h3>Cadence</h3>
+<p>Step 1 - Click on configure button</p>
+<p><img alt="Setting up cadence step 1" src="/sites/default/files/articles/Cadence%20step%201.png" /></p>
+<p>Step 2 - Make sure that the realtime option is enabled</p>
+<p><img alt="Setting up cadence step 2" src="/sites/default/files/articles/Cadence%20step%202.png" /></p>
+<p>Step 3 - Make sure the driver tab is selected<br />Step 4 - Select your audio driver. Select ALSA, unless you are using a firewire device, in which case you would select firewire.<br />Step 5 - Select your interface from the interface drop down menu<br />Step 6 - Choose the setting for your interface.<br />Step 7 - Click OK to apply settings</p>
+<p><img alt="Setting up cadence step 3 to 7" src="/sites/default/files/articles/Cadence%20step%203.png" /></p>
+<p>Step 8 - Press Start and Cadence will start JACK with your selected settings</p>
+<p><img alt="Setting up cadence step 8" src="/sites/default/files/articles/Cadence%20step%204.png" /></p>
+<p>Step 9 - If you need to monitor JACK, the JACK Status area will provide you with useful information</p>
+<p><img alt="Setting up cadence step 9" src="/sites/default/files/articles/Cadence%20step%205.png" /></p>
+<h2>What Next?</h2>
+<p>Once you have these settings set up, you can then use any JACK aware programs and they will run with those settings. Some programs will allow you to change your buffer size, so that you can adjust audio latency without having to restart JACK.</p>
+<p>So, even though JACK is very powerful, you needn't be intimidated. At its most basic, it is very easy to set up your interface and get started. You can learn more about the power of JACK as you go along but don't get too bogged down starting off when all you want to do is learn to use some new software.<br />    <br /><em><strong>Note</strong></em> - If you are having trouble getting JACK to run, or recognize your interface, make sure your interface is both connected up, and turned on before opening up your JACK manager. If you are still having issues, try rebooting your system while your interface is hooked up.</p>
+<h2>JACK Sync</h2>
+<p>Another aspect of JACK that can be useful is JACK sync. Not only can you interconnect programs, you can also make sure that their transports run in sync. I will give a quick overview of how to do this by means of a demonstration that you can follow.</p>
+<p>Steps -</p>
+<ul><li>First of all, start running JACK via your preferred JACK manager.</li>
+<li>Next we will start up the programs we wish to sync up, in this case Ardour and <a href="/tools/hydrogen">Hydrogen</a>. We will need to make sure the setting within these programs are correct first.</li>
+</ul><p>Set up for Ardour -</p>
+<ul><li>By default, Ardour is set to be JACK timemaster, which is what we want. This setting can be found by navigating to session &gt; properties and going to the timecode tab. We will leave this enabled for now though.</li>
+<li>Next, we click on the 'Internal' button on Ardour's toolbar. This will change to JACK, meaning that JACK will now follow Ardour as timemaster.</li>
+</ul><p><img alt="Ardour timemaster buttons" src="/sites/default/files/articles/Ardour%20sync.png" /></p>
+<p>Steps for Hydrogen -</p>
+<ul><li>Navigate to tools &gt; preferences. In the Audio System tab, make sure Jack is chosen as the audio driver and restart Hydrogen.</li>
+<li>Now you will see two timemaster buttons showing up in the toolbar. Make sure that J.trans (Jack transport) is enabled. This means that it will follow JACK transport, which is now being controlled by Ardour.</li>
+</ul><p><img alt="Hydrogen timemaster buttons" src="/sites/default/files/articles/Hydrogen%20sync.png" /></p>
+<p>Now both programs will be in sync when you roll their transports. Additionally, as Ardour is timemaster, you can change the tempo in Ardour and this will be reflected in Hydrogen, or any other slaved program.</p>
+<p><img alt="Ardour and hydrogen in sync" src="/sites/default/files/articles/Jack%20sync.png" /><br /><em>Hydrogen and Ardour synced together. Note that the time and tempo read outs are synced</em></p>
+<p>The fact that JACK manages audio and MIDI ports, as well as allowing any programs using them to sync up makes it a very powerful tool. This enables very modular set ups to be created using JACK. For anyone interested in <a href="/answer/modular">modular</a> set ups, I would highly recommend you look into <a href="/answer/session-management">session management</a>, particularly <a href="/tools/nsm-non-session-manager">Non Session Manager</a>, to explore the possibilities of managing modular set ups with these tools.</p>
+<h2>Making Connections</h2>
+<p>Let's create a recording scenario to demonstrate how to make connections using JACK. Here is the scenario -</p>
+<p>I will be using Ardour to record the following instruments -</p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="2" scope="col" style="text-align: center;">INSTRUMENTS AND INPUTS</th>
+</tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; width: 300px;">Male Vocals</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Input 1</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Female Vocals</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Input 2</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Acoustic Guitar</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Input 3</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Acoustic Bass</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Input 4</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Lead Guitar</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Running through virtual guitar amp, <a href="/tools/guitarix">Guitarix</a></td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Percussion</td>
+<td style="text-align: left; vertical-align: top; width: 300px;">Hydrogen drum machine synced up</td>
+</tr><tr><td style="text-align: left; vertical-align: top; width: 300px;">Piano</td>
+<td style="text-align: left; vertical-align: top; width: 300px;"><a href="/answer/midi-keyboard">MIDI keyboard</a> plugged into MIDI input with virtual piano plugin on track</td>
+</tr></tbody></table><p>I will use the built in connection manager in Ardour to make these connections, but the logic is the same whichever connection manager you use -</p>
+<p>Here is my mixer window set up in Ardour. Out of shot I also have <a href="/articles/ultimate-guide-getting-started-guitarix">Guitarix</a> and Hydrogen started up. Note the highlighted row. All connections are already made, including connections with Guitarix and Hydrogen.</p>
+<p><img alt="Ardour mixer window with input buttons highlighted" src="/sites/default/files/articles/Jack%20mixer%20inputs.png" /></p>
+<p>To make these connections in Ardour, left click on the input buttons shown in the highlighted row. This will show up a window from which you can select your input. In this case I wanted to route the second input from my audio interface into the second track (female vocals), so I select capture 2 by ticking in its box. I repeat the same steps for each other track until I have my connections set up how I want them.</p>
+<p><img alt="Ardour connection dialog" src="/sites/default/files/articles/Vox%20input.png" /></p>
+<p>Something to note here is that all these connections made will show up in any other JACK aware programs, for example, if you look at the connections window in Guitarix, you will also see the connections there that I made from within Ardour. This is because it's not the programs that make the connections. They use JACK to manage the connections and tell it what to do. Remember, JACK is your routing system and these programs are only using it.</p>
+<p>The following is a complete overview of all connections broken down so they are easy to understand. This is a screenshot of Patchage. Note the color code, audio ports are in blue and MIDI ports are in red.</p>
+<p><a href="/sites/default/files/articles/JACK graphic full size.png"><img alt="Overview of session connections in Patchage" src="/sites/default/files/articles/Jack%20graphic.png" /></a><br /><em>Click on image for full size</em></p>
+<p>Patchage is the best to illustrate something like this. All connection managers have their positives and negatives. While it is very straight forward for a smaller amount of inputs and outputs, Patchage can get messy and hard to decipher with large amounts of connections. Ardour’s built in matrix connection manager is very good for very large numbers of connects as you can deal with them across categorized tabs. This makes it much neater.</p>
+<p><img alt="Ardour's connection matrix" src="/sites/default/files/articles/Ardour%20matrix.png" /></p>
+<p>This is a basic session but it demonstrates how audio and MIDI connections work in JACK. It also incorporates JACK applications external to my DAW, one of which is in sync with JACK. Try out all JACK managers/connection managers and see what you find you're most comfortable with and best suits your workflow. They all do the same thing, they just do them in slightly different ways. In the end, you are using the same logic to make the same connections.</p>
+<h2>Summary</h2>
+<p>The best thing about JACK is that it doesn't lock you into any single workflow. I showed how to sync programs and make connections between them but if you want to do all your work in one DAW and never leave it, you can do that too. JACK makes no assumptions. It leaves all options open to you, to take advantage of at any time, and makes various workflows possible, <a href="/answer/monolithic">monolithic</a> or <a href="/answer/modular">modular</a>. If you find the tools you like, JACK will make whatever set up you have in mind possible.</p>
+<p>Written by Conor Mc Cormack</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" st_title="Demystifying JACK – A Beginners Guide to Getting Started with JACK " class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-15hjldMmQk9MHeMdPH1C_6f89T5p1lodSa4gTGWyQyk" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-A9AOSuyxZtgkwDrGXzwhGG_-S0P3YzGn3YuwfuLibcg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

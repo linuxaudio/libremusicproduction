@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" />
+<link rel="shortlink" href="/node/249" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Modular set ups, concepts and practices, using Non Session Manager | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"bmBqoP7EEsXCycA7_1gGIwTytOQsaY0IXKxlwxTsfXs","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/249":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-249 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Modular set ups, concepts and practices, using Non Session Manager                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-249" class="node node-tutorial node-promoted clearfix" about="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Modular set ups, concepts and practices, using Non Session Manager" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="12" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-11-12T09:16:04+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 13:58</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item odd"><a href="/area/plugins" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="/area/recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div><div class="field-item odd"><a href="/category/workflow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/cadence">Cadence</a></div><div class="field-item odd"><a href="/tools/carla">Carla</a></div><div class="field-item even"><a href="/tools/non-software-suite">Non software suite</a></div><div class="field-item odd"><a href="/tools/nsm-non-session-manager">NSM - Non Session Manager</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2><span style="line-height: 1.538em;">What is Session Management?</span></h2>
+<div><span style="line-height: 1.538em;"><a href="/answer/session-management">Session management</a> is used to solve the problems involved in managing <a href="/answer/modular">modular set ups</a>. Ultimately, it allows you to reopen multiple programs, their session files and instantly recall all connections between them.</span></div>
+<div> </div>
+<div>The problem with managing modular set ups lies in the fact that each individual program uses its own session. Without session managers, you would have to open up each individual program, manually load up the correct session for each of those programs and on top of that, make sure that all <a href="/articles/demystifying-jack-–-beginners-guide-getting-started-jack">JACK connections</a> between those programs are connected up how you want them to be. Session management looks after all of this for you.</div>
+<div> </div>
+<h2>Non Session Manager</h2>
+<div><span style="line-height: 1.538em;">In this tutorial we will specifically look at <a href="/tools/nsm-non-session-manager">Non Session Manager</a> (NSM), which is a popular session manager. It is a simple, yet powerful program that manages multiple sessions so you can work with modular set ups in a more unified manner.</span></div>
+<div> </div>
+<div><span style="line-height: 1.538em;"><img alt="" src="/sites/default/files/tutorials/nsm.png" /></span></div>
+<div> </div>
+<div>NSM creates self-contained folders, which contain sessions for each individual program, provided the programs have NSM support. This allows you to easily load up complex modular sessions with one click of your mouse.</div>
+<div> </div>
+<div><span style="line-height: 20.0063037872314px;">You can find a list of </span><a href="http://non.tuxfamily.org/wiki/ApplicationsSupportingNsm" style="line-height: 20.0063037872314px;">NSM supported software here</a><span style="line-height: 20.0063037872314px;">. Note that this list may not always be up to date. </span></div>
+<div> </div>
+<div>Using <a href="http://non.tuxfamily.org/wiki/JACKPatch">JACKPatch</a>, a headless client for NSM, connections can also automatically be recalled across sessions.</div>
+<div> </div>
+<div>Non Session Manager has support for templates (through the use of duplication), making it easy to set up complex sessions and reuse their configurations.</div>
+<div> </div>
+<div>So, why would you want to use modular set ups in the first place?</div>
+<div> </div>
+<h2>Why modular set ups?</h2>
+<div><span style="line-height: 1.538em;"><a href="/answer/jack">JACK</a> is ideal for modular set ups. It not only looks after connections between your programs, but it also allows any <a href="/answer/jack-aware">JACK aware</a> programs to easily sync up with each other. People like modular set ups for various reasons.</span></div>
+<div> </div>
+<div>First of all, they are flexible, and allow you to use the tools you find best for the job.</div>
+<div> </div>
+<div>This flexibility also has benefits in being stable, as you are not relying on a single piece of software to do everything. In modular set ups, if one piece of software crashes, that's all that happens. It won't bring your whole session down with it. Additionally, using less complex standalone software together means that less can go wrong in the first place.</div>
+<div> </div>
+<div>As well as the above, modular set ups can be more lightweight. This is because you're not using software that is superfluous to your needs. You are only using what you need to get your task done.</div>
+<div> </div>
+<div>Modular software follows the <a href="http://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a> of doing one thing and doing it well. Some people would argue that this approach uses JACK to the fullness of its potential.</div>
+<div> </div>
+<h2>Our task</h2>
+<div><span style="line-height: 1.538em;">In this tutorial, I will show you how to set up a Non Session Manager template, and subsequently use it as the basis for a recording. I will demonstrate this primarily using software from the <a href="/tools/non-software-suite">'Non' software suite</a>, which is specifically intended to be used as part of a modular set up.</span></div>
+<div> </div>
+<div>This tutorial is not intended to be a thorough overview of any of the software but I will go through some of their basic concepts and practices so you can get a usable set up, within the context of an NSM session.</div>
+<div>The following is the software that I will use -</div>
+<ul><li>Non Session Manager (NSM) – This is our session manager, which will recall our sessions.</li>
+<li>Non Timeline – This is a timeline where you can record your audio tracks into.</li>
+<li>Non Mixer – This is our mixer, which controls track levels, panning, plugin controls, etc.</li>
+<li>JACKPatch – This will allow NSM to remember session connections.</li>
+<li><a href="/tools/carla">Carla</a> – While Non Mixer does support plugins, it only supports <a href="/answer/ladspa">LADSPA</a> plugins. Carla is a plugin host that supports every plugin format on Linux. This can be used to extend the capabilities of any modular set up.</li>
+<li>Carla also includes a visual connection patchbay. We will use this to manage our session connections.</li>
+</ul><div><strong style="line-height: 1.538em;"><em>Update</em></strong><span style="line-height: 1.538em;"> - Since publishing this tutorial, falkTX from <a href="http://kxstudio.linuxaudio.org">KXStudio</a> has implemented <a href="/answer/lv2">LV2</a> support for Non Mixer. This build is now available in the KXStudio repositories but is not currently available upstream. </span><span style="line-height: 1.538em;">For full details, check out his post at </span><a href="http://linuxmusicians.com/viewtopic.php?f=48&amp;t=13143" style="line-height: 1.538em;">linuxmusicians.com</a></div>
+<div> </div>
+<div><span style="line-height: 20.0063037872314px; font-size: 1.385em; font-weight: bold;">Creating a Template</span></div>
+<div> </div>
+<div><span style="line-height: 1.538em;">First, we will create a template for our session in Non Session Manager. This will help us understand the concepts behind session management. Let's get started -</span></div>
+<div> </div>
+<div><span style="line-height: 1.538em;">Open up Non Session Manager</span></div>
+<div> </div>
+<div><span style="line-height: 1.538em;">Let's create a new session by clicking on </span><em style="line-height: 1.538em;">'New</em><span style="line-height: 1.538em;">' and giving our session a name. In this case let's call it “</span><em style="line-height: 1.538em;">Session template</em><span style="line-height: 1.538em;">”, as it will be used as the basis for a template. More about managing templates later...</span></div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/2-new-session.png" /></div>
+<div> </div>
+<div>
+<div>Our session is now created but it is currently empty. Let's now add our clients (programs) that we described in our task above.</div>
+<div> </div>
+<div>Click on “<em>Add Client to Session</em>”. We will add the following programs using their executable names -</div>
+<div> </div>
+<div>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col" style="text-align: center;">PROGRAM</th>
+<th scope="col" style="text-align: center;">EXECUTABLE NAME</th>
+</tr></thead><tbody><tr><td style="text-align: center;">Non Mixer</td>
+<td style="text-align: center;">non-mixer</td>
+</tr><tr><td style="text-align: center;">Non Timeline</td>
+<td style="text-align: center;">non-timeline</td>
+</tr><tr><td style="text-align: center;">Carla</td>
+<td style="text-align: center;">carla</td>
+</tr><tr><td style="text-align: center;">JACKPatch</td>
+<td style="text-align: center;">jackpatch</td>
+</tr></tbody></table></div>
+<div><img alt="" src="/sites/default/files/tutorials/3-adding-clients.png" /><br /><span style="line-height: 1.538em;">This is the basis for our template. We now have our session created, our participating programs loaded up, and we also have JACKPatch (headless client) loaded so that any connections we make in our session will now be remembered.</span></div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/4-template-base.png" style="line-height: 1.538em;" /></div>
+</div>
+<h2> </h2>
+<h2>NSM button functions</h2>
+<div>Before we get started working on our session, it's a good idea to understand what each button in NSM does. There is a thorough explanation about each of these in the <a href="http://non.tuxfamily.org/nsm/MANUAL.html#n:1.1.1.">NSM manual</a><span style="line-height: 1.538em;">. I recommend you read this before going any further.</span></div>
+<div> </div>
+<div>Now let's start adding tracks and making our connections. We will start with Non Timeline.</div>
+<div> </div>
+<h2>Non Timeline</h2>
+<div>First we want to add our tracks. To do this, go to <lmp-term>Timeline &gt; Add audio track</lmp-term> (shortcut '<em>A</em>'). For this template we want 10 tracks, so we will press the '<em>A</em>' shortcut 10 times. Non Timeline adds mono tracks by default. This is what we want in this case, but if you want to add more channels per track, right click on your track header and go to the '<em>Type</em>' menu.</div>
+<div> </div>
+<div>
+<div>Next we will name our tracks. To do this, double click on the tracks name in the track header, type in your name and press enter.</div>
+<div> </div>
+<div>Our track names are as follows -</div>
+<ul><li>Kick</li>
+<li>Snare</li>
+<li>HiHat</li>
+<li>Ride</li>
+<li>Crash</li>
+<li>High Tom</li>
+<li>Floor Tom</li>
+<li>Guitar 1</li>
+<li>Guitar 2</li>
+<li>Bass</li>
+</ul></div>
+<p><img alt="" src="/sites/default/files/tutorials/5-timeline-tracks.png" /></p>
+<p>Let's briefly take a look at the Patchbay tab in Carla. You may have to refresh the patchbay canvas area (<em>ctrl + R</em>) for name changes to take effect. Note how you now have all your Non Timeline inputs and outputs named accordingly.</p>
+<p><img alt="" src="/sites/default/files/tutorials/6-timeline-patchbay.png" /></p>
+<h2>Non Mixer</h2>
+<div>Next we will need somewhere for Non Timeline's audio to be routed through. In Non Mixer, go to <lmp-term>mixer &gt; add strip</lmp-term> (<em>ctrl + A</em>) and add 10 strips, as we did in Non Timeline.</div>
+<div> </div>
+<div>These tracks will also be added as mono tracks by default. Again, this is what we want, but we also want to be able to pan these mono tracks. To set this up, click on '<em>Fadr</em>' on the mixer strip. This will now change to '<em>Signl</em>', indicating that you are no longer in Fader view but that you are now in Signal view.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/7-mixer1.png" /></div>
+<div> </div>
+<div>Right click on the Gain module and from the insert menu, select '<em>Mono Pan</em>'.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/8-mixer-monopan.png" /></div>
+<div> </div>
+<div>
+<div style="line-height: 20.0063037872314px;">This will add a '<em>Mono Pan</em>' module above the '<em>Gain</em>' module. You can now click on the '<em>Mono Pan</em>' module to bring up an adjustable pan slider. If you look in our patchbay, you will also notice that adding this module has added a second audio output port for that mixer strip. This allows us to pan any audio routed through that mixer strip. Add a panner to each track in Non Mixer.</div>
+<div style="line-height: 20.0063037872314px;"> </div>
+<div style="line-height: 20.0063037872314px;">Next we will need to name our mixer strips. Double click on “<em>unnamed</em>” at the top of your mixer strip and type in the new name you want to use and press enter.</div>
+<div style="line-height: 20.0063037872314px;"> </div>
+<div style="line-height: 20.0063037872314px;">Now, let's take a look at Carla's Patchbay again (making sure to refresh). Note the multiple named blocks associated with Non Mixer.</div>
+</div>
+<div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/9-patchbay-ungrouped.png" /></div>
+<div> </div>
+</div>
+<div>This looks messy at the moment, but we are not done yet. Let's make things easier to manage in the patchbay by creating groups within Non Mixer.</div>
+<div> </div>
+<div><span style="font-size: 1.385em; font-weight: bold; line-height: 1.538em;">Groups</span></div>
+<div>Assigning mixer strips to groups is a great way to help with organizing connections. There can also be <a href="http://non.tuxfamily.org/mixer/doc/MANUAL.html#n:1.1.">performance benefits in doing so</a>. We can currently break our session up into three groups -</div>
+<ul><li>Drums</li>
+<li>Guitars</li>
+<li>Bass</li>
+</ul><div>On our kick drum mixer strip, click on the drop down menu just below '<em>group dsp</em>' and create a new group called “<em>Drums</em>”. When you move onto the next mixer strip you will notice this group can now be selected from its drop down menu. Add all of your drum tracks to this group.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/10-adding-group.png" /></div>
+<div> </div>
+<div>
+<div>Let's revisit and refresh our patchbay in Carla. Notice how all the drum mixer strips are now grouped together in their own block. This is what creating groups does and it makes it very easy to organize large numbers of inputs/outputs.</div>
+<div> </div>
+<div>Repeat the steps above to create a Guitar group and Bass group. This will make it much easier to find the connections you want to in Carla's patchbay.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/11-patchbay-grouped.png" /></div>
+<div> </div>
+</div>
+<h2>Setting up buses and master bus</h2>
+<div>Before we start making any connections, we need to have additional mixer strips in place to make it more manageable. For this I will add the following -</div>
+<ul><li>Drum group bus</li>
+<li>Guitar group bus</li>
+<li>Bass group bus</li>
+<li>1 master bus</li>
+</ul><div>As previously mentioned, mixer strips are added as mono tracks by default. We want these mixer strips to be stereo, so in the mixer strips just above the fader/meter, you will see a box labelled '<em>1</em>'. This tells us there is only 1 input/output for that mixer strip (this doesn't apply to channels with mono panners). Click on the right arrow to add another channel. We want to set this to <em>2</em> so that these mixer strips are now stereo.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/12-channel-number.png" /></div>
+<div> </div>
+<div>
+<div>Next, name all the above tracks appropriately and, with the exception of the master bus, create a group for them called '<em>Buses</em>' so that they are all neatly contained within their own group block in our patchbay.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/13.groupbus.png" /></div>
+<div> </div>
+<div>We now have all the components set up, neatly organized and ready to go. Let's make some connections.</div>
+<div> </div>
+<h2>Making connections</h2>
+<div>There are two types of connections -</div>
+<ul><li>Connections that allow for recording (directly into Non Timeline).</li>
+<li>Connections that allow for playback (from Non Timeline, through Non Mixer and out to your playback system)</li>
+</ul><div>For now we will concentrate on our playback connections, as more often than not, you will make your recording connections at the recording stage. We want to make sure our playback connections are all set up for our template.</div>
+<div> </div>
+<div>Here is the signal flow I want to achieve -</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/14-signal-flow.png" /></div>
+<div> </div>
+<div>This set up allows for flexible mixing. We can -</div>
+<ul><li>Individually control instrument levels and effects (track mixer strips)</li>
+<li>Collectively manage group levels and effects (group buses)</li>
+<li>Manage overall session levels and effects (master bus)</li>
+</ul><p>The following is how all these connections look in our patchbay -</p>
+</div>
+<p><a href="/sites/default/files/tutorials/all-connections-large.png"><img alt="" src="/sites/default/files/tutorials/all-connections.png" /></a></p>
+<div>Success! We now have our template fully set up. Next, we will look at how to work with templates in NSM.</div>
+<div> </div>
+<h2>Using Templates</h2>
+<div>Due to the nature of how session management works, templates in NSM are supported through the use of the duplication. The following is how to work with templates in NSM -</div>
+<ul><li>Open up NSM</li>
+<li>Click on '<em>Template session</em>' to open up the template that we just created</li>
+<li>Click on duplicate.</li>
+<li>Name our new session and click OK.</li>
+</ul><div>We are now working on a new, and independent, version of our sessions template. This will allow us to use the same layout, settings and connections of our template without touching the original.</div>
+<div> </div>
+<div><strong><em>Note</em></strong> – If you are worried about accidentally recording over a session template, you can easily back them up for such an eventuality. You will find all sessions in the '<em>NSM Sessions</em>' folder, which you will find in your home folder.</div>
+<div> </div>
+<h2>Getting material into Non Timeline</h2>
+<div>Now that we have our session up and running, it is now time to start recording. There are two ways to get material into Non Timeline. We can record material into individual tracks but we can also drag and drop existing audio material onto the timeline.</div>
+<div> </div>
+<div><strong><em>Note</em></strong> - Drag and drop will only work if you drop an audio file onto a pre-existing track. Dragging onto empty canvas will not add your audio file.</div>
+<div> </div>
+<div>For drums, I have existing tracks that I exported from <a href="/tools/hydrogen">Hydrogen</a>. I used the '<em>export to separate tracks</em>' option within Hydrogen, so I have each individual drum in separate audio files. This gives me more flexibility when mixing. Let's open up our file manager and drag these files one by one onto their respective tracks.</div>
+<div> </div>
+<div><em><strong>Note</strong></em> - It is best practice to first move these audio files into your sessions respective folder within '<em>NSM sessions</em>' to make sure they are always discoverable. This also allows them to be moved with the session folder if you wish to do so at any stage.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/16-drag-drop.png" /></div>
+<div> </div>
+<div>Now we can finally listen to some audio playback. With the Non Timeline window in focus, press the 'home' key on your keyboard if the playhead is not already at the beginning of the session and press '<em>space</em>' to play.</div>
+<div> </div>
+<div><strong><em>Note</em></strong> - Non Timeline's playhead doesn't support dragging. Use the 'P' key on your keyboard to position the playhead to your mouse cursor.</div>
+<div> </div>
+<div>To learn more about Non Timelines functionality, <a href="http://non.tuxfamily.org/timeline/doc/MANUAL.html">check out the manual</a>.</div>
+<div> </div>
+<h2>Recording material</h2>
+<div>Next I want to record my instruments into Non Timeline. For this we will need to go over to our patchbay to make our input connections. I have my guitar signal coming in through '<em>input 1</em>' on my interface, so we will need to connect this up to our '<em>Guitar 1</em>' input in Non Timeline. This will allow my guitar signal to be recorded onto that track, but what about monitoring and checking my meter levels?</div>
+<div> </div>
+<div>Simply connect whatever signal you are recording into Non Timeline, into Non Mixer at the same time. This will be routed to your playback system so you can monitor it, and it will also allow you to check input meter levels.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/17-meters.png" /></div>
+<div> </div>
+<div>You can then record your material onto their respective tracks (make sure to arm enable tracks and the session). When all of this is done, your playback levels can easily be adjusted in Non Mixer.</div>
+<div> </div>
+<h2>Mixing in Non Mixer</h2>
+<div>Non Mixer is a simple but powerful piece of software. The flexibility provided by Non software's intended modularity are just what makes it special. For instance, any mixer strip in Non Mixer can be whatever you want it to be. It can be a track mixer strip, a bus, or a master bus. How you connect it up is what gives it its purpose.</div>
+<div> </div>
+<div>We've briefly touched on this when adding our '<em>Mono Pan</em>' module, but let's look at them in a bit more detail.</div>
+<div> </div>
+<div>Each mixer strip has 2 primary views -</div>
+<ul><li><em>Fader</em> – In this view you can adjust the fader and monitor the full length meters.</li>
+<li><em>Signal</em> – This is where you add, edit and arrange plugins, panners, create aux sends, etc.</li>
+</ul><div>Within <em>Signal</em> view, there are additionally two sub-views -</div>
+<ul><li><em>Chain</em> – This is the default '<em>Signal</em>' view. This is where you add, edit and arrange plugins and modules.</li>
+<li><em>Controls</em> – This is where you can add inline plugin controls. Plugin parameters can be arbitrarily added, via binding, to the controls section for quick and easy access.</li>
+</ul><p><img alt="" src="/sites/default/files/tutorials/18-views.png" /></p>
+<h2>Adding plugins in Non Mixer</h2>
+<div>Adding plugin modules in Non Mixer is done in the same way as we added our '<em>Mono Pan</em>' module. Make sure your mixer strip is in '<em>Signal</em>' view ('<em>Chain</em>' sub-view). Right click on whichever module in the chain you want your plugin to be added before. Navigate to <lmp-term>insert &gt; plugin</lmp-term>. This will bring up the plugin manager. Selecting a plugin will add it before/above the module you right clicked on.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/plugin-non-mixer.png" /></div>
+<div> </div>
+<div>If you want to rearrange the plugin order on a mixer strip, you can right click on the plugin module you want to move, select cut, and then paste it with the same method as adding a plugin, ie. right clicking on the module you want it to be placed before/above.</div>
+<div> </div>
+<div>Adding a plugin above the gain module will add it <a href="/answer/pre-fader">pre-fader</a>, and adding it below the gain module will add it post fader. To add a plugin post-fader, right click on the meters. This will allow you to add it before the meters, but after the gain module.</div>
+<div> </div>
+<h2>Binding controls</h2>
+<div>If there are any plugin parameters that you would like to have easy access to, you can bind these so that they show up in '<em>Signal</em>' view ('<em>Controls</em>' sub-view).</div>
+<div> </div>
+<div>This is also useful for pan controls. To do this, left click on the module you want to bind a control from. This will open up the modules window. Right clicking on a slider will show up a little box called “<em>Bind</em>”. Tick this box.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/19-binding.png" /></div>
+<div> </div>
+<div>
+<p>Now when you navigate to the 'Controls' sub-view, you will have access to any parameters that you have binded.</p>
+<p><img alt="" src="/sites/default/files/tutorials/inline-controls.png" /></p>
+<p>To learn more about Non Mixer and it's capabilities, <a href="http://non.tuxfamily.org/mixer/doc/MANUAL.html">check out the manual</a>.</p>
+<h2><span style="line-height: 1.538em;">Using plugins in Carla</span></h2>
+<p><span style="line-height: 1.538em;">Up until now we have only used the patchbay area of Carla but it's addition in the template was to leave the option open for using it as a plugin rack. Adding it to your session will effectively allow you to use any plugin format supported under Linux within your session.</span></p>
+<div><img alt="" src="/sites/default/files/tutorials/20-carla.png" /></div>
+<div> </div>
+<div><span style="line-height: 20.0063037872314px;">Adding plugins in Carla is as simple as clicking '<em>Add Plugin</em>' from the toolbar and selecting which plugin you would like to load. You can access the plugin controls from the Rack tab. Going back to the Patchbay tab will allow you to connect up your plugins inputs and outputs.</span></div>
+<div> </div>
+<div>The following is a typical example of inserting a pre-fader plugin, hosted in Carla, into Non Mixer -</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/21-prefader-plugin.png" /></div>
+<div> </div>
+<h2>Organizing session folders in NSM</h2>
+<div> </div>
+<div>NSM organizes sessions alphabetically by default. This helps to find sessions but you can even go further and create folders and sub-folders to keep your sessions organized. </div>
+<div> </div>
+<div>You can easily organize sessions from within your file manager. Simply go to the '<em>NSM Sessions</em>' folder. Every folder is a session, but you can bundle these into custom sub-folders. </div>
+<div> </div>
+<div>For example, say you have songs that you want to put into a specific sub-folder. You can create an empty folder inside your '<em>NSM Sessions</em>' folder, and move the sessions inside of it. When you restart NSM, you will see that these are now showing up as sub-folders of the folder you created. </div>
+<div> </div>
+<div>In the example below, a folder called '<em>Albums</em>' was created in the '<em>NSM sessions</em>' folder. Inside of the '<em>Albums</em>' folder was created another folder called '<em>Only tomorrow</em>'. I then moved all NSM session folders that I wanted to show up under this sub-folder into the '<em>Only tomorrow</em>' folder using my file manager. Note that you have to restart NSM to see these changes take effect. </div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/layout.png" /></div>
+<div> </div>
+<h2><a id="exporting_session" name="exporting_session">Exporting a sessions audio</a></h2>
+<div>By now you may be wondering how you export audio coming from a number of different programs. While in this example we only have audio being generated from Non Timeline, in other cases you may have another program also generating audio.</div>
+<div> </div>
+<div>In either case, the audio from these is mixed down into a final output signal. In this case it is mixed down to a stereo signal which is coming out of Non Mixers master bus.</div>
+<div> </div>
+<div>Jack capture is a tool that allows you to capture audio from JACK. There are various ways to use this but if you are using Cadence from <a href="http://kxstudio.sourceforge.net/">KXStudio</a>, the easiest way is to use '<a href="http://kxstudio.sourceforge.net/Applications:Cadence-Render">Render</a>'. You will find this by going to the tools tab within Cadence.</div>
+</div>
+<p><img alt="" src="/sites/default/files/tutorials/22-tools-render.png" /></p>
+<div>When you open up Cadence-Render, you will be greeted with a number of options. The main ones you need to worry about are -</div>
+<div> </div>
+<div><em>Render mode</em> – You have two options here, realtime or freewheel. Realtime will export your audio in realtime (essential if you are using outboard gear in your recording set up). Freewheel will export your session faster than realtime.</div>
+<div> </div>
+<div><em>Output folder</em> – Where do you want your audio file to be saved to</div>
+<div> </div>
+<div><em>Filename prefix</em> – What do you want your file to be named</div>
+<div> </div>
+<div><em>Encoding format</em> – What file format do you want your session to be exported to</div>
+<div> </div>
+<div>There are also options for how many channels you want the file to be exported to. Unless you have a specific reason for needing more channels, you most likely will want to leave this set to stereo.</div>
+<div> </div>
+<div><em>Use transport</em> – This is very handy if you know exactly what parts of the timeline you want to render within. I recommend you use this.</div>
+<div> </div>
+<div>Simply set the playhead in Non Timeline, or whatever other program you are using, to the beginning of where you want to export from and press '<em>now</em>' beside Render's start time. Next, place the playhead at the end of where you want to export to and press '<em>now</em>' beside end time. Render will then export the audio between these two points.</div>
+<div> </div>
+<div><img alt="" src="/sites/default/files/tutorials/23-render.png" /></div>
+<div> </div>
+<div>
+<h2>Summary</h2>
+<div>And that's it! You should now have an understanding, start to finish, of the basic concepts and practices involved in session management and how to apply these to Non Session Manager.</div>
+<div> </div>
+<div>You can easily add more programs to modular set ups, MIDI sequencers for example, but the concepts are all the same. JACK allows for programs to sync with each other. This is something that alongside session management can allow for elaborate set ups. You can easily have fully featured workflows, that are specific to your needs, using modular software. </div>
+<div> </div>
+<div><span style="line-height: 1.538em;">There are many reasons why you may want to try out modular set ups. If you do decide to go this route, session management will make your life much easier. </span></div>
+<div> </div>
+<div>Thanks for reading!</div>
+<div> </div>
+<div><span style="line-height: 1.538em;">Written by Conor Mc Cormack</span></div>
+</div>
+<p> </p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" st_title="Modular set ups, concepts and practices, using Non Session Manager" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/249" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-QHSKqiQd5f-tdpsiFPlfYxR3AD1eiDkeX49X8YdX_tI" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/249" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Gm3CsZmmR8YpXcK4GYamKP5Ni7J99UT2fAAP1Dm0oPk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

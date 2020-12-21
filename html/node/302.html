@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../tutorials/creating-simple-synthesizer-pure-data-–-part-ii.html" />
+<link rel="shortlink" href="302.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="../feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="../feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Creating a simple synthesizer in Pure Data – Part II | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"3Kh1QiwnUl-U1miCyZIvTUqV85-YoxRg1ZINj3wYuOk","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/302":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-302 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="302.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="https://libremusicproduction.com/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="https://libremusicproduction.com/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="https://libremusicproduction.com/workflow">Workflow</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/articles" title="">Articles</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/interviews">Interviews</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tools">Tools</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/music">Music</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/resources">Resources</a></li>
+<li class="last leaf"><a href="https://libremusicproduction.com/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Creating a simple synthesizer in Pure Data – Part II                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-302" class="node node-tutorial clearfix" about="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Creating a simple synthesizer in Pure Data – Part II" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="17990" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-03-12T14:01:53+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2015-03-15 20:23</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/area/midi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">midi</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/category/synthesis" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">synthesis</a></div><div class="field-item even"><a href="https://libremusicproduction.com/category/technique" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div><div class="field-item odd"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/pure-data.html">Pure Data</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Part I: <a href="../tutorials/creating-simple-synthesizer-pure-data-–-part-i.html">A simple synthesizer in Pure Data – Part I</a></p>
+<h2>The next steps:</h2>
+<p>What we are going to do now is to add an <a href="../answer/adsr-envelope.html">ADSR envelope</a> to our synthesizer and then allow it to play more than one note simultaneously.</p>
+<p>We also have a lot of new concepts to introduce, including some that are very basic and that, if you tinkered a little with your patch and with pd in general after the first tutorial, you may be already familiar with.</p>
+<h2>Adding the envelope</h2>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">ADSR Envelope</th>
+</tr></thead><tbody><tr><td>
+<p>Roughly speaking, an envelope changes the signal amplitude through time. The <lmp-term>ADSR envelope</lmp-term> does this based on four variables: <lmp-term>Attack</lmp-term>, <lmp-term>Decay</lmp-term>, <lmp-term>Sustain</lmp-term> and <lmp-term>Release</lmp-term>. Excluding <lmp-term>Sustain</lmp-term>, they all represent a duration in time. <lmp-term>Sustain</lmp-term> represents amplitude, not duration. Here's a quick explanation:</p>
+<ul><li><lmp-term>Attack</lmp-term> represents the time from the key press to the moment the signal reaches full amplitude. Amplitude starts at zero (silence) and, during the amount of time given by the Attack variable, rises to one (maximum amplitude).</li>
+<li><lmp-term>Decay</lmp-term> comes in after <lmp-term>Attack</lmp-term> and represents the amount of time for the signal to reach the amplitude given by the <lmp-term>Sustain</lmp-term> variable.</li>
+<li><lmp-term>Sustain</lmp-term> is the amplitude that will be maintained while the key is down.</li>
+<li>After releasing the key, <lmp-term>Release</lmp-term> is the amount of time before the amplitude drops to zero.</li>
+</ul><div class="lmp-caption"><img alt="ADSR Envelope" src="https://libremusicproduction.com/sites/default/files/answers/adsrenvelope.png" /><br />ADSR Envelope</div>
+</td>
+</tr></tbody></table><p>Start by adding four sliders (Ctrl+Shift+H for horizontal or Ctrl+Shift+V for vertical) and giving them the labels <lmp-term>A</lmp-term>, <lmp-term>D</lmp-term>, <lmp-term>S</lmp-term> and <lmp-term>R</lmp-term>. This can be accomplished by right-clicking the sliders and choosing <lmp-term>Properties</lmp-term>, if you don't remember. In this dialog, we are also going to set the range of each slider and maybe set their <lmp-term>send</lmp-term> symbols as well. We will get into <lmp-term>send</lmp-term> soon, but let's talk about ranges first.</p>
+<p>In the Properties dialog, you will notice a button labeled <lmp-term>lin</lmp-term>. When clicked on, this button's label will toggle between <lmp-term>lin</lmp-term> and <lmp-term>log</lmp-term>, representing linear and logarithmic scales, respectively. You may also have noticed that when changing from <lmp-term>lin</lmp-term> to <lmp-term>log</lmp-term>, range fields set to zero will change to a non-zero value.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Linear and Logarithmic scales</th>
+</tr></thead><tbody><tr><td>
+<p>Logarithmic scales are very useful when dealing with a large range of quantities and when dealing with most things related to human perception. The decibel, used frequently to measure sound pressure levels, is a logarithmic unit and our own musical scale is also a logarithmic scale of pitches. I'll give now an example of how useful it also can be for quantities related to time.</p>
+<p>Imagine that you want to select a value between 1 millisecond and 20 seconds for the duration of an event using a slider that is 128 pixels wide (no need to imagine too much, this is exactly what you want to do now). While the perceived difference between a sound that decays in 10ms and other that decays in 110ms (difference of 100ms) is very pronounced, the difference between 19,000ms and 19,100ms (also 100ms) will hardly be perceived by any human being.</p>
+<p>In a linear scale, each pixel you move in this slider will represent ~156ms. This means that you will have, perception-wise, a very low precision when dealing with small values while you'll have a precision higher than you need with the higher values. The logarithmic scale fixes this problem by giving more space to the lower values and less space to the higher ones.</p>
+<p>When using a linear scale, equally spaced markings in the scale will represent equal <lmp-term>distances</lmp-term> between values. In a logarithmic scale equally spaced markings will represent equal <lmp-term>proportions</lmp-term> between values.</p>
+<div class="lmp-caption"><img alt="" src="../sites/default/files/tutorials/pd-2-linlog.png" /><br />Equal distances vs. equal proportions</div>
+<p>Since we can't establish a proportion between zero and other values, your slider will never be able to output a zero in <lmp-term>log</lmp-term> mode. No finite value in dB, for example, represents absolute silence.</p>
+</td>
+</tr></tbody></table><p>You can choose whatever ranges and scales you want now. For time-related sliders (<lmp-term>Attack</lmp-term>, <lmp-term>Decay</lmp-term> and <lmp-term>Release</lmp-term>), I think a range from 0 to 10 seconds is a good choice. Remember that you need to use milliseconds, so it's a range from <lmp-term>0</lmp-term> to <lmp-term>10,000</lmp-term>. For <lmp-term>Sustain</lmp-term> there is no choice, really, because you need a value between <lmp-term>0</lmp-term> and <lmp-term>1</lmp-term>.</p>
+<p>If you choose <lmp-term>lin</lmp-term>ear scales, then just fill the <lmp-term>Properties</lmp-term> dialog with the appropriate values and you're done. With <lmp-term>log</lmp-term>arithmic scales, however, we need to add an offset so we can have a range that includes zero. Just move the range a little higher (e.g., <lmp-term>10</lmp-term> to <lmp-term>10,010</lmp-term> in time sliders and <lmp-term>0.1</lmp-term> to <lmp-term>1.1</lmp-term> in <lmp-term>Sustain</lmp-term>), then connect each slider to an operator that will give you a range starting from zero (in the given example, <lmp-term>- 10</lmp-term> for time-related sliders and <lmp-term>- 0.1</lmp-term> for Sustain).</p>
+<div class="lmp-caption"><img alt="Sliders with offset values" src="../sites/default/files/tutorials/pd-2-offset.png" /><br />Sliders with offset values</div>
+<p>Now we need to <lmp-term>send</lmp-term>, the values from the sliders so we can <lmp-term>receive</lmp-term> them elsewhere. It will be slightly different depending on whether you offset the output from the sliders or not.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">send and receive</th>
+</tr></thead><tbody><tr><td>
+<p>The objects <lmp-term>send</lmp-term> and <lmp-term>receive</lmp-term> (also abbreviated to, respectively, <lmp-term>s</lmp-term> and <lmp-term>r</lmp-term>) can:</p>
+<ul><li>make your patch cleaner by removing wires from inconvenient places;</li>
+<li>establish communication between your patch and other patches running at the same time.</li>
+</ul><p>First you create a <lmp-term>send</lmp-term> object with a unique name passed as argument and connect some x object to it. Then you create a <lmp-term>receive</lmp-term> object with the same name and connect it to some y object. This will work exactly the same as if x and y were connected directly, with the difference that y can even reside in another patch!</p>
+<p>Of course, this also means that you cannot run two instances of this patch (the one with <lmp-term>send</lmp-term>) simultaneously, because there would be two <lmp-term>send</lmp-term> objects with the same name and this is not allowed. You can, however, use as many name-fellow <lmp-term>receive</lmp-term> objects as you like.</p>
+<div class="lmp-caption"><img alt="send and receive in the same patch and between two different patches" src="../sites/default/files/tutorials/pd-2-send.png" /><br /><strong>send</strong> and <strong>receive</strong> in the same patch and between two different patches</div>
+<p>When you open the <lmp-term>Properties</lmp-term> of some objects, you have the option of setting a <lmp-term>send symbol</lmp-term> and a <lmp-term>receive symbol</lmp-term> from there. This will work exactly like connecting it to <lmp-term>send</lmp-term> and <lmp-term>receive</lmp-term> objects, but allow a cleaner (and more obscure) connection. To give a tip about the existence of such connections, objects using this method appear without their inlets and/or outlets (depending if you are using <lmp-term>receive</lmp-term> and/or <lmp-term>send</lmp-term> symbols) so you know they are silently sending or receiving stuff. Their invisible inlets or outlets are still usable though.</p>
+<p>There's a workaround to the problem with multiple instances of the same patch with a <lmp-term>send</lmp-term> object, but I think it's too early to talk about that. It's about using the $0 variable, take a look at <a href="http://en.flossmanuals.net/pure-data/dataflow-tutorials/dollar-signs/">this</a> if you're curious.</p></td>
+</tr></tbody></table><p>If you're using only the sliders, without adding offsets to the values, just open the <lmp-term>Properties</lmp-term> dialog of each of your sliders and set your send symbols to <lmp-term>a</lmp-term>, <lmp-term>d</lmp-term>, <lmp-term>s</lmp-term> and <lmp-term>r</lmp-term>. I think you know which is which. Have in mind the fact that pd is case-sensitive, so 'a' is not the same as 'A'.</p>
+<div class="lmp-caption"><img alt="Note the absence of outlets in the sliders, due to the usage of send symbols" src="../sites/default/files/tutorials/pd-2-send-symbol.png" /><br />Note the absence of outlets in the sliders, due to the usage of <strong>send</strong> symbols</div>
+<p>If you have added the offsets, then you cannot send your values directly from the sliders. You will need to add four <lmp-term>send</lmp-term> objects (let's use the abbreviated version: <lmp-term>s</lmp-term>): <lmp-term>s a</lmp-term>, <lmp-term>s d</lmp-term>, <lmp-term>s s</lmp-term> and <lmp-term>s r</lmp-term>, and then connect each of the offset values to the corresponding <lmp-term>send</lmp-term>.</p>
+<div class="lmp-caption"><img alt="Using send objects" src="../sites/default/files/tutorials/pd-2-send-object.png" /><br />Using <strong>send</strong> objects</div>
+<p>Now, because we want to be able to play more than one note (eventually), we're going to take a part of our patch and move it to an <lmp-term>abstraction</lmp-term>.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Abstractions and Subpatches</th>
+</tr></thead><tbody><tr><td>
+<p>Basically, <lmp-term>abstractions</lmp-term> and <lmp-term>subpatches</lmp-term> allow you to use one entire patch as an object inside another patch.</p>
+<p>In the case of the <lmp-term>abstraction</lmp-term>, the patch that will be used as an object is stored in another file. If you create a patch and save it in the same folder as the patch you are currently working on, you can then invoke it by naming an object after the patch you created, without the .pd extension. If you create multiple instances of this object, saving the changes will apply them to all of the instances, naturally.</p>
+<p>A <lmp-term>subpatch</lmp-term> is almost the same, but it's not stored in another file and the changes applied to one of them are not reflected in others, even if they have the same name. They are created by calling an object <lmp-term>pd</lmp-term> followed by an optional name.</p>
+<p>The objects created using these methods can have inlets and outlets represented internally by <lmp-term>inlet</lmp-term>, <lmp-term>inlet~</lmp-term>, <lmp-term>outlet</lmp-term> and <lmp-term>outlet~</lmp-term> objects. The order of inlets and outlets will be the same, left to right, as the order the objects appear inside the abstraction or subpatch.</p>
+</td>
+</tr></tbody></table><p>Go to <lmp-term>File→New</lmp-term> (Ctrl+N). Now, in this new window, <lmp-term>File→Save As</lmp-term>... (Ctrl+Shift+S) and save it to the same folder as your patch with the name <lmp-term>note.pd</lmp-term> (you can write just note). In the near future we'll also be using another abstraction so, in the same window repeat the <lmp-term>Save As...</lmp-term> procedure to save it as <lmp-term>adsr.pd</lmp-term>. Now, you should have, in the same folder as your main patch, two empty patches named note.pd and adsr.pd. You can close this window now and go back to your main patch.</p>
+<p>Create a <lmp-term>note</lmp-term> object and place it in some empty spot. To edit this subpatch, you can either right-click on it and select <lmp-term>Open</lmp-term>, or left-click it while in <lmp-term>Execute Mode</lmp-term>. Just open it. Yes, I just made you close and open the same file again, but with one difference: when you open an abstraction from a patch that contains it, every change you make to it is instantly effective to this particular instance of the abstraction. When you save it, the changes are globally applied.</p>
+<p>To prove it, as soon as you open <lmp-term>note</lmp-term> for editing, insert both an <lmp-term>inlet</lmp-term> and <lmp-term>outlet~</lmp-term> objects (we want to input control data and output signal data) with some empty space between them. As soon as you add the objects you will notice that the inlet and outlet will appear instantly in the object inside your main patch.</p>
+<p>In the main patch, select everything from <lmp-term>unpack</lmp-term> to the first <lmp-term>*~</lmp-term> and cut (Ctrl+X), then paste inside the abstraction (Ctrl+V). Place the <lmp-term>note</lmp-term> object in the empty space where the cut objects were and connect it so that it replaces that group of objects. Inside the abstraction, connect the <lmp-term>inlet</lmp-term> to <lmp-term>unpack</lmp-term> and <lmp-term>*~</lmp-term> to the <lmp-term>outlet~</lmp-term>.</p>
+<p>Remember to save both the abstraction and the main patch. Right now, our patch is doing the exact same thing it did before we started but, with the changes that we made, it will be a lot easier to fulfill our objectives.</p>
+<div class="lmp-caption"><img alt="The fun starts now. No, it's true." src="../sites/default/files/tutorials/pd-2-abstraction.png" /><br />The fun starts now. No, it's true.</div>
+<p>As you know, the <lmp-term>*~</lmp-term> inside note.pd sets the amplitude of each note depending on its velocity. Now we want something more complex than that and that's where we will insert the <lmp-term>adsr</lmp-term> abstraction. When we're done, this object will be responsible for changing the amplitude of our oscillator dynamically, following the envelope defined by the sliders in the main patch.</p>
+<ul><li>Inside note.pd, insert the <lmp-term>adsr</lmp-term> object somewhere;</li>
+<li>open the adsr.pd abstraction and insert an <lmp-term>inlet</lmp-term> and an <lmp-term>outlet~</lmp-term>;</li>
+<li>back in note.pd, insert a new <lmp-term>*~</lmp-term> between <lmp-term>phasor~</lmp-term> and the existing <lmp-term>*~</lmp-term>, deleting the existing connection and connecting the new <lmp-term>*~</lmp-term> to both (use the left inlet);</li>
+<li>connect the second outlet of <lmp-term>unpack</lmp-term> to <lmp-term>adsr</lmp-term> and then the latter to the <lmp-term>*~</lmp-term> you just created.</li>
+</ul><div class="lmp-caption"><img alt="The current state of note.pd" src="../sites/default/files/tutorials/pd-2-notepd.png" /><br />The current state of note.pd</div>
+<p>With <lmp-term>adsr</lmp-term> properly placed and connected, most of the remaining work will be done inside adsr.pd. I'll split our next step into 3 parts so that, at the end of each part, you can test if the corresponding phase of the envelope is working as intended. At the beginning of each part, I'll introduce the needed objects.</p>
+<p>Before starting, insert four <lmp-term>receive</lmp-term> objects in adsr.pd (again, using the short version: <lmp-term>r</lmp-term>): <lmp-term>r a</lmp-term>, <lmp-term>r d</lmp-term>, <lmp-term>r s</lmp-term> and <lmp-term>r r</lmp-term>. This is how we'll read values from the sliders in the main patch.</p>
+<h3>Attack</h3>
+<p>In this part, you need to become acquainted with <lmp-term>select</lmp-term>, <lmp-term>trigger</lmp-term>, <lmp-term>float</lmp-term> and <lmp-term>line~</lmp-term>.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">select</th>
+</tr></thead><tbody><tr><td>
+<p>The <lmp-term>select</lmp-term> object (or the short version, <lmp-term>sel</lmp-term>) will compare the input with its arguments. Each of its outlets will send a <lmp-term>bang</lmp-term> if the input is equal to the respective argument. There's an extra outlet from which the input value will come out, untouched, in case no argument is equal to it.</p>
+<p>If there's only one argument, the value can be changed with the right inlet.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">trigger</th>
+</tr></thead><tbody><tr><td>
+<p><lmp-term>trigger</lmp-term> (short version: <lmp-term>t</lmp-term>) is used when actions must be performed in a specific order. You can specify any number of arguments and there will be an outlet for each of them. The arguments will represent the type of the output for the respective outlet. The outlets will activate from <lmp-term>right to left</lmp-term>, so the last data type you wrote will be the first to come out.</p>
+<p>For now, we must be aware of two types that can be used as argument to <lmp-term>trigger</lmp-term>: <lmp-term>bang</lmp-term> and <lmp-term>float</lmp-term> (you can use <lmp-term>b</lmp-term> and <lmp-term>f</lmp-term>, respectively, just as well).</p>
+<ul><li><lmp-term>bang</lmp-term> will output a <lmp-term>bang</lmp-term> it does not matter what the input is;</li>
+<li><lmp-term>float</lmp-term> will output the input as a number.float</li>
+</ul></td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">float</th>
+</tr></thead><tbody><tr><td>
+<p><lmp-term>float</lmp-term>, or <lmp-term>f</lmp-term>, just stores a number. When create an object and name it with just a number and nothing else, it is also a <lmp-term>float</lmp-term> object, but in this case it is initialized to the value you gave. It will output the stored value when it receives a <lmp-term>bang</lmp-term> in its left inlet.</p>
+<p>When it receives a number, it will change its stored value. If the number is received by the left inlet, it will instantly output this new value. The right inlet will, in its turn, silently change the stored value without outputting anything. This is basically what this <lmp-term>hot</lmp-term> and <lmp-term>cold inlets</lmp-term> thing is all about. We'll get to this subject soon.</p></td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">line and line~</th>
+</tr></thead><tbody><tr><td>
+<p>Both objects will output a stream of numbers that will reach the <lmp-term>target</lmp-term> value in the specified <lmp-term>ramp time</lmp-term>. You can pass the ramp time to the second inlet and then pass the target to the first inlet or you can pass both values to the first inlet together. Two important things to remember:</p>
+<ol><li>it will only start the ramp when a value is passed to its first inlet (the one in the left), also called the <lmp-term>hot inlet</lmp-term>. We'll talk about that soon;</li>
+<li>it will not remember the last <lmp-term>ramp time</lmp-term> you used, meaning that you will have to pass one every time.</li>
+</ol><p>If you pass a <lmp-term>target</lmp-term> alone, without passing a <lmp-term>ramp time</lmp-term>, it will jump immediately to that value.</p>
+<p>While <lmp-term>line~</lmp-term>, like other signal objects, outputs with a frequency equal to your system's sample rate, the output rate of <lmp-term>line</lmp-term> can be set by passing it as an argument (the first argument you pass is the initial value and the second is the <lmp-term>output rate</lmp-term> or <lmp-term>grain</lmp-term>) or by passing it to the third inlet. The default is 20ms.</p>
+</td>
+</tr></tbody></table><p>In my instructions, if I ask you to connect an object to another that is not in your patch yet, it means that you must create it in that moment and then make the connection. Make sure you have lots of space between <lmp-term>inlet</lmp-term> and <lmp-term>outlet~</lmp-term> before starting.</p>
+<p>In adsr.pd:</p>
+<ul><li>insert, just above <lmp-term>outlet~</lmp-term>, a <lmp-term>line~</lmp-term> object and connect the latter to the former;</li>
+<li>connect the <lmp-term>inlet</lmp-term> to a <lmp-term>sel 0</lmp-term>;</li>
+<li>connect the right outlet of <lmp-term>sel 0</lmp-term> to a <lmp-term>t b b b</lmp-term> (a <lmp-term>trigger</lmp-term> with three <lmp-term>bangs</lmp-term>);</li>
+<li>connect the third outlet (the first from <lmp-term>right to left</lmp-term>) to a <lmp-term>0</lmp-term> (just a zero) and the second to a <lmp-term>pack 1 0</lmp-term>;</li>
+<li>connect <lmp-term>r a</lmp-term> to the right inlet of <lmp-term>pack 1 0</lmp-term>;</li>
+<li>connect both <lmp-term>0</lmp-term> and <lmp-term>pack 1 0</lmp-term> to the left inlet of <lmp-term>line~</lmp-term>.</li>
+</ul><div class="lmp-caption"><img alt="adsr.pd with Attack working, but nothing else" src="../sites/default/files/tutorials/pd-2-attack.png" /><br />adsr.pd with <strong>Attack</strong> working, but nothing else</div>
+<p>The attack is ready to be tested! Let me explain what we did.</p>
+<p>The <lmp-term>line~</lmp-term> object is the heart of this abstraction. In the end, we'll have three <lmp-term>pack</lmp-term> objects to group <lmp-term>target</lmp-term> and <lmp-term>ramp time</lmp-term> values and then send them to <lmp-term>line~</lmp-term>. Each one of the <lmp-term>pack</lmp-term> objects will be responsible for one phase of the envelope, so you could add a comment above the one we just inserted (Ctrl+5) and label it <lmp-term>Attack</lmp-term>, so you know it's function in the future.</p>
+<p>The value coming from the <lmp-term>inlet</lmp-term> and entering <lmp-term>sel 0</lmp-term> is the velocity of the note played. Every time you receive a note off event (velocity 0), the left outlet of <lmp-term>sel 0</lmp-term> will send a <lmp-term>bang</lmp-term>. Since we're interested, at least for now, in the attack of the note, we connected the <lmp-term>trigger</lmp-term> to the right outlet of <lmp-term>sel 0</lmp-term>. This outlet is activated every time we get a value that is not 0, which means a key was pressed. The output of this outlet is not a <lmp-term>bang</lmp-term>, but the value that came in. Since our trigger only contains <lmp-term>bang</lmp-term>s, we basically ignored the value that came out and converted it to <lmp-term>bang</lmp-term>s.</p>
+<p>The first <lmp-term>bang</lmp-term> from our <lmp-term>trigger</lmp-term> is connected to the <lmp-term>0</lmp-term>, so it will immediately set the <lmp-term>line~</lmp-term> value to zero. The second <lmp-term>bang</lmp-term> will <lmp-term>pack</lmp-term> the value <lmp-term>1</lmp-term> together with the value of the <lmp-term>Attack</lmp-term> slider. When <lmp-term>line~</lmp-term> receive these values, it will start a ramp from its current value, zero, to 1 with the duration received from the <lmp-term>Attack</lmp-term> slider. We intentionally left an unconnected outlet in the <lmp-term>trigger</lmp-term>.</p>
+<h3>Decay (and Sustain)</h3>
+<p>We will now get to know the <lmp-term>delay</lmp-term> object and then I'll finally talk about <lmp-term>hot</lmp-term> and <lmp-term>cold inlets</lmp-term>.</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">delay</th>
+</tr></thead><tbody><tr><td>
+<p>The <lmp-term>delay</lmp-term> object outputs a <lmp-term>bang</lmp-term> after a delay that is passed to it, in milliseconds, as argument or by its inlets. You can change the delay time by sending a value to any of the inlets, but the right inlet (<lmp-term>cold inlet</lmp-term>) will not trigger the delay immediately, while the left inlet (<lmp-term>hot inlet</lmp-term>) will. You can just send a <lmp-term>bang</lmp-term> to its left inlet to trigger a delay with the duration that was previously set.</p>
+</td>
+</tr></tbody></table><table border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th scope="col">Hot and cold inlets</th>
+</tr></thead><tbody><tr><td>
+<p>The intended way of entering data to objects with more than one inlet is from right to left. Pure Data kind of enforces this by having only one of the inputs, the left one, to cause the object to output data. This is why we call it the <lmp-term>hot inlet</lmp-term>. All the other inlets are <lmp-term>cold inlets</lmp-term>, meaning that they don't produce output when you pass information to them. He have already seen a lot of this happening in our work, but there was no need to worry in most cases, because pd acts consistently.</p>
+<p>Right at the beginning of our main patch, we used objects that would not work correctly if their inputs came in the wrong order, like <lmp-term>pack</lmp-term> and <lmp-term>poly</lmp-term>. The reason why they worked is that the output of the objects that we connected to them also came, conveniently, from right to left. When we use a <lmp-term>pack</lmp-term> to which the inputs will come from separate objects, we'll have to take care to send them in the correct order. This is the kind of situation where the <lmp-term>trigger</lmp-term> object shines.</p>
+</td>
+</tr></tbody></table><p>In adsr.pd:</p>
+<ul><li>connect the remaining unused outlet of <lmp-term>t b b b</lmp-term> to a <lmp-term>delay</lmp-term> object;</li>
+<li>connect <lmp-term><code>r a</code></lmp-term> to a <lmp-term>+ 1</lmp-term> (left inlet) and then the <lmp-term>+ 1</lmp-term> to the right inlet of the delay you just created;</li>
+<li>connect <lmp-term>delay</lmp-term> to the first inlet of a <lmp-term>pack 0 0 0</lmp-term> (you can put the comment <lmp-term>Decay</lmp-term> above it);</li>
+<li>connect <lmp-term>r d</lmp-term> to the third inlet of the <lmp-term>pack</lmp-term> object and <lmp-term>r s</lmp-term> to the second;</li>
+<li>connect <lmp-term>pack 0 0 0</lmp-term> to a <lmp-term>route 0</lmp-term> object;</li>
+<li>finally, connect this <lmp-term>route 0</lmp-term>'s left outlet to <lmp-term>line~</lmp-term>'s left inlet.</li>
+</ul><div class="lmp-caption"><img alt="Decay and Sustain working" src="../sites/default/files/tutorials/pd-2-decay.png" /><br /><strong>Decay</strong> and <strong>Sustain</strong> working</div>
+<p><lmp-term>Decay</lmp-term> and <lmp-term>Sustain</lmp-term> are both working and ready to be tested.</p>
+<p>The objective of the <lmp-term>delay</lmp-term> object here is to wait until the <lmp-term>Attack</lmp-term> phase is over to kick in with the <lmp-term>Decay</lmp-term>. That's why we connected the <lmp-term>Attack</lmp-term> slider to set the delay time. The <lmp-term>+ 1</lmp-term> is here because without it, when the <lmp-term>Attack</lmp-term> value is minimal, <lmp-term>Decay</lmp-term> comes in too early for some reason.</p>
+<p>There's also another hack here. We used a <lmp-term>pack</lmp-term> with three arguments where only two values were needed. This is because we want to avoid inputting data to the <lmp-term>hot inlet</lmp-term> while using our sliders. The <lmp-term>pack</lmp-term> object as we created it will only output something when it receives a <lmp-term>bang</lmp-term> from <lmp-term>delay</lmp-term>. If we had only two inlets in <lmp-term>pack</lmp-term>, <lmp-term>r s</lmp-term> would need to be connected to the <lmp-term>hot inlet</lmp-term> and this would cause undesirable output every time the slider value changed. To eliminate the unused value, we used a <lmp-term>route 0</lmp-term>. If you don't understand this, just read the <lmp-term>route</lmp-term> explanation in the first part of the tutorial again. This is not exactly the purpose of the existence of <lmp-term>route</lmp-term>, but it does the trick.</p>
+<h3>Release</h3>
+<p>In this last part, we also have some work to do in note.pd, but let's finish everything in adsr.pd first so we don't have to come back.</p>
+<p>You may have noticed that, until now, we have only used the right outlet of <lmp-term>sel 0</lmp-term>, because this outlet shows us when a key is pressed. Now we are interested in knowing when a key is released, so I suggest that you move the <lmp-term>r r</lmp-term> object to the left side of the patch before following the next instructions, so it's closer to the left inlet of <lmp-term>sel 0</lmp-term>.</p>
+<ul><li>Connect the left outlet of <lmp-term>sel 0</lmp-term> to a <lmp-term>stop</lmp-term> message (remember it's a message (Ctrl+2), not an object) and connect this message to the left inlet of our <lmp-term>delay</lmp-term></li>
+<li>also connect the left outlet of <lmp-term>sel 0</lmp-term> to a new <lmp-term>pack 0 0</lmp-term> object. You can put the comment <lmp-term>Release</lmp-term> above it;</li>
+<li>connect this <lmp-term>pack 0 0</lmp-term> to the left inlet of <lmp-term>line~</lmp-term>;</li>
+<li>connect <lmp-term>r r</lmp-term> to the right inlet of the same <lmp-term>pack 0 0</lmp-term> object.</li>
+</ul><p>We're done with adsr.pd.</p>
+<div class="lmp-caption"><img alt="Release not working yet" src="../sites/default/files/tutorials/pd-2-release.png" /><br />Release not working yet</div>
+<p>The reason why <lmp-term>Release</lmp-term> is not working yet is that we programmed note.pd to multiply the signal by 0 when the key is released and this causes the note to silence immediately. Now we are going to make the right operand of this multiplication change only when a key is pressed and not when it is released.</p>
+<p>In note.pd:</p>
+<ul><li>break the connection between <lmp-term>unpack</lmp-term> and <lmp-term>/ 127</lmp-term>;</li>
+<li>connect the right outlet of <lmp-term>unpack</lmp-term> to a <lmp-term>sel 0</lmp-term> object;</li>
+<li>connect the right inlet of this <lmp-term>sel 0</lmp-term> to <lmp-term>/ 127</lmp-term>.</li>
+</ul><p>Now only non-zero values will reach this division and the problem is solved.</p>
+<div class="lmp-caption"><img alt="Release working" src="../sites/default/files/tutorials/pd-2-release-2.png" /><br />Release working</div>
+<p>The <lmp-term>stop</lmp-term> message that we used in adsr.pd is a message that <lmp-term>delay</lmp-term> understands as an order to interrupt its countdown, so the <lmp-term>bang</lmp-term> does not get triggered. We need that because the note can be released during the <lmp-term>Attack</lmp-term> phase, before <lmp-term>Decay</lmp-term> starts, and we would have a problem because this <lmp-term>delay</lmp-term> would trigger the <lmp-term>Decay</lmp-term> phase after <lmp-term>Release</lmp-term> had already started.</p>
+<p>We're done with our envelope now! You can experiment with different configurations and you may be surprised by how much applying an envelope can transform the perception of a sound.</p>
+<h2>Polyphony</h2>
+<p>To add polyphony to our synthesizer will be a very easy task now, because we're using abstractions that we can easily reuse. Anyway, before we start adding stuff, we need to make a small adjustment to the sawtooth wave that we've been using.</p>
+<p>You should remember, from the last tutorial, that <lmp-term>phasor~</lmp-term> generates values from 0 to 1. This means that it only “occupies” half of the “signal space” available, that is from -1 to 1. When two signals are mixed together (two sounds played together), what happens is simply that each sample from one signal gets added to the corresponding sample of the other signal. Knowing this, it's not hard to understand that the minimum possible sample value from mixing two of those sawtooth waves is 0 (when both values are 0) and the maximum is 2 (when both values are 1). We would be not only wasting space, but also using space that is not available and therefore clipping the signal. When there are values greater than one, those values are simply considered to be 1 and this is what we call clipping.</p>
+<div class="lmp-caption"><img alt="The sum of two sawtooth waves with a 1:2 frequency ratio." src="../sites/default/files/tutorials/pd-2-clip.png" /><br />The sum of two sawtooth waves with a 1:2 frequency ratio. In the left we have a range from 0 to 1 and in the right from -0.5 to 0.5.</div>
+<p>When the signal is clipped, the waveform changes and so do the timbre of the sound produced. Sometimes this is the desired effect, but that's not our case now, so we're going to insert a <lmp-term>–~ 0.5</lmp-term> object after the <lmp-term>phasor~</lmp-term> in note.pd.</p>
+<div class="lmp-caption"><img alt="phasor~ with an offset" src="../sites/default/files/tutorials/pd-2-phasor-offset.png" /><br />phasor~ with an offset</div>
+<p>Now on to the last steps, in the main patch:</p>
+<ul><li>change <lmp-term>poly</lmp-term> first argument to the number of voices you want, e.g., <lmp-term>poly 4 1</lmp-term> for four voices;</li>
+<li>give <lmp-term>route</lmp-term> one argument for each voice you have, e.g., <lmp-term>route 1 2 3 4</lmp-term> for four voices;</li>
+<li>duplicate the <lmp-term>note</lmp-term> object (Ctrl+D) as many times as needed, one for each voice;</li>
+<li>connect each <lmp-term>route</lmp-term> outlet to one of the <lmp-term>note</lmp-term> objects, leaving the rightmost outlet alone;</li>
+<li>connect every note object to the <lmp-term>*~</lmp-term> object, where the first note was already connected.</li>
+</ul><div class="lmp-caption"><img alt="Finished!" src="../sites/default/files/tutorials/pd-2-final.png" /><br />Finished!</div>
+<p>You're done! Just save your patch and have fun playing!</p>
+<p>Here's a picture of the finished patch with all the abstractions:</p>
+<p><img alt="" src="../sites/default/files/tutorials/pd-2-entire.png" /></p>
+<p>When making changes to our abstractions in the future, having multiple instances in use will not be a good idea because, as I said before, the changes you make in an abstraction are only applied to all of them when you save it, but are immediately applied to the particular instance that is currently opened. The best way to make changes to a <lmp-term>note</lmp-term> object is to just change <lmp-term>poly</lmp-term>'s first argument to <lmp-term>1</lmp-term> and leave everything else intact, then open the note.pd abstraction from the first note object (right-click→<lmp-term>Open</lmp-term> or left-click in <lmp-term>Execute Mode</lmp-term>).  Your synthesizer will go back to a monophonic state while you make your changes, but you'll be able to test each change instantly. When you are pleased with the result, just save your abstraction, then change back the first argument of the <lmp-term>poly</lmp-term> object to the number of voices you have.</p>
+<h2>That's all for today</h2>
+<p>Now we're able to do a lot of different sounds using our envelope, but that's not enough. In the next tutorial, we will create a simple dynamic filter to finally have a subtractive synthesizer. As a bonus, I'll also show how to create a simple and clean user interface to make your synthesizer more user-friendly. I hope you're finding this tutorial series useful! Your feedback is always welcome.</p>
+<p>Written by Eduardo Mezêncio</p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tutorials/creating-simple-synthesizer-pure-data-–-part-i.html">Creating a simple synthesizer in Pure Data –  Part I</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-ii" st_title="Creating a simple synthesizer in Pure Data – Part II" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="https://libremusicproduction.com/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="302.html" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-N-Tg63WlRm5nOFfFCycjUYQ_eO-b-OfbgiUBAGfJ4rY" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="302.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-tgJV_gOk5xpaIwvokEZs-uTWv33ryCWXPg3t_vronvY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="https://libremusicproduction.com/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="https://libremusicproduction.com/faq">FAQ</a> section. If you are missing something, please <a href="https://libremusicproduction.com/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="../rss.xml"><img alt="RSS Feed icon." src="https://libremusicproduction.com/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="../feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="../feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="https://libremusicproduction.com/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="https://libremusicproduction.com/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

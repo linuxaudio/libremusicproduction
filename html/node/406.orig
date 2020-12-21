@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-14-interview-babis-kouvalis" />
+<link rel="shortlink" href="/node/406" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #14: An interview with Babis Kouvalis | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"o2hHfKGYAjbZs2r5YP7qRpwfbRcHWQuqWvW0vRA_j0Y","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/406":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-406 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #14: An interview with Babis Kouvalis                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-406" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-14-interview-babis-kouvalis" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #14: An interview with Babis Kouvalis" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-11-04T09:20:28+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-06-03 08:17</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/amsynth">AMSynth</a></div><div class="field-item odd"><a href="/tools/ardour">Ardour</a></div><div class="field-item even"><a href="/tools/calf-plugins">Calf Plugins</a></div><div class="field-item odd"><a href="/tools/guitarix">Guitarix</a></div><div class="field-item even"><a href="/tools/hydrogen">Hydrogen </a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This month LMP talked to Babis Kouvalis, guitarist and FLOSS enthusiast. Babis has a YouTube channel where he demos FLOSS software, primarily Guitarix.</p>
+<p><img alt="" src="/sites/default/files/articles/babis.jpg" /></p>
+<p><strong>Hi Babis and thank you for taking the time to do the interview. Where do you live, and what do you do for a living?</strong></p>
+<p>I live in Athens, Greece with my girlfriend at her house. At the moment I'm unemployed due to the economic crisis, but I have much more time to work with music and live from it.</p>
+<p>I started a <a href="https://www.youtube.com/channel/UCKRavPYTFWC7rOo7-t1T1jg">YouTube channel</a> and I'm starting a band too. My target with YouTube is that I want to show to people that working with Linux is actually a thing and bring more people to this world! Also I want a place to upload my work so I can show it to others.</p>
+<p><style>
+<!--/*--><![CDATA[/* ><!--*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]>*/
+</style></p><div class="embed-container">
+<iframe src="https://www.youtube.com/embed/PPQt7KzXyiE" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><strong>Can you tell us a bit about any other projects you are involved in?</strong></p>
+<p>After my duty in the army, I got into an amateur thrash metal band and jammin! I did also some live shows with this band, but it was never professional. Now I'm starting a pro Melodic Death Metal band with my brother.</p>
+<p><strong>What is your musical background?</strong></p>
+<p>I started playing guitar at 19 years old and I learned everything from YouTube and friends! My father played the guitar and other instruments for many years but when me and my brother were born he sold everything, except from an acoustic guitar, so he can raise us.</p>
+<p>After many years he bought an electric guitar to start playing again and I was curious about it. When I learned the chords from Santana's 'Put your lights on' song I loved the instrument and I too bought an electric guitar!</p>
+<p><img alt="" src="/sites/default/files/articles/babis_playing.jpg" /><br /><em>Babis jammin along with Hydrogen</em></p>
+<p><strong>What is your typical workflow when making music?</strong></p>
+<p>Basically I don't have a specific workflow when making music. I'm doing exercises on guitar while watching anime or YouTube videos and the riffs pop up! Then I open <a href="/tools/hydrogen">Hydrogen</a> (I use the DeathMetal kit) and try to find the tempo or the time signature and write some rhythm on the riff I played and liked. From there I expand it to a whole song.</p>
+<p>When I'm done writing drums in Hydrogen, I export them into separate tracks so I can mix it in <a href="/tools/ardour">Ardour</a>. I like to have all the wav files in one program and one mixer. I believe it's easier to mix that way.</p>
+<p>Or if I'm not with the guitar and its night-time I open <a href="http://tuxguitar.herac.com.ar/">Tuxguitar</a> and write the riff that came to my mind so I will not forget it.</p>
+<p><strong>Tell us a bit about your hardware set up</strong></p>
+<p>I have an onboard Creative SoundBlaster sound card and I connect my guitar, an Ibanez s520ex with EMG's, direct to the PC!</p>
+<p>Also I'm using an Evolution MK-361 USB keyboard to record with <a href="/tools/amsynth">AMsynth</a>.</p>
+<p>I prefer audio recording than writing MIDI notes to the DAW. I find it more creative because you can change the melody as you record and add some new ideas to the song!</p>
+<p>That's it! Everything else is FLOSS software on Ubuntu.</p>
+<p><img alt="" src="/sites/default/files/articles/babis_setup1.jpg" /><br /><em>Babis' recording set up</em></p>
+<p><strong>What is your history with Linux?</strong></p>
+<p>My father used an old PC with Windows and it had recording software, so he could record his guitar or keyboard. I tried to learn from him a bit but I never managed to understand anything then.</p>
+<p>I had an old netbook and I installed Lubuntu so I can test them too. I was amazed that all the software was free and it was pretty good as well!</p>
+<p>I installed Ardour, <a href="/articles/ultimate-guide-getting-started-guitarix">Guitarix</a> and started recording with an IK multimedia stealthplug sound card. Then from YouTube tutorials I learned how to mix, etc.</p>
+<p>After 5 years I resurrected the old netbook with Lubuntu and learned all these free software. This year I made a full switch to Ubuntu with my desktop computer!</p>
+<p><strong>You recently contributed some Guitarix presets to <strong><a href="https://musical-artifacts.com/">musical-artifacts.com</a>. </strong>Can you tell us a bit about about that</strong><strong>?</strong></p>
+<p>Musical-artifacts I believe it was really a dream come true! I always wanted a site to upload and download presets for Guitarix just like some other apps from other OS, which they have their sites and all the users can share their presets.</p>
+<p>It's good also for someone who is new and can't get a good sound from Guitarix, to download 2-3 presets and see how the whole app works.</p>
+<p>Maybe I will make some presets, in the future, inspired by many famous artists, like Jeff Loomis for example. Who knows?</p>
+<p><strong>Why do you feel open source is important, and what for you is the most important aspect of Linux audio?</strong></p>
+<p>I believe open source is the future! I mean if a piece of software has some problems or you have an idea for an improvement, you can just do it and share it with the rest of world!</p>
+<p>I believe software can get better much faster and easier with open source.</p>
+<p>The most important aspect of Linux audio is that the software is free. Saves a lot of money and is not that difficult to understand them and use them. Plus there are many forums, like <a href="http://linuxmusicians.com/">linuxmusicians.com</a> with people that are willing to help you and learn anything from them about Linux audio.</p>
+<p><strong>What do you feel is currently lacking in Linux audio?</strong></p>
+<p>I think the fear of the command line puts some people off. I don't think that Linux doesn't have enough reasons to make someone use it!</p>
+<p>There are sites like Guitarix and <a href="/tools/calf-plugins">Calf Studio Gear</a> that already look so pro and amazing! The applications of Linux are getting better every year.</p>
+<p>Also another problem is the marketing. I believe if there were more people on YouTube showing Linux audio applications, in a much easier and cooler way, it would attract many more people that don't have money or the equipment, to the Linux audio world.</p>
+<p><a href="/articles/lmp-asks-12-interview-sebastian-posch">Sebastian Posch</a> did a pretty cool review with Guitarix and he was my inspiration for the YouTube channel that I have now. I really wanna show the world how many cool stuff can be made with Linux audio with only a computer, a cable and a guitar!</p>
+<p><img alt="" src="/sites/default/files/articles/babis_setup2.jpg" /></p>
+<p><strong>What is your favourite FLOSS plugin?</strong></p>
+<p>Calf plugins! The guys from Calf Studio Gear did an AMAZING job with these. I use them every day and soon I'll make some review videos showing them to world. Basically they have all the things you need for recording in one package and is working 100% with Ardour!</p>
+<p>Also Guitarix! I would never imagined that I would not consider buying an amp instead of software.</p>
+<p><img alt="" src="/sites/default/files/articles/babis_calf.jpg" /><br /><em>Babis, and his stuffed cow, really like Calf Studio Gear!</em></p>
+<p><strong>Are there any FLOSS projects that you are excited about at the moment?</strong></p>
+<p>Yes I'm looking forward to checking out AMsynth 1.6.0 and sometime, maybe I will upgrade to Ardour 4.4! I saw some cool stuff on their website, so I'm considering to make a donation too!</p>
+<p><strong>What resources have you found most useful on your Linux audio journey?</strong></p>
+<p>Basically your site in my honest opinion. You have all the stuff about Linux audio together so I don't need to check out a hundred forum threads about... let's say for an example "<a href="/articles/demystifying-jack-–-beginners-guide-getting-started-jack">JACK configuration</a>" which is the most important thing in Linux audio.</p>
+<p><strong>What changes, if any, would you like to see within the Linux Audio community?</strong></p>
+<p>The Linux Audio community is pretty awesome as is. I believe with better marketing it will attract many more people. That's why I'm doing the YouTube channel as I said.</p>
+<p><strong>What advise would you give to a new Linux Audio user?</strong></p>
+<p>There is no risk with Linux distros! There are many different flavours too, so you can choose what you like! I'm using Linux for 2 years and made the full switch this year. I will never go back to Windows. Linux audio has many forums if you want help with anything and everything a bedroom musician needs!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-14-interview-babis-kouvalis" st_title="LMP Asks #14: An interview with Babis Kouvalis" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/406" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-V2DV_iYTXuSYiumpCNrRdYPbaPqcZ9YtDuJhVhppKsc" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/406" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Y80L3gIEXVWNjHzHrzGajHEhhr-gg1LEqcOyYb_YvfU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

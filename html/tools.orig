@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Tools | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/libraries/chosen/chosen.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/chosen/css/chosen-drupal.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/chosen/chosen.jquery.min.js?v=1.1.0"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/chosen/chosen.js?v=1.1.0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"tQVuEt40nHd43bsuzll3LrGMxysq627HnRILvVol1X4","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/chosen\/chosen.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/chosen\/css\/chosen-drupal.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"chosen":{"selector":"select:visible","minimum_single":0,"minimum_multiple":0,"minimum_width":200,"options":{"allow_single_deselect":false,"disable_search":false,"disable_search_threshold":0,"search_contains":false,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"urlIsAjaxTrusted":{"\/tools":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-tools" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf active-trail"><a href="/tools" class="active-trail active">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Tools                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-tools view-id-tools view-display-id-page view-dom-id-93ea61774f359eb182f3861b9cab9ff7">
+            <div class="view-header">
+      <p>Select the categories that you want to filter on and click the Apply button. You can select multiple categories by using the Control key. Then click the entry to read the whole text.</p>
+<p>If you have knowledge of a great FLOSS audio tool that we are missing, <a href="/tools/suggestion">please leave a tool suggestion</a>.</p>
+    </div>
+  
+      <div class="view-filters">
+      <form action="/tools" method="get" id="views-exposed-form-tools-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-area-tid-wrapper" class="views-exposed-widget views-widget-filter-field_area_tid">
+                  <label for="edit-field-area-tid">
+            Filter by Category          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-area-tid">
+ <select multiple="multiple" name="field_area_tid[]" id="edit-field-area-tid" size="9" class="form-select"><option value="64">analyzer</option><option value="4">audio editing</option><option value="1">audio recording</option><option value="14">debugging</option><option value="71">drums</option><option value="72">electronics</option><option value="20">file formats</option><option value="70">fx</option><option value="10">general</option><option value="25">interview</option><option value="24">Libre Music Production</option><option value="15">mastering</option><option value="22">midi</option><option value="16">mixing</option><option value="2">plugins</option><option value="73">programming</option><option value="17">recording</option><option value="66">sampler</option><option value="63">scoring and typesetting</option><option value="3">sequencing</option><option value="69">synthesis</option><option value="68">technique</option><option value="67">workflow</option></select>
+</div>
+        </div>
+                  <div class="description">
+            Leave blank for unfiltered results.          </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-tools" name="" value="Apply" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/4-band-parametric-eq-fil4lv2">4 Band Parametric EQ (fil4.lv2)</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/4-band-parametric-eq-fil4lv2"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/fil4.png?itok=JFlJhk8c" alt="4 Band Parametric EQ (fil4.lv2)" title="4 Band Parametric EQ (fil4.lv2)" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">4 Band Parametric EQ (fil4.lv2) is a graphical EQ with High/Low shelfs and High/Low Pass filters which is based on DSP from Fons Adriaensen's highly regarded fil-plugin. It is available in both mono and stereo variants and has a...</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/plugins">a-plugins</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/plugins"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/a-eq-comp.png?itok=kzPZdmL8" alt="a-plugins" title="a-plugins" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">a-plugins is a suite of plugins bundled with Ardour, from version 5.0 onwards. They include all the basic plugins you need to get started mixing. The suite currently consists of the following -
+a-Amplifier...</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/a2jmidid">a2jmidid</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/a2jmidid"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/a2jmidid_0.png?itok=Q460HvYP" alt="a2jmidid" title="a2jmidid" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">a2jmidid is daemon for exposing legacy ALSA sequencer applications in JACK MIDI systems.
+Equivalent functionality is now built into JACK 1. If you want to expose similar functionality using JACK 2 you will still need to use a2jmidid....</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/aeolus">Aeolus</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/aeolus"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/aeolus.png?itok=xJ_3eo30" alt="Aeolus" title="Aeolus" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Aeolus is a synthesised (i.e. not sampled) pipe organ emulator that should be good enough to make an organist enjoy playing it. It is a software synthesiser optimised for this job, with possibly hundreds of controls for each stop, that enable the user to "voice" his instrument.
+Main...</div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/alsa-modular-synth">Alsa Modular Synth</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/alsa-modular-synth"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/ams.png?itok=QG5yUTFj" alt="Alsa Modular Synth" title="Alsa Modular Synth" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">AlsaModularSynth (AMS) is a realtime modular synthesizer and effect processor.
+</div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/ams-lv2">ams-lv2</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/ams-lv2"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/amslv2.png?itok=HEq0oAxP" alt="ams-lv2" title="ams-lv2" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">ams.lv2 is a set of LV2 plugin ports of the internal modules found in Alsa Modular Synth.
+These plugins are used to create modular synthesizers and, amongst others, contains:
+VCO
+VCF
+VCA
+LFO
+Slew...</div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/amsynth">AMSynth</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/amsynth"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/amsynth.png?itok=B2h5hKcY" alt="AMSynth" title="AMSynth" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">AMSynth is an open source realtime software synthesizer for Linux. Its operation is similar to analog Moog Minimoog and Roland Juno-60, which are considered classic synthesizers from the 1970s. It is available in various formats, including LV2 and...</div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/ardour">Ardour</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/ardour"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/ardour_0.jpg?itok=EwbOd90w" alt="Ardour" title="Ardour" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Ardour is a fully featured audio and MIDI multi-track recording and editing program. Ardour supports LADSPA, LV2 and LinuxVST plugin formats.
+Features include powerful anything...</div>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/arduino">Arduino</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/arduino"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/ArduinoUno_R3_Front.jpg?itok=MStNBBal" alt="Arduino" title="Arduino" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">The Arduino is a small open source micro-controller (a simple computer) that easily speaks with the world through versatile inputs and outputs.
+</div>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/artyfx-plugins">ArtyFX Plugins</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/artyfx-plugins"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/artyfx.png?itok=os3G1jq7" alt="ArtyFX Plugins" title="ArtyFX Plugins" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Arty FX is a plugin bundle of artistic “RT” effects from OpenAV. The aim of this plugin collection is to allow the designing of your sound just as you desired using a fast, effiecient workflow.
+The suite includes reverb, delay, saturation and...</div>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/audacity">Audacity</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/audacity"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/audacity_0.png?itok=y9MKQJLY" alt="Audacity" title="Audacity" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Audacity is free, open source, cross-platform software for recording and editing sounds.
+</div>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/avl-drumkits">AVL Drumkits</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/avl-drumkits"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/avldrums.png?itok=Pl1x2_ew" alt="AVL Drumkits" title="AVL Drumkits" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">The avldrums.lv2 plugin is a drum sample player dedicated to Glen McArthur's AVLdrums. This self-contained plugin provides a convenient way to rapidly sequence and mix midi-drums.
+The AVLdrums comes as two separate drumkits: Black Pearl...</div>  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/cadence">Cadence</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/cadence"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/Cadence.png?itok=IyxSuwEd" alt="Cadence" title="Cadence" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Cadence is a GUI frontend for JACK that allows you to access and manage many of JACK's features. It allows you to choose your audio interface and settings. Cadence comes as part of KXStudio and allows you to run JACK automatically in the background upon login.
+</div>  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/calf-organ">Calf Organ</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/calf-organ"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/Calf%20-%20Organ%20-%20Sound%20Processor.jpg?itok=PzcoqNrG" alt="Calf Organ" title="Calf Organ" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Calf Organ is based on a drawbar organ; rather than emulating a specific organ it takes the basic idea and expands on it. You can adjust the harmonic and the waveform of each drawbar, and independently pan and detune them, too. It also has a pair of resonant filters, and three envelopes for...</div>  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/calf-plugins">Calf Plugins</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/calf-plugins"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/calf.jpg?itok=pAt5-ifV" alt="Calf Plugins" title="Calf Plugins" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Calf plugins are a complete plugin suite, in the LV2 plugin format, that cover all your basic processing needs. From processors like EQ's and compressors to effects like reverb and delay, it covers all you need to get mixing. It also includes a...</div>  </div>  </div>
+  <div class="views-row views-row-16 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/carla">Carla</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/carla"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/carla_0.png?itok=bZbXFBxR" alt="Carla" title="Carla" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Carla is a plugin host that has extensive support for plugin formats. It can be used as a standalone program for live use but can also be incoporated into modular recording set ups, and includes a built in graphical patchbay . As well as plugins, Carla can also load...</div>  </div>  </div>
+  <div class="views-row views-row-17 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/convolv2">convoLV2</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/convolv2"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/convoLV2_0.png?itok=Tu1DYBCw" alt="convoLV2" title="convoLV2" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">convoLV2 is an LV2 plugin used to convolve audio signals with zero latency.
+It can be used for convolution reverb although due to it having no controls its main use-case is cabinet-emulation and generic signal processing where latency matters.
+The plugin comes in three variants:...</div>  </div>  </div>
+  <div class="views-row views-row-18 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/denemo">Denemo</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/denemo"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/denemo.png?itok=DPNi0XQE" alt="Denemo" title="Denemo" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Denemo is a music notation program that lets you rapidly enter notation which it typesets using the LilyPond music engraver. Music can be typed in at the PC-Keyboard, or played in via...</div>  </div>  </div>
+  <div class="views-row views-row-19 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/dexed">Dexed</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/dexed"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/dexed.png?itok=kQEWn8-U" alt="Dexed" title="Dexed" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Dexed is a plugin synth that is closely modeled on the Yamaha DX7. The goal of this synth is to be a tool/companion for...</div>  </div>  </div>
+  <div class="views-row views-row-20 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/dfasma">DFasma</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/dfasma"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/dfasma.png?itok=dtcBnfst" alt="DFasma" title="DFasma" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">DFasma is a free open-source software which is used to compare audio files in time and frequency. The comparison is first visual, using wavforms and spectra. It is also possible to listen to time-frequency segments in order to allow perceptual comparison.
+</div>  </div>  </div>
+  <div class="views-row views-row-21 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/distrho-plugin-suite">DISTRHO plugin suite</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/distrho-plugin-suite"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/distrho.png?itok=XnAyo4AZ" alt="DISTRHO plugin suite" title="DISTRHO plugin suite" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">The DISTRHO plugin suite, is a collection of plugins, and various ports. Notable plugins include -
+Obxd - An emulation of the famous ob-x, ob-xa and ob8 synths.
+TAL Plugins - Including TAL Dub-3, Filter, NoiseMaker, Reverb and Vocoder....</div>  </div>  </div>
+  <div class="views-row views-row-22 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/drmr">DrMr</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/drmr"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/drmr.png?itok=SoWTigPd" alt="DrMr" title="DrMr" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">DrMr is an LV2 sampler plugin. It's main reason to exist is to give a way for lv2 hosts to have a built in drum synth that can save its entire state (i.e. no need to go out to external tools and no need to save extra state).
+</div>  </div>  </div>
+  <div class="views-row views-row-23 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/drumgizmo">Drumgizmo</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/drumgizmo"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/drumgizmo_new_gui.png?itok=VLBxMJpe" alt="Drumgizmo" title="Drumgizmo" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Drumgizmo is an LV2 sample based drum plugin that mimics the set up of a real acoustic drumkit. It uses an open drumkit file format, so you can create your own drumkits for Drumgizmo. There is even an editor called DGedit that comes with Drumgizmo to help you make this...</div>  </div>  </div>
+  <div class="views-row views-row-24 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/drumkv1">Drumkv1</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/drumkv1"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/drumkv1-screenshot1.png?itok=DbhMhErk" alt="Drumkv1" title="Drumkv1" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">drumkv1 (yes, lowercase) is an old-school all-digital drum-kit sampler synthesizer with stereo fx created by Qtractor author Rui Nuno Capela.
+It comes as a stand-alone ...</div>  </div>  </div>
+  <div class="views-row views-row-25 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/eq10q">EQ10Q</a></span>  </div>  
+  <div class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/eq10q"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/EQ10Q-v2.png?itok=rpc_3N-Q" alt="EQ10Q" title="EQ10Q" /></a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">EQ10Q is an LV2 plugin that provides 10 band parametric EQ with a graphical display. It includes various filter types including peaking, HPF, LPF, shelving and notch filters.
+Initially, the project contained just one plugin, the EQ. Since...</div>  </div>  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/tools?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/tools?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/tools?page=3">4</a></li>
+<li class="pager-next"><a title="Go to next page" href="/tools?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/tools?page=3">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/tools" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form--QpTybuBVamzoXqVIUXJvYHfNlLxJlkm6aibBeYcxJ4" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/tools" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Gewz0vV1YbkLMa0QeKTwi7RVnoJZTHeHF9duh5hOkPQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

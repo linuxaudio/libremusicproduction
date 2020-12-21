@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - drums</title>
+ <link>https://libremusicproduction.com/category/drums</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Drumgizmo 0.9.14 is released</title>
+ <link>https://libremusicproduction.com/news/20170519-drumgizmo-0914-released</link>
+ <description></description>
+ <pubDate>Fri, 19 May 2017 17:03:37 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">553 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170519-drumgizmo-0914-released#comments</comments>
+</item>
+<item>
+ <title>New Drumgizmo version released with major new feature, diskstreaming!</title>
+ <link>https://libremusicproduction.com/news/20170507-new-drumgizmo-version-released-major-new-feature-diskstreaming</link>
+ <description></description>
+ <pubDate>Sat, 06 May 2017 21:38:48 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">549 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170507-new-drumgizmo-version-released-major-new-feature-diskstreaming#comments</comments>
+</item>
+<item>
+ <title>Synthesizing a drumkit with ZynAddSubFX</title>
+ <link>https://libremusicproduction.com/news/20170201-synthesizing-drumkit-zynaddsubfx</link>
+ <description></description>
+ <pubDate>Wed, 25 Jan 2017 16:32:14 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">534 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170201-synthesizing-drumkit-zynaddsubfx#comments</comments>
+</item>
+<item>
+ <title>DrMr</title>
+ <link>https://libremusicproduction.com/tools/drmr</link>
+ <description></description>
+ <pubDate>Fri, 20 Jan 2017 22:41:36 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">533 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tools/drmr#comments</comments>
+</item>
+<item>
+ <title>AVL Drumkits</title>
+ <link>https://libremusicproduction.com/tools/avl-drumkits</link>
+ <description></description>
+ <pubDate>Mon, 16 Jan 2017 11:10:02 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">531 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tools/avl-drumkits#comments</comments>
+</item>
+<item>
+ <title>Two high quality drumkits for DrumGizmo</title>
+ <link>https://libremusicproduction.com/news/20190213-two-high-quality-drumkits-drumgizmo</link>
+ <description></description>
+ <pubDate>Tue, 08 Nov 2016 23:25:47 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">523 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20190213-two-high-quality-drumkits-drumgizmo#comments</comments>
+</item>
+<item>
+ <title>DrumGizmo v0.9.11 released, new project forum over at LinuxMusicians</title>
+ <link>https://libremusicproduction.com/news/20161030-drumgizmo-v0911-released-new-project-forum-over-linuxmusicians</link>
+ <description></description>
+ <pubDate>Sun, 30 Oct 2016 23:28:56 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">519 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20161030-drumgizmo-v0911-released-new-project-forum-over-linuxmusicians#comments</comments>
+</item>
+<item>
+ <title>Using AVL drumkits with a-Fluid Synth in Ardour</title>
+ <link>https://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour</link>
+ <description></description>
+ <pubDate>Wed, 19 Oct 2016 09:12:02 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">511 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour#comments</comments>
+</item>
+<item>
+ <title>AVL Drumkits updated to version 1.1</title>
+ <link>https://libremusicproduction.com/news/20161021-avl-drumkits-updated-version-11</link>
+ <description></description>
+ <pubDate>Wed, 19 Oct 2016 08:31:54 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">510 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20161021-avl-drumkits-updated-version-11#comments</comments>
+</item>
+<item>
+ <title> Vee One Suite 0.7.6 released</title>
+ <link>https://libremusicproduction.com/news/20160919-vee-one-suite-076-released</link>
+ <description></description>
+ <pubDate>Mon, 19 Sep 2016 16:35:14 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">497 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20160919-vee-one-suite-076-released#comments</comments>
+</item>
+</channel>
+</rss>

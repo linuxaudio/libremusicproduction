@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - singer-songwriter</title>
+ <link>http://libremusicproduction.com/genre/singer-songwriter</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Iron Mike Norton</title>
+ <link>http://libremusicproduction.com/music/iron-mike-norton</link>
+ <description></description>
+ <pubDate>Thu, 28 Mar 2019 15:33:23 +0000</pubDate>
+ <dc:creator>Magno</dc:creator>
+ <guid isPermaLink="false">578 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/iron-mike-norton#comments</comments>
+</item>
+<item>
+ <title>Mark! Silver</title>
+ <link>http://libremusicproduction.com/music/mark-silver</link>
+ <description></description>
+ <pubDate>Tue, 22 Aug 2017 21:36:38 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">564 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/mark-silver#comments</comments>
+</item>
+<item>
+ <title>Harney-Barrow</title>
+ <link>http://libremusicproduction.com/music/harney-barrow</link>
+ <description></description>
+ <pubDate>Tue, 09 May 2017 17:57:08 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">552 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/harney-barrow#comments</comments>
+</item>
+<item>
+ <title>Johnito</title>
+ <link>http://libremusicproduction.com/music/johnito</link>
+ <description></description>
+ <pubDate>Sat, 08 Apr 2017 22:18:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">546 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/johnito#comments</comments>
+</item>
+<item>
+ <title>Emily Fox</title>
+ <link>http://libremusicproduction.com/music/emily-fox</link>
+ <description></description>
+ <pubDate>Wed, 13 Jul 2016 05:57:27 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">481 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/emily-fox#comments</comments>
+</item>
+<item>
+ <title>Yassin Philip </title>
+ <link>http://libremusicproduction.com/music/yassinphilip</link>
+ <description></description>
+ <pubDate>Tue, 08 Dec 2015 17:10:35 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">415 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/yassinphilip#comments</comments>
+</item>
+<item>
+ <title>unfa</title>
+ <link>http://libremusicproduction.com/music/unfa</link>
+ <description></description>
+ <pubDate>Sat, 14 Feb 2015 18:03:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">308 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/unfa#comments</comments>
+</item>
+<item>
+ <title>Christie Isaac</title>
+ <link>http://libremusicproduction.com/music/christie-isaac</link>
+ <description></description>
+ <pubDate>Tue, 23 Sep 2014 15:23:49 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">193 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/christie-isaac#comments</comments>
+</item>
+</channel>
+</rss>

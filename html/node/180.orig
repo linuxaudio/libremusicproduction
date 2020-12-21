@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-14-jeremy-jongepier" />
+<link rel="shortlink" href="/node/180" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #14: Jeremy Jongepier | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"KpjqX2XDJ_JeBmPgcdIuRlKADqLXvwWCaiY4wcSvz9k","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/180":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-180 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #14: Jeremy Jongepier                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-180" class="node node-article node-promoted clearfix" about="/articles/friday-interview-14-jeremy-jongepier" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #14: Jeremy Jongepier" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-01-17T11:49:10+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2014-09-14 10:17</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 14th edition of the Friday Interview! This week, we're joined by a musician and all-around community hero. I'm very happy to introduce the 14th participant of the series, interviewee #14: <em>Jeremy Jongepier</em>! Lets get started!</p>
+<h2>Introducing Jeremy Jongepier</h2>
+<div class="well"><strong>Jeremy Jongepier</strong> is a Linux sysadmin from the Netherlands.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is making music and promoting making music with Linux.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys performing and practicing with his band Ride The Fader, spending time with his wife and kids, as well as hacking on embedded devices like the Raspberry Pi and Cubieboard.</div>
+<p> </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-studio.jpg"><img alt="jeremy-jongepier-studio" class="size-large wp-image-568" height="768" src="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-studio-1024x768.jpg" width="1024" /></a> <em>Jeremy playing with what appears to be a microphone, as a local technician works on his computer. Heheheheehehe. ;)</em>
+<p> </p>
+</div>
+<p><strong>Hi Jeremy! Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>Hello Gabbe, thank you for asking me, it's a great honor!</p>
+<p>I'm living in The Netherlands in a city called Beverwijk. It's a small town of which the historical center has been destroyed by the Nazis during WWII and the little bit that remained was ruined by ignorant developers. Bear in mind that in the 18th centuries Beverwijk was considered one of the most beautiful cities of The Netherlands and you'll understand that for a lot of people Beverwijk is analogous to depression. But somehow this results in a very vibrant community of musicians and artists. The city's ugly appearance and the fact that there's nothing to do motivates people to make the best out of it. So yes, I'm feeling at ease here with my wife and two kids.</p>
+<p>Currently I'm employed as a Linux sysadmin annex senior support engineer. I've been hired to set up and lead an extended support department so these are busy and exciting times because I've never done this before. The company I work for is one of the leading Dutch managed hosting companies so I basically live inside a terminal these days.</p>
+<p>Just before I got this job I also accepted a Linux audio consultancy job for an American company that is exploring the possibility of using an embedded device running Linux as a digital instrument. NDA alert so can't go into too much detail. But I think it's safe to say that they pay me to hack an embedded device for musical purposes. So I have to try to get the most out of it latency and performance wise. I'm a bit stuck now at driver/kernel level as I'm facing audio jitter and I haven't been able to track down the source of it yet.  </p>
+<p><b>What's your musical background like? What music do you like, and do you play any instruments?</b></p>
+<p>My musical background is a bit ambiguous. It was my father who bought me my first acoustic guitar for my 14th or 15th birthday. My mother couldn't care less, she considered all my attempts to create music as caterwaul. My mother actually doesn't like listening to music at all but luckily my father does so I grew up with Pink Floyd, Fleetwood Mac, Beatles, Steely Dan and Alan Parsons penetrating my ears and brains. It was also my father who'd take me to my first real concert when I was like 14 (Pink Floyd, Momentary Lapse of Reason tour) which was an overwhelming experience.</p>
+<p>My second real concert ever made even a bigger impact on me, Fugazi at the Paradiso in Amsterdam about two years later. That concert changed my life forever and soon after I started a band with a friend. We started with covering bands like Hüsker Dü, Lemonheads, Buffalo Tom and Nirvana and I basically play music in that very same vein with my current band, Ride The Fader. In between I've played in a band called Soda P that has been together for 17 years, we released two albums on a small label and literally played in every venue and youth society in The Netherlands. Soda P was more of a postrock/slowcore band, very much influenced by bands like Slint, Karate, Mogwai, June of 44 etc.</p>
+<p>I started playing guitar because of one of my parent's best friends who happens to be an awesome guitar player. I was always amazed by his guitar playing, I recall him always holding a guitar in his hands, during birthdays, holidays we spent together, any occassion basically much to the distress of his wife. Who wouldn't get mad at his husband when he opens the trunk of the car at a campside in Southern-France after two long days of driving only to pull out an electric guitar and plug it in the amp he had built inside of the trunk. Epic.</p>
+<p>The way my musical taste got formed is a bit twofold also. During high school I got acquainted with a kid who was slightly older than me and who was heavily into new wave and avantgardistic music. He introduced me to a great variety of bands like The Cure, Virgin Prunes, Comsat Angels, Joy Division, Einstürzende Neubauten, Coil, Throbbing Gristle, Sonic Youth, Fugazi (yes, he was the one who took me to my first Fugazi show) and a whole lot more.</p>
+<p>And it was the other guitarist and singer of my very first band who got me into indie rock. He devoured 120 Minutes on MTV and came up with exciting bands like Dinosaur Jr, Buffalo Tom, Afghan Whigs, Throwing Muses and Nirvana. He was the guy that got me hooked to genres like Shoegaze, Postrock and Slowcore and with whom I've witnessed some great live concerts.</p>
+<p>The cool thing was that he was also interested in the background of all those bands, he liked to dig, search for sideprojects, related bands and labels, history of bands, their influences etc. Occasionally he turned up with amazing artists like Nick Drake or Alex Chilton from Big Star. I adopted that way of experiencing and listening to music. I want to know where bands and artists come from and if possible I want to see them live.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-son.jpg"><img alt="jeremy-jongepier-son" class="size-large wp-image-569" height="768" src="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-son-1024x768.jpg" width="1024" /></a> <em>Jeremy with the Unidentified Technician again.</em>
+<p> </p>
+</div>
+<p>Through the 25 years that followed I came to appreciate other genres like IDM and Dreampop and opened my ears for the better music from the beginning of the pop/rock era like Neil Young, David Bowie, Big Star and Badfinger. I went through a U2 phase (that's my guilty pleasure, I now despise that band), a punkrock phase and since I like to dance I did listen to some dance music throughout the years. So basically I have a rather delineated musical taste and a tendancy for name dropping. Sorry about the latter. Hopefully when I grow older and wiser I will find the time to start listening to Jazz and Classical music.</p>
+<p>So my first real musical endeavors started on guitar when I was 14 or 15. But I think I have a tape somewhere with me humming some melody in the middle of the night that is probably older. I used to have a tape recorder beside my bed because from the age of 5 or 6 I developed a habit of singing myself to sleep.</p>
+<p>My first experience on stage happened at the age of 15 when I joined a pop music course which had a real concert as a finale. That's where it all started actually. I then took lessons for about three months but got bored quickly, also I turned 16 and at that time musical education was subsidized until the age of 16. So when it comes to playing guitar I'm pretty much autodidact and I've always found it pretty hard. I'm not really a gifted musician so I have to work hard in order to achieve something I'm happy with.</p>
+<p>Throughout the years I did develop my own style though, also because I've always refused to listen to other guitarists or to play along with music. Sometimes it really doesn't pay off to be obstinate, really. But at the moment I can say that I'm a proficient guitar player. I don't really master any other instruments though besides vocals and guitar. I can play some mouth harp and some piano but that's about it. Like I said, I'm not very talented so I've always focused on one instrument, the guitar. Well, plus vocals. I do sing way better than 20 years ago, I know my own voice and its limitations by now.</p>
+<p>When I started out making music with Linux a whole new world opened though, now I had to find a way of using a computer as an instrument, as a tool to make music with. So far it hasn't been an unpleasant journey but I'm really yearning for that same proficiency I have with my guitar, the proficiency you find with guys interviewed before me like Ras Tilo and Louigi Verona.  </p>
+<p><strong>Is there any musical project you haven't done that you'd really want to do?</strong></p>
+<p>When I think of it, yes. A real simple wish actually. I've never been in a band where I wasn't the front man so I'd like to experience that, to be in a band where I just have to play guitar, where I can focus on my playing and do my thing. It doesn't necessarily have to be guitar though, my brother in law has a growing collection of analogue synths and drum machines and I'd love to do something with that. Oh, and another thing springs to mind, I'd really like to do some Linux audio collaborations, at the last LAC some people approached me if I'd be interested to work on a joint effort for the next LAC. Hopefully I can turn these thoughts into something constructive.  </p>
+<p><b>What's your history with Linux, and with using Linux for audio?</b></p>
+<p>I got into Linux during some late 1990's LAN parties at a friend's place. That friend, at the time he was like 15, had already been using Linux for a couple of years and I recall he was running Enlightenment and that he was so fluent on the CLI. I was fascinated. Another friend advised me to buy the SuSE book and CD's (<a href="http://www.linuxjournal.com/article/3652" target="_blank">SuSE Linux 6.1</a>) which I did and from that moment on I was hooked. Soon after I got cable internet, hooked up a Slackware server to the internet and found employment in the IT business. From then on I knew that I wanted to do something with Linux on a professional basis and I steadily worked towards that goal. I'm far from being there but at the moment I've got a great job and I'm learning new things everyday.</p>
+<p>It took me a while to make the switch. I think it was 2007 that I decided to completely move to Linux on the desktop. First I lingered a bit with Mandriva and Fedora but when I tried Ubuntu 8.04 a lot of things fell into place. And I've been using it ever since, but only the LTS versions.</p>
+<div>At work I’ve been able to use it exclusively too though the last three months I had to work on a Mac which only made me appreciate the Linux desktop even more. A Unices with no middle-mouse click, that’s not an idiosyncracy, that’s just plain bizarre.</div>
+<div> </div>
+<div>Soon after I made the switch I also started to discover the computer as a musical tool. I bought an USB audio interface and just started to figure everything out, I was just very eager to fathom <a href="/answer/jack">JACK</a> and the whole Linux audio ecosystem. I loved it from the start even though I found myself spending more time getting things to work than actually making and/or recording music. But I guess for me Linux audio is just the perfect balance between my geeky, nerdy me and my musical me.</div>
+<div> </div>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-screenshot-dualscreen.png"><img alt="jeremy-jongepier-screenshot-dualscreen" class="size-large wp-image-570" height="288" src="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-screenshot-dualscreen-1024x288.png" width="1024" /></a> <em>A screenshot of Jeremy's working environment.</em>
+<p> </p>
+</div>
+<p>Besides getting things to work I've also spent quite some time helping people out, documenting things, squashing bugs, testing new stuff and promoting the use of Linux for doing audio. For me that's an intrinsic part of using an open source operating system and software, of being part of a community. It's not something I think about a lot, not even something I particularly love to do, I got a bit of an ambiguous relation with online communities and social media. It has become such a part of my live that sometimes I need to step back, contemplate about what the heck I'm doing and then move on. It just consumes a lot of time and my free time has become scarce with two kids and a fulltime job.</p>
+<p>Add to this that I was already 21 before I got my first e-mail account so I'm quite attached to personal interaction, you know, talking to people face to face. I've always found it difficult to project that way of interacting on communicating online. That's why I love to go to conferences and meetings, to meet other people that are interested in the same things, I find that very inspiring.</p>
+<p>I attended my first Linux Audio Conference when it was held in The Netherlands and the next year I found myself doing two workshops and a short appearance on stage. I owe a lot of gratitude to Marc Groenewegen for introducing me to this yearly event (even though I didn't know him personally at that time) and when I get the chance I go there and try to contribute my part. Since 2010 the LAC's have been personal highlights for me, culminations of positive, creative energy, the ultimate chance to meet people in the flesh that you so far only knew from their online presence.  </p>
+<h2>Raspberry Pi and more</h2>
+<p><strong>You've done quite some work hacking away at the Raspberry Pi. For those of us who don't know, could you talk about what the Raspberry Pi is, what it can do, and what you have made it do?</strong></p>
+<p>The Raspberry Pi is a small, credit-card sized, cheap ARM based computer originally conceptualized to be used in an educational environment to get kids and students acquainted with programming. It had to be easy to use, hackable and consist of fully supported components. By the time it got released everybody jumped onto it as the RPi almost had no counterparts, especially with regard to its price, and when became clear that the GPU was quite capable and the RPi could run XBMC sales rocketed.</p>
+<p>The RPi somehow attracted me from the beginning despite the fact that it's not completely open source. The fact that it was a cheap, small computer that runs Linux and had audio out just intrigued me, I was just so eager to know how JACK would run on it and if the device would be usable for usage as some kind of musical appliance. As soon as I got my hands on it first thing I tried was to get JACK running on it which didn't work initially. It was only a few months later I found some ARM related patches, recompiled JACK and got it running. From then on I started tweaking, tuning and documenting everything I had found out. About a month later I got everything running in a reliable manner and could use the RPi as a musical appliance at reasonable latencies given the specs of the RPi. So far I've used the RPi as a drum machine, a virtual guitar amp, a synthesizer and a sampler.  </p>
+<p><strong>Excluding things in relation to the NDA, do you have any project you'd really want to do that you haven't, involvning the RPi and music?</strong></p>
+<p>(BTW, the musical appliance I'm working on won't be based on the RPi so NDA alert doesn't apply here)</p>
+<p>Yes I do, I'd love to build a guitar FX processor based on the RPi. It is possible to connect an external audio soundcard to the RPi via an internal bus system and this should allow for lower latency and a higher reliability. I've got such a soundcard lying around but I just haven't found the time yet to try connecting it. Once connected I still need to work around the different impedancies as the soundcard only handles line levels so I need a preamp for the input and something to cut down the output. Then I need to build it into a nice Hammond enclosure with a display to show what preset I'm using. All feasible but very time consuming so I don't see it happen on a short term.</p>
+<h2>Final questions</h2>
+<p><strong>Could you talk a little about what kind of hardware setup you are using?</strong></p>
+<p>During my employment at the University of Amsterdam the department I worked for ordered some test machines from Dell for a media room project where employees could digitize movies, audio and images and do some basic video and audio production. After the media room had been equipped with top notch workstations one of the test machines (a Dell Optiplex 755 with a Core 2 quad core CPU) ended up in the basement because Dell didn't want it back. After half a year I asked my manager if I could take that machine home with me. She was OK with that and that machine still forms the heart of my music setup. It's about 4 years old now but still runs like I charm. It's coupled with a Focusrite Saffire Pro 40 FireWire audio interface, another relic of that same university media project. I had ordered a Saffire Pro 24 for that project but a Pro 40 was delivered. I asked if I could swap the Pro 40 for a Pro 24 if I'd buy one which was no problem. So I've got kind of a cheap skate setup. Later on I bought a pair of Yamaha HS50 monitors and Behringer BCF2000 and BCR2000 MIDI controllers.</p>
+<p>My mobile setup consists of a quite recent Core i7, 16GB RAM, SSD equipped notebook that I'm currently using together with my old, revered Edirol UA-25 US audio interface. I'm currently looking for a replacement that sounds better with guitar and preferably USB2.</p>
+<p>And that's about it. No outboard gear, that's still unchartered territory. I do have some mics but most are budget models so that's another long term project, acquiring some decent mics. Oh yeah, guitars, I've got a small but nice collection that contains all I need. And amps of course, I’ve got some great all-tube amps from the 1960′s and 1970′s.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-midi-unit.jpg"><img alt="jeremy-jongepier-midi-unit" class="size-large wp-image-571" height="768" src="http://www.zthmusic.com/wp-content/uploads/jeremy-jongepier-midi-unit-1024x768.jpg" width="1024" /></a> <em>Rockin' it MIDI-style!</em>
+<p> </p>
+</div>
+<p><b>Do you feel like anything is lacking in Linux audio today, and if so, what?</b></p>
+<p>On a software level, the only thing that is lacking for me personally is a more up to date step sequencer. I'm pretty proficient with seq24 and it's a great tool but it's starting to grow a bit dated. There are alternatives like Cythar and its paid LinuxVST counterpart B-Step but I haven't had the time yet to check it out. Same goes for Frank Kober's LV2 versions of the different QMidiArp modules.  </p>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>Hard to say, I'm quite an extensive plugin user. The plugins I use most are probably the <a href="/answer/ladspa">LADSPA</a> Fast Lookahead limiter and Steve Harris' SC4 compressor. Those two end up in almost every project I do. Other plugins I use a lot are the <a href="/tools/calf-plugins">Calf</a> Vintage Delay and Rui’s drumkv1.  </p>
+<p><strong>Where can people get a hold of you, and where can they find your work and music?</strong></p>
+<p>At the moment I'm so busy with work, parenting and my latest band that I have little time to hang around on the interwebs. I prefer good ol' internet communication media like <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a> and mailing-lists. I used to hang around a lot on linuxmusicians.com but haven't been there for quite a while. On IRC you can run into me in various Linux audio related channels like #opensourcemusicians and #kxstudio where I go by the handle of AutoStatic..</p>
+<p>The places where I uploaded my musical efforts are hopelessly fragmented. But I'm in the process of creating a summary on the site of my solo project, The Infinite Repeat: <a href="http://theinfiniterepeat.com/" target="_blank" title="AutoStatic's solo project">http://theinfiniterepeat.com/</a></p>
+<p>And perhaps it's worth mentioning my YouTube channel (<a href="http://www.youtube.com/autostatic3000" target="_blank" title="AutoStatic on Youtube">http://www.youtube.com/autostatic3000</a>) as that channel probably contains most of what I've done with Linux audio. Not only does it contain music but also some tutorials and some footage of presentations I have done. And I shouldn't forget my blog, <a href="http://linux.autostatic.com" target="_blank" title="AutoStatic's blog">linux.autostatic.com</a>, where I occasionally write about Linux audio related things.    </p>
+<p><strong>Anything you'd want to add to the interview?</strong></p>
+<p>Thanks for having me, it's a great honor. And thanks for doing these interviews, please continue with this great initiative!  </p>
+<p><strong>Thank you very much for the interview Jeremy!</strong></p>
+<p class="well">That was Jeremy Jongepier. Thanks to Jeremy for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/articles/friday-interview-14-jeremy-jongepier" st_title="Friday Interview #14: Jeremy Jongepier" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/180" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-nB-9j7BBu-1ADEiyEEM-75t2nKxYufguNZd2uWTPgAE" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/180" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-cEkrQZ47Y9QAPTm2Hrc2V7u3tmRGRlIJK-xSSewYcvY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-23-interview-jacek-zaraza" />
+<link rel="shortlink" href="/node/559" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #23: An interview with Jacek from ZARAZA | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"fj2l4bHobz1q1F1SuKIZ2D5qK59fdG0nRhXRIPlf7iQ","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/lmp-asks-23-interview-jacek-zaraza":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-559 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #23: An interview with Jacek from ZARAZA                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-559" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-23-interview-jacek-zaraza" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #23: An interview with Jacek from ZARAZA" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="5" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2017-07-24T21:55:34+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2017-07-25 10:09</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/audacity">Audacity</a></div><div class="field-item even"><a href="/tools/calf-plugins">Calf Plugins</a></div><div class="field-item odd"><a href="/tools/guitarix">Guitarix</a></div><div class="field-item even"><a href="/tools/helm">Helm</a></div><div class="field-item odd"><a href="/tools/hydrogen">Hydrogen </a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This time we talk to Jacek from ZARAZA, one of the two members of this experimental/industrial doom/death/sludge metal band.</p>
+<p><img alt="ZARAZA members." src="/sites/default/files/articles/zaraza_members.png" style="width: 600px; height: 450px;" /></p>
+<h2>Where do you live and what do you do for a living?</h2>
+<p>I (Jacek) currently live in Ecuador, after immigrating here from Canada about 1.5 years ago. Originally I am Polish, immigrated to Canada in 1990 when I was 20.</p>
+<p>I work in IT (obviously...hence the Linux usage). My band ZARAZA started in Montreal, Canada in 1993 as a collaboration between me and local Montreal experimental/industrial musician Brian Damage. We released our first album “Slavic Blasphemy” in 1997, second one “No Paradise to Lose”came in 2003 and then we disbanded in 2006.</p>
+<p>Recently, in 2015 we decided to get back together and the result of this is <a href="https://zaraza.bandcamp.com/album/spasms-of-rebirth">our latest album “Spasms of Rebirth”, which came out in March of 2017</a>.</p>
+<p><img alt="ZARAZA album cover." src="/sites/default/files/articles/zaraza_cover.png" style="width: 600px; height: 600px;" /></p>
+<p>Brian still lives in Montreal, I’m in Ecuador, we do our best to collaborate over the Internet.</p>
+<h2>What is your musical background?</h2>
+<p>All over the map. I grew up as a teenager in communist Poland and spent most of the 80s listening to the underground music of that time: punk, post-punk, industrial, alternative, thrash metal. Upon immigrating to Canada I got into all forms of underground extreme metal (death metal, doom metal, black metal, etc) and ZARAZA was formed to bring all these disparate influences and fuse them together.</p>
+<p>Brian comes from a really experimental/industrial music background. His main band <a href="https://phycus1.bandcamp.com">Phycus</a> has been in active in Canada since late 1980s and he has been involved in numerous experimental electronic/industrial/noise projects throughout the last 30 years.</p>
+<h2>What is your history with Linux and how did you find transitioning to it for audio production?</h2>
+<p>Well, it came out of necessity. Our second album “No Paradise to Lose” was recorded on Windows, using Cakewalk SONAR back in the early 2000s, so I knew that platform and was very satisfied with it.</p>
+<p>Around 10 years ago I ditched all Windows boxes and switched to Linux on all my PCs. First Ubuntu, the last 2-3 years purely on Fedora (once they got their QA together 3-4 releases ago and actually started being stable and usable for daily work). I like how up-to-date all the development packages are in Fedora for my day job and that is really the only OS I have in my house.</p>
+<p>So I wanted to keep using what I have and not have to go out and spend hundreds of dollars on a Windows PC or a Mac, just so that I could use a DAW.</p>
+<p>A few years ago, Linux was virtually unusable for any serious audio production. The gap in functionality and software selection between it and Windows/Mac was gigantic and cumbersome and user-unfriendly solutions like JACK didn’t really help.</p>
+<p>But the arrival of Ardour, Calf Plugins, Guitarix, Hydrogen, etc in the last few years have narrowed that gap to the point where Linux is fully usable for serious audio production. It may still not have the same depth of software selection as the proprietary platforms, but it has enough of high quality offerings to make it possible.</p>
+<p>There are still stability issues (I had Ardour+JACK occasionally freeze for 2-3 minutes in the middle of a recording session...seemingly totally randomly...without any indication as to why, as most CPUs were idle in htop). My biggest complaint is when I upgraded from one version of Fedora to another (which brought in a new Ardour in as well), all of a sudden my existing mixing projects would fail to open properly. Ardour would complain that it could not find the Calf 12 Band Equalizer plugin any more (even though it was there), so I lost all my EQ curves on existing mixes during an upgrade. Had to re-select the same plugin again and redo all the EQ-ing. That was really frustrating.</p>
+<p>And of course, setting up your kernel for real-time usage is an interesting experience too. Went through a lot of Wikipedia entries (the one on Mixxx was especially useful) and that helped me on Fedora. That part of the workstation setup could definitely use some TLC. I like the realtime kernel package in Ubuntu Studio and I think other distros should have something simple like that as well, instead of playing around with realtime IRQ setup by hand, having to change GRUB settings, etc, etc.</p>
+<p>But besides these few glitches, things went well. Hydrogen is an excellent drum machine (although the UI for creating your own drumkits definitely is not very intuitive), Ardour is a stunning DAW, Guitarix is a pretty decent guitar modeler and Calf plugins are world-class. I used many of these plugins in every mix and some of them (like Calf Pulsator) have made huge positive additions to my mixes, making them much more interesting.</p>
+<p>I recall using the MDA Overdrive plugin on all the vocals too, in order to make them harsher, excellent plugin as well.</p>
+<p>So huge kudos to the Ardour and Calf Plugins team, they have helped to push Linux ahead by light years compared to where it was just a few years ago.</p>
+<p>I have not used Helm yet, but played with it and I think it will definitely show up on the next ZARAZA album. Excellent soft synth for the type of experimental/industrial sounds we like to use.</p>
+<h2>What is your typical workflow when making music?</h2>
+<p>Usually, I just plug into a simple project in Ardour, hook up Guitarix and Hydrogen into it and start playing with guitar riffs, etc. Once the songwriting process is finished, then totally focus on Ardour and just stay there all the time for mixing, recording, etc.</p>
+<p>The DAW-oriented work flow is really where Linux needs to go. JACK may seem like a nice idea (sure, we all like Linux pipes), but it’s more of a hindrance than anything else. I would like everything to be available as LV2 plugins and just be able to work totally in a DAW. In my personal opinion, from a usability point of view, having competing sound systems on Linux (JACK vs PulseAudio) is just total confusion for a non-technical user. Most musicians who are not Linux experts would probably get totally lost.</p>
+<p>I think all the real-time parts of JACK should get merged into PulseAudio, there should be only sound system on the OS. Ardour should run on top of that and everything should be easy.</p>
+<h2>Tell us a bit about your hardware set up!</h2>
+<p>On one hand simple, but with some tweaks due to issues I run into with Guitarix:</p>
+<p>Guitar (ESP LTD F-200B with Lace Drop&amp;Gain pickups, tuned to C#) → ISP Decimator II G String Noise Gate → Hotone Octo Compressor Pedal → Focusrite Scarlett 2i4 audio interface → System76 Lemur Laptop → Fedora (Ardour).</p>
+<p>The reason for all the pedals before the audio interface is because the noise suppression system in Guitar is unfortunately very weak, especially for high gain sounds. It is nowhere near as good as something like an ISP Decimator. The noise suppression strip in Guitarix is virtually useless. Even if I maxed it all out, it was never as tight and quiet as the ISP Decimator, especially for percussive staccato metal riffing.</p>
+<p>Even if I wanted to use the abGate plugin in Guitarix, you can only have one (another major Guitarix shortcoming...it limits you to one instance of a plugin). Most metal guitarists have two noise gates: one in front of the amp, one in the FX loop, just to make everything super tight. That is how the ISP Decimator II G String actually works, as it can integrate the output from a typical amp FX loop and provides both pre- and post- noise suppression.</p>
+<p>So I used the ISP Decimator for pre- noise gate and then added abGate in Guitarix after the amp block to make it even tighter. It may seem extreme, but when your gain is maxed out on really heaving aggressive riffs, you need that level of noise suppression.</p>
+<p>I also have a Behringer B-2 PRO condenser microphone, which I used for recording all the vocal demos. I actually recorded the vocals in a professional studio in Houston, Texas and I still used that microphone. I loved the tone it gave to my vocals on the demos and wanted the same thing on the final recording</p>
+<p><img alt="Screendump." src="/sites/default/files/articles/zarasa_ardour.jpg" style="width: 600px; height: 419px;" /></p>
+<h2>What about the software?</h2>
+<p>I already mentioned most of it, but just to summarize:</p>
+<ul><li>Ardour (DAW)</li>
+<li>Calf Plugins + MDA Plugins (mixing)</li>
+<li>Hydrogen (drum machine)</li>
+<li>Guitarix (guitar modeler)</li>
+<li>Audacity (final audio editing before mastering)</li>
+</ul><p>For the final master, I actually used the online mastering site LANDR, they came out pretty good. Better than my own final master I did just in Audacity, so I used the LANDR album masters (with Intensity Level = Low) for the final album release.</p>
+<p>Unlike most metal albums, where everything gets brickwalled for maximum loudness, I like the dynamics in our music and preferred to preserve them.</p>
+<p>I actually did a test master in LANDR with Intensity Level = High (i.e. maximum loudness) and did not like it at all. All the subtle details in our music (e.g. that snare that comes in at just the right time with some extra volume and smacks the listener on the head) just got flattened out and made everything seem lifeless. So I’m definitely not a fan of brickwalled masters and prefer more dynamics.</p>
+<h2>What music do you currently listen to?</h2>
+<p>Gadzillion of various underground artists in many different genres. Too many to mention.</p>
+<p>Check out my <a href="https://bandcamp.com/sekator">Bandcamp profile, they’re all there</a>.</p>
+<p>Everything from death metal to sludge metal to crust punk to experimental/industrial to 1970s Ethiopian jazz to the atonal early works of Krzysztof Penderecki. There is amazing music in so many different genres and I do my best to discover as many of them as I can and not stay in a single genre...that gets boring pretty fast.</p>
+<h2>Why do you feel open source is important, and what for you is the most important aspect of Linux audio?</h2>
+<p>First, the obvious: economics.</p>
+<p>Having moved to a developing country like Ecaudor, where the average salary can be from $300/month to $800/month, I do appreciate the options that free open source software can provide for musicians here. A DAW at $200-$300 may not seem like much for someone living in US or Europe, but for many people in developing countries that could be a whole month’s worth of salary! But thanks to what Linux already offers now, if they have a semi-decent laptop and a decent audio interface, they too can record and mix at a quality level comparable to musicians in developed Western countries.</p>
+<p>Second, the issue of personal freedom, privacy and choice.</p>
+<p>I have BIOS passwords on all my machines. All my drives are encrypted. I run SELinux in fully active mode. I prefer to install open source software only and avoid closed source (with whatever backdoors it has) as much as possible. I believe in personal privacy and the right to live our lives without constant digital surveillance from Big Brother (and there are now multiple Big Brothers out there, all aiming to intercept every part of your digital life somehow).</p>
+<p>I grew up in a totalitarian communist state. As a child, I witnessed the martial law of 1981 in Poland, where we had police hour, curfew and armored troop transporters rolling in front of my windows at night. We had censorship, uncomfortable words that would get bleeped out on records (e.g. “Afghanistan” in a famous song by Polish punk legends Dezerter on their first album). Some bands, even well known mainstream ones, could get banned from radio for months if they refused to play a show to celebrate some visiting Soviet dignitaries.</p>
+<p>After the fall of communism, we learned with terror that secret police like Stasi had files on half the population of Eastern Germany. Or Securitate in Romania had two-way microphones installed in EVERY phone in the country (and in ashtrays in restaurants), so they could remotely monitor every one’s personal life, even in their own home.</p>
+<p>Hence, you can understand how stunned I am about the naivete of today’s population who do not seem to mind at all that a giant digital surveillance machine is monitoring their entire personal life: emails, cell phone calls, text messages, the works. It is quite possible that the NSA has files on 100% of the US population in some giant Hadoop cluster somewhere. What they do today dwarfs the manual amateurish efforts of the Stasi back during the communist days.</p>
+<p>It is hard for me to understand people who say “it’s OK if the government monitors all my stuff, I have nothing to hide”. They give away their freedom and their right to privacy...and it’s a priceless gift and not one to give away. Maybe they all need to lose their freedom in order to finally appreciate what it is worth.</p>
+<p>So I use open source to try to live my digital life with all the privacy I should have as a human being. No backdoors in my OS or in any software I use on a daily basis. No reporting of my keystrokes to some server somewhere.</p>
+<p>Linux is not the only tool in this battle to preserve our freedom, but it is an important one. We all know Edward Snowden used Linux Tails for secure communication when doing his civic duty and informing about the illegal activities of the digital surveillance complex. He is a true American hero, I am hope within my lifetime I will see him return to his homeland and be recognized for who he is. I am sure 50 years from now there will be streets and parks named after him, just like after Rosa Parks or other heroes of the civil rights movement.</p>
+<h2>What do you feel is currently lacking in Linux audio?</h2>
+<p>More software choice, more soft synths. Definitely rethinking of the audio stack to make it easier to use, I think PulseAudio and JACK need to be rolled into one. Focusing on DAW-oriented workflow.</p>
+<p>I really hope a common Snap or Flatpak-based Linux App Store will get created in the future. The likes of RedHat or OpenSuse should get together and make this happen. The creators of tools like Ardour or Helm should be able to publish it once in a central location and any Linux user, regardless of distro, should be able to get it.</p>
+<p>The existence of PPAs in Ubuntu or Copr repos in Fedora is not a solution. It’s a symptom of a problem. The problem being that it is impossible to easily install the same software in different Linux distros, unless it’s manually packaged by the distro maintainers.</p>
+<p>Compared with the ease of software installation on Android or iOS, this is a definite issue that should be solved by the Linux community.</p>
+<p>At one point in time, Linux software repositories were much better alternatives than the old Windows way of downloading manually some InstallShield EXE from somewhere and installing it by hand. But the creation of app stores has leapfrogged past that and in my personal opinion Linux is lagging here. I think each distro can have a unique set of system libraries, config, base software repositories. But all commonly used desktop programs (like LibreOffice, GIMP, Ardour, Helm, etc) should be installable on all distros from a central Linux App Store, IMHO. Whether it is Snap, AppImage or Flatpak, I am not sure. Just pick one and go with it.</p>
+<p>That is a big gap in usability compared to competing proprietary OS platforms.</p>
+<h2>What is your favourite FLOSS plugin?</h2>
+<p>Definitely all the Calf Plugins. World-class UI, world-class features, world-class sound. Everyone of them I tried was outstanding. As good as any commercial proprietary plugin I’ve seen.</p>
+<h2>What changes, if any, would you like to see within the Linux Audio community?</h2>
+<p>More focus on user friendliness. You still have to be pretty techie to do audio production on Linux. Compared to how easy it is to do it on a IPad, we have some gaps to close.</p>
+<p>Guitarix definitely needs more TLC. Remove limit on one instance of a plugin, I should be able to put as many as I want, wherever in the audio chain I want. Enable dual engines, so I can run two amps with different sounds in parallel and blend them (or at least allow dual cabs via IRs in the convolver engine and allow blending those).</p>
+<p>Work on better noise gates, before and after amp block (before cabinet emulation).</p>
+<h2>What advice would you give to a new Linux Audio user?</h2>
+<p>Be patient. It will take some time. But it is doable. Everyone who uses Linux for audio production moves it forward.</p>
+<p><em>Many thanks, Jacek, for taking the time to do this interview! <a href="https://www.youtube.com/playlist?list=PLWf0UwsL2WZKeKqTDOpRxE4A-eIVsdGGc">Be sure to check out ZARAZAs videos</a> (edited in Kdenlive) for their latest album.</em></p>
+<p> </p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-23-interview-jacek-zaraza" st_title="LMP Asks #23: An interview with Jacek from ZARAZA" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/lmp-asks-23-interview-jacek-zaraza" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-xhfnX3wv7jsES-1BH6vdMXn3fsDVCIY7QeK1Kqe1ohw" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/lmp-asks-23-interview-jacek-zaraza" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WKSvrUbNDZzGbDV98XSYH8wDwcXKmb2IE4wdfhDv_mk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

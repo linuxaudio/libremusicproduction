@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - electronics</title>
+ <link>http://libremusicproduction.com/category/electronics</link>
+ <description>Arduino, DIY projects etc.
+</description>
+ <language>en</language>
+<item>
+ <title>SuperBoucle</title>
+ <link>http://libremusicproduction.com/tools/superboucle</link>
+ <description></description>
+ <pubDate>Thu, 11 Aug 2016 20:17:16 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">491 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/superboucle#comments</comments>
+</item>
+<item>
+ <title>Arduino: Create your own touch sensitive MIDI-keyboard/-controller</title>
+ <link>http://libremusicproduction.com/tutorials/arduino-create-your-own-touch-sensitive-midi-keyboard-controller</link>
+ <description></description>
+ <pubDate>Sat, 10 Oct 2015 14:07:24 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">401 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/arduino-create-your-own-touch-sensitive-midi-keyboard-controller#comments</comments>
+</item>
+<item>
+ <title>Build a 128 touch sensitive keyboard with Arduino</title>
+ <link>http://libremusicproduction.com/news/20150723-build-128-touch-sensitive-keyboard-arduino</link>
+ <description></description>
+ <pubDate>Thu, 23 Jul 2015 09:24:12 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">384 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20150723-build-128-touch-sensitive-keyboard-arduino#comments</comments>
+</item>
+<item>
+ <title>Arduino and MIDI in</title>
+ <link>http://libremusicproduction.com/tutorials/arduino-and-midi-in</link>
+ <description></description>
+ <pubDate>Mon, 01 Jun 2015 20:37:55 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">368 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/arduino-and-midi-in#comments</comments>
+</item>
+<item>
+ <title>Arduino</title>
+ <link>http://libremusicproduction.com/tools/arduino</link>
+ <description></description>
+ <pubDate>Thu, 09 Apr 2015 11:43:45 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">342 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/arduino#comments</comments>
+</item>
+<item>
+ <title>Arduino and MIDI out</title>
+ <link>http://libremusicproduction.com/tutorials/arduino-and-midi-out</link>
+ <description></description>
+ <pubDate>Thu, 09 Apr 2015 11:28:46 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">341 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/arduino-and-midi-out#comments</comments>
+</item>
+</channel>
+</rss>

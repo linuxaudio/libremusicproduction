@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - Libre Music Production newsletter</title>
+ <link>https://libremusicproduction.com/newsletter/libre-music-production-newsletter</link>
+ <description>Libre Music Production newsletter categories.
+</description>
+ <language>en</language>
+<item>
+ <title>October 2016 - Interview with Marius Stärk, new tutorials and more!</title>
+ <link>https://libremusicproduction.com/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more</link>
+ <description></description>
+ <pubDate>Mon, 24 Oct 2016 23:19:54 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">515 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/october-2016-interview-marius-st%C3%A4rk-new-tutorials-and-more#comments</comments>
+</item>
+<item>
+ <title>July 2016 - Interviews with Frank Piesik, Andrew Lambert &amp; Neil Cosgrove and Vladimir Sadovnikov</title>
+ <link>https://libremusicproduction.com/newsletter/july-2016-interviews-frank-piesik-andrew-lambert-neil-cosgrove-and-vladimir-sadovnikov</link>
+ <description></description>
+ <pubDate>Thu, 07 Jul 2016 00:21:24 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">479 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/july-2016-interviews-frank-piesik-andrew-lambert-neil-cosgrove-and-vladimir-sadovnikov#comments</comments>
+</item>
+<item>
+ <title>April 2016 - Video tutorial about a complete workflow, Supercollider and configuring Linux for music</title>
+ <link>https://libremusicproduction.com/newsletter/april-2016-video-tutorial-about-complete-workflow-supercollider-and-configuring-linux</link>
+ <description></description>
+ <pubDate>Fri, 29 Apr 2016 15:44:35 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">454 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/april-2016-video-tutorial-about-complete-workflow-supercollider-and-configuring-linux#comments</comments>
+</item>
+<item>
+ <title>December 2015 - Qtractor and SuperCollider tutorials and two interviews!</title>
+ <link>https://libremusicproduction.com/newsletter/december-2015-qtractor-and-supercollider-tutorials-and-two-interviews</link>
+ <description></description>
+ <pubDate>Sat, 12 Dec 2015 23:57:00 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">420 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/december-2015-qtractor-and-supercollider-tutorials-and-two-interviews#comments</comments>
+</item>
+<item>
+ <title>October 2015 - Interview with Lucas Zawacki and Arduino MIDI controller tutorial</title>
+ <link>https://libremusicproduction.com/newsletter/october-2015-interview-lucas-zawacki-and-arduino-midi-controller-tutorial</link>
+ <description></description>
+ <pubDate>Fri, 30 Oct 2015 23:15:59 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">404 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/october-2015-interview-lucas-zawacki-and-arduino-midi-controller-tutorial#comments</comments>
+</item>
+<item>
+ <title>Want to be a part of the Libre Music Production crew?</title>
+ <link>https://libremusicproduction.com/newsletter/want-be-part-libre-music-production-crew</link>
+ <description></description>
+ <pubDate>Fri, 02 Oct 2015 20:10:30 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">399 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/want-be-part-libre-music-production-crew#comments</comments>
+</item>
+<item>
+ <title>September 2015 - Interviews with drobilla and Sebastian Posch, news and more</title>
+ <link>https://libremusicproduction.com/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more</link>
+ <description></description>
+ <pubDate>Sun, 13 Sep 2015 21:21:50 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">396 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/september-2015-interviews-drobilla-and-sebastian-posch-news-and-more#comments</comments>
+</item>
+<item>
+ <title>July 2015 - John Option and Tobiasz Karoń/Unfa interview, LV2 plugins for mixing and more!</title>
+ <link>https://libremusicproduction.com/newsletter/july-2015-john-option-and-tobiasz-karo%C5%84unfa-interview-lv2-plugins-mixing-and-more</link>
+ <description></description>
+ <pubDate>Fri, 17 Jul 2015 17:56:34 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">382 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/july-2015-john-option-and-tobiasz-karo%C5%84unfa-interview-lv2-plugins-mixing-and-more#comments</comments>
+</item>
+<item>
+ <title>May 2015 - Florian Bador interview, using outboard gear in Ardour and more!</title>
+ <link>https://libremusicproduction.com/newsletter/may-2015-florian-bador-interview-using-outboard-gear-ardour-and-more</link>
+ <description></description>
+ <pubDate>Sun, 24 May 2015 20:18:03 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">360 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/may-2015-florian-bador-interview-using-outboard-gear-ardour-and-more#comments</comments>
+</item>
+<item>
+ <title>April 2015 - Giovanni A. Zuliani interview, Arduino tutorial and more!</title>
+ <link>https://libremusicproduction.com/newsletter/april-2015-giovanni-zuliani-interview-arduino-tutorial-and-more</link>
+ <description></description>
+ <pubDate>Sun, 26 Apr 2015 19:50:51 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">349 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/newsletter/april-2015-giovanni-zuliani-interview-arduino-tutorial-and-more#comments</comments>
+</item>
+</channel>
+</rss>

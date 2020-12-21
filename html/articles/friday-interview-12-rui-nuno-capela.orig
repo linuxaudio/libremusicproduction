@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-12-rui-nuno-capela" />
+<link rel="shortlink" href="/node/178" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #12: Rui Nuno Capela  | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"JBuJx6_mmPPEwkSgDzHQkWURRcRM-Jo5trnwSABGN0M","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/friday-interview-12-rui-nuno-capela":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-178 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #12: Rui Nuno Capela                 </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-178" class="node node-article node-promoted clearfix" about="/articles/friday-interview-12-rui-nuno-capela" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #12: Rui Nuno Capela " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-01-03T10:51:05+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-12-25 14:34</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 12th edition of the Friday Interview! This week, we're joined by the author of a whole little land of Linux audio applications with the prefix of Q. I'm very happy to introduce the 12th participant of the series, interviewee #12: <em>Rui Nuno Capela</em>! Lets get started!</p>
+<h2>Introducing Rui Nuno Capela</h2>
+<div class="well"><strong>Rui Nuno Capela</strong> is a programmer from Amadora, just outside of Lisabon, Portugal.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is ...it'd be quicker to name what isn't his interest ;)</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys finding ways to get back into the Linux audio world.</div>
+<div class="well"> </div>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-headshot.jpg"><img alt="rui-nuno-capela-headshot" class="size-large wp-image-535" height="682" src="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-headshot-1024x682.jpg" width="1024" /></a> <em>Rui Nuno Capela workin' that selfie.</em>
+<p> </p>
+</div>
+<div class="alert alert-warning">
+<h3>Note</h3>
+<p>This interview will be slightly different to the normal format. Rui has previously given a great interview to the Linux Journal (interview made by <a href="/articles/friday-interview-7-dave-phillips">Dave Phillips</a>, kudos to him as well), where he has answered a lot of the standard questions in this interview. Therefore, this interview will build on the older interview already made.</p>
+<p>I therefore urge you all to read that interview first. You will find that interview on the <a href="http://www.linuxjournal.com/content/software-ecology-rui-nuno-capela" target="_blank" title="Linux Journal interview with Rui">Linux Journal's website</a>.</p>
+</div>
+<p><strong>Hi Rui! What do you do for a living? </strong></p>
+<p>Academic bio:</p>
+<p>BSc. Electronics and Telecommunications Engineering, Instituto Militar dos Pupilos do Exército (IMPE), Lisbon, 1986. MSc. and post-MSc. in Electrotechnical Engineering (EE), Computer Systems branch, Instituto Superior Técnico (IST), University of Lisbon, 1990 and 1993, respectively.</p>
+<p>Professional bio:</p>
+<p>Systems and applications programmer, analyst, technical consultant and specialist in IT systems since 1986. Officially certified as a Database Admistrator (DBA) in IBM DB2 OS/390 (z/OS, mainframe) since 1995 and lately, IBM DB2 UDB for Linux, Unix and Windows (LUW) since 2001, this being the main current position.  </p>
+<p><b>What's your main interest in Linux audio? </b></p>
+<p>Linux-audio bio:</p>
+<p>Moderately active and enthusiastic participant in the open source and free software community, with special and particular interest in developing audio and MIDI on the GNU/Linux platform, as primary author of <a href="/tools/qjackctl">qjackctl</a> [1], qsynth [2], qsampler/liblscp [3], <a href="/tools/qtractor">qtractor</a> [4], qxgedit [5], qmidictl [6], qmidinet [7], synthv1 [8], samplv1 [9] and drumkv1 [10], with former active cooperation in projects like the <a href="/answer/jack">JACK Audio Connection Kit</a> [11], LinuxSampler [12] and punctuated on the initiatives of the Real-time Linux kernel [13] and Advanced Linux Sound Architecture (ALSA) [14].</p>
+<p>[1] <a href="http://qjackctl.sourceforge.net" target="_blank">http://qjackctl.sourceforge.net</a></p>
+<p>[2] <a href="http://qsynth.sourceforge.net " target="_blank">http://qsynth.sourceforge.net </a></p>
+<p>[3] <a href="http://qsampler.sourceforge.net " target="_blank">http://qsampler.sourceforge.net </a></p>
+<p>[4] <a href="http://qtractor.sourceforge.net " target="_blank">http://qtractor.sourceforge.net </a></p>
+<p>[5] <a href="http://qxgedit.sourceforge.net " target="_blank">http://qxgedit.sourceforge.net </a></p>
+<p>[6] <a href="http://qmidictl.sourceforge.net " target="_blank">http://qmidictl.sourceforge.net </a></p>
+<p>[7] <a href="http://qmidinet.sourceforge.net " target="_blank">http://qmidinet.sourceforge.net </a></p>
+<p>[8] <a href="http://synthv1.sourceforge.net " target="_blank">http://synthv1.sourceforge.net </a></p>
+<p>[9] <a href="http://samplv1.sourceforge.net " target="_blank">http://samplv1.sourceforge.net </a></p>
+<p>[10]<a href=" http://drumkv1.sourceforge.net " target="_blank"> http://drumkv1.sourceforge.net </a></p>
+<p>[11] <a href="http://www.jackaudio.org " target="_blank">http://www.jackaudio.org </a></p>
+<p>[12] <a href="http://www.linuxsampler.org " target="_blank">http://www.linuxsampler.org </a></p>
+<p>[13] <a href="http://rt.wiki.kernel.org " target="_blank">http://rt.wiki.kernel.org </a></p>
+<p>[14] <a href="http://www.alsa-project.org" target="_blank">http://www.alsa-project.org</a></p>
+<p><strong>Now that the official resumé is done, let's get informal, shall we?</strong></p>
+<p>Well, uh, I do what I can.</p>
+<p>Ok. I do it on the most boring activity known to (hu)man kind, as is Database Infrastructure Administration, in the IBM DB2 genre, but that is not to blame. In fact is my specialty.</p>
+<p>I kind of like to call my self an old-school lone-wolf developer, self-made guerrilla programmer... way before Linus was hidden in his bedroom closet I was under deep inside all that computer hackerdom.</p>
+<p>But let's get to the point where it gets to LA.</p>
+<p>Way back when I was a teenager guitar-hero wannabe both my parents allowance wasn't that much of a liberal one. So to speak. I had to work (hard and in parent's clandestine way, during school breaks that is) as a construction builder servant just raise some lousy money to buy my ever first electric guitar.</p>
+<p>An electric guitar only really works if it gets plugged into some electronic contraption. Money was again scarce so that situation lead to my DIY analog electronics era, on building custom combo amplifiers, effect pedals like distortion, overdrive, fuzz, wah-wah, etc. hanging loose in breadboards, ultimately blowing up and melting the living room Hi-Fi speakers, whenever the combos failed. And they usually fail, having a very short lifetime. That was the price of lousy and refurbished stock electronic parts anyhow.</p>
+<p>Meanwhile, I had this dream on building some electronic synthesizer that I could plug in the guitar signal and rave on. It was just far from easy to get (any) design right, be that on the DIY mode or in any way as I now reckon. By even back then it quickly hit the wall of too complexity and way too much as expensive on the bill of parts. Not to tell that technical knowledge was not that scientific, just a grasp like nothing more than curiosity and fascination. And a dream.</p>
+<p>All that come to my formal enrollment on the EE course, first on the traditional analog path then focusing towards the digital processing world and computer systems.</p>
+<p>First real job position is a mainframe systems and applications programmer (COBOL can you believe it?); first couple of paychecks tunneled immediately to buy a solid state guitar combo amplifier and, tada! a real synth keyboard: a Kawai K3, a traditional analog signal polysynth but digitally controlled, half the price tag of the undisputed king at the time, the DX7; better yet, its MIDI implementation was one of the first in complete shape and still a working joy, to date.</p>
+<p>Fast forward a bit, ten years later. By the time a broken marriage gets its due deeds--no doubt some part of the hacker/geekdom ego took a major role on that social failure--the emerging PC world started to make sense on the digital signal processing (DSP) software arena: that was the time when Intel Pentium arrived to the masses--besides the infamous div bug which didn't really mattered, it allowed for true real-time floating-point DSP. In fact, I would say that it is the precursor of all digital audio as a world-class computing commodity, let alone in the PC realm. As is to say: there's a world of digital audio software before _and_ after that moment. Linux Audio (LA) as we know it, comes a few years after. Let's have no doubts about that.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-screenshot.png"><img alt="rui-nuno-capela-screenshot" class="size-large wp-image-537" height="640" src="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-screenshot-1024x640.png" width="1024" /></a> <em>Rui's desktop, with Qtractor and others in action.</em>
+<p> </p>
+</div>
+<p>On to myself again, I wished back then to make some music. On those late 90's using Cakewalk's Pro Audio series of software (the predecessor of Sonar), while on Windows 98, worked out fine while it lasted. At the turn of the century, Windows NT/2000 was really lousy in the native audio driver support, which led me to turn into the emergence of the LA movement for the rescue.</p>
+<p>Enter <a href="/answer/alsa">ALSA</a> and <a href="/answer/jack">JACK</a>, which started in design and implementation at that very time, were the true cornerstones that convinced me in all the way thereafter.</p>
+<p>Well, I must confess I actually failed to make any music again. But otherwise striven to make a plethora of LA software instead. The so called Q-stuff and enjoyed it pretty much, no hard feelings still.</p>
+<p>Although the prodigal lone-wolf stance still prevails, I always wished to do something for the free open-source and LA movement in particular. All the old baggage as a hacker/developer was there anyway. Ready enough then it all started: <a href="/tools/qjackctl">QjackCtl</a> first, Qsynth, Qsampler and so on. I guess you already know the rest of the story.</p>
+<p>Qtractor was and still is, my obvious major project. It started quite frankly by the time I first attended Linux Audio Conference (LAC), in the year 2005, in Karlsruhe. At the time we already have <a href="/tools/ardour">Ardour</a>, <a href="/tools/rosegarden">Rosegarden</a> and <a href="/tools/muse">MusE</a>. While Ardour was quite capable and the true flagship of LA it was only audio. Rosegarden was only <a href="/answer/midi">MIDI</a> and MusE had something of both but was terribly unstable at least on my experience. Add that MusE source code was pretty/ugly much coded and documented in old High-English, read German:) which just left me alone with the question:should I do it all myself and scratch my own itch, or should I fork or join and contribute to one of those projects in the usual you-know-what way? Well, you now know the answer and it wasn't the later.</p>
+<p>Two years later it got ready. Qtractor was officially presented to the world at <a href="mailto:LAC2007@TU">LAC2007@TU</a>-Berlin and it had a hidden agenda though. The secret prospect was only told by word of mouth to a few then, that it was about to be basis for something like a clone of Ableton Live (on its v4 at the time) for Linux in no more than three years the most.</p>
+<p>Almost six years gone and it only reached a kind of bloated baseline where it stands now and still nothing of the sort in that prospect. And I'm still whining "it's just a hobby!". And what about making music? Dang! Let's get real: Given the eternal but increasing personal spare time shortage, do you think I ever get to do some piece that you or anyone might call finished music at all? Let alone the software, which I keep from promoting to anything than an eternal "alpha" phase.</p>
+<p>Never. Everything I try is "just for fun", literally I guess. The moment I try to pluck the guitar strings or a piano keyboard is just about to test some software or hardware function. Far away from doing any concrete music (!) at all. Oh well...</p>
+<p>There were too many little dreams which lead to nowhere before. But also, there were many other things that were being actively procrastinated (like this interview:)) which ultimately made through and for real. Every time I thought it was enough a new challenge come by.</p>
+<p>While to some this might seem shocking, one of the historically personal examples is about the MIDI instrument plug-in support in Qtractor. Though, to date, Qtractor it's the only piece of software that does all audio/MIDI plug-in types ever known to run on Linux. And let me say that it was not without some grief. Might well be the greatest waste of time ever in my "hobby life", if I'm allowed to say such a thing. Let me explain and remember that I've been developing Qtractor for the most part to drive (my) outboard MIDI equipment--yes, I'm from the old 80's remember?--and still is. I had very few use for instrument plug-ins to be honest. But like a mantra, some time ago, I felt irt was enough. Until a new challenge came by, suddenly: the Vee One suite of old-school instrument plug-ins (never mind the stand-alone formats too).</p>
+<p>Looking way back, once before I thought I could make something that could be ultimately cross-platform. In fact that was one of the reasons that I embraced the Qt instead of some other tool-kits. The other main reason was that Qt is a genuine C++ toolkit, my programming language of choice for years then. And also because it has the most outstanding design patterns implementation and better yet and still most polished documentation of them all. Period. Back to the cross-platform topic, let me tell you that I don't care for that marketeer claim anymore. I do only Linux and that is my true will. Add to that my aging and you'll know I'm terribly serious.</p>
+<p>There often most people complain and say that Qtractor has no support for JACK-MIDI. And I'd say that's on purpose aka. working as design. I think I still repeat this "ad nauseum"...</p>
+<p>Well let's put it all that on a outline, just to make it simple and straight:</p>
+<p>a) I do it because I can;</p>
+<p>b) I do it just for fun;</p>
+<p>c) I've scratched my own itch to dust already;</p>
+<p>d) I only support Linux as in Linux Audio/MIDI software is about;</p>
+<p>e) I don't take things I do to anyone’s else agenda;</p>
+<p>f) it's a hobby, not a job; and</p>
+<p>g) I'm afraid it's the only thing I do best in life; others might do it better, I don't care the least: I do my best and that's all.  </p>
+<p><strong>Can you give us a status update from Q-land, since the interview by Dave Philips was made? Any new additions to the Q-family?</strong></p>
+<p>Qtractor is the big one and only I keep working on, as time permits. But that also get us to...  </p>
+<p><strong>What's in the future for the Q-stuff, where do you want to take it next? Any special project(s) in mind?</strong></p>
+<p>While on <a href="mailto:LAC2013@IEM">LAC2013@IEM</a>-Graz there was these couple of side-track (un)official talks or workshops where I thoroughly babbled on first hand/mouth about this whole Q-stuff past, present and future, indeed.</p>
+<p>Too bad there wasn't any recorded evidence of those talks (is was tried but Florian 'Faberman' Faber's camera smashed into the floor while unattended and it got all lost:(). There are only a few photos though (<a href="http://www.rncbc.org/lac2013" target="_blank">http://www.rncbc.org/lac2013</a>).</p>
+<p>There I was found to tell the darn-est things like ten years "dwelling" on the LA arena is a lot of time already. I wandered whether I still have anything else to do with my life anyway, let alone being just a hobby of mine. It is that time of age that one has to start thinking about handing over the Q-stuff torch, you know? It's not that I'm throwing the towel away but just getting a bit less of enthusiasm.</p>
+<p>Aha. Don't despair :) If you read anything of what I've been saying before, all Q-stuff development is actually in "full maintenance" mode, if anything like that exists for "alpha" software. That actually means that nothing really ravishing will come out in any way in the near future. Sorry. As said, Qtractor JACK-MIDI will never happen, at least from any of the keyboards I code in. I will still get to fix and improve things here and there, though. Nevertheless. As an old 80's cheesy movie/tune sings: when the going gets tough, the tough gets going. Or something like that.</p>
+<p>And please, stop asking for a Windows or Mac OSX/iOS ports whomever you are. I've left the former building for good more than a decade ago and to the later I don't really give a damn ;).</p>
+<p>Ok. Nuff said by now. Is it really time to hand over? A fellow Portuguese might be your best and greatest bet: falkTX! FTW!  </p>
+<p><b>If you do decide to hand over, I'd like to take the opportunity to thank you for all your great work. Maybe you could finally make some music of your own, huh?! ;)</b></p>
+<h2>Final questions</h2>
+<p><strong>Could you talk a little about what kind of hardware setup you are using?</strong></p>
+<p>My main (ie. hobby) workstation is pretty old/conservative I say a Intel quad-core Q8200, a relic to today's standards, I know. It's rigged with an oldie Terratec DMX 6Fire 24/96, PCI interface with a breakout box where lies one of my beloved Yamaha DB50XG (SoundBlaster daughter-board), still pumping in the the XXI century. It's no wonder I do also churned out QXGEdit [5] as one of the Q-stuff gems.</p>
+<p>Also. an aging 5yo laptop is also doing its deeds as well. Occasionally connected with a Tascam US-224 audio/MIDI interface also making the role of a minimal but portable control surface, on-the-go. I must tell that this one is a pain to catch-up with latest kernels, which often leave it broken. Still running a pre-3.10 specimen. Anyway, when it works, this thingie is a real pure joy of awesome nostalgia as ancient as the (also Tascam's) PortaStudio days--for whom lacks the memory, those were indeed the kind of hardware that we called portable multi-track studio on-the-go, back in late 80's, as compact as a small 4-track mixer desk with a built-in cassette tape recorder (100% analog, of course). In fact, there's no surprise why Qtractor MMC functions are modeled after that.</p>
+<p>Though, all my boxes run on openSUSE 13.1. I'm a geecko and I love it.</p>
+<p>On the outboard material side, I still own my very first synth keyboard, a Kaway K3. Almost with same age, a dusty Kaway D50 digital (12-bit sample o.O) drum-machine also gets powered on often. A raving Roland JP8000 also stands around here, a dozen years younger though. Again by Roland, a MC-303 GrooveBox makes a party now and then.</p>
+<p>The are the H-stuff (H for hardware) that I still own and play. Alas, not that often, lately. Never mind. As you can see, that's been a mix of old analog and digital synths out in there. Don't be surprised that MIDI played and still plays a master role all over the place.</p>
+<p>On the more prosaic and guitarist'ic front, I still have a couple of specimens on the electrified genre and another on the acoustic type. But again, it's all catching dust these days. Oh my, to say again, I'm not that kind of musician anyhow nor I may call myself one though. I can't read score, at least fast enough, maybe some guitar tablature but not proficient, that's true. I know something about music theory however practice has been left a lot to be desired, as you might know already. An über-procrastinator's epic, I say :) And given my age I may not even learn much new material now. Oh my, I'm one terribly lousy musician if I'm ever asked to cast my self in such a class of human activity.</p>
+<p>Again, I'd say, it's all for fun. No more, no less.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-workspace.jpg"><img alt="rui-nuno-capela-workspace" class="size-large wp-image-538" height="682" src="http://www.zthmusic.com/wp-content/uploads/rui-nuno-capela-workspace-1024x682.jpg" width="1024" /></a> The workspace of Rui Nuno Capela. Nice books to the right, very "in theme"!
+<p> </p>
+</div>
+<p><strong>Do you feel like anything is lacking in Linux audio today, and if so, what?</strong></p>
+<p>Let's be honest: I've been scratching and healing my own itches. If I ever felt that something was terribly missing on my own "just for fun" work-flow than I'd be found doing it on my own. That's been my "mantra" of my whole existence as far as my LA dedication is concerned. After all the previous babbling you may now reckon just that.</p>
+<p>But well, ever since the already mentioned old early days of Qtractor inception and stealth development (ca.2005+) I still miss an effective alternative to Ableton Live if you ask me. Good news are that LA's best bet is fostering in <a href="/articles/friday-interview-1-harryhaaren" target="_blank" title="Friday Interview #1: HarryHaaren">Harry van Haaren</a> hands and his openAV Productions' <a href="/tools/luppp">Luppp</a> offspring--he might just not be fully aware, but he just cooled out the heat from my infamous backlog and procrastination. Oh my.</p>
+<p>Now, that's all very interesting and it brings us all down to your next question...  </p>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>I've done it again, sorry. I have no excuse for being such an egotist: the so called "Vee One Suite" [8, 9, 10] are of course my favorites. Aha. Why? Just because I can and there's no better feeling than that: I've finally made it in software what I've been dreaming to build in hardware a couple of decades ago: Look ma! I've made this!--Right ho !--in memoriam, to my beloved Mother.  </p>
+<p><strong>Where can people get a hold of you, and where can they find your work and music?</strong></p>
+<p>The usual places: <a href="http://www.rncbc.org" target="_blank">http://www.rncbc.org</a> is home of all my things LA related. Now, the (lousy) music maybe found on <a href="http://soundcloud.com/rncbc" target="_blank">http://soundcloud.com/rncbc</a>, perhaps?</p>
+<p>As it can be inferred from this whole interview, I am not that kind of a prolific creative entity. Oh no. Again, I've been doing it all for the fun of it (argumentum ad nauseam) and when I do I take it to my own private and personal pleasure. As you ought to know by this time, I am a lot better coder than a musician. So you all get the best share of me. One thing is for sure: you get the best part of this whole fun business of mine. Trust me: I know best ;)</p>
+<p>Before I leave you with all the rants spitted out above, let me tell you that the yearly Linux Audio Conference (LAC) is a venue I'd keep to attend. Let there be noted that it's the few days in the year, actually introspective and personal vacation though, that I dedicate 100% tops to LA community effort. I sure will be there again on this next iteration on <a href="mailto:LAC2014@ZKM">LAC2014@ZKM</a>-Karlsruhe.</p>
+<p>Until then,...  </p>
+<p><strong>I hope to see you on LAC2014, and thank you for the great interview Rui!</strong></p>
+<p class="well">That was Rui Nuno Capela. Thanks to Rui for participating, and thank you for reading!</p>
+</div></div></div><div class="field field-name-field-article-related-articles field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-qtractor-using-ducka">Sidechaining in Qtractor using Ducka</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-12-rui-nuno-capela" st_title="Friday Interview #12: Rui Nuno Capela " class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/friday-interview-12-rui-nuno-capela" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form--9qmq4DorxCnGb9DpQBn0LkHPHyiNk3qQ-PcwZEwm2o" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/friday-interview-12-rui-nuno-capela" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-x6jnt7wXtmPZ-1vciBYSKKULsAdxwLKwTa0edCsPlvg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

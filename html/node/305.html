@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../articles/ardour-3-tips-and-tricks.html" />
+<link rel="shortlink" href="305.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="../feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="../feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Ardour 3 Tips and Tricks | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.min.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenews.css%3Fpxt43l.css");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("../sites/all/modules/date/date_api/date.css%3Fpxt43l.css");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7.css%3Fpxt43l.css");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("../sites/all/modules/video_filter/video_filter.css%3Fpxt43l.css");
+@import url("../sites/all/modules/views/css/views.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools.css%3Fpxt43l.css");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeleton.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/style.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/buttons.css%3Fpxt43l.css");
+@import url("../sites/all/themes/skeletontheme/css/layout.css%3Fpxt43l.css");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colors.css%3Fpxt43l.css");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js%3Fv=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenu.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelement.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics.js%3Fpxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"YHYJrIWHcfestkdDbHQCXm_2Ofm6v-xe7--VWoR02iw","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/305":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-305 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="305.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Ardour 3 Tips and Tricks                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-305" class="node node-tutorial node-promoted clearfix" about="/articles/ardour-3-tips-and-tricks" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Ardour 3 Tips and Tricks" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-02-13T08:14:04+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-05-07 17:03</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../area/mixing.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item odd"><a href="../area/plugins.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="http://libremusicproduction.com/category/workflow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/ardour.html">Ardour</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="" src="../sites/default/files/articles/groups-ardour-3-tips-and-tricks.png" /></p>
+<p><a href="../tools/ardour.html">Ardour</a> 3 is a very capable and complex piece of software. A consequence of this is that working with it at times can be a bit daunting, and every possible action cannot always be as intuitive as one might like. In this article, I will go through a number of things I have learned to do in Ardour 3, that hopefully can increase the efficiency of your own work if you’re not already doing them! Improving the efficiency of interacting with software leaves more time for actually making music, and we all want that, don’t we? So, lets jump right into it!</p>
+<p>…one quick note first though. A lot of these tips are about structuring and organizing your session. These are things some people likely will frown upon as unnecessary. I’m not going to lie – there’s a certain pleasure gently instilled in my body when I’m using a perfectly structured and organized session, a pleasure that is hard to match. Nevertheless, the art of properly structuring and organizing has a purpose. However, if you’re one of those IceCube-type of people, and you do your songs in one long sitting, export and then are done with them forever, you won’t need this.</p>
+<p>If you instead belong to the type of people like me, who like to live in constant agony from thinking their songs all suck and never will be good, it is likely that you one day would like to go back and keep working on your song (or even just open and look at your mess without your head imploding from the chaos). By properly structuring your session, you will save a few braincells. Believe me, I’ve had so many songs that I put on my (very full) “Meh, this is 90% done, lets finish the last parts later”-shelf, that I dragged along for months before actually finishing, just because of the doomsday-state they were in. Learn to love structure in Ardour, and you won’t regret it!</p>
+<p><img alt="" src="../sites/default/files/articles/structure-ardour-3-tips-and-tricks.png" /></p>
+<p>Now, lets jump into it!</p>
+<h2>Bind every action you use regularly to hotkeys</h2>
+<p>This is something that, despite being something of a “hotkey guy”, took me quite a while to actually do. Ardour 3 allows you to bind just about any action available either in its menu, or in its keybinding dialogue. To bind an action to a key, just hover over the desired action in the menu of Ardour 3, and press the key (or combination of keys) you want it assigned to.</p>
+<p><img alt="" src="../sites/default/files/articles/keybindings-ardour-3-tips-and-tricks.png" /><br /><em>Make use of the keybinding possibilities in Ardour 3!</em></p>
+<p>It’s also worth it to take a look at, learn and practice the pre-existing hotkeys available in Ardour 3. Here’s a short list of some of the hotkeys I use the most. Some are my own bindings and some are default in Ardour 3. Either way, making music without these would be much slower (and taxing on the muscles!!).<br /> </p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="2" scope="col" style="text-align: center;"><strong>Hotkeys I frequently use in Ardour 3</strong></th>
+</tr></thead><tbody><tr><td><strong>Action</strong></td>
+<td><strong>Hotkey</strong></td>
+</tr><tr><td>Loop selected region</td>
+<td>J</td>
+</tr><tr><td>Transpose MIDI-notes</td>
+<td>T</td>
+</tr><tr><td>Reverse region</td>
+<td>Alt+R</td>
+</tr><tr><td>Expand height of selected tracks to maximum</td>
+<td>Ctrl+F</td>
+</tr><tr><td>Decrease height of selected tracks to minimum</td>
+<td>Ctrl+1</td>
+</tr><tr><td>Duplicate region</td>
+<td>D</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr></tbody></table><h2>Use busses for commonly used effects</h2>
+<p>This will probably be self-evident for some, and totally new for others. Effects like reverb are very intensive on the CPU, so a way to reduce the load on the CPU (and reduce the complexity of your session) is to set a reverb up on a bus, and then just use sends to control how much you want reverbed from each track. Luckily, Ardour 3 provides us with something called Aux-sends, which is internal to Ardour. This makes it very easy to send signals from tracks and channels around like you want them. Simply right-click in the plugin chain-space of a track, and select what bus you want to create a send for in the “Aux Send”-menu. This gives you a handy little control to adjust the strength of the send signal with!</p>
+<p><img alt="" src="../sites/default/files/articles/busses-ardour-3-tips-and-tricks.png" /><br /><em>Ardour 3 allows for some nice internal routing with its Aux-sends.</em></p>
+<p>I usually use something like three recurring types of busses in every song. One or two for reverb, one or two for delay’s, and one or two for the drums. These are busses that more or less look the same plugin-wise each session (check out the track-template tip for efficiency here), but that I always use. One example is the delay-bus, which I always have, and that I have to a pre-configured delay that I like. I then use this bus as kind of a “glue” in the song, where I send a little of every appropriate instrument to the delay bus, and let them echo together. This creates a nice delay-tail that can be used to blend/glue your song together better. Uhm… Yeah…. use busses….<br />Use track and song-templates when you can</p>
+<p>Another nice feature that I overlooked for a criminally long time is the possibility to create templates for both sessions and channels. For something like setting up sidechaining (which I will eventually do a tutorial about), this is invaluable as it saves tons of time. Session templates are addressed here in the manual, and track templates essentially work the same way, but only for individual tracks.</p>
+<p><em><strong>Note:</strong></em> To make best use of track templates, make sure that you’re consistent in how you name your busses and tracks. This enables you to use routing to a certain bus or track (for example, route a send on the violin track template to the reverb) within your template.</p>
+<p><img alt="" src="../sites/default/files/articles/templates-ardour-3-tips-and-tricks.png" /><br /><em>Save your commonly used tracks and buses as templates in Ardour 3. This means you’ll spend less time hooking stuff up, and more time making music!</em></p>
+<p>To give some ideas of how track templates can be used to speed up producing, I’ll make a little list explaining my common cases of using track templates, and what the templates contain:<br /> </p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 600px;"><thead><tr><th colspan="2" scope="col" style="text-align: center;"><strong>How I use track templates in Ardour 3</strong></th>
+</tr></thead><tbody><tr><td><strong>Function of the template</strong></td>
+<td><strong>Contents of the template</strong></td>
+</tr><tr><td>Set up a 3-in-2-out bus for sidechaining</td>
+<td>SC3 plugin</td>
+</tr><tr><td>Set up a stereo bus for delay</td>
+<td><a href="../tools/calf-plugins.html">Calf Vintage Delay</a></td>
+</tr><tr><td>Set up a stereo bus for reverb</td>
+<td>convoLV2EQ (set to highpass at 200hz)</td>
+</tr><tr><td>Set up a MIDI-track with a synth</td>
+<td><a href="../tools/tal-noisemaker.html">Tal Noisemaker</a> send to Sidechain bus</td>
+</tr><tr><td>Set up a MIDI-track with a staccato cello</td>
+<td><a href="http://libremusicproduction.com/tools/linuxsampler">LinuxSampler</a> LV2 (staccato cello sfz loaded)EQ (set to how I usually EQ thatinstrument)</td>
+</tr></tbody></table><p>With a little creativity and thinking about how you usually do stuff, things like adding commonly used instruments and chains of plugins can become a lot easier with track templates!</p>
+<h2>Name and group everything appropriately</h2>
+<p>Something I’m willing to bet my study debts on is that most programmers have a very structured and organized way of naming their tracks and channels. This is something we all can learn from! Make sure you create the habit of naming your channels appropriately. This makes everything much more fun to work with, when you realize that you don’t have to play the contents of hidden tracks in order to figure out what they actually contain.</p>
+<h2>Naming</h2>
+<p>For “chunks” of channels and tracks, I use prefixes quite a lot, and I like that. For example, I work a lot with guitars and strings. Two guitar tracks in my session could then be named “GitRhythm L” (for the left-panned rhythm guitar) and “GitRhythm R” (for the equivalent, but panned to the right), and my string tracks could be named “StrCelloStacc” (for a staccato cello) and “StrViolinSust” (for a violin playing sustained notes).</p>
+<p><img alt="" src="../sites/default/files/articles/groups-ardour-3-tips-and-tricks.png" /><br /><em>Ardour 3 allows you to group just about anything. Make use of that. Plus, the colors look nice!</em></p>
+<h2>Groups</h2>
+<p>The next part, groups, is building on having good and uniform names. However, we now take it a bit further by using Ardours built in function to group channels and tracks, and have them share some properties. Using groups has several benefits:</p>
+<ul><li>It’s an easy way structure and keep track of your different parts in the session.</li>
+<li>It’s an easy way to quickly show/hide many channels at once.</li>
+<li>It allows you to easily create subgroup buses and multiple aux-sends at once.</li>
+<li>It adds some nice color to your session.</li>
+</ul><p>…ok, the last one might not be 100% needed, but the rest are really useful! Ardour 3 creates a colored strip above the channel strips in the mixer (and also to the left of the tracks on the canvas) to show which tracks and channels are grouped together. This helps us see what tracks are grouped, and also allows us to activate (or de-activate) the effect of grouping, by simply left-clicking the colored strip. Groups can share a number of useful properties, which I’m not going to go deeper into, <a href="http://manual.ardour.org/working-with-tracks/track-and-bus-groups/">but can be found in the Ardour 3 manual</a>. Look through that page, you’re very likely to find plenty of good uses for groups in Ardour 3!</p>
+<p>One final thing I would like to add is that I group just about anything. This is entirely to ease the navigation of the session, as having things grouped gives easy access to showing and hiding the grouped elements easily. The “Tracks &amp; Busses”-tab available in the Editor List in the canvas, and the Groups section of the mixer, all provides easy toggling of the visibility of the different groups.</p>
+<p>Worth noting is that when grouping purely for easy toggling of visibility, it’s important to disable all of the shared properties in the groups. This makes sure that nothing you do on a track or channel in the group affects anything else in the group, unless you specifically select it to do so in the group properties.</p>
+<h2>Use ‘Combine Regions’ to make new regions</h2>
+<p>This will go up on my hotkey list any day now! This feature is a must for me in sessions when I work with mostly audio. What this does is that it combines the audio regions you’ve selected into one region. Not that revolutionary, but the applications of it for someone like me, who like to edit/cut up samples and move them around/generally chop stuff up, is something I couldn’t be without now.</p>
+<p>An example of how it’s useful could be when creating an 8-bar loop out of several claps and finger snaps. I start off by aligning a number of individual samples how I want them, over 8 bars. After that is done, we’re looking to combine the regions to a new region spanning over the whole 8 bars, so we can easily duplicate it and have the loop be uniform with the rest of the loops in the session.</p>
+<p>Problem here is, Ardour 3 will only combine the selected regions. For us, this means it won’t be a full 8-bar loop, as we don’t want our claps and snaps to play both at the start and the end of the loop. This is solved by simply adding a bit of silence to the start and the end of the 8 bars. Then we combine the regions, which gives us a full, usable 8 bar loop. To get silence, I usually just cut a silent part off any region I have lying around in the session. You can also create (using Audacity for example) and use a simple wav-file containing only silence, and import that to Ardour, to use as a building block.</p>
+<p>I also talk a little about using this for some common use cases in <a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">my article about sidechaining in Ardour 3</a>.</p>
+<h2>Keep your session tidy</h2>
+<p>Yes, I’m going to whine about the structure and organization of the session again. Thing is, I quickly realized that a tidy and organized session is way more fun to work with than the “organized” chaos I used to work in. This was before I actually forced myself to start cleaning up the session regularly. I usually test all sorts of things in my songs, which eventually tends to leave a rather large number of unused channels around. Make sure you go through and remove what you’re not using!</p>
+<p>Also, make sure you arrange your session often. As channels and tracks pile up, I often find I spend an alarmingly large amount of time on scanning through my channel list for whatever track or channel I’m after. This is time I instead could’ve spent on being depressed about the song sounding like crap. So shortly, arrange the session properly, and make sure you frequently put your tracks together in a coherent manner, and you’ll have more time left for the fun parts of music!</p>
+<h2>RTM, and ask!</h2>
+<p>Invest some time in going through <a href="http://manual.ardour.org/welcome-to-ardour/">the manual of Ardour 3</a>. Even just spending an hour in there is guaranteed to reveal all sorts of new, cool stuff you did not know. It’s also likely to make your producing life a lot easier. I think I know my way around the program fairly well, but I’m amazed about how much there’s left to learn for me every time I look through the manual.</p>
+<p>Finally, ask how to do stuff! There’s forums, IRC and mailing lists, just go there and ask if there’s a better way of doing things. Odds are someone has already done what you’re trying to do, and hopefully has an efficient way of doing it!</p>
+<p><em>Thanks to goibhniu for feedback and proof-reading of the article!</em></p>
+<p>Written by <a href="http://www.zthmusic.com/">Gabriel Nordeborn</a></p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tutorials/recording-audio-and-using-midi-ardour-3.html">Recording audio and using MIDI in Ardour 3 </a></div><div class="field-item odd"><a href="../tutorials/basic-mixing-ardour-3.html">Basic mixing in Ardour 3</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">Sidechaining in Ardour 3</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together</a></div><div class="field-item even"><a href="../tutorials/ardroid-android-application-how-use-it-ardour.html">Ardroid (Android application): How to use it with Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour">How to use outboard gear in Ardour </a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks" st_title="Ardour 3 Tips and Tricks" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="305.html" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-M7G8y-tkaSKugr496-Lex-EZkF75VFRwMRStz_qCIAg" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="305.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-xO5C49HFsvfDAuOrFXUACqsegDxqPOGXmrdkGxSe39A" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="http://libremusicproduction.com/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="../rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="../feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="../feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/advantages-choosing-audio-orientated-linux-distribution" />
+<link rel="shortlink" href="/node/132" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>The Advantages of Choosing an Audio Orientated Linux Distribution | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"daVdeYDGNmCQQxxoVBoIMksIzSwqUGcYCrkYAF7gI4M","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/132":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-132 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  The Advantages of Choosing an Audio Orientated Linux Distribution                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-132" class="node node-article node-promoted clearfix" about="/articles/advantages-choosing-audio-orientated-linux-distribution" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="The Advantages of Choosing an Audio Orientated Linux Distribution" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-16T17:38:11+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2016-05-16 15:15</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">general</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Linux distributions have a lot to offer and some are geared more towards certain tasks than others. There is nothing wrong with stock distributions, and any distro can be tweaked to work well for whichever task you wish, provided that you know how to tailor them to that specific task. If you are working with audio, however, choosing a distro specifically geared towards that purpose can save you a lot of hassle.</p>
+<p>Audio orientated distributions aren't just stock distributions with audio software installed on top. This is a misconception that a lot of people have, and it is a misleading one. A lot of people don't see the benefits of using one, and instead they just install the audio software they want to use on any given distro. With audio distros there are many layers that are carefully chosen to give you an operating system that will perform well for all aspects of audio production. As well as the end user software being up to date, there are a lot of tweaks under the hood that add up to give you a much better and stable experience with superior performance for realtime audio, compared to any stock distribution.</p>
+<h2>Why not a stock distribution?</h2>
+<p>It is an unfortunate fact that much of the troubleshooting on audio software forums and <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC channels</a> ends with a similar conclusion, that it is not the software that's the problem but rather how the users distro is set up, that it is using outdated software libraries, etc. If you have the technical know-how, time and interest to work through these issues, it's not as much of a problem. However for someone who just wants to get down to making music, it is important to not have to deal with these issues. Fortunately, there are some passionate users out there who have helped create audio orientated distributions to make it easier for you to get your audio work done.</p>
+<h2>Recommended audio distros</h2>
+<p>There are a number of Linux audio distros, but the two that LMP recommend are KXStudio and AVLinux. We feel they are the best compilations currently available and, as they are both quite popular, it also means they are well tested and stable. They both also have very active communities.</p>
+<p>AV Linux is geared towards a complete 'Install, get to work and leave it alone' type of scenario with <a href="http://www.bandshed.net/avlinux6-debs/?C=M;O=D">updates and optional packages</a> completely at the user's discretion, whereas KXStudio is more of a rolling platform with regular automatic updates like a traditional distro.</p>
+<p><a href="http://kxstudio.linuxaudio.org/">KXStudio website</a><br /><a href="http://wiki.linuxaudio.org/wiki/kxstudio_manual">KXStudio manual</a><br /><a href="http://kxstudio.linuxaudio.org/Downloads">KXStudio download</a><br /><a href="http://www.linuxmusicians.com/viewforum.php?f=47">KXStudio forums</a></p>
+<p><img alt="Screenshot of KXStudio's website" src="/sites/default/files/articles/Kxstudio%20website.png" /></p>
+<p><a href="http://www.bandshed.net/avlinux/">AVLinux website</a><br /><a href="http://bandshed.net/pdf/AV603Manual.pdf">AVLinux manual</a><br /><a href="http://bandshed.net/forum/index.php">AVLinux forums</a></p>
+<p><img alt="Screenshot of AVLinux's website" src="/sites/default/files/articles/Avlinux%20website.png" /></p>
+<h2>Advantages – in detail</h2>
+<h3>Additional repositories/software</h3>
+<p>From an end user point of view, this is an important aspect. If you choose an audio distribution, you don't have to run the latest Linux distros to get up-to-date audio software. You can have the latest and greatest without having to compile the software yourself; it's all done for you. You will also have access to much more audio software than is available in stock <a href="/answer/software-repository">repositories</a>.</p>
+<p>In addition to the latest user end software, other things such as software libraries, that are important to Linux audio, are also updated more often. These are things that aren't visible to the end user but they do make a difference. They are useful in that they often allow for newer versions of software to be made available to you and they can also help with the stability of audio software in general.</p>
+<p><img alt="Up to date version of Ardour running in AVLinux" src="/sites/default/files/articles/Ardour%20in%20AVlinux.png" /><br /><em>AVLinux, based on Debian 6 which was released in 2011, runs up to date audio software on a very stable base</em></p>
+<h3>Stability</h3>
+<p>Linux audio distros are very stable. This is because of the fact that they update their software, while remaining on stable base releases. In the case of KXStudio and AVLinux, software is often made available soon after official releases for that software are made. This means you can have a more stable base, for example Ubuntu LTS or Debian Stable, and not be stuck with older audio software. It's a win-win situation.</p>
+<p><img alt="LMMS running in KXStudio 14.04" src="/sites/default/files/articles/LMMS.png" /><br /><em>Up to date version of LMMS running in KXStudio 14.04</em></p>
+<h3>Specific audio performance tweaks</h3>
+<p>Realtime audio performance is important to many when working with audio software. What this means in real terms is having the recorded signal played back through your playback system without any audible delay. This is important when monitoring your performance. Latency is inherent in computers but there are things that can be done to minimize it.</p>
+<p>There are many tweaks, big and small, that Linux distros make under the hood that are beneficial to this and general audio performance. As an end user, you don't need to know the technical ins and outs of what these do. You just need to know that the end result is that audio processes are prioritized by the operating system, thus, allowing you to more easily achieve stable and/or low latency audio.</p>
+<h3>Testing</h3>
+<p>The maintainers of stock Linux distributions and their repositories take care to get things as correct as possible, however, audio production software and the general Linux audio ecosystem can be very complex. There are often issues that need to be worked out, even with stable distribution releases.</p>
+<p>Since the maintainers of audio orientated distributions are so familiar with audio related issues in Linux, they do their best to make sure these areas are as trouble free as possible. They have more direct experience with the inner workings of Linux audio software and its libraries. Also, another thing to consider is that with popular audio distros, the users often pick up on problems as well and report them to the maintainers. Audio orientated distros are far better tested in this regard.</p>
+<p><img alt="Screenshot of the AVLinux forums" src="/sites/default/files/articles/Avforums.png" /><br /><em>The AVLinux forums</em></p>
+<p><img alt="Screenshot of the KXStudio forums" src="/sites/default/files/articles/Kxforums.png" /><br /><em>The KXStudio forums are hosted at Linuxmusicians.com</em></p>
+<h3>Convenient JACK set up</h3>
+<p>Almost all Linux distros use <a href="/answer/pulse-audio">PulseAudio</a> for managing audio. While it works well for desktop audio, PulseAudio isn't suited to professional audio. Furthermore, it has been known to clash with <a href="/answer/jack">JACK</a> in some cases. For these reasons, audio distros usually don't come with PulseAudio installed but rather route all audio, desktop and otherwise, through JACK.</p>
+<p>Audio distros have JACK set up in a way so you have to deal with it as little as possible. This includes using bridges between general desktop audio and JACK. All this is done in the background so you don't even need to be aware of it. This makes for a very convenient audio set up that allows you to enjoy normal desktop audio from your browser, media players, etc, as well as from JACK software.</p>
+<p>KXStudio has JACK set to run automatically upon login. From the end user point of view, all audio just works. There is no starting and stopping JACK. You will have to make sure that JACK is set up with your audio interface initially, but after that you can almost forget it is there.</p>
+<p><img alt="Image of Cadence " src="/sites/default/files/articles/Cadence_0.png" /><br /><em><a href="/tools/cadence">Cadence</a> in KXStudio. Note the option to auto-start JACK at login</em></p>
+<h3>Lightweight desktops</h3>
+<p>One thing that almost all audio distros have in common is a lightweight or stripped down desktop environment. For example, AVLinux comes with XFCE, while KXStudio comes with a stripped down version of KDE that is more lightweight than the stock KDE (disabled effects, etc). These decisions are made to maximize available system resources. Newer, and more fully featured, desktop environments have heavier overheads. This can affect audio performance. The choice of a low demand environment on many audio distros helps you get the most out of the hardware you already have.</p>
+<p>A lot of people like fancy desktop effects but these can put strain on the computer if you are, for example, trying to utilize realtime monitoring or if you are mixing with a lot of plugins. The use of lightweight/stripped down desktop environments can help towards making audio performance more reliable. Aside from realtime performance, they can get more out of your system than heavier and non-optimized systems.</p>
+<p><img alt="AVLinux showing it's lightweight XFCE desktop" src="/sites/default/files/articles/AV%20desktop.png" /><br /><em>AVLinux uses the lightweight desktop environment XFCE</em></p>
+<h2>Not Just for Audio</h2>
+<p>If you are focused on using Linux for audio, there really are no downsides to choosing an audio orientated distro. Some non-audio software might be outdated but if you are working with mostly audio software, you can be sure that this software will be up to date. Also note that while these distros focus on audio, many also cater towards the wider multimedia ecosystem and also often include up to date version of graphics and video editing software (Inkscape, Kdenlive, Blender, etc). If you are serious about any aspect of multimedia, you will be far better served by using an audio distribution that leans towards those requirements.</p>
+<p><img alt="Graphics software running in KXStudio" src="/sites/default/files/articles/Graphics.png" /><br /><em>Inkscape and GIMP in KXStudio</em></p>
+<h2>Ubuntu Users</h2>
+<p>If you are using Ubuntu and are interested in using a system more tailored towards audio production, you don't necessarily need to reinstall. KXStudio is based on Ubuntu/Debian. It comes as a live disc that you can try out or install but its software repositories can also be added to any existing Ubuntu or Debian install. There are instructions on how to do this in the FAQ section of the website -</p>
+<p><a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">I am running Ubuntu/Debian. How do I update to KXStudio without having to do a reinstall?</a></p>
+<p><img alt="Copy and pasting into the terminal to set up KXStudio repositories" src="/sites/default/files/articles/Ubuntu%20users.png" /><br /><em>Updating from Ubuntu to KXStudio is as simple as copying and pasting a few lines in a terminal</em></p>
+<h2>Summary</h2>
+<p>If you want a stable audio work environment and don't want to do the tweaking yourself, there is no better starting point than an audio orientated Linux distribution. You will have access to all your usual desktop software alongside an up-to-date, stable audio recording environment.</p>
+<p>Written by Conor Mc Cormack</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/advantages-choosing-audio-orientated-linux-distribution" st_title="The Advantages of Choosing an Audio Orientated Linux Distribution" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/132" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-XgkyJ-y3C-OAx21BDScmR-HnNei40T2xFnNyO3LYb78" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/132" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-toI6RCOxT2ZFudCIgj5Tk4J1wTCTMGNGzg3ag2Hlf38" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

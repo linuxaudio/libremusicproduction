@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - mixing" href="http://libremusicproduction.com/taxonomy/term/16/feed" />
+<link rel="canonical" href="/area/mixing" />
+<link rel="shortlink" href="/taxonomy/term/16" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="mixing" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>mixing | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"s3CobBzGPmbUmRTEq3UhGaOvuE870bE_joTAlDbamik","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/area\/mixing?page=5":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-16" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>mixing</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  mixing                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-16" class="taxonomy-term vocabulary-category">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-291" class="node node-news node-promoted node-teaser clearfix" about="/news/20150130-qtractor-065-out" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150130-qtractor-065-out">Qtractor 0.6.5 is out!</a>
+    </h2>
+    <span property="dc:title" content="Qtractor 0.6.5 is out!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-30T19:36:07+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-01-30 19:36</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20150130-qtractor-065-out"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/qtractor.png?itok=DaZ1_TqP" alt="Qtractor 0.6.5 is out!" title="Qtractor 0.6.5 is out!" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="/articles/friday-interview-12-rui-nuno-capela">Rui Nuno Capela</a> has just announced a new release of Qtractor, this time codenamed 'The Fermion Ray'.</p>
+<p></p>
+<p>Highlights of this release include -</p>
+<ul><li>MIDI clip record/overdubbing (NEW)</li>
+<li>Extended track multi-selection for mute/solo (NEW)</li>
+<li>VST-shell sub-plugins support (NEW)</li>
+<li>JACK transport start/stop resilience (FIX)</li>
+</ul><p>Full details can be found at <a href="http://www.rncbc.org/drupal/node/858">rncbc.org</a></p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150130-qtractor-065-out" rel="tag" title="Qtractor 0.6.5 is out!">Read more<span class="element-invisible"> about Qtractor 0.6.5 is out!</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-290" class="node node-news node-promoted node-teaser clearfix" about="/news/20150130-muse-221-released" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150130-muse-221-released">MusE 2.2.1 released</a>
+    </h2>
+    <span property="dc:title" content="MusE 2.2.1 released" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-30T19:31:18+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-01-30 19:31</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The <a href="/tools/muse">MusE</a> developers have just released version 2.2.1.</p>
+<p>Fixes and improvements include:</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150130-muse-221-released" rel="tag" title="MusE 2.2.1 released">Read more<span class="element-invisible"> about MusE 2.2.1 released</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-286" class="node node-news node-promoted node-teaser clearfix" about="/news/20150123-guitarix-needs-your-presets" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150123-guitarix-needs-your-presets">Guitarix needs your presets!</a>
+    </h2>
+    <span property="dc:title" content="Guitarix needs your presets!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-23T18:13:45+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2015-01-23 18:22</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20150123-guitarix-needs-your-presets"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/Guitarix.png?itok=C9lBoX3w" alt="Guitarix needs your presets!" title="Guitarix needs your presets!" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<p>The <a href="/articles/ultimate-guide-getting-started-guitarix">Guitarix</a> team are looking to replace the current set of presets in Guitarix with something more up to date. For this, they are looking for users to send them their best presets. They will then choose the best ones out of these submissions to create a new factory preset bank.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150123-guitarix-needs-your-presets" rel="tag" title="Guitarix needs your presets!">Read more<span class="element-invisible"> about Guitarix needs your presets!</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-282" class="node node-news node-promoted node-teaser clearfix" about="/news/20150116-calf-studio-gear-demonstration-videos" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150116-calf-studio-gear-demonstration-videos">Calf Studio Gear demonstration videos</a>
+    </h2>
+    <span property="dc:title" content="Calf Studio Gear demonstration videos" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-16T23:15:12+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-06-03 09:01</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>With the up and coming release of version 0.0.60 of the <a href="/tools/calf-plugins">Calf plugin suite</a>, <a href="/articles/lmp-asks-6-interview-markus-schmidt">Markus Schmidt</a> has been posting some videos demonstrating some of the plugins. Check them out!</p>
+<p><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+<!--/*--><![CDATA[/* ><!--*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--><!]]]]><![CDATA[>*/
+
+/*--><!]]>*/
+</style></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150116-calf-studio-gear-demonstration-videos" rel="tag" title="Calf Studio Gear demonstration videos">Read more<span class="element-invisible"> about Calf Studio Gear demonstration videos</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-276" class="node node-news node-promoted node-teaser clearfix" about="/news/20150107-muse-22-released" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150107-muse-22-released">MusE 2.2 released </a>
+    </h2>
+    <span property="dc:title" content="MusE 2.2 released " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-07T11:30:40+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2015-01-07 11:37</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20150107-muse-22-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/muse2.2.png?itok=ElWZw18q" alt="MusE 2.2 released " title="MusE 2.2 released " /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Following hot on the heels of recent beta releases, the <a href="/tools/muse">MusE</a> developers have finally announced the stable release of version 2.2. The big news with this stable release is that MusE now has support for LV2 plugins.<br /></p>
+<p>For full details, check out the announcement on the <a href="http://linux-audio.4202.n7.nabble.com/MusE-2-2-released-td94623.html">Linux Audio users mailing list</a>.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150107-muse-22-released" rel="tag" title="MusE 2.2 released ">Read more<span class="element-invisible"> about MusE 2.2 released </span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-275" class="node node-tool node-teaser clearfix" about="/tools/infamous-plugins" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/infamous-plugins">Infamous Plugins</a>
+    </h2>
+    <span property="dc:title" content="Infamous Plugins" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/infamous-plugins"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/infamous_plugins.png?itok=_CR2ARnV" alt="Infamous Plugins" title="Infamous Plugins" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Infamous Plugins is a collection of open-source LV2 plugins. It aims to fill some holes, supplying non-existing plugins for linux audio.</p>
+<p>The suite consists of -</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/infamous-plugins" rel="tag" title="Infamous Plugins">Read more<span class="element-invisible"> about Infamous Plugins</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-273" class="node node-news node-promoted node-teaser clearfix" about="/news/20150103-calf-developers-working-towards-new-release" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150103-calf-developers-working-towards-new-release">Calf developers working towards new release</a>
+    </h2>
+    <span property="dc:title" content="Calf developers working towards new release" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-03T20:04:11+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-01-06 07:32</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20150103-calf-developers-working-towards-new-release"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/Calf_studio_gear.png?itok=LHaGqXbK" alt="Calf developers working towards new release" title="Calf developers working towards new release" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The <a href="/tools/calf-plugins">Calf</a> developers recently met up to discuss the up and coming release, version 0.0.60. All in all there are now 44 plugins that make up the Calf suite.</p>
+<p></p>
+<p>For more information, check out <a href="http://mein-neues-blog.de/2015/01/03/31c3-calf-team-comes-up-with-a-new-pre-release/">Markus Schmidt's blog</a> post.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150103-calf-developers-working-towards-new-release" rel="tag" title="Calf developers working towards new release">Read more<span class="element-invisible"> about Calf developers working towards new release</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-271" class="node node-news node-promoted node-teaser clearfix" about="/news/20150101-updated-ardour-floss-manual" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20150101-updated-ardour-floss-manual">Updated Ardour FLOSS manual</a>
+    </h2>
+    <span property="dc:title" content="Updated Ardour FLOSS manual" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-01T22:39:35+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-01-01 22:47</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20150101-updated-ardour-floss-manual"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/ardourtutorials.png?itok=B3ONrIhZ" alt="Updated Ardour FLOSS manual" title="Updated Ardour FLOSS manual" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<p><a href="http://linux-audio.4202.n7.nabble.com/Updated-Ardour-Tutorial-td94484.html">Bruno Ruviaro</a> has just finished updating the <a href="/tools/ardour">Ardour</a> FLOSS manual. It was originally created in 2009 and was based on Ardour 2. Bruno has now updated it so it is now relevant to Ardour 3 and it's operations, including new screenshots.</p>
+<p>The updated version can be <a href="http://brunoruviaro.github.io/ardour3-floss-tutorial/">found here</a>.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20150101-updated-ardour-floss-manual" rel="tag" title="Updated Ardour FLOSS manual">Read more<span class="element-invisible"> about Updated Ardour FLOSS manual</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-270" class="node node-news node-promoted node-teaser clearfix" about="/news/20141228-carla-20-beta-3-released" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20141228-carla-20-beta-3-released">Carla 2.0 beta 3 released!</a>
+    </h2>
+    <span property="dc:title" content="Carla 2.0 beta 3 released!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-12-28T17:23:19+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 13:56</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20141228-carla-20-beta-3-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/carla2b3.png?itok=QRigN7zU" alt="Carla 2.0 beta 3 released!" title="Carla 2.0 beta 3 released!" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<p>The 3rd beta of what will become <a href="/tools/carla">Carla</a> 2.0 <a href="http://kxstudio.linuxaudio.org/News/?action=view&amp;url=carla-20-beta3-is-here">has been released</a>.</p>
+<p>New features implemented since beta2 include -</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20141228-carla-20-beta-3-released" rel="tag" title="Carla 2.0 beta 3 released!">Read more<span class="element-invisible"> about Carla 2.0 beta 3 released!</span></a></li>
+<li class="comment-comments"><a href="/news/20141228-carla-20-beta-3-released#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-269" class="node node-news node-promoted node-teaser clearfix" about="/news/20141228-lmms-11-here" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20141228-lmms-11-here">LMMS 1.1 is here!!</a>
+    </h2>
+    <span property="dc:title" content="LMMS 1.1 is here!!" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-12-28T17:19:17+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2015-01-03 20:18</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20141228-lmms-11-here"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/lmms1.1.png?itok=1q-yESN1" alt="LMMS 1.1 is here!!" title="LMMS 1.1 is here!!" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<p>The <a href="/tools/lmms">LMMS</a> team have released the long-postponed 1.1 release. Along with a ton of bug fixes, changes include -</p>
+<ul><li>3 new native synth instruments</li>
+<li>Fully modular FX mixer</li>
+<li>Updated <a href="/tools/zynaddsubfx">ZynAddSubFx</a></li>
+<li>Automation live recording</li>
+</ul><p>Check out the announcement and further details over at <a href="http://linuxmusicians.com/viewtopic.php?f=24&amp;t=13265">linuxmusicians.com</a>.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20141228-lmms-11-here" rel="tag" title="LMMS 1.1 is here!!">Read more<span class="element-invisible"> about LMMS 1.1 is here!!</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/area/mixing">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/area/mixing?page=4">‹ previous</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-item"><a title="Go to page 2" href="/area/mixing?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/area/mixing?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/area/mixing?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/area/mixing?page=4">5</a></li>
+<li class="pager-current">6</li>
+<li class="pager-item"><a title="Go to page 7" href="/area/mixing?page=6">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/area/mixing?page=7">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/area/mixing?page=8">9</a></li>
+<li class="pager-item"><a title="Go to page 10" href="/area/mixing?page=9">10</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="/area/mixing?page=6">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/area/mixing?page=12">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/16/feed" class="feed-icon" title="Subscribe to RSS - mixing"><img typeof="foaf:Image" src="http://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - mixing" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/area/mixing?page=5" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-0bKDVqU3HpjOiqYkGMvB5A3OwAE4GeJX-1096QjHIJE" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/area/mixing?page=5" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Jvy0CcN9d8OWogJZz_tC8jusxRuKI_nnXtVSRgtuimE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

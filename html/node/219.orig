@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/tutorials/jannis-pohlmann-how-i-produce-music-ardour" />
+<link rel="shortlink" href="/node/219" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Jannis Pohlmann: How I produce music with Ardour | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"K-JkjHykQVbjtq8Fm_Wvk3KDmN-J0BUvmbyUXH3Sm2s","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/219":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-219 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Jannis Pohlmann: How I produce music with Ardour                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-219" class="node node-tutorial clearfix" about="/tutorials/jannis-pohlmann-how-i-produce-music-ardour" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Jannis Pohlmann: How I produce music with Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="8" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-10T13:18:49+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-06-03 08:49</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item odd"><a href="/area/recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div><div class="field-item even"><a href="/category/technique" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div><div class="field-item odd"><a href="/category/workflow" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/calf-plugins">Calf Plugins</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This article is written for all those interested in setting up a Linux home studio and using <a href="/tools/ardour">Ardour</a> to record and mix their music, with the help of numerous free and open source tools and plugins.</p>
+<p>I will illustrate my setup and processes based on songs created with my solo band MÆNAD, covering the recording setup, miking, audio interfaces, Linux configuration, tracking different instruments with Ardour, various mixing tricks using pass filters, <a href="/answer/eq">equalizers</a>, compressors and more, as well as exporting to WAV and FLAC/MP3.</p>
+<h2>The overall setup</h2>
+<p>My basic setup is this:</p>
+<p>For instruments I have a drumkit, two guitars, a pedalboard with a few effects including a stereo delay, two guitar amps (one for each delay channel), a bass and bass amp and a synth.</p>
+<p>For recording I use a regular desktop PC running <a href="http://fedoraproject.org/">Fedora 17</a> (yes, I am aware this is rather old), equipped with a FireWire card and a Bluetooth dongle, the former to connect an audio interface, the latter to connect a Wiimote for controlling Ardour remotely during recordings (coincidentally, I wrote the Wiimote plugin shipped with Ardour 3).</p>
+<p>I use a <a href="http://us.focusrite.com/firewire-audio-interfaces/saffire-pro-40">Focusrite Saffire Pro 40</a> in combination with a <a href="http://us.focusrite.com/mic-pres/octopre-mkii">Focusrite OctoPre MkII</a> for routing microphones, amps and the synth to the computer for recording. The Saffire Pro 40 connects to the FireWire card, the OctoPre connects to the Saffire Pro 40 via ADAT. Together, this allows to record 16 mic/line inputs in parallel.</p>
+<p>For monitoring I use the two headphone outputs of the Saffire Pro 40 to connect a pair of in-ears (for recording) and decent studio headphones. I also use two pairs of studio monitors (one good pair, the the other focused on mid-range). This gives me 4 different ways of playing recordings and mixes back in different qualities and with different characteristics (the in-ears are very bassy for example, while the other headphones lack a bit of bass). From my own experience I can definitely say that I lean towards using one of them (the studio headphones because I’m very used to them) for most of the mixing work and the others only to verify the mix and make adjustments.</p>
+<h2>Instrument miking</h2>
+<p>With miking there is no ultimate truth or recipe for a good sound. Taste varies, the room acoustics vary between different rooms, even between different spots in the same room, microphone characteristics vary. I’d say it’s all up to understanding the microphones and instruments you’re working with (e.g. through reading books and tutorials) as well as gaining confidence and an intuition for the methods you like through experimentation.</p>
+<p>Having said that, there is a book that I can wholeheartedly recommend to anyone wanting to understand different microphones and miking techniques for all kinds of instruments: <a href="http://www.amazon.com/Recording-Engineers-Handbook-Bobby-Owsinski/dp/1285442016">The Recording Engineer’s Handbook by Bobby Owsinski</a>. Look it up, it’s an exceptional reference and includes interviews with various authorities in the music production business.</p>
+<p>After reading and experimenting a lot, I have settled on the following miking setup (for now anyway):</p>
+<h3>Guitar</h3>
+<p>Due to my stereo delay pedal, I have to mic two amps. One of the amps acts as the main amp and is usually mixed more prominently. In my case, this is a 100 watt head with a 4x12 speaker cabinet. I tend to record it using a single dynamic mic, a Sennheiser E609, placed right in front of one of the speaker cones (pick the one that sounds best), towards its center. That’s it. I am thinking of expanding this in the future by recording the line out of the amp as well.</p>
+<p>The secondary amp is miked in about the same way, except here I’m using a large condenser, a t.bone SC450, at about 5-10cm distance. I would have used a dynamic mic but I don’t have one that I can spare.</p>
+<p>If you only have one amp I can recommend combining a close-range dynamic mic and a large condenser at 3m distance to capture a bit more of the room sound—if the room sounds good, that is.<br />Bass</p>
+<p>The bass is miked similarly to the guitar amps. My bass amp is a 250 watt head powering a 4x10 cabinet. Instead of a regular dynamic microphone, I use a cheap bass drum microphone (Audio-Technica MB6K) and place it right in front of the center of one of the speaker cones.</p>
+<p>I usually record the amp using the microphone and the amp’s DI out at the same time to obtain more flexibility during the mixing stage.</p>
+<h3>Drums</h3>
+<p>Miking drums is a topic that I could ramble on about forever, and I’m not even an expert. There is just so much to consider, so many factors that play into the result. This is why I’ve gone from one simple miking technique to the next. Today I usually put a close mic on the snare and all toms but at the heart of my drum recording setup is always the same simple approach.</p>
+<p>Here are the techniques that I’ve been using over the past few years:</p>
+<p>2 mics: one inside the kick drum (bass drum microphone or dynamic mic, often placed halfway in, pointing at the beater), one above the right shoulder of the drummer (large condenser, pointing down at the snare).</p>
+<p>3 mics: one inside the kick drum (bass drum microphone, pointing near the beater), one above the kit (small or large condenser, pointing down at the center of the snare), one on the right (small or large condenser, ideally from a matched pair with the other microphone, pointing across the floor tom towards the center of the snare). The critical aspect here is that the two “overhead” mics are placed at the same distance to the snare to avoid phase issues. This is known as<a href="http://www.formandfilter.com/blog/recording/glyn-johns-method/"> the Glyn Johns Method</a>.</p>
+<p>3 mics: one inside the kick drum (bass drum microphone, pointing near the beater), one in front of the drummers face (a bit higher really so it doesn’t get in the way, small or large condenser, pointing down at the snare), one above the right shoulder of the drummer (pointing down at the snare diagonally). This is known as <a href="http://www.hometracked.com/2007/05/12/recorderman-overhead-drum-mic-technique/">the Recorderman Technique</a>. As with the Glyn Johns Method, it is crucial that two overhead mics are placed at the same distance to the snare.</p>
+<p>The nice thing about the above methods is that none of them require any magic beyond using a tape measure. I have come to like the Recorderman Technique in particular because it sounds good regardless of how bad the room acoustics are. It seems to provide a more focused and crisp sound compared to the Glyn Johns Method. That’s my impression anyway.</p>
+<p>Any of these techniques can be enhanced by adding spot/close mics anywhere, e.g. at the snare, toms, kick or hi-hats.</p>
+<h3>Synth</h3>
+<p>This part at least is simple: mono or stereo line output, routed straight into the audio interface with one or two regular cables.</p>
+<h2>Reading Break — “Birth”</h2>
+<p>Ok, it’s time for a break. Here’s a song that I recorded and mixed earlier this year using the setups, tools and processes described in this article:</p>
+<p><iframe frameborder="no" height="600" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/147137885&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe></p>
+<p>Ready for more? Alright then, let’s carry on!</p>
+<h2>Linux configuration</h2>
+<p>As mentioned earlier, my recording and mixing computer uses Fedora 17. I can’t move the recording machine around a lot, so while this is rather outdated by now, at least it is stable.</p>
+<p>Here are a few details about the configuration I applied to the system that are specific to audio production:</p>
+<h3>Realtime</h3>
+<p>I use a 3.4.11 realtime kernel provided by the <a href="http://ccrma.stanford.edu/planetccrma/software/">CCRMA</a>. They provide repositories with realtime kernels for various distributions. If you plan on doing any serious recording or mixing work and you don’t want to be hindered by high latency and countless <a href="/answer/what-xrun-and-how-can-i-stop-getting-them">XRUNs</a> along the way, go for realtime. It’s not a choice, really.</p>
+<p>Configuring the rest of the system for realtime, setting up priorities, granting <a href="/answer/jack">JACK</a> and Ardour sufficient permissions over resources and all that can quickly become a complex task that’s tricky for beginners to handle. This is where <a href="https://github.com/raboof/realtimeconfigquickscan">realtimeconfigquickscan</a> comes in handy. It runs various checks against your system configuration and tells you which parts and configurations you are missing before your system is ready for serious audio processing.</p>
+<h3>FireWire cards and FFADO</h3>
+<p>If you are a regularly working with FireWire audio devices on Linux, you probably know about compatibility problems with FireWire cards already. When I initially set up my home studio, I bought a random card with a VIA VT6315 chip, only to find out that <a href="http://sourceforge.net/p/ffado/mailman/ffado-user/thread/34953e2320ec5c5ff930cf6d36bdd081%40localhost/#msg29871038">it didn’t work with the Saffire Pro 40</a>. As it turns out there are <a href="http://subversion.ffado.org/wiki/HostControllers">various known issues with different FireWire chipsets and FFADO</a>. In the end I bought three different cards and only with one of them the Saffire Pro 40 worked properly, with the sample rate I wanted and all that. The card I use today has a Texas Instruments XIO2213B chipset and I can report that it works flawlessly.</p>
+<p>This is something to consider before buying hardware. The <a href="http://subversion.ffado.org/wiki/HostControllers">FFADO wiki documents</a> which chipsets are known to work and which are not.</p>
+<h3>Everything from Git (or Subversion)</h3>
+<p>In the process of experimenting with the FireWire cards I also decided to build <a href="/answer/ffado">FFADO</a>, JACK, Ardour and various other software components straight from Git/Subversion. This means the audio stack versions are somewhat independent from my outdated Linux distribution and it ensures that I have a shortcut to pulling the latest fixes and improvements in. I admit, this isn’t feasible for Linux newcomers but if you know your way around build tools and Git/Subversion, it’s worth it.</p>
+<h3>JACK configuration</h3>
+<p>There’s not much to say about JACK itself. Once the realtime and FFADO setup is complete, I simply run jackd from the command line, with priority 70, 3000ms client timeout, using the FireWire driver, full duplex, 48000Hz with a latency of 128 samples (4 periods). For example. The parameters depend on your preferences and hardware.</p>
+<h3>Ardour configuration</h3>
+<p>I tend to leave the standard Ardour configuration alone for the most part. There are a few things that I always adjust, however:</p>
+<p><lmp-term>Enable Stop recording when an xrun occurs</lmp-term>. XRUNs are likely to result in small glitches, cracks or delays. You really don’t want them to mess up your recordings, so make sure you stop immediately if an XRUN is raised. If this happens all the time, something is wrong with your setup (e.g. system too slow to handle the data (check CPU, hard drive and RAM), FireWire issues, realtime setup broken or latency set too low).</p>
+<p>Disable<lmp-term> Create markers where xruns occur</lmp-term>. If you stop recording on an XRUN you won’t need this one.</p>
+<p>Enable <lmp-term>Synchronise editor and mixer selection</lmp-term>. If you have a lot of tracks, you’ll want to be able to switch between editor and mixer quickly. If the selected tracks on both windows are managed separately, you will often find it hard to locate the track or tracks you were working on. Activating this option makes it a little bit easier.</p>
+<p>Adjust <lmp-term>Font scaling</lmp-term>. If you only have a single monitor—like I do—this may come in handy. I use a scaling of 90% but the rule that applies here is: whatever works.</p>
+<p>Disable <lmp-term>Follow Playhead</lmp-term> (in the <lmp-term>Transport</lmp-term> menu). I prefer to have full control over what is displayed when. It helps if Ardour doesn’t autonomously scroll around, especially during the mixing phase.</p>
+<p>That’s it really. Other than that, I tend to use <lmp-term>Grid mode</lmp-term> 90% of the time, usually selecting <lmp-term>Bars</lmp-term> or <lmp-term>Beats</lmp-term>, as this helps in sticking to the click. If you record to a click you can later cut and edit to your liking. Having <lmp-term>Grid</lmp-term> or at least <lmp-term>Magnetic</lmp-term> enabled helps in cutting in and moving to the right places without messing up the timing.</p>
+<h2>Recording</h2>
+<p>We’ve covered the setup and system configuration—now let’s look at the actual recording process.</p>
+<h3>Inputs</h3>
+<p>Once everything is wired up and Ardour has been started, I have 16 mic/line input channels available to record from. Due to my miking setup, these are loosely divided as follows:</p>
+<p style="margin-left: 40px;">ADAT in 1: Drums Kick (inside)<br />ADAT in 2: Drums Kick (outside)<br />ADAT in 3: Drums Snare Close<br />ADAT in 4: Drums Overhead Top Left (Recorderman)<br />ADAT in 5: Drums Overhead Top Right (Recorderman)<br />ADAT in 6: Drums Tom 1 Close<br />ADAT in 7: Drums Tom 2 Close<br />ADAT in 8: Drums Tom 3 Close<br />1394 in 1: Guitar Amp 1<br />1394 in 2: Guitar Amp 2<br />1394 in 3: Bass DI<br />1394 in 4: Bass Mic<br />1394 in 5: Synth L/Mono<br />1394 in 6: -<br />1394 in 7: -<br />1394 in 8: -</p>
+<p>As you will have noticed, a few of the inputs remain unused. That’s a good thing; it means I can always plug something new in without having to rewire. This is advice that I’m happy to give anyone: unless you need a mobile audio interface (usually 2 mic preamps), go for a little more than you need. Your experience will expand, you’ll buy more microphones, more instruments and so on. You will need more at some point.</p>
+<h3>Project template and track naming</h3>
+<p>Since this is more or less the same for every new Ardour project I create, I have saved one of these projects as a template that I then select whenever creating another project. Since I tend to layer guitars a lot, this template roughly includes the following tracks:</p>
+<p style="margin-left: 40px;">(Track, Mono) D Kick in<br />(Track, Mono) D Kick out<br />(Track, Mono) D Snare<br />(Track, Mono) D Overhead TL<br />(Track, Mono) D Overhead TR<br />(Track, Mono) D Tom 1<br />(Track, Mono) D Tom 2<br />(Track, Mono) D Tom 3<br />(Track, Mono) Guitar 1.1<br />(Track, Mono) Guitar 1.2<br />(Track, Mono) Guitar 2.1<br />(Track, Mono) Guitar 2.2<br />(Track, Mono) ...<br />(Track, Mono) Guitar 8.1<br />(Track, Mono) Guitar 8.2<br />(Track, Mono) Bass DI<br />(Track, Mono) Bass Mic<br />(Bus, Stereo) Drums<br />(Bus, Stereo) Drums + Bass<br />(Bus, Stereo) Guitars Foreground Distorted<br />(Bus, Stereo) Guitars Foreground Clean<br />(Bus, Stereo) Guitars Background Distorted<br />(Bus, Stereo) Guitars Background Clean<br />(Bus, Stereo) Guitars<br />(Bus, Stereo) Master</p>
+<p>Instead of using generic names such as “Guitar 1.1”, “Guitar 1.2”, I often rename the tracks to have names like “Guitar Intro 1.1”, “Guitar Bridge 2.2” and so on.</p>
+<p>So what does all this mean? I think the drums on their own are self-explanatory, as is the bass. The “Drums” bus combines all individual drum tracks to a stereo signal. The “Drums + Bass” bus combines the stereo drum bus and the bass tracks for parallel compression (more on that later). The different guitar busses are used for managing the different guitar layers during mixing. All busses then go straight into master, where they are further processed and put out through the speakers (or to the hard drive).</p>
+<p>Since I record all guitar tracks twice (one mic for each amp), “Guitar 1.1” and “Guitar 1.2” would refer to “Guitar, First Track, First Amp” and “Guitar, First Track, Second Amp”. The first number says they come from the same take and belong together, the second refers to the amp. I often end up with about 20x2 guitar tracks alone and so I chose this naming scheme as a way to keep the amount of bookkeeping low. A compromise between usefulness and practicality, you could say.</p>
+<p>The numbering scheme is useful to identify tracks in the editor and mixer. However, in most cases I identify them by where they are in the song structure in the editor, then I select them and then I switch to the mixer if I need to.</p>
+<p>The visual arrangement in the editor usually follows the same pattern: markers at the top mark the beginning of different parts (e.g. “intro”, “melody”, “build 1”, “build 1 phase 2”, “drop 1”, “burst 1”, “bridge” and so on). Below that are the drums. Below that follow the guitars, starting with the tracks that play at the beginning of the song, concluded further down by the tracks that play towards the end. Even though it is usually playing during the entire song (like the drums), the bass is located at the bottom. This is because I often record it at the very end and want the bass tracks out of my way while working on the other tracks.</p>
+<h3>Record, Now! — The recording process</h3>
+<p>The way I write songs is pretty random: it starts on guitar, jamming about until I come across a melody or riff that I like. I’ll then try to find a second part that works with the first one. If I find one or more good parts or progressions, I’ll record them once (2 tracks) or twice (4 tracks). I’ll pan the 2 channels from each take to opposite sides to make the stereo delay effect work and to add depth to the sound. I’ll then try playing drums to this to see if it works. If it does, I’ll go back to guitars and extend the parts, add new ones, try to find a beginning and an end and so on.</p>
+<p>The first idea I have is often a gentle intro melody, so I’ll develop the entire song from there, adding layer after layer with additional melodies, complementing riffs or identical tracks for doubling. I then go back to drums and work out the drums for the entire song. I’ll export the result, play it to others and to myself repeatedly and take mental note of things that I don’t like. Usually, all parts are too long, so when I go back to working on the song again, I don’t shy away from cutting them together drastically. If this results in abrupt breaks in the song, I’ll see if I can support, emphasize or smoothen out those breaks through my drumming.</p>
+<p>Once I’m happy with the demo song, I’ll start again from scratch, with an empty project. The first step is always creating markers and tempos, as this defines the basic structure of the song. Once that is done, I’ll record track after track, layer after layer, until everything has been captured. And then I’ll get my bass from upstairs and rock out. That’s the most fun part of them all (followed by drumming)—jamming to the entire song on bass and making it groove.</p>
+<p>Once everything has been recorded, this is what Ardour looks like:</p>
+<p><img alt="Recording in Ardour." src="/sites/default/files/tutorials/2014-10-09-ardour-editor-choice.png" /></p>
+<h2>Reading Break — “Choice”</h2>
+<p>And here’s the song from the screenshot. Take a break, grab a coffee and have a listen!</p>
+<p><iframe frameborder="no" height="600" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/152320676&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe></p>
+<h2>Mixing</h2>
+<p>Right, what’s next? Ah, mixing!</p>
+<p>Mixing often starts during the recording already; panning tracks left and right, adjusting track volumes and other small (or big) adjustments are, technically, all part of the mixing process.</p>
+<p>Let’s start with a few recommendations. Two books about mixing that I can recommend if you are a patient reader are <a href="http://www.amazon.com/Mixing-Audio-2e-Roey-Izhaki/dp/0240522222">Mixing Audio by Roey Izhaki</a> and <a href="http://www.amazon.com/Mixing-Secrets-Small-Studio-Senior/dp/0240815807">Mixing Secrets by Mike Senior</a>. They describe all aspects of mixing in great detail. The emphasis is on detail here.</p>
+<p>If you are like me—and if you have a Linux / open source background, you probably are to some degree—you’ll be happier just reading up on and understanding the basics and learning the rest through experimenting. I’ve found the hands-on tutorials by <a href="http://youtube.com/user/recordingrevolution">The Recording Revolution</a> to be extremely useful, especially the different “30 Mixing Tricks in 30 Days” series. Unless you’re religious (and christian), be sure not to pay too much attention to the songs used in the tutorials, otherwise it can be a little off-putting as they are all about god and stuff. But the tutorials are really good, incredibly practical right away and make a lot of sense, so go watch them.</p>
+<p>Back to Ardour. Cutting and editing audio regions and transitions aside, most of the mixing takes place in the mixer view. In the Ardour project for <a href="https://soundcloud.com/brittlegiants/choice">my song “Choice”</a>, the mixer view looks like this:</p>
+<p><img alt="Mixing." src="/sites/default/files/tutorials/2014-10-09-ardour-mixer-choice.png" /></p>
+<p>As you can see there’s quite a lot going on here. Let’s break it down.</p>
+<h3>Tracks and groups</h3>
+<p>On the left we have a list of all tracks in the project, in the order they appear in in the editor and mixer view. In the bottom left corner we have a list of groups used in the projects. Separate groups for drums, guitars, busses etc. can help in applying the same state (e.g. solo, mute or recording), color and more to all tracks that belong together.<br />Mixer strips</p>
+<p>The main area of the mixer view is dedicated to the mixer strips. There is one for each track and bus (unless hidden). From top to bottom, a mixer strip includes the track name, audio input (all disconnected in the screenshot, sadly), toggle switch for inverting phase, pre- (red) and post-fader (green) effects, panning controls, a group of monitoring and recording utilities, volume fader, automation control and volume probe point, group, and comments.</p>
+<p>There’s also a separate mixer strip for the master bus, which usually is the last point where you can alter the sound before it leaves Ardour (unless you are also using a monitor bus).</p>
+<h3>Monitor section</h3>
+<p>On the far right, we have the monitor section. This allows you to switch between different solo modes (SiP, AFL, PFL), control the volume drop (or gain) when dimming, mute, dim, solo and phase-invert the left or right channel, toggle between stereo and mono (useful for detecting phase issues), or mute everything.</p>
+<p>And that’s it, really. Of all these elements, the following are central during mixing: pre- and post-fader effects, panning, solo/mute and volume fader.</p>
+<h3>My mixing process</h3>
+<p>I usually start mixing with the drums. So I’ll solo the drum bus and perhaps the bass tracks and make the drums sound good. This usually involves balancing the volumes of individual drum tracks, panning the overheads and tom mics, applying a 100 Hz high-pass filter to all tracks but the kick, applying a compressor (usually <a href="https://encrypted.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3&amp;cad=rja&amp;uact=8&amp;ved=0CCwQtwIwAg&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFYwTQDcJ3cQ&amp;ei=8Og1VPyXCMWrPKGngFA&amp;usg=AFQjCNE6ala5pCO6nu2TwgxXbO-bpk9xmA&amp;sig2=CnFtfdgez6icpXyy8djP9Q&amp;bvm=bv.76943099,d.ZWU">Invada</a> or <a href="http://linuxdsp.co.uk/download/lv2/download_500/index.html">linuxDSP’s DYN500</a>) to kick, snare and toms, followed by subtle EQ-ing (usually a regular multiband EQ or <a href="http://linuxdsp.co.uk/download/lv2/download_black_eq/index.html">linuxDSP’s parametric Black-EQ</a>). I sometimes add a reverb to the snare as well (usually <a href="http://calf.sourceforge.net/plugins.html#delay">Calf reverb</a>).</p>
+<p>This is followed by balancing, compressing and EQ-ing the bass tracks. I’ll sometimes add effects to one of the bass tracks, such as the <a href="http://calf.sourceforge.net/plugins.html#modulation">Calf Multi Chorus</a> or the <a href="http://www.youtube.com/watch?v=yAAAVodArW4">Invada Tube Distortion</a> plugins. I’ll often attenuate the bass around the same frequencies where I’ve boosted the kick drum, so that they stay out of each other’s way.</p>
+<p>In order to blend drums and bass together nicely and give them enough punch to cut through the mix, I’ll often apply ultra heavy compression to the “Drums + Bass” bus, as well as boosting highs and lows a little bit. I’ll keep the volume of this bus down all the way until the guitars and everything else have been mixed. I’ll then slowly move the D+B fader up until the attack and punch of drums and bass cut through a little bit more than without the D+B bus. This technique is known as <a href="http://music.tutsplus.com/tutorials/give-drums-impact-with-parallel-compression--audio-2118">Parallel Compression</a>.</p>
+<p>Note: The EQ-ing applied so far is usually gentle, as drums and bass can’t be judged well on their own. Whether or not they cut through and sound well in the mix depends a lot on the sound of the other instruments—mostly guitars in my case.</p>
+<p>Since my guitars are often layered and doubled heavily, I have started routing them to different busses (background vs. foreground, distorted vs. clean), to which I’ll then apply different equalization. As a general rule, I’ll apply a band-pass filter (e.g. the Glame <a href="/answer/high-pass-filter">high</a>/<a href="/answer/low-pass-filter">low pass filters</a> or linuxDSPs BLACK-EQ) to all guitar busses first (cutting of around 250 Hz and 7000 Hz but that depends on the sound I get from the mics). This eliminates undesirable rumbling in the lows and fizzy distortion highs and makes room for kick, bass, toms and cymbals. I’ll then equalize foreground guitars a little bit brighter than background guitars. The majority of time I’ll usually spend on balancing the volumes and panning of all the guitar layers and decide to which guitar bus they should belong.</p>
+<p>This is an iterative process, not a step by step guide that can be followed once from beginning to end. I tend to mix with a mild Calf Reverb and a Dyson Compressor applied to the master bus (fast and regular compression set to around 0.125 if I remember correctly), as this makes the sound more coherent in my ears. Mixing with master bus compression engaged is sometimes frowned upon but I’ll resort to calling it a “matter of taste” here to save my ass and escape being judged too harshly.</p>
+<h3>Listening to intermediate mixes</h3>
+<p>I find it crucial to regularly take the current state of the mix, export it, leave the studio and play the song back to mself and others via different stereos, speakers, headphones etc. to understand where it lacks clarity, punch or character. Without this, there is always a risk that it will only sound good on your monitors.</p>
+<p>It really helps to play the song to others. As soon as I feel the urge to explain why a part is like this or that I know something is wrong. In most cases the lead melody isn’t great or the part is too long and it makes me uncomfortable in front of the other person.</p>
+<h2>Reading Break — “Unfinished Song October 2014”</h2>
+<p>Congratulations, you’ve almost made it! Why not take another break before we move on to the last topic—exporting to WAV/FLAC/MP3?</p>
+<p>Here is a little teaser for one of the songs I am currently working on. Unlike the other songs used in this article, this one uses DI/line out for all guitar and bass tracks. And while the others use a classic <a href="http://www.harmonycentral.com/articles/ortf-stereo-microphone-technique">ORTF overhead miking technique</a>, this song uses Recorderman plus spot mics. The mix is a little unbalanced but in my opinion the drums sound miles better thanks to changing technique and the guitars sounding less muddy. Anyway, judge for yourself.</p>
+<p><iframe frameborder="no" height="600" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171245107&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe></p>
+<h2>Exporting to WAV and FLAC/MP3</h2>
+<p>The final step of the music production process is the… mastering, yes. But we’ll skip that here. For more details on mastering I’ll refer you to Bob Katz’ excellent <a href="http://www.amazon.com/Mastering-Audio-Science-Bob-Katz/dp/0240808371">Mastering Audio</a> book.</p>
+<h3>Export to WAV</h3>
+<p>Instead, let us quickly look into exporting your mixed session from Ardour into a WAV or even <a href="/answer/flac">FLAC</a> or MP3. For this, you first have to define the start and end of your session using markers (either via the special “start” and “end” markers or by defining a range). Following that, all you have to do to obtain a WAV file is to go to <lmp-term>Session &gt; Export &gt; Export To Audio File(s)</lmp-term> in the Ardour menu. Before doing that, however, ensure that the playhead is located at the start of the session or range—I have on several occasions encountered garbled exports when Ardour had to jump to the start by itself during export.</p>
+<p>Export settings can have an impact on the audio quality. I would recommend against normalization, as it can introduce distortion into the resulting audio file. Instead, make sure your master peak volume never exceeds 0dB (or -6dB if you intend to master the exported result separately and want to prereserve some headroom for that). In fact, -1dB might be a better limit (or 0dB on a true peak meter), as converting to MP3 may lead to individual samples exceeding the maximum value in your original WAV.</p>
+<p>Apart from that, I’d go for WAV, lossless (linear PCM), 24 or 32 bit (with dithering if applicable) and either the same sample rate that you are using in your Ardour project or 44.1 kHz.</p>
+<p>When choosing a file name for the mixdown, including date and time are always a good idea. Or revisions, it’s up to you. I personally prefer date information over revisions, which are essentially arbitrary made-up numbers that are easy to forget. Dates are obvious.</p>
+<h3>Converting to MP3</h3>
+<p>Ardour 3 will save the exported result in the export/ directory inside your Ardour project. To convert the WAV file to an MP3, open a terminal and navigate to this directory. Or navigate to this directory in a file manager and open a terminal there, whichever way you prefer. Then, run</p>
+<p style="margin-left: 40px;">lame -V2 &lt;filename&gt;</p>
+<p>This will generate a file with the same name as &lt;filename&gt; except that it will end on .mp3 instead of .wav. There are various switches to control the MP3 output quality. <lmp-term>-V2</lmp-term> stands for “variable bitrate, reasonably high quality”, there’s also <lmp-term>-V0</lmp-term> (best) to <lmp-term>-V9</lmp-term> (worst) and a <lmp-term>-b&lt;rate&gt;</lmp-term> flag for choosing specific fixed bitrates (e.g. 128, 192 or 320).</p>
+<h3>Converting to FLAC</h3>
+<p>Since FLAC is a lossless audio file format, you don’t need any special flags to control the output quality. All you have to do is run</p>
+<p style="margin-left: 40px;">flac &lt;filename&gt;</p>
+<p>in the export/ directory and it will give you a file with the same name as &lt;filename&gt;, except that it will end on .flac instead of .wav.</p>
+<h2>Wrapping up</h2>
+<p>So, this is it—a fairly elaborate article about an example home studio recording setup, instrument miking techniques, Linux configuration for realtime audio processing, and the recording, mixing and exporting process using Ardour; all spiced up with songs that I produced using Linux, Ardour and (with linuxDSP plugins being the only exception) free and open source software plugins and tools.</p>
+<p>I hope you enjoyed this article and found it useful. Take care and have fun producing music on Linux! And if you liked the music, please follow my band MÆNAD on <a href="http://soundcloud.com/maenadband">SoundCloud</a> or <a href="https://www.facebook.com/maenadband">Facebook</a>.</p>
+<p>Written by <a href="http://gezeiten.org/">Jannis Pohlmann</a>.</p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/basic-mixing-ardour-3">Basic mixing in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3">Recording audio and using MIDI in Ardour 3 </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">Sidechaining in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour">Ardroid (Android application): How to use it with Ardour </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks">Ardour 3 Tips and Tricks </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour">How to use outboard gear in Ardour </a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour" st_title="Jannis Pohlmann: How I produce music with Ardour" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/219" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-1k0s0i8LVFKpNbbGq3GLSVcDFlhfexgGk8GgDup9xgg" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/219" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-rRDs_gkbQX1W8tnIX1tVWbLQFrDfvYs3x6X5aTO8m0g" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

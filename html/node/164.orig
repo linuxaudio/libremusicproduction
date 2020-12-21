@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/guidelines-contributors" />
+<link rel="shortlink" href="/node/164" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Guidelines for contributors | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"UE0H0anK2xVzCEaxNTNZf7xNpxaitqK8pdgxl4FfByQ","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/164":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-164 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Guidelines for contributors                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-164" class="node node-page clearfix" about="/content/guidelines-contributors" typeof="foaf:Document">
+
+      <span property="dc:title" content="Guidelines for contributors" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>First, make sure you <a href="http://libremusicproduction.com/about">read our mission statement</a>.</p>
+<h2>Type of content</h2>
+<p>Our main interest for new content is Articles and Tutorials.</p>
+<p>Articles: An article deals with a specific subject and describes for example the technology, inner workings, artistic decisions etc.</p>
+<p>Tutorials: A tutorial describes HOW to do something, for example, you start at point A and show steps to get to point B.</p>
+<p>For other details about contribution content, please read - <a href="/articles/how-contribute-libre-music-production">How to contribute to Libre Music Production</a>.</p>
+<h2>Text</h2>
+<p>The text should start with a short introduction where you describe what the article/tutorial is about and what the user will accomplish by following it.</p>
+<p>Content must be written in English, Make sure you run it through a spell checker before submittting. If English is not your first language, we can proofread any text if you feel you need help in polishing it off.</p>
+<p>We use a maximum of two levels of headings (which are translated into "Heading 2" and "Heading 3" in HTML). So, don't use too many sub-headings or the stuff will be difficult to read.</p>
+<p>A rough rule of thumb for articles and tutorials is that they should aim to be between 2000 and 2500 words.</p>
+<p>Where relevent, content should link to terms and technical mumbo-jumbo in our Jargon Buster/FAQ sections. This only needs to be done once per page and links should be created the first time a term is used. If you mention software that is included in the Tools section, you should also create a link to this.</p>
+<p>Please scan these sections and makes notes in your text of possible links:</p>
+<ul><li>Jargon Buster: <a href="http://libremusicproduction.com/jargonbuster">http://libremusicproduction.com/jargonbuster</a></li>
+<li>FAQ: <a href="http://libremusicproduction.com/faq">http://libremusicproduction.com/faq</a></li>
+<li>Tools: <a href="http://libremusicproduction.com/tools">http://libremusicproduction.com/tools</a></li>
+</ul><h2>Images</h2>
+<p>Both articles and tutorials should be illustrated with images.</p>
+<p>Use the PNG format for graphics and screen dumps.</p>
+<p>Photos can be submitted as JPGs.</p>
+<p>All images should be 600 pixels wide. Height is dependent on the image content itself but where possible, images should be approx 400 pixels high.</p>
+<p>If you are making graphics to explain things (and we like that), please use the following resources:</p>
+<ul><li>Logotype: <a href="/sites/default/files/graphic_profile/lmp_logo.xcf">GIMP original</a>, <a href="/sites/default/files/graphic_profile/lmp_logo.png">PNG</a>, <a href="/sites/default/files/graphic_profile/osp-din.zip">font</a> (<a href="http://openfontlibrary.org/font/osp-din">source</a>)</li>
+<li>Colors: Black, dark pink (#ed145b)</li>
+<li>Fonts: <a href="http://openfontlibrary.org/font/osp-din">OSP DIN</a>, Liberation</li>
+<li><a href="/sites/default/files/graphic_profile/lmp_graphics_diagram_template.odg">LibreOffice diagram template</a> (example)
+<ul><li><a href="/sites/default/files/graphic_profile/lmp_workflow.odg">Workflow graphics</a> (work in LibreOffice Draw)</li>
+</ul></li>
+<li><a href="/sites/default/files/graphic_profile/lmp_graphics_screendump_template.odg">LibreOffice screendump template</a> (example)</li>
+<li><a href="/sites/default/files/graphic_profile/lmp_graphics_colors.soc">LibreOffice LMP</a> color(s)</li>
+</ul><h2>Large files</h2>
+<p>If you have large files (movies) that you want to include, please <a href="/contact">contact us</a>.</p>
+<h2>Movies/screen casting</h2>
+<ol><li>Record your screen and audio using <a href="http://www.maartenbaert.be/simplescreenrecorder/">SimpleScreenRecorder</a>.</li>
+<li>Put your various recordings into the KDENLive template. Arrange and edit accordingly. Add explanatory titles and text.</li>
+<li><strong>If necessary</strong>, export the video uncompressed, load it in Ardour, and process the sound to your liking.</li>
+<li>Export the video with <em>these settings</em>: Full HD, 1080p (1920x1024), 25fps.</li>
+</ol><h3>Putting it all together in Kdenlive</h3>
+<ol><li>Install <a href="http://www.kdenlive.org">Kdenlive</a>. Check out the tutorials at <a href="http://userbase.kde.org/Kdenlive/Manual">http://userbase.kde.org/Kdenlive/Manual</a> if you are a beginner.</li>
+<li>Create a project folder for the videos. Let's call it "lmp_videos".</li>
+<li>Download the <a href="/sites/default/files/graphic_profile/lmp_video_template.tar.gz">Kdenlive template</a> but do not extract it.</li>
+<li>Also download the <a href="/sites/default/files/graphic_profile/titles.tar.gz">Titles template</a> and extract it into "lmp_videos".</li>
+<li>Fire up Kdenlive. Open the Kdenlive template ("lmp_video_template.tar.gz"). Kdenlive will ask you where to extract it -- chose "lmp_videos". While extracting, you will probably get a question about paths; adjust them using the "Search recursively" button. (<a href="http://userbase.kde.org/Kdenlive/Manual/Projects_and_Files/Archiving">http://userbase.kde.org/Kdenlive/Manual/Projects_and_Files/Archiving</a>)</li>
+<li>"Install" the title template by chosing Project &gt; Add Title Clip. In the dialog, click the "Open Document" icon and select the document in the folder extracted in step 4 ("text.kdenlivetitle"). (<a href="http://userbase.kde.org/Kdenlive/Manual/Titles#Template_Titles">http://userbase.kde.org/Kdenlive/Manual/Titles#Template_Titles</a>)</li>
+</ol><p>The template contains 7 tracks:</p>
+<ul><li>title (video) - for the title of the video. Edit the "Title - intro" clip at about 5 seconds to change the title of the video.</li>
+<li>intro video (video) - the intro animation. Do not edit.</li>
+<li>intro music (audio) - the intro music. Do not edit.</li>
+<li>text (video) - here goes your text boxes (see below)</li>
+<li>video (video) - here goes your screen capture</li>
+<li>music (audio) - here goes any music featuring in the video</li>
+<li>voice (audio) - here goes the voice of the video</li>
+</ul><p>Adding text boxes:</p>
+<ol><li>In the Project Tree, right-click and select Add Template Title.</li>
+<li>Select template "text.kdenlivetitle" template. Press OK button</li>
+<li>In the project tree you now have a new clip, "Template title clip".</li>
+<li>Double click the name ("Template title clip") and rename it to our standard "text - xxxx".</li>
+<li>Right-click the clip and select Clip Properties. Enter the text that should go into the text clip. As the template doesn't handle word wrapping you have to do that yourself with the Enter key.</li>
+<li>Drag the clip to the correct place on the "text" track.</li>
+</ol><h3>Rendering</h3>
+<p>Rendering means making a movie of it all.</p>
+<ol><li>Menu: Project &gt; Rendering.</li>
+<li>Select the tab Render Project.</li>
+<li>Settings: MP4, video: 12000, audio: 128.</li>
+<li>Set Output File and press Render to File.</li>
+</ol><h3>Creating custom youtube thumbnail</h3>
+<ol><li><span style="line-height: 1.538em;">Take a screenshot of your video. Crop your final image to a 16:9 ratio. Zoom in if necessary, eg. if you are demonstrating a plugin, crop in on the plugin.</span></li>
+<li>Download and extract the <a href="/sites/default/files/graphic_profile/youtube-thumbnail.tar.gz">Inkscape template</a>. </li>
+<li>Open up youtube-thumbnail.svg in Inkscape, then import your screenshot (<lmp-term>File &gt; Import</lmp-term>). Resize your screenshot to 1280x720 if necessary. </li>
+<li>Select your screenshot image and make sure that it is set to the bottom layer (<lmp-term>Layer &gt; Layer to bottom</lmp-term>)</li>
+<li>Go to <lmp-term>Layer &gt; Align and Distribute</lmp-term>. In this dialog, select page from the 'Relative to' drop down menu. Making sure your screenshot image is selected, use the 'align left edges' and 'align bottoms edges' buttons. This will make sure it is centred on the canvas. </li>
+<li>Double click on the text and highlight it. The text can then be edited. Try to keep the description brief and don't change the font size. Also, use caps for this description. The template uses the <a href="/sites/default/files/graphic_profile/osp-din.zip">OSP-DIN font</a>. Make sure this is installed on your system.</li>
+<li>Go to <lmp-term>File &gt; Export PNG Image</lmp-term>. Make sure the export area is set to 'Page' and that the image size is set to 1280x720. Set your export location and press export. </li>
+</ol><h3>Upload</h3>
+<p>See "Large files" above.</p>
+<h2><a id="philosophy" name="philosophy">Philosophy of LMP</a></h2>
+<p>Any material submitted to LMP must reflect the aims and objectives of the website, and so must respect the following -</p>
+<ol><li>Has to relate to, or demonstrate <a href="/answer/floss">FLOSS software</a></li>
+<li>Can't promote proprietary software</li>
+</ol><p>LMP specifically caters towards FLOSS audio software, something which we feel is under-represented in the audio field. We are trying to fill this niche and feel that mentioning anything other than the FLOSS software, and it's related philosophies, which we are trying to promote would dilute our intended goals.</p>
+<h2>License</h2>
+<p>All content on LMP is published under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/164" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-su9CLJslD75lXoLEDZc4oqkO2dqb-p5EUoVrANR8WAw" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/164" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ZqS1PDYTFjhC0GzaIoCbNsv3pu88oqIx-zsRayn-1Uw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - dance</title>
+ <link>http://libremusicproduction.com/genre/dance</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Shoichi Chou</title>
+ <link>http://libremusicproduction.com/music/shoichi-chou</link>
+ <description></description>
+ <pubDate>Sun, 07 Aug 2016 13:47:07 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">489 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/shoichi-chou#comments</comments>
+</item>
+<item>
+ <title>unfa</title>
+ <link>http://libremusicproduction.com/music/unfa</link>
+ <description></description>
+ <pubDate>Sat, 14 Feb 2015 18:03:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">308 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/unfa#comments</comments>
+</item>
+</channel>
+</rss>

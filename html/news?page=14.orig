@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>News and latest content | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"j4E2sDzl-xPE8P3pB4FlvpSZIK88eefV3wVqtaEiTbI","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/news?page=14":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-news" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                <div id="highlighted" class="clearfix">  <div class="region region-highlighted">
+    <div id="block-block-12" class="block block-block">
+
+    <h2>Welcome to Libre Music Production - How to get started</h2>
+  
+  <div class="content">
+    <p><img alt="Workflow." src="/sites/default/files/articles/workflow2_low.png" /></p>
+<p>Libre Music Production is a <strong>community-driven</strong> online resource, focused on promoting musical creation and composition using free and open source (FLOSS) software. By providing hands-on material <strong>submitted by the community</strong>, such as guides, tutorials, articles and news updates, we want to show not only that there is great FLOSS audio software out there, but also how to practically use that software to make music. <a href="/workflow">Read this to get started!</a></p>
+  </div>
+</div>
+  </div>
+</div>                
+                                
+                                <h1 class="title" id="page-title">
+                  News and latest content                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-flow view-id-flow view-display-id-page view-dom-id-9827658acde8d73082f1a8fc8c91fa0c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-06-03 08:56</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20151203-new-song-released-john-option">New song released by John Option</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"></span>  </span>  
+  <span>        <span>John Option like their bikes so much that they have just released a new song called 'Bike'. Their new song, as with all of John Option releases, is published under the terms of the Creative Commons License Attribution Share Alike . */ John Option use exclusively FLOSS software to make their music, utilising Ardour as their DAW of choice. They also make all audio source files of their releases...<a href="/news/20151203-new-song-released-john-option" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-2">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2015-11-25 13:45</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20151125-open-source-musician-podcast-back">The Open Source Musician Podcast is back!</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20151125-open-source-musician-podcast-back"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/osm_podcast.jpg?itok=-n4uapWj" alt="The Open Source Musician Podcast is back!" title="The Open Source Musician Podcast is back!" /></a></span>  </span>  
+  <span>        <span>Spencer Jackson has just announced the return of The Open Source Musician Podcast . The Open Source Musician Podcast has also moved to archive.org, where you can find the whole catalog of OSM podcast episodes . Spencer returns with episode 71 , where he talks to Filipe Coelho, AKA falkTX , founder and maintainer of KXStudio about his work on the MOD project . For full details, check out Spencer's...<a href="/news/20151125-open-source-musician-podcast-back" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-3">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2015-11-09 10:39</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20151109-new-release-guitarix">New release of Guitarix </a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20151109-new-release-guitarix"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/guitarix_musical_artifacts.png?itok=EoH0tcYg" alt="New release of Guitarix " title="New release of Guitarix " /></a></span>  </span>  
+  <span>        <span>Guitarix version 0.34.0 has just been released. One of the most interesting new additions includes the ability to download Guitarix presets directly from musical-artifacts.com , without leaving Guitarix's interface. You will now see a new 'Online' button in the preset selection area of Guitarix. Clicking on this will pop up a window from which you can download presets. Click on whichever preset...<a href="/news/20151109-new-release-guitarix" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-4">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Article</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-06-03 08:17</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/lmp-asks-14-interview-babis-kouvalis">LMP Asks #14: An interview with Babis Kouvalis</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/articles/lmp-asks-14-interview-babis-kouvalis"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/babis.jpg?itok=bkSojpv8" alt="LMP Asks #14: An interview with Babis Kouvalis" title="LMP Asks #14: An interview with Babis Kouvalis" /></a></span>  </span>  
+  <span>        <span>This month LMP talked to Babis Kouvalis, guitarist and FLOSS enthusiast. Babis has a YouTube channel where he demos FLOSS software, primarily Guitarix. Hi Babis and thank you for taking the time to do the interview. Where do you live, and what do you do for a living? I live in Athens, Greece with my girlfriend at her house. At the moment I'm unemployed due to the economic crisis, but I have much...<a href="/articles/lmp-asks-14-interview-babis-kouvalis" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-5">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tool</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-11-01 16:24</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/qmidiarp">QMidiArp</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/qmidiarp"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/qmidiarp_doc_en_html.png?itok=-HPVuZMv" alt="QMidiArp" title="QMidiArp" /></a></span>  </span>  
+  <span>        <span>QMidiArp is an advanced MIDI arpeggiator, programmable step sequencer and LFO for Linux. It can hold any number of arpeggiator, sequencer, or LFO modules running in parallel. It is available in both standalone and LV2 plugin form. In plugin form, it consists of 3 separate modules: Arpeggiator, LFO and Step-sequencer.<a href="/tools/qmidiarp" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-6">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2015-10-30 23:28</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20151030-october-2015-%E2%80%93-interview-and-arduino-controller-tutorial">October 2015 – Interview and Arduino Controller Tutorial</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"></span>  </span>  
+  <span>        <span>Our newsletter for October is now sent to our subscribers. If you have not yet subscribed, you can do that from our start page . You can also read the latest issue online . In it you will find: 'LMP Asks' interview with Lucas Zawacki Create your own touch sensitive MIDI-keyboard/-controller tutorial<a href="/news/20151030-october-2015-%E2%80%93-interview-and-arduino-controller-tutorial" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-7">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tool</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-02-01 08:07</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/klangfalter">KlangFalter</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/klangfalter"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/klangfalter_0.png?itok=m1yk5mFQ" alt="KlangFalter" title="KlangFalter" /></a></span>  </span>  
+  <span>        <span>KlangFalter is a convolution audio plugin, e.g. for usage as convolution reverb. Features: Zero-latency Easy user interface Support for true stereo impulse responses Simple 2-band EQ (low cut/shelf and high cut/shelf) Easy modifiable envelope for the impulse response Basically no limit on impulse response length - as long as your computer can handle it... Intuitive and flexible loading of impulse...<a href="/tools/klangfalter" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-8">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tutorial</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2015-11-11 11:28</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii">Creating a simple synthesizer in Pure Data – Part III</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tutorials/pd-3-filter-sliders.png?itok=vFguqET-" alt="Creating a simple synthesizer in Pure Data – Part III" title="Creating a simple synthesizer in Pure Data – Part III" /></a></span>  </span>  
+  <span>        <span>Part I: Creating a simple synthesizer in Pure Data - Part I Part II: Creating a simple synthesizer in Pure Data - Part II The steps: We now have two important steps to finish our little project: the first is to add a filter that will finally turn our synthesizer into a subtractive synthesizer and the second is to create a simple user interface to make our patch more intuitive and pleasant to the...<a href="/tutorials/creating-simple-synthesizer-pure-data-%E2%80%93-part-iii" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-9">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Article</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2015-10-12 18:47</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/what-audio-file-format-and-which-should-i-use">What is an audio file format and which should I use?</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"></span>  </span>  
+  <span>        <span>An audio file format is a file format for storing audio. There are various audio file formats and they all encode audio data in different ways. There are two different approaches; compressed or non-compressed formats. Other differences between formats include licenses. Let take a closer look at these differences and which formats suit which purposes best. Uncompressed formats Uncompressed audio...<a href="/articles/what-audio-file-format-and-which-should-i-use" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-10">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tutorial</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-06-03 07:42</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tutorials/arduino-create-your-own-touch-sensitive-midi-keyboard-controller">Arduino: Create your own touch sensitive MIDI-keyboard/-controller</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"></span>  </span>  
+  <span>        <span>Did you ever wish to play an instrument and interact at the same time with another instrument? As an example: Your audience is listening to your great guitar playing. But you want to give them more than that: With one touch on a piece of fine cutted aluminium foil you can trigger a MIDI control command and add whatever you like to your musical performance: Loops, drums, keyboards... With a little...<a href="/tutorials/arduino-create-your-own-touch-sensitive-midi-keyboard-controller" class="more-link">Read more</a></span>  </span>  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/news">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/news?page=13">‹ previous</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-item"><a title="Go to page 11" href="/news?page=10">11</a></li>
+<li class="pager-item"><a title="Go to page 12" href="/news?page=11">12</a></li>
+<li class="pager-item"><a title="Go to page 13" href="/news?page=12">13</a></li>
+<li class="pager-item"><a title="Go to page 14" href="/news?page=13">14</a></li>
+<li class="pager-current">15</li>
+<li class="pager-item"><a title="Go to page 16" href="/news?page=15">16</a></li>
+<li class="pager-item"><a title="Go to page 17" href="/news?page=16">17</a></li>
+<li class="pager-item"><a title="Go to page 18" href="/news?page=17">18</a></li>
+<li class="pager-item"><a title="Go to page 19" href="/news?page=18">19</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="/news?page=15">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/news?page=41">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/news?page=14" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-haE4wXYjtulRu4dhEph10TZyTu3LNw7dEPdkmyXF1jo" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/news?page=14" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form--QLzx95nkSNLlfWFSljZzDcIaz7KH5WB0q2bXdCnCUw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

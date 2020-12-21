@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - general" href="http://libremusicproduction.com/taxonomy/term/10/feed" />
+<link rel="canonical" href="/area/general" />
+<link rel="shortlink" href="/taxonomy/term/10" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/area/general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="general" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>general | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"SZn5hrcH1cOlYu7_hKNfkopC_H5mn2qEtx5a7R_qANg","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/area\/general?page=6":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>general</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  general                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-10" class="taxonomy-term vocabulary-category">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-99" class="node node-answer node-teaser clearfix" about="/answer/how-do-i-install-audio-plugins" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/how-do-i-install-audio-plugins">How do I install audio plugins? </a>
+    </h2>
+    <span property="dc:title" content="How do I install audio plugins? " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T15:24:16+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2014-08-19 10:13</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>You can install plugins from your distro's software center or package manager. Search for <a href="/answer/ladspa">LADSPA</a>, <a href="/answer/lv2">LV2</a>, <a href="/answer/dssi">DSSI</a> and <a href="/answer/linuxvst">VST</a>, which are the plugin formats supported on Linux. If you are using a Ubuntu or Debian based distro, you can add the <a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">KXStudio repositories</a>, which will pull in more plugins, and more up to date ones, into your software center and/or package manager.</p>
+<p> </p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/how-do-i-install-audio-plugins" rel="tag" title="How do I install audio plugins? ">Read more<span class="element-invisible"> about How do I install audio plugins? </span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-92" class="node node-answer node-teaser clearfix" about="/answer/how-do-i-find-out-which-version-jack-i-am-using" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/how-do-i-find-out-which-version-jack-i-am-using">How do I find out which version of JACK I am using?</a>
+    </h2>
+    <span property="dc:title" content="How do I find out which version of JACK I am using?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T12:20:46+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2015-05-13 08:01</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>If you are on a forum or on IRC trying to troubleshoot an issue with <a href="/answer/jack">JACK</a>, you may be asked which version you are using. A lot of people that are using <a href="/tools/qjackctl">Qjackctl</a> to control JACK, look for the version number there. This however is the version number for Qjackctl and not for JACK. To find out which version of JACK you are using, open up a terminal, type in the command</p>
+<p><code>jackd -V</code></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/how-do-i-find-out-which-version-jack-i-am-using" rel="tag" title="How do I find out which version of JACK I am using?">Read more<span class="element-invisible"> about How do I find out which version of JACK I am using?</span></a></li>
+<li class="comment-comments"><a href="/answer/how-do-i-find-out-which-version-jack-i-am-using#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-87" class="node node-answer node-teaser clearfix" about="/answer/what-difference-between-jack1-and-jack2" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/what-difference-between-jack1-and-jack2">What is the difference between JACK1 and JACK2?</a>
+    </h2>
+    <span property="dc:title" content="What is the difference between JACK1 and JACK2?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T09:36:06+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-04-21 10:20</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>JACK 1 and JACK 2 are equivalent implementations of the same protocol. In most cases, it doesn't matter which one you choose. unless you have a specific reason for doing so. A common misconception is that JACK 2 is a newer version, when in fact, both versions are developed alongside each other.</p>
+<p><a href="https://github.com/jackaudio/jackaudio.github.com/wiki/Q_difference_jack1_jack2">More details and information about the differences between JACK 1 and JACK 2</a></p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/what-difference-between-jack1-and-jack2" rel="tag" title="What is the difference between JACK1 and JACK2?">Read more<span class="element-invisible"> about What is the difference between JACK1 and JACK2?</span></a></li>
+<li class="comment-comments"><a href="/answer/what-difference-between-jack1-and-jack2#comments" title="Jump to the first comment of this posting.">4 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-86" class="node node-answer node-teaser clearfix" about="/answer/will-my-audio-interface-work-linuxjack" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/will-my-audio-interface-work-linuxjack">Will my audio interface work with Linux/JACK?</a>
+    </h2>
+    <span property="dc:title" content="Will my audio interface work with Linux/JACK?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T09:32:59+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2015-02-21 11:49</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Any interface supported by <a href="/answer/alsa">ALSA</a> or <a href="/answer/ffado">FFADO</a> will work with <a href="/answer/jack">JACK</a>.</p>
+<p><a href="http://www.alsa-project.org/main/index.php/Matrix:Main">List of known ALSA supported devices</a></p>
+<p><a href="http://www.ffado.org/?q=devicesupport/list">List of known FFADO supported devices</a></p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/will-my-audio-interface-work-linuxjack" rel="tag" title="Will my audio interface work with Linux/JACK?">Read more<span class="element-invisible"> about Will my audio interface work with Linux/JACK?</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-85" class="node node-answer node-teaser clearfix" about="/answer/class-compliant" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/class-compliant">Class compliant</a>
+    </h2>
+    <span property="dc:title" content="Class compliant" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T08:41:10+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2014-08-19 09:43</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>If a device is class compliant, it means that it does not need any special drivers and will work out of the box.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/class-compliant" rel="tag" title="Class compliant">Read more<span class="element-invisible"> about Class compliant</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-51" class="node node-answer node-teaser clearfix" about="/answer/kernel" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/kernel">Kernel</a>
+    </h2>
+    <span property="dc:title" content="Kernel" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-03-26T17:03:29+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2014-03-26 17:03</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The kernel is the bottom most layer of your operating system. Every operating system has a kernel. The common factor in every Linux distribution is the Linux kernel itself. This deals with basic input and output, on top of which everything else is built. The Linux kernel is where device drivers live.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/kernel" rel="tag" title="Kernel">Read more<span class="element-invisible"> about Kernel</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-44" class="node node-answer node-teaser clearfix" about="/answer/ffado" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/ffado">FFADO</a>
+    </h2>
+    <span property="dc:title" content="FFADO" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-03-26T16:52:23+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2014-08-19 07:12</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>FFADO stands for Free FireWire Audio Drivers. This is an open source device driver backend for <a href="/answer/jack">JACK</a>. If you want to use a firewire interface, check out the <a href="http://www.ffado.org/?q=devicesupport/list">FFADO</a> website to see which devices are supported.</p>
+<p><img alt="" src="/sites/default/files/articles/FFADO.png" /></p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/ffado" rel="tag" title="FFADO">Read more<span class="element-invisible"> about FFADO</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-43" class="node node-answer node-teaser clearfix" about="/answer/pulse-audio" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/pulse-audio">Pulse Audio</a>
+    </h2>
+    <span property="dc:title" content="Pulse Audio" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-03-26T16:49:40+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2014-08-19 07:20</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Pulse audio is a sound server that uses <a href="/answer/alsa">ALSA</a> as it's backend. It is more geared towards general desktop audio. While it is useful for these purposes, pulse audio isn't used for any audio production software.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/pulse-audio" rel="tag" title="Pulse Audio">Read more<span class="element-invisible"> about Pulse Audio</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/area/general">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/area/general?page=5">‹ previous</a></li>
+<li class="pager-item"><a title="Go to page 1" href="/area/general">1</a></li>
+<li class="pager-item"><a title="Go to page 2" href="/area/general?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/area/general?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/area/general?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/area/general?page=4">5</a></li>
+<li class="pager-item"><a title="Go to page 6" href="/area/general?page=5">6</a></li>
+<li class="pager-current last">7</li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/10/feed" class="feed-icon" title="Subscribe to RSS - general"><img typeof="foaf:Image" src="http://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - general" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/area/general?page=6" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-KzYDPwFVlmwIwYylsBFabRJwckh28HejWoI7ei-8OG4" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/area/general?page=6" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-oXFzhgbRfDELFK063S8CNgoExosi7qlYxTalkfVvQU4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

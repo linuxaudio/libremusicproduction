@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="https://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="https://purl.org/dc/terms/"
+  xmlns:foaf="https://xmlns.com/foaf/0.1/"
+  xmlns:og="https://ogp.me/ns#"
+  xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="https://rdfs.org/sioc/ns#"
+  xmlns:sioct="https://rdfs.org/sioc/types#"
+  xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="https://www.w3.org/2001/XMLSchema#">
+
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:16:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="https://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
+<link rel="canonical" href="ardroid-android-application-how-use-it-ardour.html" />
+<link rel="shortlink" href="../node/215.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Ardroid (Android application): How to use it with Ardour | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.based837.css?pxvqxa");
+@import url("../modules/system/system.menusd837.css?pxvqxa");
+@import url("../modules/system/system.messagesd837.css?pxvqxa");
+@import url("../modules/system/system.themed837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/libraries/mediaelement/build/mediaelementplayer.mind837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/simplenews/simplenewsd837.css?pxvqxa");
+@import url("../modules/comment/commentd837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_api/dated837.css?pxvqxa");
+@import url("../sites/all/modules/date/date_popup/themes/datepicker.1.7d837.css?pxvqxa");
+@import url("../modules/field/theme/fieldd837.css?pxvqxa");
+@import url("../modules/node/noded837.css?pxvqxa");
+@import url("../modules/search/searchd837.css?pxvqxa");
+@import url("../modules/user/userd837.css?pxvqxa");
+@import url("../sites/all/modules/video_filter/video_filterd837.css?pxvqxa");
+@import url("../sites/all/modules/views/css/viewsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctoolsd837.css?pxvqxa");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/skeletontheme/css/skeletond837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/styled837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/buttonsd837.css?pxvqxa");
+@import url("../sites/all/themes/skeletontheme/css/layoutd837.css?pxvqxa");
+@import url("../sites/default/files/color/skeletontheme-909523ec/colorsd837.css?pxvqxa");
+</style>
+  <script type="text/javascript" src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery-extend-3.4.01cc4.js?v=1.4.4"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupald837.js?pxvqxa"></script>
+<script type="text/javascript" src="../sites/all/libraries/mediaelement/build/mediaelement-and-player.min3899.js?v=2.1.6"></script>
+<script type="text/javascript" src="../sites/all/themes/skeletontheme/js/jquery.mobilemenud837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/mediaelement/mediaelementd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="../sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="../sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="../sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalyticsd837.js?pxvqxa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"rwSHi9urCRfm-HzpFISQ7T80jtZ9nUP9NKYWxMZiOvg","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/ardroid-android-application-how-use-it-ardour":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-215 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="../index.html" title="Home" rel="home" id="logo">
+                    <img src="../sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="../index.html" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="../workflow.html">Workflow</a></li>
+<li class="leaf"><a href="../articles.html" title="">Articles</a></li>
+<li class="leaf"><a href="../tutorials.html">Tutorials</a></li>
+<li class="leaf"><a href="../interviews.html">Interviews</a></li>
+<li class="leaf"><a href="../tools.html">Tools</a></li>
+<li class="leaf"><a href="../music.html">Music</a></li>
+<li class="leaf"><a href="../resources.html">Resources</a></li>
+<li class="last leaf"><a href="../about.html">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Ardroid (Android application): How to use it with Ardour                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-215" class="node node-tutorial node-promoted clearfix" about="/tutorials/ardroid-android-application-how-use-it-ardour" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Ardroid (Android application): How to use it with Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-07T21:56:29+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-05-07 17:04</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../area/recording.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">recording</a></div><div class="field-item odd"><a href="../area/sequencing.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sequencing</a></div><div class="field-item even"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../level/beginner.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tools/ardour.html">Ardour</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="" src="../sites/default/files/tutorials/ardour-active-with-ardroid-770x330.png" /><br /><em>In this tutorial, I’ll go through how to use your Android device to control Ardour through your network.</em></p>
+<p>Hi!<br />There’s a great Android application called Ardroid, which is intended to allow your Android device to work as a remote control for Ardour. Ardroid does this by sending OSC messages from your Android device, to you computer running Ardour. Ardour then lets your Android device control it through those messages.</p>
+<p>What’s great about this is that a lot of us using Ardour also has some form of Android device, whether this is a phone, or a tablet. Why not use them together? It’s super-simple!</p>
+<p><img alt="" src="../sites/default/files/tutorials/ardroid-play-store-display-picture-180x300.jpg" /><br /><em>One of the screenshots of Ardroid from Google Play Store.</em></p>
+<p>Anyway, Ardroid was written by Lincoln Spiteri, and even though it hasn’t been updated for quite a few years, it is still very much functional. Some of the things Ardroid allows you to do through your Android device is:</p>
+<ul><li><em>Start, stop, play loop, and go back in playback.</em> Allows you to control the transport, which is great. Also has the playheads position on the timeline available as a slider, which also can come in handy.</li>
+<li><em>Arm individual tracks (and transport) for recording.</em> This opens up the possibility of not having to leave your recording booth to reset record the recording position. Man do I like that!</li>
+<li><em>Solo and mute individual tracks.</em> Forgot to mute that guitar track? No need to swear, scream, and run back to your computer, just mute it through Ardroid!</li>
+</ul><p>I personally love it, because I quite often record something where I’m not sitting by the computer. Ardroid simplifies this process a lot, and perhaps most importantly, it saves my computer from my wrath when running back and forth. I will now go through how to set it up. But before, I want to say: <em>Props to edogawa on IRC for explaining how to actually set this up so it works. </em>Now, lets go.</p>
+<h2>Step 1: Prepare your Ardour computer</h2>
+<p>In order for Ardroid to be able to communicate with Ardour through OSC, you need to make sure that those OSC messages can actually reach the computer you run Ardour on. This means you need to do two things:</p>
+<ul><li><strong>Make sure your computer accepts TCP and UDP messages on port 3819.</strong> This means setting up your computer’s firewall to allow communication on that port to pass through. If you don’t quite get how to do this, check instructions for your specific firewall. This should be fairly straight forward.</li>
+<li><strong>Find out what IP your computer has.</strong> In case you don’t know how to do that, just open a terminal and write <lmp-term>ifconfig</lmp-term>, and then look for the appropriate device. I’m using a cable to connect to my router, so my IP is found under eth0. The device is usually called wlan0 if you use Wifi. If you want to be extra fancy, do <lmp-term>ifconfig | grep "inet addr"</lmp-term> in a terminal, and look for the address starting with <em>192.168.. I can’t believe I wrote a full paragraph about finding your IP… I gotta stop….</em></li>
+</ul><p>After this is done, you also need to make sure that Ardour is properly setup to accept OSC messages. To do this, go to <lmp-term>Edit -&gt; Preferences -&gt; Control Surfaces</lmp-term>, and click the box that enables OSC.</p>
+<p><img alt="" src="../sites/default/files/tutorials/ardour-enable-osc-in-prefrences-300x274.png" /><br /><em>Enable OSC here, in the Preferences of Ardour.</em></p>
+<h2>Step 2: Get Ardroid, and configure it</h2>
+<p>Ardroid is available through Google’s Play Store. Otherwise, just navigate to the Play Store, and search for <em>Ardroid</em>. Simple enough.</p>
+<p>Edit: Ardroid seems to no longer be available through Google's Play Store. You can however still find it by installing the <a href="https://f-droid.org/">F-Droid</a> repositories. You can then <a href="https://f-droid.org/repository/browse/?fdfilter=ardroid&amp;fdid=org.ardour">install Ardroid from there</a>.</p>
+<p><img alt="" src="../sites/default/files/tutorials/ardroid-google-play-store-175x300.png" /><br /><em>Ardroid in Google Play Store.</em></p>
+<p>Next, open up Ardroid, and go to <em>Configure</em>. Type the IP address of your computer that has Ardour running, and press <em>OK</em>.</p>
+<p><img alt="" src="../sites/default/files/tutorials/ardroid-connect-to-ardour-insert-ip-175x300.png" /><br /><em>Input the IP of the computer you want to use Ardroid with.</em></p>
+<p>Now, I didn’t need to also press connect, but maybe you do. If it doesn’t work automagically now, try pressing <em>Connect</em> in the Ardroid menu.</p>
+<h2>Step 3: PROFIT</h2>
+<p>And that should be it! You should now have Ardroid and Ardour working together, in beautiful harmony.</p>
+<p><img alt="" src="../sites/default/files/tutorials/ardroid-in-action-with-ardour-175x300.png" /><br /><em>Ardroid in action. At the same position as the screenshot of Ardour here.</em></p>
+<p><img alt="" src="../sites/default/files/tutorials/ardour-active-with-ardroid-770x330_0.png" /><br /><em>The same position in the track as in the Ardroid screenshot, but from Ardour.</em></p>
+<h2>Final notes</h2>
+<p>…and this was it! Super-simple, right?</p>
+<p>Thanks for reading the tutorial! I hope this was of some value for you. Please let me know through the comments if there’s anything you wonder. Til next time!</p>
+<p>Written by <a href="https://www.zthmusic.com/">Gabriel Nordeborn</a></p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="basic-mixing-ardour-3.html">Basic mixing in Ardour 3</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour</a></div><div class="field-item even"><a href="recording-audio-and-using-midi-ardour-3.html">Recording audio and using MIDI in Ardour 3</a></div><div class="field-item odd"><a href="sidechaining-ardour-3.html">Sidechaining in Ardour 3</a></div><div class="field-item even"><a href="https://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together </a></div><div class="field-item odd"><a href="../articles/ardour-3-tips-and-tricks.html">Ardour 3 Tips and Tricks </a></div><div class="field-item even"><a href="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour">How to use outboard gear in Ardour </a></div><div class="field-item odd"><a href="https://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" st_title="Ardroid (Android application): How to use it with Ardour" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="../articles/how-contribute-libre-music-production.html">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form--P2tgz2AV24GlxwVZ3Qg14N4PA7Ie2c_KdXa4vWmq6c" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="https://www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-lfzbkX6jsRYKZNXlij_-n86LCqyF3lECL7xIZwLOxqw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="../jargonbuster.html">Jargon buster</a>. You can find more answers in our <a href="../faq.html">FAQ</a> section. If you are missing something, please <a href="../contact.html">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="https://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="../sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="https://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="https://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="../sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="../sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="https://www.drupalizing.com/" target="_blank">Drupalizing</a>, a Project of <a href="https://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. Original design by <a href="https://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+
+<!-- Mirrored from www.libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2019 19:16:25 GMT -->
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>News and latest content | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"PqaQ-YWKqlK7CA0KJokr0XM9M6yhJ2mC-XdeuMf_kRI","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/news\/20161108-two-high-quality-drumkits-drumgizmo?page=4":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-news page-news-20161108-two-high-quality-drumkits-drumgizmo" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  News and latest content                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-flow view-id-flow view-display-id-page view-dom-id-79f4e0cc87796b73a9f998d57c6c8f35">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tool</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-02-01 20:58</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/vst-preset-generator">VST Preset Generator</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/vst-preset-generator"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/vpg_0.png?itok=f20vM2Zj" alt="VST Preset Generator" title="VST Preset Generator" /></a></span>  </span>  
+  <span>        <span>The VST Preset Generator writes preset files (fxp for program patch or fxb for bank patch) with randomized values. This is a tool for lazy or curious sound designers, who want to experiment random theory with their VST plugins.<a href="/tools/vst-preset-generator" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-2">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-01-31 20:48</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released">New overdrive stompbox plugin, GxSD1 LV2 released </a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/GxSD1.png?itok=gfS8hB5M" alt="New overdrive stompbox plugin, GxSD1 LV2 released " title="New overdrive stompbox plugin, GxSD1 LV2 released " /></a></span>  </span>  
+  <span>        <span>Hermann Meyer has just released another LV2 plugin, GxSD1. As the name suggests, this is based on the Boss SD1 overdrive pedal. This is just one of many stompbox emulations that Hermann has been working on lately. He has also set up a github repository with all these plugins, so you no longer have to build them one at a time. Currently this repository contains the following plugins -...<a href="/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-3">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-01-30 10:09</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20170130-lsp-plugins-1020-released">LSP Plugins 1.0.20 released</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20170130-lsp-plugins-1020-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/impulse_responses.png?itok=qB8HV38F" alt="LSP Plugins 1.0.20 released" title="LSP Plugins 1.0.20 released" /></a></span>  </span>  
+  <span>        <span>Vladimir Sadovnikov has just released version 1.0.20 of his audio plugin suite, LSP plugins . All LSP plugins are available in LADSPA , LV2 , LinuxVST and standalone JACK formats. This release includes the following new plugins and changes - Implemented Impulsantworten (Impulse responses) zero-latency high-performance convolution plugin series. Added Mixed Herm, Mixed Exp and Mixed Thin modes to...<a href="/news/20170130-lsp-plugins-1020-released" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-4">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Article</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-01-31 13:22</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/lmp-asks-22-interview-gianfranco-ceccolini"> LMP Asks #22: An interview with Gianfranco Ceccolini</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/articles/lmp-asks-22-interview-gianfranco-ceccolini"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/gianfranco4.jpg?itok=cCvVytWx" alt=" LMP Asks #22: An interview with Gianfranco Ceccolini" title=" LMP Asks #22: An interview with Gianfranco Ceccolini" /></a></span>  </span>  
+  <span>        <span>This time we talk to Gianfranco Ceccolini, the brains behind multi effects pedal, MOD, which runs on Linux and other FLOSS software. Hi Gianfranco, thank you for taking the time to do this interview. Where do you live, and what do you do for a living? I currently live in Berlin, Germany but I am originally from São Paulo, Brazil. I am the founder and current CEO of MOD Devices . Can you tell us a...<a href="/articles/lmp-asks-22-interview-gianfranco-ceccolini" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-5">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-02-01 08:33</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20170201-synthesizing-drumkit-zynaddsubfx">Synthesizing a drumkit with ZynAddSubFX</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20170201-synthesizing-drumkit-zynaddsubfx"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/unfa_zyn_drums.jpg?itok=CK1tjbOX" alt="Synthesizing a drumkit with ZynAddSubFX" title="Synthesizing a drumkit with ZynAddSubFX" /></a></span>  </span>  
+  <span>        <span>unfa has published an extensive video tutorial on how to synthesize a kick drum, a snare drum, a hihat and a crash cymbal using the softsynth ZynAddSubFX . You can also download the ZynAddSubFX patches and the Ardour 5 session .<a href="/news/20170201-synthesizing-drumkit-zynaddsubfx" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-6">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tool</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-02-01 07:55</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/drmr">DrMr</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/drmr"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/drmr.png?itok=SoWTigPd" alt="DrMr" title="DrMr" /></a></span>  </span>  
+  <span>        <span>DrMr is an LV2 sampler plugin. It's main reason to exist is to give a way for lv2 hosts to have a built in drum synth that can save its entire state (i.e. no need to go out to external tools and no need to save extra state).<a href="/tools/drmr" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-7">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-01-19 16:04</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20170119-boom-avl-drumkits-plugins">Boom! AVL Drumkits plugins</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20170119-boom-avl-drumkits-plugins"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/avldrums.png?itok=Pl1x2_ew" alt="Boom! AVL Drumkits plugins" title="Boom! AVL Drumkits plugins" /></a></span>  </span>  
+  <span>        <span>The AVL Drumkits are sets of drumkits - 2 kits, 28 elements sampled on 5 layers of velocity - carefully recorded and curated by the good people at AVLinux ; We already could use it in any sampler, or soundfont player, but now it's as quick and simple as loading the dedicated plugin into a MIDI track in your favorite sequencer :) There are two drumkit plugins : Red Zeppelin and Black Pearl , and...<a href="/news/20170119-boom-avl-drumkits-plugins" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-8">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Tool</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2017-01-16 11:10</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tools/avl-drumkits">AVL Drumkits</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/tools/avl-drumkits"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/avldrums.png?itok=Pl1x2_ew" alt="AVL Drumkits" title="AVL Drumkits" /></a></span>  </span>  
+  <span>        <span>The avldrums.lv2 plugin is a drum sample player dedicated to Glen McArthur's AVLdrums . This self-contained plugin provides a convenient way to rapidly sequence and mix midi-drums. The AVLdrums comes as two separate drumkits: Black Pearl and Red Zeppelin. There are 5 velocity layers for each of the 28 kits pieces or drum-zones for both kits. The main benefits compared to loading the soundfont...<a href="/tools/avl-drumkits" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-9">
+      
+  <span class="views-field views-field-type">        <span class="field-content">News</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-12-21 12:56</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/20161221-lsp-plugins-anniversary-release-1018">LSP Plugins anniversary release 1.0.18 </a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/news/20161221-lsp-plugins-anniversary-release-1018"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/lsp-limiter.png?itok=b5QXXMRJ" alt="LSP Plugins anniversary release 1.0.18 " title="LSP Plugins anniversary release 1.0.18 " /></a></span>  </span>  
+  <span>        <span>Vladimir Sadovnikov has just released version 1.0.18 of his audio plugin suite, LSP plugins . This release celebrates one year since LSP plugins 1.0.0 release. All LSP plugins are available in LADSPA , LV2 , LinuxVST and standalone JACK formats. This release includes the following new plugins and changes - Implemented Begrenzer Mono, Stereo, Sidechain Mono, Sidechain Stereo (Limiter) plugin...<a href="/news/20161221-lsp-plugins-anniversary-release-1018" class="more-link">Read more</a></span>  </span>  </div>
+  <div class="views-row views-row-10">
+      
+  <span class="views-field views-field-type">        <span class="field-content">Music</span>  </span>  
+  <span class="views-field views-field-changed">        <span class="field-content">2016-12-19 23:32</span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/music/iurie">Iurie</a></span>  </div>  
+  <span class="views-field views-field-filepath">        <span class="field-content"><a href="/music/iurie"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/music/lmp_artist.jpg?itok=Mn6lbMo6" alt="Iurie" title="Iurie" /></a></span>  </span>  
+  <span>        <span>I am software engineer, and in my free time I am composing mostly chill-out electronic music using free software on GNU/Linux. All my music is free cultural work released under the CC BY 4.0 license.<a href="/music/iurie" class="more-link">Read more</a></span>  </span>  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/news/20161108-two-high-quality-drumkits-drumgizmo">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=3">‹ previous</a></li>
+<li class="pager-item"><a title="Go to page 1" href="/news/20161108-two-high-quality-drumkits-drumgizmo">1</a></li>
+<li class="pager-item"><a title="Go to page 2" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=3">4</a></li>
+<li class="pager-current">5</li>
+<li class="pager-item"><a title="Go to page 6" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=5">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=6">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=7">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=8">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=5">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/news/20161108-two-high-quality-drumkits-drumgizmo?page=41">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/news/20161108-two-high-quality-drumkits-drumgizmo?page=4" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-HkMc3Q1KpDmu1xFmfSRq6RP20I5ZUWfca3G5DY7cUfo" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/news/20161108-two-high-quality-drumkits-drumgizmo?page=4" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-PrMf37cB3P4igdKUhw0aqW8uiURpK5_1CIq591zzoWs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

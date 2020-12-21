@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-15-interview-scott-petersen" />
+<link rel="shortlink" href="/node/416" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #15: An interview with Scott Petersen | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"hIkCyS-01xBsivppifjyKU2s3YoBhsad8PX9upVPwDQ","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/lmp-asks-15-interview-scott-petersen":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-416 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #15: An interview with Scott Petersen                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-416" class="node node-article clearfix" about="/articles/lmp-asks-15-interview-scott-petersen" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #15: An interview with Scott Petersen" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-12-09T18:38:26+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2015-12-13 00:19</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/calf-plugins">Calf Plugins</a></div><div class="field-item even"><a href="/tools/supercollider">Supercollider</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This month LMP talked to Scott Petersen, SoundCollider programmer, teacher, composer and maker enthusiast.</p>
+<p><img alt="Scott Petersen" src="/sites/default/files/articles/scott1.jpg" /></p>
+<p><strong>Hi Scott! Thank you for taking the time to talk with us. Could you tell us a little about who you are?</strong></p>
+<p>I am a composer, laptop improviser, guitarist/pianist/whatever-instrument-you-havist working at Yale University as the Technical Directory of the<a href="http://yalmust.yale.edu/"> Yale Music Technology Labs (YalMusT)</a> and the Program Director of the<a href="http://yalmust.yale.edu/omi"> Open Music Initiative</a>.  I live in New Haven, CT with my wife Heather and our cat Bjork.</p>
+<p><strong>Tell us more about YalMusT and the Yale Open Music Initiative. Who is the target audience and what do you do?</strong></p>
+<p>YalMusT stands for Yale Music Technology Labs.  We have two labs that serve the Music Department and the Yale community at large.  Both are designed to facilitate the creation, production, and notation of music.</p>
+<p>The Open Music Initiative (OMI) aims to supplement the classes and facilities available in the department and through the YalMusT labs by adding a Linux cluster so music can be made with open source software, and through workshops and hangouts where we teach open source software (programming, recording, editing, etc) and hardware (synths, Arduino, Raspberry Pi, etc.)</p>
+<p><img alt="Computer music setup." src="/sites/default/files/articles/scott3.jpg" /></p>
+<p><strong>Making things seems important to you. You also lead workshops at MakeHaven. What is that?</strong></p>
+<p><a href="http://www.makehaven.org/">MakeHaven</a> is a DIY maker space in New Haven, Connecticut where I live.  I strongly believe that fostering ingenuity and creativity is transformational and makerspaces are doing this all over the world.  We live in a global society that is more-and-more a consumerist black-box.  We are all addicted to our devices, phones, computers, etc, yet very few people understand how these devices function let alone how they are constructed.  This creates a dependency on the companies that make our devices and reduces our ability to control what technology we use and how we use it.  By teaching people how things function and are constructed and by encouraging tinkering and experimentation, we free people from this form of technological bondage.</p>
+<p>And of course, my maker leanings are the same that inspired me to learn Linux and begin moving away from proprietary computer hardware and software.  Once you buy into, say, the Apple ecosystem you are trapped.  Yes it works, yes it’s stable, yes in many ways it’s great.  However, once Apple starts removing ports, removing the ability to install after-market upgrades, or control what applications are installed on your computer/iPhone, there’s nothing you can do about it: you have already bought into a (very expensive) hardware/software system (a Technosystem if you will) and extricating oneself from it can be difficult as it requires the learning of new tools, new software, a new OS, etc.</p>
+<p>The alternative (or the cure) is flexibility, knowledge, and commitment to the open technologies that empower people.  I highly recommend checking out a makerspace near you.  I think you’ll find the people friendly and very interesting.  End of rant :D</p>
+<p><strong>How do analog electronics supplement the software you use and teach?</strong></p>
+<p>As an artist, I think we should use every tool, technology and philosophy at our disposal to aid in the creation of our work.  Sometimes that means studying carpentry, electronics, or philosophy.  I never want to be in the middle of a project and realize I need to know something that I do not, because even a temporary derailment of the creative process is extremely onerous.  Beyond that, electronics specifically opens an entirely new world of sonic and interactive options.</p>
+<p>I also find it artistically helpful to have constraints and working with electronics, especially hacked-together instruments, demands a specific way of interacting with the instrument.</p>
+<p>Pedagogically, I feel it is important to teach the basics of electronics and synth-building because it shatters the illusion that sounds are simply the result of pressing buttons and twiddling GUI knobs.  It also fosters an appreciation of how the gear in our studios works and can lead to interests in related fields such as the burgeoning Eurorack and 500 series modular synthesizer movements (These are hardware modular synthesizer standards that have enabled small workshops, even individuals, to create and sell their own modular DSP and synthesis components.)</p>
+<p><strong>You also seem to like and promote SuperCollider quite a lot.</strong></p>
+<p>Oh yes.  <a href="http://supercollider.github.io/">SuperCollider</a> (SC3) is probably the single most important tool to me as a composer and musician.  I made the decision long ago to invest the time, confront the very steep learning curve, and go with what I thought then, and still do, is the best overall audio programming language out there.  It’s simply so powerful I couldn’t imagine doing without it.  [Imagines it.  Shudders]</p>
+<p>I have used SC3 for live coding, recording, editing, improvising, and algorithmic composition.  In fact, my dissertation was composed exclusively using SC3.  The program is now extremely well-documented and has a thriving user base of helpful, kind people. Keep your eyes on LMP for my upcoming SC3 tutorials!  And, in the meanwhile, check out <a href="http://new-supercollider-mailing-lists-forums-use-these.2681727.n2.nabble.com/SuperCollider-Users-New-Use-this-f2676391.html">the mailing list</a> and <a href="http://sccode.org/">sccode.org</a> for an idea of what people are doing with SC3.</p>
+<p><img alt="Scott coding SuperCollider." src="/sites/default/files/articles/scott2.jpg" /></p>
+<p><strong>How did you get into FLOSS/Open source?</strong></p>
+<p>I first became aware of Linux when I accepted an assistantship in the <a href="http://ecmc.rochester.edu/ecmc/">Eastman Computer Music Center</a> while in doctoral studies circa 2004.  The pedagogical model at the ECMC was to teach both proprietary and open source software using Apple OS and Linux.  At the time they were using Fedora 3 to teach Csound, PureData, etc.</p>
+<p>I took the advanced computer music course on that system while acting as teaching assistant for the introductory course on the Macintosh system.  It was not love at first byte (sorry!) with Linux because just getting audio and video drivers to work at the time took upwards of 3 days.  Eventually, though, and with a switch to Debian systems (Ubuntu and later Crunchbang #!) I became very comfortable and, eventually, enamored with Linux as a viable alternative to my Mac.</p>
+<p>These days, with distros like KXStudio doing all of the heavy lifting for you, and software like SuperCollider and Ardour, there’s really no impediment to making the change.  That said…</p>
+<p><strong>Do you feel that anything is lacking in the FLOSS music area?</strong></p>
+<p>An <a href="http://libremusicproduction.com/answer/fft">FFT</a> audio editor capable of matching the functionality of Adobe Audition.  Unfortunately, I cannot imagine doing commercial work without this program.  I absolutely deplore Adobe’s business model, specifically the cloud-subscription model, but Audition’s noise-removal and editing feature set is simply too good to do without.</p>
+<p>Audacity recently added an FFT spectrogram editing function, but it is in its infancy.  Hopefully it can grow to match Audition’s functionality some day and we can all finally be rid of Adobe once and for all!</p>
+<p><strong>You are also a composer. Can you describe what kind of music you make, what your workflow looks like (and any links so that the readers can listen to it)?</strong></p>
+<p>A quick listen to the music available at <a href="http://www.scacinto.com">www.scacinto.com</a> will prove, I think, that my music varies stylistically and structurally from piece to piece.  I don’t like doing things twice, so pieces written consecutively may not appear to come from the same person.  (This is all a polite and academic way of saying that I bore easily, especially of compositional methods.)</p>
+<p>I have written music for orchestra, small ensemble, with and without electronics, solo laptop music, live coding, tape music, installation, etc, etc.  I think the one guiding principle I follow is to be true to the moment (in terms of compositional honesty.)</p>
+<p>I also strive to never be boring musically, but my success or failure in that endeavor is not for me to decide.  One of the more fun/silly projects I work on from time-to-time is the <a href="http://375auralassaults.com/">375 Aural Assault</a> project.  It’s almost exclusively SuperCollider code, and almost exclusively noisy.  Think about it as a Drano™ for the ears ;) (Drano is a commercial plumbing product in the US...)</p>
+<p><strong>What is NodeNoise and why are you in the process of starting a company?</strong></p>
+<p>This is sort of a joke.  When my wife and I were looking for apartments, we saw one that had a bedroom with a 5'x4.5'x8' closet.  I immediately thought it might make a good recording booth.  We took the apartment and one of the first things I did was <a href="http://www.makehaven.org/blog/sound-absorption-treatment">build bass traps</a> (at MakeHaven) for the back of the booth.  Since then I have done a lot of recording in there for personal as well as a few commercial jobs.</p>
+<p><img alt="The closet." src="/sites/default/files/articles/scott4.jpg" /></p>
+<p><a href="http://www.nodenoise.net/">NodeNoise</a> is the business name I use for my commercial work.  Ultimately, it would be great to grow the business and take on more AV work, but audio editing/recording jobs are few and far between these days.  I’ve also considered using it as an avant/noise-based music label if only there were five more hours in every day...</p>
+<p>...anyway, many thanks for talking with me and giving me the opportunity to expound a bit on some of the things that bring joy into my life.</p>
+<h2>Basic facts</h2>
+<p><strong>Name:</strong> Scott Petersen</p>
+<p><strong>Homepage:</strong> <a href="https://scacinto.wordpress.com/">https://scacinto.wordpress.com/</a></p>
+<p><strong>Workplace:</strong> Yale University</p>
+<p><strong>Title:</strong> Technical Director of the Yale Music Technology Labs, Program Director of the Open Music Initiative</p>
+<p><img alt="Scott Petersen" src="/sites/default/files/articles/scott5.jpg" /></p>
+<h2>Musical links</h2>
+<ul><li><a href="http://www.375auralassaults.com">www.375auralassaults.com</a></li>
+<li><a href="https://scacinto.wordpress.com/scott-petersen/petersen-electronic/">https://scacinto.wordpress.com/scott-petersen/petersen-electronic/</a></li>
+<li><a href="https://scacinto.wordpress.com/scott-petersen/petersen-acoustic/">https://scacinto.wordpress.com/scott-petersen/petersen-acoustic/</a></li>
+</ul><h2>Tools</h2>
+<ul><li>SuperCollider</li>
+<li>Ardour</li>
+<li>Calf plugins</li>
+<li>everything that comes with KXStudio</li>
+</ul></div></div></div><div class="field field-name-field-article-related-articles field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/introduction-supercollider">Introduction to SuperCollider</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-15-interview-scott-petersen" st_title="LMP Asks #15: An interview with Scott Petersen" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/lmp-asks-15-interview-scott-petersen" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-L5qZ-9WTIg0mTbA9ho7EwyCpDm6SjkBOcwA34ogUmJk" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/lmp-asks-15-interview-scott-petersen" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-rPxyHpiGR8HiHsRaqFeWaatD2WUMwVcqS07Hx0MhqAw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

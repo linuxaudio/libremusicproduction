@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - workflow</title>
+ <link>https://libremusicproduction.com/category/workflow</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Unfa : Helm&#039;s deep</title>
+ <link>https://libremusicproduction.com/news/20170420-unfa-helms-deep</link>
+ <description></description>
+ <pubDate>Thu, 20 Apr 2017 08:38:30 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">547 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170420-unfa-helms-deep#comments</comments>
+</item>
+<item>
+ <title>Open Stage Control</title>
+ <link>https://libremusicproduction.com/tools/open-stage-control</link>
+ <description></description>
+ <pubDate>Thu, 02 Mar 2017 07:55:12 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">543 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tools/open-stage-control#comments</comments>
+</item>
+<item>
+ <title>Open Stage Control, v0.17.0 is released, now with MIDI support!</title>
+ <link>https://libremusicproduction.com/news/20170302-open-stage-control-v0170-released-now-midi-support</link>
+ <description></description>
+ <pubDate>Thu, 02 Mar 2017 07:47:36 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">542 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170302-open-stage-control-v0170-released-now-midi-support#comments</comments>
+</item>
+<item>
+ <title>Open Stage Control v0.16.0 released</title>
+ <link>https://libremusicproduction.com/news/20170201-open-stage-control-v0160-released</link>
+ <description></description>
+ <pubDate>Wed, 01 Feb 2017 07:37:44 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">539 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20170201-open-stage-control-v0160-released#comments</comments>
+</item>
+<item>
+ <title>Generate &quot;automagic&quot; music videos with ffmpeg &amp; friends</title>
+ <link>https://libremusicproduction.com/tutorials/generate-automagic-music-videos-ffmpeg-friends</link>
+ <description></description>
+ <pubDate>Thu, 20 Oct 2016 14:17:12 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">512 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tutorials/generate-automagic-music-videos-ffmpeg-friends#comments</comments>
+</item>
+<item>
+ <title>Using AVL drumkits with a-Fluid Synth in Ardour</title>
+ <link>https://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour</link>
+ <description></description>
+ <pubDate>Wed, 19 Oct 2016 09:12:02 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">511 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tutorials/using-avl-drumkits-fluid-synth-ardour#comments</comments>
+</item>
+<item>
+ <title>Linux Show Player 0.4.1 released</title>
+ <link>https://libremusicproduction.com/news/20161013-linux-show-player-041-released</link>
+ <description></description>
+ <pubDate>Wed, 12 Oct 2016 21:12:13 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">509 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20161013-linux-show-player-041-released#comments</comments>
+</item>
+<item>
+ <title>Linux Show Player</title>
+ <link>https://libremusicproduction.com/tools/linux-show-player</link>
+ <description></description>
+ <pubDate>Wed, 12 Oct 2016 21:05:26 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">508 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tools/linux-show-player#comments</comments>
+</item>
+<item>
+ <title>Autotuning &amp; pitch correction with Zita-AT1 in Ardour</title>
+ <link>https://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour</link>
+ <description></description>
+ <pubDate>Mon, 25 Jul 2016 08:20:37 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">483 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour#comments</comments>
+</item>
+<item>
+ <title>New video tutorial describing a complete audio production workflow using Muse and Ardour</title>
+ <link>https://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour</link>
+ <description></description>
+ <pubDate>Sun, 17 Apr 2016 16:19:48 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">452 at https://libremusicproduction.com</guid>
+ <comments>https://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour#comments</comments>
+</item>
+</channel>
+</rss>

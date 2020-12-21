@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - file formats</title>
+ <link>http://libremusicproduction.com/area/file-formats</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>SoX</title>
+ <link>http://libremusicproduction.com/tools/sox</link>
+ <description></description>
+ <pubDate>Fri, 16 Jan 2015 08:25:18 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">281 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/sox#comments</comments>
+</item>
+<item>
+ <title>BWF</title>
+ <link>http://libremusicproduction.com/answer/bwf</link>
+ <description></description>
+ <pubDate>Thu, 27 Mar 2014 11:26:03 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">68 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/answer/bwf#comments</comments>
+</item>
+<item>
+ <title>SoundConverter</title>
+ <link>http://libremusicproduction.com/tools/soundconverter</link>
+ <description></description>
+ <pubDate>Thu, 27 Mar 2014 10:28:38 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">61 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/soundconverter#comments</comments>
+</item>
+<item>
+ <title>FLAC</title>
+ <link>http://libremusicproduction.com/answer/flac</link>
+ <description></description>
+ <pubDate>Wed, 26 Mar 2014 17:25:07 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">55 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/answer/flac#comments</comments>
+</item>
+<item>
+ <title>OGG</title>
+ <link>http://libremusicproduction.com/answer/ogg</link>
+ <description></description>
+ <pubDate>Mon, 17 Mar 2014 16:45:12 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">36 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/answer/ogg#comments</comments>
+</item>
+<item>
+ <title>How do I convert an audio file to MP3?</title>
+ <link>http://libremusicproduction.com/answer/how-do-i-convert-audio-file-mp3</link>
+ <description></description>
+ <pubDate>Mon, 17 Mar 2014 16:42:17 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">35 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/answer/how-do-i-convert-audio-file-mp3#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-7-dave-phillips" />
+<link rel="shortlink" href="/node/173" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #7: Dave Phillips | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"iHqG4A770eYBblKz7cjlhiBde0VebCVpG0kXqKGWIug","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/173":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-173 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #7: Dave Phillips                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-173" class="node node-article node-promoted clearfix" about="/articles/friday-interview-7-dave-phillips" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #7: Dave Phillips" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="7" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-15T10:36:02+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:19</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the seventh edition of the Friday Interview! This week, we're joined by a true veteran of the game. He has time to be a journalist and an educator, as well as crank out great music in several forms. I'm very happy to introduce the seventh participant of the series, interviewee #7: <em>Dave Phillips</em>! Lets get started!</p>
+<h2>Introducing Dave Phillips</h2>
+<div class="well"><strong>Dave Phillips</strong> is a musician, journalist, and educator, from the Midwest USA, where he's currently living.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is Csound and <a href="/tools/ardour">Ardour</a>.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys studying t'ai chi ch'uan, reading classics, raising a shar-pei, and spending time with his wife.</div>
+<div class="well"> </div>
+<div style="width: 210px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Dave-Phillips-photo-1.jpg" /><em>Dave Phillips himself!</em>
+<p> </p>
+</div>
+<p><strong>Hi Dave! Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>I live in Findlay, Ohio, USA, where I was born. I left in my 20s, was gone for about twenty years, been here again for another twenty.</p>
+<p>I'm a music instructor, Linux journalist, and performing musician. The journalism is entirely focused on Linux audio topics, so I'm never very far from music and sound when I'm on the job.  </p>
+<p><strong>What's your musical background like? What music do you like, and do you play any instruments?</strong></p>
+<p>Grew up listening to 50s rock &amp; roll, folk music, popular songs, The Beatles et cetera. Sang in school choirs and played drums in school bands. Got into blues and avant-garde jazz, played guitar in rock bands, worked a gazillion gigs. When I was 19 I heard a recording of Andres Segovia, sold my electric gear, and devoted myself to classical guitar studies with Jerry Willard in Cleveland, then with Sophocles Papas in Washington DC and Nelson Amos in Ann Arbor. Played a fair amount of classical music for about fifteen years, wound up in Los Angeles, played occasional gigs with Kristina Olsen, and studied composition with Michael Jon Fink. Michael also introduced me to <a href="/answer/midi">MIDI</a>, after which I bought a computer, an interface, and some software. I transcribed a lot of piano music, started composing with a MIDI sequencer, and eventually got into Csound.</p>
+<p>These days I play bass and sing in a blues/rock trio with two other Olde Fellowes. I also play guitar for my students for their shows at a local coffee house.</p>
+<p>I listen to a lot of different kinds of music, as a matter of professional practice. In my own time I tend to tune into the playlists on the Wellesz Company channels on YouTube. I tend to like rather challenging music, e.g. old rural blues, Medieval music, and 20th century avant-garde compositions.</p>
+<div style="width: 330px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Dave-Phillips-photo-2.jpg" /><em>Vintage Dave Phillips, loving it!</em>
+<p> </p>
+</div>
+<p><strong>What's your history with Linux, and with using Linux for audio?</strong></p>
+<p>I started looking at it seriously circa 1996. I had started with DOS machines, I didn't like the early incarnations of Windows, and by Win95 I was frustrated with it. I bought a book about Linux, decided to install it on a spare system, and everything went well. I was lucky, my video and audio hardware was supported and I had no problems with the installation, so I began exploring the system. By the late 90s my Windows partition was rapidly gathering dust.</p>
+<p>I was also motivated to try Linux because I had learned of a program called MiXViews that could process audio analysis files created by Csound. MiXViews didn't run on Windows, but its Web page said it could run on Linux, and I learned that Csound also ran on Linux. I knew that Linux was freely available, I had the spare hardware, so I figured that I had no cash investment to lose.</p>
+<p>I discovered that the available binary for MiXViews didn't work on my installation, so I wrote to program author Doug Scott for advice. Over the next few months I received excellent instruction on compiling and debugging UNIX software, and I eventually succeeded in building a usable Linux MiXViews. Emboldened by that success I tried to port some X-based programs from NoTAM. I lacked sufficient skills, but the Internet enabled me to find Nicola Bernardini and Richard Kent. Thanks to their participation the Linux audio armory expanded nicely, and we all got some attention when the Linux Journal published an article I wrote about the project.</p>
+<p>A fellow in Europe maintained a Web site dedicated to Linux audio and music software, but occasionally it fell off the network. At some point it had disappeared long enough for me to try my hand at a similar site. I started the Linux Sound &amp; Music Software site with only a couple dozen items listed, but it grew quickly. Linux was getting a lot of attention, the site got a lot of hits, and eventually a community started growing. I think the  LAD/LAU mail lists were started during the same period, again the late 90s, and pretty soon it was apparent that a community was growing around the flag of Linux audio development.</p>
+<p>At some point in 1999 I received a phone call from a publisher in San Francisco who had seen my Web site and wondered if I'd be interested in writing a book on the topic. I was, I did, and the community grew a bit more. I like to think that the book inspired some of that growth, but in truth there was a lot of activity already underway. The Web site and book just added some focus points for the participants.</p>
+<p>In 2001 Nicola Bernardini invited me to Italy to attend a meeting of free software developers. Many new things came from that meeting, including friendships with Paul Davis, Fernando Lopez-Lezcano, and Guenter Geiger. Thanks to the book's success I attended various conferences during that period, spreading the word about Linux audio. I met a lot of great people, and saw a lot of wonderful development take place, including the beginning of the ALSA project.</p>
+<p>The history since that time is pretty well known. I maintained the Linux Sound &amp; Music Software site for ten years, started writing consistently for the Linux Journal and other publications, and continued working with the ever-expanding apps stack coming from the devs.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Dave-Phillips-screenshot-Ardour-1024x640.png" /><em>Dave running an Ardour session.</em>
+<p> </p>
+</div>
+<h2>Writing, teaching, and being a musician</h2>
+<p><strong>As you mentioned, you wrote for the Linux Journal for quite a while. Could you tell us about your work therewhat the most fun parts were, and why it ended?</strong></p>
+<p>In 1998 I submitted an article about porting SGI sound apps to Linux, the Journal printed in the September edition, and I continued writing for LJ for about twelve years, hard-copy and on-line articles. The best part was writing about Linux audio, which was pretty much my only topic. Being paid for it was nice too, but like all things the relationship eventually ended, amicably in my case. I can still submit articles but I no longer maintain a monthly column. I don't mind, I've written a few hundred articles on Linux audio already, I can take a break now.</p>
+<p>I should mention that LJ exerted very little editorial intervention, i.e. they published what I wrote, pretty much as I sent it to them. I've worked for other publishers who exercise more editorial attention, but fortunately they've been good at it. Jon Corbet at Linux Weekly News is a great editor, ditto for Joe Casad's crew at Linux-Magazine.</p>
+<p>My column for LJ was ended during a difficult period when the publication ended hard-copy and opted for only an on-line presence. Hard-copy publishing is a costly business, on-line marketing makes better sense, but the transition was rough for LJ. I'm glad the Journal is still here and still maintaining their high standards.  </p>
+<p><strong>You also mention the book your wrote on Linux audio. For us newbies in the game, could you tell us about that book? What it was, what you set out to do with it, and how it was received?</strong></p>
+<p>The Book Of Linux Music &amp; Sound was published in 2000 by Bill Pollock's NoStarch Press. I wrote it as an introduction to the growing world of Linux audio applications, and it is currently of interest only to antiquarians. It does provide a look at what was happening at the time, of course, but it has little or no practical value now.</p>
+<p>I had no personal goal beyond doing my part to expand the Linux audio universe. The book sold out and was translated to Italian, Russian, and Hungarian (!). I think a few current developers were inspired by it, maybe a few users too, so I was happy enough with its reception.  </p>
+<p><strong>What, and where, do you mainly teach?</strong></p>
+<p>I teach guitar, bass, and music theory/composition. I'm also a coach for singers who want to get into popular music. I have a small studio in my small home where I give lessons. I use the computer routinely during lessons, it's all Linux.  </p>
+<p><strong>What currently excites you the most in the world of music and audio production?</strong></p>
+<p>I'm Linux-centric in this response, I know. It's what I use, and while I do keep up with advancing hardware and software technologies I tend to focus my energies on developments in areas of interest particular to myself. In other words, I'm an old guy who prefers his old vehicles, but I like them well-polished and currently maintained.</p>
+<p>I'm immersed in Anders Vinjar's recent port of OpenMusic and in a long-term project of score preparation using LilyPond and Frescobaldi. The creative potential of Csound (via Jean-Pierre Lemoine's AVSynthesis) continues to amaze. Ditto for development in Pure Data (especially Ico Bukvic's L2Ork version and Peter Brinkmann's libpd project), SuperCollider3 (praise to Jakob Leben, Tim Blechmann, and the new IDE), and RtCmix (new implementations for iOS and Android systems). And Bill Schottstaedt continues to refine his CLM and CMN synthesis and notation languages, along with the formidable SND editor.</p>
+<p>I hope to see more participation from commercial/proprietary developers. Linux can't claim anything like the volumes of sound and music software sold in the Win/Mac worlds, but I'm pleased by the quality of the available offerings, e.g. MiXBus, ReNoise, Pianoteq, GuitarPro, and of course the excellent plugins from linuxDSP and Loomer. Inear Display and monstrumMedia are two recent additions to the list, so it looks like interest is expanding.</p>
+<p>And who knows, we may even see a public beta of BitWig before the next Ice Age.</p>
+<p>Meanwhile, the Linux DAW is shaping up nicely, as Ardour3, <a href="/tools/qtractor">QTractor</a>, and <a href="/tools/rosegarden">Rosegarden</a> continue on their respective development tracks. In the FLOSS plugin world Rory Walsh's Cabbage project has my constant attention, though I was happily distracted for a while by <a href="/tools/midifilterlv2">Robin Gareus's LV2 MIDI plugins</a>. <a href="/articles/friday-interview-1-harryhaaren">Harry van Haaren's</a> OpenAV projects stay on my radar too.</p>
+<p>I still cover activity on the Linux Audio User and Developer lists, on the Linux Musician and other forums, and I follow various threads at KVRaudio. But the truth is that there's simply too much going on for one person to cover in depth and still get anything else done. We need a few more journalists and writers.</p>
+<p>Music-wise, there seems to be no shortage of good stuff coming from Linux-based musicians. Again, I don't get to listen to it as much as I'd like, my time is filled by my own Linux-based music projects.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Dave-Phillips-screenshot-OpenMusic-1024x640.png" /><em>OpenMusic running on Dave's computer.</em>
+<p> </p>
+</div>
+<p><b>Speaking of your own Linux-based music projects: could you talk a bit about those, what you're currently up to, and where you want to go with it in the future?</b></p>
+<p>I'm currently testing the beta release of a Linux port of OpenMusic, IRCAM's famous software for music composition and analysis. It's a far cry from apps like <a href="/tools/lmms">LMMS</a> or Ableton Live, but it's right in line with my activities. OM interfaces with Csound, which remains a central part in my typical music system. I continue to explore the potential of AVSynthesis, I still make music with a MIDI sequencer, and I still write songs for normal instruments and voices. Ardour is the beating heart of everything produced here, I don't see that changing soon.</p>
+<p>There are many cool Linux audio projects to follow now, but my focus has narrowed to what I can achieve with a few tools in what seems to be sparser amounts of time. I do keep up with Cabbage and a few other projects, though typically they have relevance to a larger component (e.g. utilities for Csound or Ardour).  </p>
+<p><b>Also, can we find your music somewhere? Both your own, and the music from your various constellations?</b></p>
+<p>SoundCloud has the most material : <a href="https://soundcloud.com/davephillips69" target="_blank"> </a></p>
+<p><a href="https://soundcloud.com/davephillips69" target="_blank">https://soundcloud.com/<wbr></wbr>davephillips69</a></p>
+<p>Some videos on YouTube. Student shows, AVSynthesis productions, performances with Fat Daddy, etc. : <a href="http://www.youtube.com/user/newnairobi1" target="_blank"> </a></p>
+<p><a href="http://www.youtube.com/user/newnairobi1" target="_blank">http://www.youtube.com/user/<wbr></wbr>newnairobi1</a></p>
+<p>An older personal page with some lyrics :</p>
+<p><a href="http://linux-sound.org/ardour-music.html" target="_blank">http://linux-sound.org/ardour-<wbr></wbr>music.html</a></p>
+<p>A small collection of notated music :</p>
+<p><a href="http://linux-sound.org/dlp-music-lilypond/" target="_blank">http://linux-sound.org/dlp-<wbr></wbr>music-lilypond/</a></p>
+<h2>Final questions</h2>
+<p><strong>Do you feel like anything is lacking in Linux audio today, and if so, what?</strong></p>
+<p>We need more fully matured synthesizers, but the outlook is good. And of course we need more hardware support, especially interface hardware.</p>
+<p>The common factor between all such "needs" is the need for more developers committed to long-term work with the Linux audio infrastructure. As in all things Linux, needs get met here because someone steps up to the commitment. Motivations vary, results come from the same serious application of effort, whether development is free and open-source or commercial and proprietary.</p>
+<p>Recently I read some commentary from an Ardour developer regarding his frustration with our lack of decent audio restoration tools. Similar commentary notes the lack of software such as Melodyne and Ableton Live. Some of those missing parts will require teams devoted to possibly years of development, but in the meanwhile it might help to have more direct involvement from established players in the worlds of Win/Mac music application development. I don't see a threat there, no-one is forced to buy what they don't want, and if the need is great enough an open-source alternative will develop. Currently three proprietary DAWs are available for Linux, but I see no slow-down in the development tracks for Ardour, Rosegarden, or QTractor.  </p>
+<p><strong>What’s your favorite free and open source plugin currently?</strong></p>
+<p>The CAPS plate reverb is still a favorite. I'm sure I use it too much. I don't use plugins very often, and when I do they tend to be simple fx and dynamics processors (reverb, EQ, limiter/compressor). I like the <a href="/tools/calf-plugins">CALF</a> reverb too, I've been using it more often lately. And even though they're not free I have to mention the excellent linuxDSP plugins. They're worth far more than Mike asks for them, consider them highly recommended. Ditto for the freely available zita line of processors (and all the rest of Fons's software).  </p>
+<p style="text-align: center;"><img alt="" src="/sites/default/files/articles/Dave-Phillips-screenshot-MIDI-1024x640.png" /></p>
+<p><strong>Where can people get a hold of you?</strong></p>
+<p>I'm reachable via Facebook at <a href="https://www.facebook.com/dave.phillips.169" target="_blank">https://www.facebook.com/dave.<wbr></wbr>phillips.169</a> and email at <a href="mailto:dave@linux-sound.org" target="_blank">dave@linux-sound.org</a>.</p>
+<p>I'm also on <a href="http://www.linuxmusicians.com" target="_blank" title="Linux Musicians forum">Linux Musicians</a> frequently, I receive messages there too. <strong> </strong></p>
+<p><strong>Is there anything you would like to add to the interview?</strong></p>
+<p>I'm hopeful about the future of Linux audio development. Some time ago I asked a provocative question on the LAD list regarding what sucks about Linux audio. The responses were numerous and interesting, and also a little depressing. But I considered that Linux is simply not a tame beast, and the less I expect to behave like one the more I can see its qualities. Audio is like most other domains in Linux, it has its core of developers and users who make the thing move, its layers of users who produce exemplary works, and its outer rings of developers and users who are unsatisfied by the status quo and sufficiently moved to take or make alternative paths. Open-source dynamics virtually pre-ordain such organization in its communities. The success or failure of any development effort - status quo or otherwise - depends upon the project's ability to connect with end users to create a community of mutual benefit.</p>
+<p>I monitor a variety of audio-related Linux mail-lists, including development lists. I'm happy to report that developers are joining old projects as well as starting new ones. They're not arriving by the bus load, but they are arriving. There's not exactly a lot of motivation - the hours are long and the pay's lousy - but membership does have its satisfactions, including collaboration with people such as Fons Adriaensen, John ffitch, Paul Davis, or Joern Nettingsmeier. The user lists show more activity, of course, and more music is coming from Linux-based studios. A greater variety of music too, which I think is a great sign, though I sympathize with those members who note the need for a toolchain better suited to certain music styles, particularly EDM and musics with heavy use of instrument and effects plugins. I see improvements, but things can always be better.  </p>
+<p><strong>Thank you very much for the interview, Dave! </strong></p>
+<p class="well">That was Dave Philips. Thanks to Dave for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-7-dave-phillips" st_title="Friday Interview #7: Dave Phillips" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/173" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-MY3JtzUcACjNBzL6WAVhFfABN0bbSMbvE7L4grAUsKs" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/173" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-qANq-PyQl9NGiHm-_2XMGKQoD7B4wR3UjphehUjTkrk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

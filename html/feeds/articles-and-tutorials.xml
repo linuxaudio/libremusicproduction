@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://libremusicproduction.com/articles-and-tutorials" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Libre Music Production - Articles, Tutorials and News</title>
+    <link>http://libremusicproduction.com/articles-and-tutorials</link>
+    <description>Libre Music Production Articles and Tutorials</description>
+    <language>en</language>
+     <atom:link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>The future of LMP</title>
+    <link>http://libremusicproduction.com/news/20190914-future-lmp</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;LMP will continue to live on as a static site, so all content will continue to be available. We are in the process of moving the site. Stay tuned for more news.&lt;/p&gt;
+&lt;p&gt;Thank you for all support, content, comments and visits!&lt;/p&gt;
+&lt;p&gt;Now on to produce some Libre Music! :)&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first last&quot;&gt;&lt;a href=&quot;/news/20190914-future-lmp&quot; rel=&quot;tag&quot; title=&quot;The future of LMP&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about The future of LMP&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sat, 14 Sep 2019 06:14:47 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">579 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>Libre Music Production is taking a break</title>
+    <link>http://libremusicproduction.com/news/20181223-libre-music-production-taking-break</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;As the LMP crew right now only consists of one person (me) and we haven&#039;t published any new content for a year, I have decided to let LMP take a break.&lt;/p&gt;
+&lt;p&gt;This break might be forever. I will keep the content through 2019, at least.&lt;/p&gt;
+&lt;p&gt;If anyone would like to take over the site, please contact me: &lt;a href=&quot;mailto:staffan.melin@oscillator.se&quot;&gt;staffan.melin@oscillator.se&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for visiting LMP!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first last&quot;&gt;&lt;a href=&quot;/news/20181223-libre-music-production-taking-break&quot; rel=&quot;tag&quot; title=&quot;Libre Music Production is taking a break&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about Libre Music Production is taking a break&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sun, 23 Dec 2018 23:17:57 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">576 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>Libre Music Production is back online!</title>
+    <link>http://libremusicproduction.com/news/20180212-libre-music-production-back-online</link>
+    <description>&lt;a href=&quot;/news/20180212-libre-music-production-back-online&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/lmp_short_logo.png?itok=8TvL7cjq&quot; alt=&quot;Libre Music Production is back online!&quot; title=&quot;Libre Music Production is back online!&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Two weeks ago the linuxaudio.org server was compromised. As this is where LMP is hosted, our site went down.&lt;/p&gt;
+&lt;p&gt;Everything should be working again. Please report any issues using the contact form.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20180212-libre-music-production-back-online&quot; rel=&quot;tag&quot; title=&quot;Libre Music Production is back online!&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about Libre Music Production is back online!&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment-comments&quot;&gt;&lt;a href=&quot;/news/20180212-libre-music-production-back-online#comments&quot; title=&quot;Jump to the first comment of this posting.&quot;&gt;7 comments&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Mon, 12 Feb 2018 13:41:45 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">575 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>LSP plugins version 1.1.0 released. Farewell to GTK!</title>
+    <link>http://libremusicproduction.com/news/20180212-lsp-plugins-version-110-released-farewell-gtk</link>
+    <description>&lt;a href=&quot;/news/20180212-lsp-plugins-version-110-released-farewell-gtk&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/lsp_1.1.0.png?itok=MZ5lIGNL&quot; alt=&quot;LSP plugins version 1.1.0 released. Farewell to GTK!&quot; title=&quot;LSP plugins version 1.1.0 released. Farewell to GTK!&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov&quot;&gt;Vladimir Sadovnikov&lt;/a&gt; has just released version 1.1.0 of his audio plugin suite, &lt;a href=&quot;http://libremusicproduction.com/tools/lsp-plugins&quot;&gt;LSP plugins&lt;/a&gt;. All LSP plugins are available in &lt;a href=&quot;http://libremusicproduction.com/answer/ladspa&quot;&gt;LADSPA&lt;/a&gt;, &lt;a href=&quot;http://libremusicproduction.com/answer/lv2&quot;&gt;LV2&lt;/a&gt;, &lt;a href=&quot;http://libremusicproduction.com/answer/linuxvst&quot;&gt;LinuxVST&lt;/a&gt; and standalone JACK formats.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20180212-lsp-plugins-version-110-released-farewell-gtk&quot; rel=&quot;tag&quot; title=&quot;LSP plugins version 1.1.0 released. Farewell to GTK!&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about LSP plugins version 1.1.0 released. Farewell to GTK!&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment-comments&quot;&gt;&lt;a href=&quot;/news/20180212-lsp-plugins-version-110-released-farewell-gtk#comments&quot; title=&quot;Jump to the first comment of this posting.&quot;&gt;3 comments&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Thu, 21 Dec 2017 15:22:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">574 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>Qtractor 0.8.5 is released</title>
+    <link>http://libremusicproduction.com/news/20171210-qtractor-085-released</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://libremusicproduction.com/tools/qtractor&quot;&gt;Qtractor&lt;/a&gt; 0.8.5 (autumn&#039;17) is now released! From the &lt;a href=&quot;http://www.rncbc.org/drupal/node/1872&quot;&gt;release statement&lt;/a&gt;:&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20171210-qtractor-085-released&quot; rel=&quot;tag&quot; title=&quot;Qtractor 0.8.5 is released&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about Qtractor 0.8.5 is released&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sun, 10 Dec 2017 18:03:26 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">573 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>Calf Studio Gear 0.90.0 released</title>
+    <link>http://libremusicproduction.com/news/20171104-calf-studio-gear-0900-released</link>
+    <description>&lt;a href=&quot;/news/20171104-calf-studio-gear-0900-released&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/Calf-Studio-Gear-0.90.0-320x214.jpg?itok=L_s3yEts&quot; alt=&quot;Calf Studio Gear 0.90.0 released&quot; title=&quot;Calf Studio Gear 0.90.0 released&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;The Calf team have just released a new version of their popular plugin suite.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20171104-calf-studio-gear-0900-released&quot; rel=&quot;tag&quot; title=&quot;Calf Studio Gear 0.90.0 released&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about Calf Studio Gear 0.90.0 released&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment-comments&quot;&gt;&lt;a href=&quot;/news/20171104-calf-studio-gear-0900-released#comments&quot; title=&quot;Jump to the first comment of this posting.&quot;&gt;3 comments&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sat, 04 Nov 2017 21:25:39 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">572 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>Ardour 5.12 released</title>
+    <link>http://libremusicproduction.com/news/20170916-ardour-512-released</link>
+    <description>&lt;a href=&quot;/news/20170916-ardour-512-released&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/ardour_session.png?itok=4g9XBRax&quot; alt=&quot;Ardour 5.12 released&quot; title=&quot;Ardour 5.12 released&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;/tools/ardour&quot;&gt;Ardour&lt;/a&gt; 5.12 has just been released! The main new features in this release involve session/track template management and improvements to MIDI patch changing, as well as the usual bug fixes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20170916-ardour-512-released&quot; rel=&quot;tag&quot; title=&quot;Ardour 5.12 released&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about Ardour 5.12 released&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment-comments&quot;&gt;&lt;a href=&quot;/news/20170916-ardour-512-released#comments&quot; title=&quot;Jump to the first comment of this posting.&quot;&gt;1 comment&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sat, 16 Sep 2017 20:06:15 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">571 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title> LMP Asks #24: An interview with Luciano Dato</title>
+    <link>http://libremusicproduction.com/articles/lmp-asks-24-interview-luciano-dato</link>
+    <description>&lt;a href=&quot;/articles/lmp-asks-24-interview-luciano-dato&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/luciano_drums_live.jpg?itok=MVgKPbsD&quot; alt=&quot; LMP Asks #24: An interview with Luciano Dato&quot; title=&quot; LMP Asks #24: An interview with Luciano Dato&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;This time we talk to Luciano Dato, creator of &lt;a href=&quot;/tools/noise-repellent&quot;&gt;Noise Repellent&lt;/a&gt;, a realtime noise reduction plugin.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;Hi Luciano, thank you for taking the time to do this interview. Where do you live, and what do you do for a living?&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I live in Santa Fe, Argentina and I work as a sysadmin/technician in a small IT company.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/articles/lmp-asks-24-interview-luciano-dato&quot; rel=&quot;tag&quot; title=&quot; LMP Asks #24: An interview with Luciano Dato&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about  LMP Asks #24: An interview with Luciano Dato&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sun, 27 Aug 2017 08:48:46 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">565 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>FLOSS music convention in Germany in November</title>
+    <link>http://libremusicproduction.com/news/20170812-floss-music-convention-germany-november</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;On the 4th and 5th of November 2017 you can attend the Sonoj Convention in Cologne, Germany. &lt;span style=&quot;font-size: 13.008px;&quot;&gt;Admission is free. You will be able to enjoy demonstrations, talks and workshops about music production through open source software. Hands-on tutorials and workflow presentations can be expected. The Sonoj Convention is a great opportunity to meet like-minded people, maybe even to have engaging discussions! Every man and woman is welcome, no matter your musical or technological background.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20170812-floss-music-convention-germany-november&quot; rel=&quot;tag&quot; title=&quot;FLOSS music convention in Germany in November&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about FLOSS music convention in Germany in November&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Sat, 12 Aug 2017 20:25:35 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">561 at http://libremusicproduction.com</guid>
+  </item>
+  <item>
+    <title>MOD Duo and Max/MSP integration</title>
+    <link>http://libremusicproduction.com/news/20170802-mod-duo-and-maxmsp-integration</link>
+    <description>&lt;a href=&quot;/news/20170802-mod-duo-and-maxmsp-integration&quot;&gt;&lt;img class=&quot;teaserimage&quot; typeof=&quot;foaf:Image&quot; src=&quot;http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/mod-duo-face.jpg?itok=BvhU_KWH&quot; alt=&quot;MOD Duo and Max/MSP integration&quot; title=&quot;MOD Duo and Max/MSP integration&quot; /&gt;&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://cycling74.com/products/max/&quot;&gt;Max/MSP&lt;/a&gt; users can now easily convert their &lt;a href=&quot;https://docs.cycling74.com/max7/vignettes/gen_overview&quot;&gt;Gen&lt;/a&gt; objects into LV2 plugins, add them to the roster of MOD Duo plugins and bring them to the stage!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul class=&quot;links inline&quot;&gt;&lt;li class=&quot;node-readmore first&quot;&gt;&lt;a href=&quot;/news/20170802-mod-duo-and-maxmsp-integration&quot; rel=&quot;tag&quot; title=&quot;MOD Duo and Max/MSP integration&quot;&gt;Read more&lt;span class=&quot;element-invisible&quot;&gt; about MOD Duo and Max/MSP integration&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment-comments&quot;&gt;&lt;a href=&quot;/news/20170802-mod-duo-and-maxmsp-integration#comments&quot; title=&quot;Jump to the first comment of this posting.&quot;&gt;3 comments&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;comment_forbidden last&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+     <pubDate>Wed, 02 Aug 2017 10:21:24 +0000</pubDate>
+ <dc:creator>yassinphilip</dc:creator>
+ <guid isPermaLink="false">560 at http://libremusicproduction.com</guid>
+  </item>
+  </channel>
+</rss>

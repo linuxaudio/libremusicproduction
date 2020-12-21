@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../tutorials/how-use-outboard-gear-ardour.html" />
+<link rel="shortlink" href="343.html" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="../feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="../feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>How to use outboard gear in Ardour | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="https://libremusicproduction.com/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"KZnLHcvBiTa6rXRpIdCrZ_9VU0RmDjGidZSktAygE5c","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/343":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-343 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="343.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="https://libremusicproduction.com/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="https://libremusicproduction.com/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="https://libremusicproduction.com/workflow">Workflow</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/articles" title="">Articles</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/interviews">Interviews</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/tools">Tools</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/music">Music</a></li>
+<li class="leaf"><a href="https://libremusicproduction.com/resources">Resources</a></li>
+<li class="last leaf"><a href="https://libremusicproduction.com/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  How to use outboard gear in Ardour                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-343" class="node node-tutorial node-promoted clearfix" about="/tutorials/how-use-outboard-gear-ardour" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="How to use outboard gear in Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-04-09T15:42:02+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 13:59</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/category/fx" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">fx</a></div><div class="field-item odd"><a href="https://libremusicproduction.com/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item even"><a href="../category/workflow.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">workflow</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="https://libremusicproduction.com/tools/ardour">Ardour</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>There may be times when you are mixing that you want to, or have to, use external effects or processors. To do this in <a href="https://libremusicproduction.com/tools/ardour">Ardour</a>, we use <a href="https://libremusicproduction.com/answer/insert">inserts</a>. So how do these work and how do we set it all up? Let's find out!</p>
+<h3>Why use hardware effects?</h3>
+<p>Using plugins is very convenient so why would you want to use a hardware unit? The two main reasons would be -</p>
+<ul><li>You can't find a plugin equivalent</li>
+<li>You want the sound of a particular piece of hardware, eg. tube hardware</li>
+</ul><p>In this tutorial, I will demonstrate how to insert a mono hardware compressor into an audio track.</p>
+<h3>What are Inserts?</h3>
+<p>If you've ever used a hardware mixer, you may already be familiar with inserts. Inserts use <lmp-term>sends</lmp-term> and <lmp-term>returns</lmp-term>. What happens is that you divert (<lmp-term>send</lmp-term>) the signal away from the channel strip, route it through your hardware unit and then the processed signal is reintroduced back (<lmp-term>return</lmp-term>) into the signal path.</p>
+<p><img alt="" src="https://libremusicproduction.com/sites/default/files/tutorials/insert.png" /></p>
+<p>It's easy to see why they are called inserts, as you are essentially inserting something into that point of the signal path.</p>
+<p>So now that we know how it works, let's set up everything so that we can use our hardware compressor in Ardour.</p>
+<h3>Connecting everything up</h3>
+<p>Before we do anything else, we need to make sure that our hardware unit is connected up correctly for us to be able to insert it into the signal path. For this, our audio interface will need to have spare inputs and outputs. How many spare inputs and outputs you need will depend on what you intend on inserting into the signal path. In this example I am using a mono compressor unit, so I will need just one spare input and output.</p>
+<p>In the example, outputs 1 &amp; 2 are being routed to my speakers and inputs 1 &amp; 2 are being kept free for recording purposes. I have decided to use output 3 and input 3 for the send and return.</p>
+<p>Here's how our connections to our hardware unit should now look -</p>
+<p><img alt="" src="../sites/default/files/tutorials/insert_routing.png" /></p>
+<h3>Matching levels and connection types</h3>
+<p>Before we move on any further, you should make sure that your hardware units I/O levels are matched to your interfaces I/O levels. Our I/O needs to be line level and hardware units operation levels vary. Some units use either +4dBu or -10dBV, others give you the choice between the two. In either case, we need to make sure the connections between our interface and hardware unit are matched. If you have the choice, +4dBu is considered the better option.</p>
+<p>In this case I am using standard jack cables to connect up to my hardware, however, this is not the only way to make your connections. For example, if you have S/PDIF I/O on both your hardware unit and your audio interface, this would be another option. In fact, using something like S/PDIF that stays within the digital domain is a better choice as there will be minimal degradation of your signal.</p>
+<p>Your choice will depend upon which I/O are available to you but if and when possible, choose digital I/O over analog I/O.</p>
+<p>We now have our compressor unit correctly connected up to our interfaces inputs and outputs. Now we need to set up the send and return routing from within Ardour.</p>
+<h3>Configuring sends and returns</h3>
+<p>Everything is now set up and ready to go on the hardware side. Let's now make the software connections. For this example, I am going to insert the compressor unit into a bass guitar track.</p>
+<p>Take the following steps -</p>
+<ul><li>Right click in the processor box area</li>
+<li>Select “new insert” from the menu</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/add_insert.png" /></p>
+<p>This will now place an insert box in the processor area, similar to how a plugin looks. While this is not an internal plugin, it can be treated similarly to such. Moving it around in the signal chain, positioning it pre or post fader, etc, will give you the exact same results as you would expect from doing the same to a plugin.</p>
+<p>Next, double click on the insert box. This will bring up the send/return dialog. Here we can route to, and back from, our hardware unit so that it is inserted into the signal path.</p>
+<p>What we want to do is send the signal out of output 3, through the hardware unit and return the processed signal into Ardour via input 3 on our audio interface.</p>
+<p>The send tab on the top will automatically be selected. Select the hardware tab down the right hand side and select 'playback 3'. This will send the signal out of output 3 on our audio interface and into our hardware unit.</p>
+<p>Next, go to the return tab. The hardware tab down the side should still be selected. Now we want to connect up our return signal to our audio interfaces inputs. Here we will select 'capture 3'.</p>
+<p><img alt="" src="../sites/default/files/tutorials/send_return.png" /></p>
+<p>We now have our insert loop complete. We are almost there but there is something else we need to take into account, latency. The audio signal is being sent out of the computer and back in again. This round trip will take a few milliseconds. If we don't account for it, the playback of the material on this track will be slightly delayed in relation to other tracks.</p>
+<p>This is what the 'measure latency' button in the insert window is for. This sends out a test audio signal. When this signal returns, Ardour can analyse it and calculate how much latency is involved in the round trip. It will then compensate for this delay on that track, insuring that all tracks play back time aligned. Let's set it up -</p>
+<ul><li>Go to your hardware unit and make sure that it is either set to bypass mode, or depending on what type of processor it is, is at least processing the signal as little as possible. You don't want the test audio signal to be coloured/distorted or Ardour may not be able to correctly calculate the round trip.</li>
+<li>Click on the measure latency button. A short burst of sound will be sent. If you are using hardware monitoring, make sure to have this disabled or the sound burst will play through your playback system and may make you spill your coffee!</li>
+<li>You should now see a measurement with "(set)" written after it. This means that the measurement was successful and it's latency is now compensated for within the session. Press OK.</li>
+</ul><p><img alt="" src="../sites/default/files/tutorials/measure_latency.png" /></p>
+<p>Now our insert is fully set up, operational and has its latency compensated for. We can now use our hardware unit to process the audio on our track.</p>
+<h3>Management</h3>
+<p>There are various aspects of using internal plugins in Ardour that make things easier when compared to using inserts. The main thing we lose out on when using inserts is the auto recall of effects settings. What we can do here is to simply note what settings you used for your hardware unit.</p>
+<p>On your track, click on the comments box at the bottom of the channel strip. We can take note of our settings/presets used here so we can always refer back to them at a later stage. If you use different hardware for different mixing sessions, it would also be useful to note in your comments which hardware you used.</p>
+<p><img alt="" src="../sites/default/files/tutorials/comments.png" /></p>
+<p>By default, inserts will be named 'insert x'. This isn't very helpful if you are using more than one insert. Lets rename our insert so that it is more descriptive. Right click on the insert and select “rename”.</p>
+<p><img alt="" src="../sites/default/files/tutorials/rename_insert1.png" /></p>
+<p>We can now give our insert a more descriptive name. Let's rename this insert “Compressor”.</p>
+<p><img alt="" src="../sites/default/files/tutorials/rename_insert2.png" /></p>
+<p>If you have a favourite piece of hardware that you use on a regular basis, it might be worthwhile hooking it up permanently to your audio interface. This will make it easier to set up your inserts in future.</p>
+<h3>Mixdown</h3>
+<p>One thing to note is that Ardour only exports in freewheel mode, meaning that it can only export faster than realtime. This is great when you are only using plugins within a session as it means faster export times but it is incompatible with using hardware processors that only work in realtime. So, how do we deal with this?</p>
+<p>There are two primary ways to manage this. Let's look at these.</p>
+<h3>Record processed track to an empty track</h3>
+<p>If you want to do everything in Ardour, a straight forward way to export your mix with hardware processing is to first record your processed track to an empty track in realtime. This is as simple as it sounds.</p>
+<ul><li>First create an empty audio track</li>
+<li>Disconnect the outputs of your processed track from the master bus</li>
+<li>Connect the outputs of your processed track into your new empty audio track</li>
+<li>Set your empty audio track to record and play your session through</li>
+</ul><p>You now have a session, including your hardware processing, that you can export from within Ardour. You also have the advantage of having the original audio and the processed audio within your session.</p>
+<h3>Use jack capture</h3>
+<p>Jack capture is a tool that allows you to capture audio from <a href="https://libremusicproduction.com/articles/demystifying-jack-%E2%80%93-beginners-guide-getting-started-jack">JACK</a>. There are various ways to use this but if you are using Cadence from <a href="http://kxstudio.linuxaudio.org">KXStudio</a>, the easiest way is to use 'Render'.</p>
+<p>You can find detailed instructions on how to use Cadence Render in our <a href="https://libremusicproduction.com/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager#exporting_session">Session Management tutorial</a>.</p>
+<h3>Other uses of inserts</h3>
+<p>Inserts can be used to insert anything external to Ardour, into a mixer strips signal path. While this tutorial focuses on hardware inserts, you can also route (send/return) signals to any software external to Ardour.</p>
+<p>There are some useful standalone JACK plugins that are not available as plugins for Ardour. Using inserts, you could easily incorporate these into a workflow with Ardour. If you do go down this road, it might also be useful to look into <a href="https://libremusicproduction.com/answer/session-management">session management</a>. I would recommend <a href="https://libremusicproduction.com/tools/nsm-non-session-manager">NSM (Non Session Manager)</a>.</p>
+<h3>Summary</h3>
+<p>With the growing number of plugins available for Linux these days, there are fewer reasons than there used to be for needing to use inserts. Having said that, inserts do allow for more flexibility and there are times when only a real hardware unit will do, for example, you may want the sound of a real tube hardware unit. Having the ability to have a hybrid set up of software and hardware processors allows you to have the best of both worlds.</p>
+<p><em>Written by Conor Mc Cormack</em></p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="../tutorials/recording-audio-and-using-midi-ardour-3.html">Recording audio and using MIDI in Ardour 3</a></div><div class="field-item odd"><a href="../tutorials/basic-mixing-ardour-3.html">Basic mixing in Ardour 3 </a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/sidechaining-ardour-3">Sidechaining in Ardour 3 </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together</a></div><div class="field-item even"><a href="../tutorials/ardroid-android-application-how-use-it-ardour.html">Ardroid (Android application): How to use it with Ardour</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour </a></div><div class="field-item even"><a href="../articles/ardour-3-tips-and-tricks.html">Ardour 3 Tips and Tricks </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour" st_title="How to use outboard gear in Ardour" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="https://libremusicproduction.com/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="343.html" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-6f5ETTu-gF6kQPWz3T4x3UXqWb5h-8LUBhXtzYM7u4o" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="343.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-nl6x3f8_jwGWr-40_0x9L7M9vgLQsFJYnpFTZLTySTg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="https://libremusicproduction.com/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="https://libremusicproduction.com/faq">FAQ</a> section. If you are missing something, please <a href="https://libremusicproduction.com/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="../rss.xml"><img alt="RSS Feed icon." src="https://libremusicproduction.com/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="../feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="../feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="https://libremusicproduction.com/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="https://libremusicproduction.com/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

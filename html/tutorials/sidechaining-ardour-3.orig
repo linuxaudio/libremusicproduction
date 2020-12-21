@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/tutorials/sidechaining-ardour-3" />
+<link rel="shortlink" href="/node/213" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Sidechaining in Ardour 3 | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("https://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("https://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("https://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"OwHYWcWs81I9WJSZsZou7-UMMvPwaQcGdDu8peNQBqk","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/tutorials\/sidechaining-ardour-3":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-213 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="https://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Sidechaining in Ardour 3                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-213" class="node node-tutorial node-promoted clearfix" about="/tutorials/sidechaining-ardour-3" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Sidechaining in Ardour 3" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-07T21:16:46+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-05-07 17:00</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/area/mixing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">mixing</a></div><div class="field-item odd"><a href="/area/plugins" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">plugins</a></div><div class="field-item even"><a href="/category/technique" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">technique</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/tal-noisemaker">Tal NoiseMaker</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Ahh, <a href="/answer/sidechain-compression">sidechaining</a>! The effect us fans of electronic music fear our partners will discover just how much we actually like, and the effect that makes anti-modern electronic musicians shake from hatred. Sidechaining has many different names (ducking is an additional one), but when I speak of sidechaining, I refer to what’s popularly known as “the cool effect that makes everything pump to the beat in electronic music”. Sidechaining itself though has a pretty wide range of uses outside of just “moar pumpz plx”. In this article, I will focus on the “pumpz plx”, but the way we’ll set up sidechaining here will enable you to achieve most of the common sidechaining effects, like ducking background music to speech and whatnot. So, the goal of this article is to do a simple sidechain of a synth to a kickdrum, making the synth duck in rhythm with the kickdrum. Very simple, but very powerful, especially in modern electronic music.</p>
+<h2>Pre-requisites</h2>
+<p>This tutorial assumes that you have a little knowledge of Ardour and music production in general, but not much. I will try and go as basic as I can without being annoying. If you’re familiar with Ardour, you’re likely to want to skim the article, as it contains a lot of basic stuff. My aim is to provide a guide that anyone with a little prior experience can follow, but at the same time cater to more advanced users that just don’t know sidechaining yet.</p>
+<p>If you’re a bit more used to Ardour and just want to know how to do the actual sidechaining, <a href="#advanced">click here</a> to skip the rather irrelevant parts below about creating the material for sidechaining.</p>
+<p>The version of <a href="http://ardour.org/">Ardour</a> used in this tutorial is Ardour3.2. However, this should work with most prior versions of Ardour too.</p>
+<p>You will need a plugin called SC3 that will do the actual sidechaining. If you have the <a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">KXStudio repos</a>, it’s available in the package swh-lv2 (<lmp-term>sudo apt-get install swh-lv2</lmp-term>). If not, <a href="http://www.plugin.org.uk/">you can find it here</a>.</p>
+<p>Also, you will need something to sidechain, and a basic kick drum to sidechain to. So, get yourself a basic kickdrum sound. As for materials to sidechain using the kick, and for the sake of demonstration, I will use <a href="/tools/tal-noisemaker">TAL NoiseMaker</a> LV2. You can get that from the <a href="http://distrho.sourceforge.net/ports.php">Disthro-project</a>, or preferably the KXStudio-repos (which are awesome, kudos to <a href="/articles/friday-interview-2-falktx">falkTX</a>).</p>
+<p>Lets go!</p>
+<h2>Setting up the needed tracks and channels</h2>
+<p>So, lets roll! You can use whatever session you already have, or just set up a new one. Just because I prefer a little bit higher tempo in electronic music, I’ll start off by setting the tempo to 130 bpm. You can leave the tempo at whatever you feel is nice, it doesn’t matter.</p>
+<p><img alt="" src="/sites/default/files/tutorials/01_set_tempo_ardour_3_sidechaining_tutorial.png" /><br /><em>Set the tempo by right-clicking the red tempo indicator and selecting edit.</em></p>
+<p>Next up, we’ll need our basic components. As always, you’re free to set up Ardour like you want, but I find it’s a great help to make sure Ardour is set to Grid-mode. This snaps everything you move to the grid (which is based on the tempo of your song), effectively putting whatever you move in sync to the tempo. If you want to set up Ardour like me, follow the picture below, and make sure you’ve got Ardour set to Grid.</p>
+<p><img alt="" src="/sites/default/files/tutorials/02_set_grid_ardour_3_sidechaining_tutorial.png" /><br /><em>Grid, Snap to Beats, and Edit Point Mouse all set up.</em></p>
+<p>Next up, we’ll add our kick and snare, and set up a simple electronic beat. You can import the soundfiles of the kick and snare to Ardour directly, and it’ll automatically create two new tracks for you for the sounds. The import dialogue is available through <lmp-term>Session -&gt; Import</lmp-term>.</p>
+<p><img alt="" src="/sites/default/files/tutorials/03_import_drums_ardour_3_sidechaining_tutorial.png" /><br /><em>Import the files, and add them as new tracks.</em></p>
+<p>Now, lets just make a simple, classic electronic drum pattern spanning over 4 bars, with the kick on every beat, and the snare on every other beat.</p>
+<p>First off, when working like this, I always set the grid to “Beats”. You’ll notice in the picture above it’s set to Beats/8 (next to the Grid-option). This means that the grid now snaps to 1/8th notes. Change that to Beats, to snap to full beats, and your life will be easier.</p>
+<p>If the regions of the kick and snare aren’t in the proper size to create the pattern (and they won’t be, as I made them, muahahaahaha!), you’ll have to resize them appropriately. This is easily done by dragging the bottom left or right corners of the region. To quickly build a pattern, resize the regions so they cover a whole bar, like in the picture below. Then mark the regions and press “D” (for duplicate) and place the new region appropriately on the canvas. For the pattern in the picture below, you can simply first make a full bar (hint: in the picture below, there’s 4 bars as indicated by the thicker white lines) consisting of 4 kick regions and 2 snares. Then, just select them all, press duplicate and move the duplicated regions in place. Repeat until you have 4 bars.</p>
+<p><strong><em>Warning:</em></strong> Make sure that you place every drum hit perfectly on a beat. Grab every region (when making the base pattern you then duplicate to create the pattern in the picture below) and make sure it’s on the beat. The yellow text appearing will indicate that by telling you it’s on XX | XX | 00, where X can be anything, but 00 should be 00. If you don’t do this, things might end up off-beat when using duplicate.</p>
+<p><img alt="" src="/sites/default/files/tutorials/04_basic_pattern_ardour_3_sidechaining_tutorial.png" /><br /><em>Simple electronic beat with the kick on every beat, and the snare on every other beat. Commonly known as the “four-to-the-floor”, and ideal for sidechaining.</em></p>
+<p>Just to, like we say in Sweden, “kill two flies in one whack”, I’ll quickly go through how to use a nifty little feature in Ardour called “Combine Regions”. Even though I’m sure programming it is as hard as finding the Higgs boson, its function is rather simple and it does what its name hints; it combines the selected regions into one. This is handy for people like me, who make music based on using a lot of loops. So, saving you from more blabbering, what we’re going to do here is to combine the pattern we just created for the kick and the snare into one full 4 bar region each. However, to get two regions spanning over the full 4 bars we’ve created, we need to make sure there’s a region we can select in our track at the start of the first bar, and also at the end of the 4th and last bar. This will combine anything in between, giving us the full 4 bars we want.</p>
+<p>To achieve this, we can cut out a bit of silence from one of our regions, duplicate it as many times as we need, and use it as building blocks to make sure our regions covers the whole 4 bars. To achieve this, set the grid (next to the roll down that now should say Grid, as we changed above) to “Beats/4”. This will make anything snap to 1/4ths. Then hover with the mouse at the end of a region where there’s silence, and press “S” to split the region at that point. Select the newly split region, duplicate it using “D”, and then put it at the first bar of the snare track, as indicated in the picture below.</p>
+<p><img alt="" src="/sites/default/files/tutorials/05_silence_snare_ardour_3_sidechaining_tutorial.png" /><br /><em>Right of the cursor is where the region has been split. The selected region is the duplicated split region containing silence, that’ll allow us to combine our regions into one.</em></p>
+<p>Now comes the easy part! Start by selecting the full 4 bars on the snare track, right-click a region, and go to Selected Regions -&gt; Edit -&gt; Combine. This will give you a new, full 4 bar region of snares. Yay!</p>
+<p>Now, do the same for the kick (make sure it really starts snapped to a beat, and ends snapped to a beat, so you get the full 4 bars here too).</p>
+<p>There we go! A region of 4 bars each, both for the kick and snare, that you can easily work with using duplicate etc. To make your beat a bit longer, select both the kick and the snare region, and press “D” a couple of times, or ’til you’re satisfied with the length of the song.</p>
+<h2>The material for the sidechaining</h2>
+<p>For simplicity, I will just be using TAL NoiseMaker LV2 and a factory preset for this, as that’s something that’s easily available to anyone. This works just as good with anything though, but for the sidechaining to be as audible as possible, we need something that has quite sustained notes (so you can actually hear them pump). We’re going to use one of my favorite presets of NoiseMaker *drumroll* Fuzzy Cargo!! Or to be more specific, “TAL LD Fuzzy Cargo” in the preset list.</p>
+<p>So, add a new MIDI-track, load up TAL NoiseMaker on there, load “TAL LD Fuzzy Cargo”, increase the size of the MIDI-track in the editor canvas to reveal the piano roll, and left-click on the canvas of the track to add a new MIDI-region. Now, position this MIDI-region and resize it so it covers 4 bars before we start getting into the juicy stuff.</p>
+<p><img alt="" src="/sites/default/files/tutorials/06_midi_track_ardour_3_sidechaining_tutorial-1024x560.png" /><br /><em>The new MIDI-track with NoiseMaker, and a 4 bar region up.</em></p>
+<p>Now, just put down any note progression you think sounds nice, and that covers the full 4 bars. When you’re done with that, duplicate the region (using “D”, remember?) until you cover 16 bars with it. This will leave us with a little to play with.</p>
+<p> </p>
+<p><img alt="" src="/sites/default/files/tutorials/07_melody_down_ardour_3_sidechaining_tutorial.png" /><br /><em>The current state of your session should look something like this.</em></p>
+<p>There! We have something extremely basic now, but that’ll do for demonstrative purposes. If anyone missed it, the intention is sidechaining the synth we just created to the kick, so that it pumps in rhythm. Lets move on to the actual sidechaining!</p>
+<h2><a id="advanced" name="advanced">Sidechaining in Ardour 3</a></h2>
+<p>(Welcome back advanced user!). Now, we’ve finally gotten to the part which this tutorial was supposed to be all about… err… Anyway, it’s time to set up the actual sidechaining!</p>
+<p>The way this is done is by using a bus. If you don’t know what a bus is, use your favorite search engine quickly and read up. A little conceptual knowledge is always good! On this bus, we will have a plugin that will do the actual sidechaining. This plugin is effectively a compressor, that only activates when it recieves a signal in a special input. The plugin therefore has 3 ins (one input for triggering the sidechaining, and stereo in for the sound) and 2 outs (stereo output for the sound). The way the routing works here is that the plugin takes the trigger signal for the sidechain in the first input, and the sound you want sidechained in the second and third. What happens in the actual plugin then is:</p>
+<ul><li>If something is playing in the first input (like a kickdrum), activate the compressor to compress the sound playing in the second and third input. Then output this sound through the outputs.</li>
+<li>If nothing is playing in the first input, just output what’s playing in the second and third input without any compression applied.</li>
+</ul><p>….uaaaah?! Input output input output! Was that understandable at all?! Even I, who’s supposed to know (and write!) this got confused now. Anyway, specifics isn’t that important, lets move on…</p>
+<p>So, what we effectively can take from this is that we need a 3 input 2 output bus for the plugin. This is doable in Ardour, but you need to create and modify a 3-channel bus to achieve it. So, lets create a 3-channel bus and add the SC3 plugin to it! To create a 3-channel bus, just select it under “Configuration” in the Add Track-dialogue.</p>
+<p>Now, as SC3 has 3 inputs but only 2 outputs, we need to delete one of the outputs of the bus, as it currently has 3. You might need to read this paragraph a couple of times, bear with me. To do this, left-click the bottom of the mixer strip (the outputs, where it currently should say “Master”) to bring up Ardours built in connection matrix. Here you’ll see the connections of the bus (and you’ll likely feel like a retarded seal if you haven’t used Ardour a lot before, as it can look pretty complicated). At the top, you’ll see the labels 1, 2 and 3. These represent your output channels. We want to kill -9 one of those (hehe, Linux-joke!! for non-nerds: we want to remove one), and we’ll achieve this by right-clicking the label 3, going through “[Busname] out -&gt;” and then choose “Remove ‘3’”. Yaaay, there we go! You can see the fruits of your extreme technical skills in manipulating internal routing of a contemporary complex digital audio workstation and its carefully engineered components *breathe!!*, by noting that what was earlier called 1 and 2, is now called L (for Left, or LINKS, in German) and R (for Right, or RECHTS, in German). And that’s it, the bus is now properly setup. Lets set the actual plugin up!</p>
+<p><img alt="" src="/sites/default/files/tutorials/08_sc3_ardour_3_sidechaining_tutorial.png" /><br /><em>How to set up the SC3 for sidechaining.</em></p>
+<p>I won’t go into too much detail here, as that’d involve talking about how compressors work (or how I think they work…….), but set your SC3 up like I’ve done in the picture above. I will however do a quick run-through of the parameters:</p>
+<ul><li>The <a href="/answer/attack">attack</a> controls when the compressor starts working. We want this to happen as close to the kick hitting as possible, which means we set it as low as possible.</li>
+<li>The <a href="/answer/release-plugin-parameter">release</a> controls how quick the compressor should stop working. We want this to be fairly low (but not too low), to make the effect distinct and in rhythm. As our tempo is pretty high in this song, going too high on the release might make the compressor not stop working before another kick hits, triggering it again. This effectively would mean that there would be a sidechain, just that you couldn’t hear it because the compressor never gets fully de-activated. This is a setting that you however can play around with some.</li>
+<li>The <a href="/answer/threshold">threshold</a> controls when the compressor starts compressing, in sound strength of the material that’s going to be sidechained (so the synth in this case). What you need to know about this right now is that it controls the strength of the sidechain, together with…</li>
+<li> …the <a href="/answer/ratio">ratio</a>! This controls how heavily the compressor compresses the material. Simple as that!</li>
+</ul><p>In the example here, I’ve set both of them to the max. This is because I have another way of controlling the sidechain, which I will go through in another article of more advanced use of sidechaining. As soon as you’re finished with this tutorial, you should go back and try adjusting these both to learn them and what they do.</p>
+<p>I’m not going to talk about either knee or makeup gain, and I extremely rarely touch either of them, because they have effects that either isn’t very audible for my use of sidechaining (knee), or is better achieved in other ways (makeup gain). Finally, there’s chain balance, which has to be set to 1 in order for the sidechain to accept being triggered by sound from the first input.</p>
+<p>We’re close now. Very close. Veery close. Basically, everything is set up here properly, and ready to sidechain. To test it out, go to the outputs of the kick (left-click the bottom of the mixer-strip saying “master” again), and add a connection of both its outputs to the first input of the sidechain. To find the sidechain-bus, you’ll have to click the “Ardour Busses”-tab. Then simply tick both of the boxes right next to eachother in by the label 1, so that your outputs of the kick are connected to the first input of the sidechain. This will send an instance of the kick playing to the input of the sidechain, in addition to sending it to the master bus (which is connected to our system outputs, which therefore makes it audible).</p>
+<p><img alt="" src="/sites/default/files/tutorials/09_kick_to_sc_ardour_3_sidechaining_tutorial.png" /><br /><em>To properly set up the sidechaining, connect like this.</em></p>
+<p>Now, finally, we just need to connect the outputs of the synth to the appropriate inputs of the sidechain-bus, and we’re golden. To do this, start by disconnecting the outputs of the MIDI-track, by right-clicking the bottom of its mixer-strip (like in the earlier procedures. I’ll just assume you know this from now on. Oh crap, the tutorial’s almost over….) and selecting “Disconnect”. Then, open up the connection matrix of the outputs of the MIDI-track, by left-clicking what you just disconnected (a nice little “-” should be there now instead), navigating to the “Ardour Busses”, and then simply connecting the L-channel of the track to the 2nd input of the bus, and the R-channel of the track to the 3rd input of the bus. VOILAAA! Done!! Just press play, and you should hear the synth ducking to the kick! To experiment, try muting the kick and un-muting while playing. Sidechaiiiin!</p>
+<p>And that was it! You now officially know how to sidechain for moar pumpz in Ardour3. Congrats!</p>
+<p>…some final homework for you! To avoid repeating the tedious process of setting up the sidechaining-bus again the next time you want to do sidechaining, you can save the bus you’ve configured as a track template! You’ll find the options for that by right-clicking the name of the bus. To add a new bus using that template, just go to the Add Track-dialogue, and choose your newly created template in the “Configuration”-box. Viola!</p>
+<p>Written by <a href="http://www.zthmusic.com/">Gabriel Nordeborn</a><br /> </p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/recording-audio-and-using-midi-ardour-3">Recording audio and using MIDI in Ardour 3</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/basic-mixing-ardour-3">Basic mixing in Ardour 3</a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/ardroid-android-application-how-use-it-ardour">Ardroid (Android application): How to use it with Ardour</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/linuxsampler-and-ardour-using-them-together">Linuxsampler and Ardour: Using them together </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/sidechaining-qtractor-using-ducka">Sidechaining in Qtractor using Ducka</a></div><div class="field-item even"><a href="http://libremusicproduction.com/articles/ardour-3-tips-and-tricks">Ardour 3 Tips and Tricks </a></div><div class="field-item odd"><a href="http://libremusicproduction.com/tutorials/setting-and-using-drumgizmo-ardour">Setting up and using Drumgizmo in Ardour</a></div><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/how-use-outboard-gear-ardour">How to use outboard gear in Ardour </a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="https://libremusicproduction.com/tutorials/sidechaining-ardour-3" st_title="Sidechaining in Ardour 3" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/tutorials/sidechaining-ardour-3" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-2jNawRWURSOhfj8iaYIqGhHNHwNYIAk-aYBjbddErPk" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/tutorials/sidechaining-ardour-3" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Y4tFXxKetZ5aAtW0OuBljHAgzC_JDf00N-COXlCo44E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

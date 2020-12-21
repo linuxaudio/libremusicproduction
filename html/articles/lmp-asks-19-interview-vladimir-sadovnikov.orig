@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-19-interview-vladimir-sadovnikov" />
+<link rel="shortlink" href="/node/476" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #19: An interview with Vladimir Sadovnikov | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"MdED2LA5O47jJfpqbg-DC3YbwR4OlKvmxeoSM0qVGz0","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/lmp-asks-19-interview-vladimir-sadovnikov":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-476 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #19: An interview with Vladimir Sadovnikov                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-476" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-19-interview-vladimir-sadovnikov" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #19: An interview with Vladimir Sadovnikov" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="16" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2016-06-20T12:49:35+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2016-06-21 14:15</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/ardour">Ardour</a></div><div class="field-item odd"><a href="/tools/calf-plugins">Calf Plugins</a></div><div class="field-item even"><a href="/tools/hydrogen">Hydrogen </a></div><div class="field-item odd"><a href="/tools/qjackctl">Qjackctl</a></div><div class="field-item even"><a href="/tools/tuxguitar">TuxGuitar</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="" src="/sites/default/files/articles/vlad_on_stage1.jpg" style="width: 600px; height: 400px;" /></p>
+<p>This month LMP Asks talks to Vladimir Sadovnikov, programmer and sound engineer, about his project, <a href="http://lsp-plug.in/">LSP plugins</a>, which aims to bring new, non existing plugins to Linux. As well as the LSP plugin suite, Vladimir has also contributed to other Linux audio projects such as <a href="/tools/calf-plugins">Calf Studio Gear</a> and <a href="/tools/hydrogen">Hydrogen</a>.</p>
+<p><strong>Hi Vladimir, thank you for taking the time to do this interview. Where do you live, and what do you do for a living?</strong></p>
+<p>I live in Saint Petersburg city, Russian Federation. Currently, and already for more than eight years, I'm a software developer in a software company that specializes in telecommunications. My point of responsibility is database development, database administration, Java development. I develop network and web services that provide operation and maintenance for our complex solutions.</p>
+<p>Also I deliver lectures for a database development course in a college.</p>
+<p>Other times I perform the function of the founder, guitarist and extreme/back-vocalist of a not so well known Saint Petersburg's metal band, <a href="/music/forzee">Forzee</a>.</p>
+<p><img alt="" src="/sites/default/files/articles/vlad_on_stage2.jpg" style="width: 600px; height: 900px;" /></p>
+<p><em>Vladimir onstage with his band, Forzee</em></p>
+<p><strong>Can you tell us a bit about the history of the Linux Studio Plugins project and why you started it?</strong></p>
+<p>The decision to found the project came not straight away.</p>
+<p>When I started to learn sound production, I was already a confident Linux user and developer. I already knew that Linux wasn't a popular platform for sound production but certain reasons and my obstinacy forced me to make the decision to keep working under this platform.</p>
+<p>The first reason is that all software development in our company is based on Linux platform. We build software that works under Linux and we use Linux machines for this process. In some cases we work directly from home, and Linux with SSH client is the best way to access the remote systems and operatively fix some critical issues or update software/configuration. So the necessity to keep Linux on my home PC played a great role.</p>
+<p>Second, due to some historical reasons, for many years Windows was the most popular operating system in Russian Federation. Sound production under this platform with cracked Cubase, cracked plugins and some other warez was the standard for many years until Bill Gates personally came to our country.</p>
+<p>I actually don't know what he did but awhile ago our government adopted a anti-piracy law. This law didn't affect end-users in the home usage segment but for enterprises it was a very sick strike: now they had to purchase licenses for all software they've used previously 'for free' from such vendors as Microsoft, Adobe, Autodesk, Corel, etc.</p>
+<p>Also some civilians that installed non-licensed software on demand by small companies were caught by the police and arrested. So the Windows platform for me was a very-very bad idea. Already before this law was adopted, I decided to use mostly software with free licensing and only in exceptional cases purchase licenses for products that I needed.</p>
+<p>I should also probably mention Apple. In our country Apple always was too expensive. Some people specially went to Finland to purchase new iPhones because, when it was first released in Finland, it was twice as cheap as in Russia. So Apple in our country is rather an attribute of prestige than a good instrument for daily purposes.</p>
+<p>All who have large amount of money buy gold iPhones, all who don't buy Chinese smart phones on AliExpress. And the Windows-related situation didn't pass by Apple either. Cracked plugins from torrents, non-licensed software and other warez is still in use also by Apple users.</p>
+<p>So you already know what decision I had made. Then I began to study tools available under Linux. When I started, I used <a href="/tools/ardour">Ardour</a> 2 with a couple of LADSPA plugins that came out-of-the-box from my favourite distribution, <a href="https://www.opensuse.org/">openSUSE</a>.</p>
+<p>They didn't impress me at first. I tried to do some work with them but the result was not the best. The main reason was that I wasn't an experienced sound engineer and the generic <a href="/answer/ladspa">LADSPA</a> standard didn't provide any mechanisms to display user-friendly UI. So I moved sliders in the generic UI and in most cases didn't understand, does the plugin affect any changes to the sound or not.</p>
+<p>Human nature is so that the largest quantity of information we take in is by sight. With visual representation of processes we learn much faster than without. So I began to seek plugins with relatively good UI and found linuxDSP project. Without any thoughts, I immediately purchased license keys for plugin bundles and... the UI didn't start in my out-the-box Ardour. When I contacted to linuxDSP support, they suggested to try Ardour 3, so I downloaded it and... was completely impressed. The difference between the second and third versions of Ardour was like heaven and hell, and my linuxDSP plugins now showed their UIs. Some time ago I found Calf, then Invada and so on. So my collection of plugins began to grow.</p>
+<p>But not all plugins that I used could satisfy my needs. For example, some years ago I was experimenting with multi-micing guitars and the main problem was the <a href="/answer/phase">phasing</a> of the microphones. There were no plugins that allowed to precisely correct phase problems between tracks. I can say more: Cubase users still manually move tracks in the time line to achieve the correct phase alignment.</p>
+<p><img alt="" src="/sites/default/files/articles/lsp_development.jpg" style="width: 600px; height: 450px;" /></p>
+<p>My solution was simple: to add some delay to the track for the microphone that is placed nearest to the sound source. This can be achieved by a simple delay plugin. But there was no delay plugin that allowed to easy translate distance (meters and centimeters) into time frames/samples. So I started to experiment with LADSPA, and after about one week finished a complete solution. But the generic LADSPA UI didn't satisfy me and I began to search for projects that I could contribute code towards.</p>
+<p>The main candidate was Calf, and I submitted some patches to it's tracker (at that time it was on SourceForge.net). The result of my contribution didn't satisfy me. After I contributed a fourth plugin prototype, the development stalled. Mostly because only two of my prototypes were approved by the team, with no feedback after that point. But I still needed (and used!) these prototypes for my purposes. After Calf migrated to Git, I submitted a pull request of a Trigger prototype (LADSPA Trigger is a piece of very-very bad plugin implementation). That request still hangs there for more than two years. So I decided to stop contributions to Calf and take a rest.</p>
+<p>The idea to do the independent plugin package came back when I got certain comments and questions about... availability of my prototypes in the Calf package. I understood, that I need these plugins and other people also asked for these plugins. Also I didn't want to back-port my prototypes to every new Calf release. So I decided to start my own development from scratch.</p>
+<p>Also I became ambitious to develop something useful after visiting special courses of sound production. I was the only one in the teacher's memory who used Linux+Ardour to mix the song he gave to us as an exercise. And after he heard the final result, he admitted that Linux can be used for professional mixing. So after I finished the course of sound production and took a bit of the rest, I stared my own project.</p>
+<p><img alt="" src="/sites/default/files/articles/vlad_certificate.JPG" style="width: 600px; height: 338px;" /></p>
+<p><em>Vladimir receiving his certificate from sound engineer Mark Likhter</em></p>
+<p><img alt="" src="/sites/default/files/articles/vlad_cert_close.jpg" style="width: 600px; height: 800px;" /></p>
+<p><em>Close up of certificate ... meow</em></p>
+<p><strong>LSP plugins use an interesting release model, similar in ways to the <strong>release model used in the past by </strong>OpenAV and Infamous plugins, the main difference being that you provide binaries when you release the plugins, with donation goals opening up the source code. Can you tell us about why you came up with the model?</strong></p>
+<p>It's nothing special for me. I have a regular salary as a software developer, so don't have a lot of difficulties with money. Still, my monthly salary isn't comparable to the salaries like in USA or Canada. That's why many foreign software companies open branch offices in our country. They can pay a bit more than the native companies and become high-quality specialists. It's curious but Moscow can be perceived as an individual state or country, too: software companies from Moscow often open branch offices in Saint Petersburg and hire specialists here because in Moscow they should give twice greater salary to the employees. Currently I don't want to farewell Russia but I don't exclude the possibility that I will do it if the political climate will significantly degrade.</p>
+<p>On the other hand, I'm interested in sound production and have purposes for some music stuff. For example I could purchase some studio gear or software licenses if my work under the LSP Project returned some profit. I know that first of all I develop plugins for my personal purposes and publish results that can be freely used by others. On the other hand, I don't publish source code until I earn some money for it.</p>
+<p><img alt="" src="/sites/default/files/articles/spektrumanalysator.png" style="width: 600px; height: 205px;" /></p>
+<p><em>LSP plugins spectrum analyzer</em></p>
+<p>Also I don't ask huge amounts of money for each plugin. If you ever purchased software licenses for proprietary plugins, you may notice that the goal for each my plugin is similar to about 10 individual license purchases of proprietary plugins. But instead you will get the full code of the plugin instead of license file or license key. In most cases the goal I assign to the plugin is proportional to the time I've spent developing this plugin. So far, the donation model hasn't fulfilled my expectations, and currently my <a href="https://salt.bountysource.com/teams/lsp-plugins">BountySource account used for donations</a> has only $20 on account: $15 were donated by only one user and $5 were donated by myself for test purposes.</p>
+<p>Probably, some of people may think that I'm afraid to show my code. It's not true: I had some issues related to Ardour and <a href="/tools/carla">Carla</a> hosts that stopped me releasing the 1.0.6 version of LSP software. So I contacted to <a href="http://gareus.org/">Robin Gareus</a> (x42) and <a href="/articles/friday-interview-2-falktx">Filipe Coelho</a> (falkTX) and provided to them access to the repository with LSP source code. Together we fixed some issues related to my LV2 implementation of plugin wrapper and some problems with Ardour and Carla hosts.</p>
+<p><strong>What are your future plans for the project?</strong></p>
+<p>I'm still interested in development of plugins. I already have large list of TODO plugins, some of their implementations are also available in other plugin distributions, some of them didn't ever exist under Linux platform.</p>
+<p>The usefulness of these plugins I can estimate only after prototyping stage. Also I can say that most of plugins become radically different to their prototypes after the development stage. That's why I always try them in real conditions, on real projects. For example, when I decided that I need to implement my own sample player (Klangerzeuger), I didn't plan to implement anything more. But when I tried it as an application to play drum samples, I noticed that the solution I've provided was inefficient for simulating drums. It's easier to process all drum samples with one plugin instead of using set of plugins for each instrument in the drum set. So I re-engineered the prototype and implemented an additional drum sampler (Schlagzeug) series. Some people on <a href="https://linuxmusicians.com/">linuxmusicians.com</a> noticed that this sample player didn't eat so much CPU resources like other alternatives - and that was the main rating for the quality of developed plugin series.</p>
+<p>I won't tell about the far future because I don't know exactly what will take for prototyping in the first order, but the nearest plans are to complete the trigger plugin. This version will be much better than the trigger that hangs in Calf's pull requests for two years and significantly better than LADSPA trigger. Currently due the lack of time I am stuck on the implementation of some UI widgets that are required by this plugin, but the core DSP code is already done.</p>
+<p><img alt="" src="/sites/default/files/articles/triggersensor.png" style="width: 600px; height: 295px;" /></p>
+<p><em>LSP plugins Triggersensor</em></p>
+<p>Also the 1.0.8 release will contain new packages with stand-alone versions of plugins that work under <a href="/articles/demystifying-jack-–-beginners-guide-getting-started-jack">JACK</a>. Then probably I'll concentrate my effort on digital filters.</p>
+<p>Most plugins in TODO list require the usage of different kind of filtering, otherwise they will contain some lack in the functionality, and some of them even can not be implemented. Because I've studied filtering principles many years ago at the university, and there was nothing special about digital filtering (we studied only analog implementations), I've completely forgotten the basic principles and shall fill the lack of my knowledge base first. But this will take some time.</p>
+<p><strong>Can you tell us a bit about any other projects you are involved in?</strong></p>
+<p>LSP Project is the first public project that I'm solely involved in.</p>
+<p>Previously I've contributed a bit to the <a href="https://en.wikipedia.org/wiki/Vsftpd">VSFTPD</a> project. When I tested software module for the system developed by our software company, I noticed that some <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">FTP protocol</a> messages were interpreted differently to the other FTP servers. So I submitted a patch to the VSFTPD project, and part of it was approved.</p>
+<p>Also I worked with the <a href="https://en.wikipedia.org/wiki/HSQLDB">HSQLDB</a> project for some time when one of our solutions was based on HyperSQL database. I noticed that for our case the database engine issued memory leakage on high load conditions. So I reduced the case to the simplest possible test case and submitted it to project's bug tracker. Some times ago Fred Toussi fixed the problem and asked for testing. The database engine passed our high load tests and I confirmed that all was OK.</p>
+<p>Also I’ve done some work for the Hydrogen project. Because I had real needs to copy notes between different instruments, I implemented the prototype of note copying functions between different instruments. The patch I published was approved and now Hydrogen has this functionality.</p>
+<p>I also started my own project, an OS kernel that still can be <a href="https://sourceforge.net/p/xskernel/">found on sourceforge.net</a>.</p>
+<p>Also you probably still remember the story with Calf. Calf Compensation Delay Line and Calf Haas Enhancer also were things I've done.</p>
+<p><strong>What is your musical background?</strong></p>
+<p>I like to play different kinds of metal. I mostly prefer thrash, gothic, death and melodic death metal.</p>
+<p>For more than one year ago I was involved in my own project, it was the band called Forzee. We produced a melodic album called "Mirrors", all sound producing was made by myself under the Linux platform in my home recording studio. But my lack of some experience in sound producing at that time affected the quality of the final tracks, so I think it's not the my best work in sound producing.</p>
+<p>After the introduction of the album the work in the band got stuck, most of the members lost the motivation. Also there were serious conflicts in discussion about the future material to aim to. So I decided to dispose the band and to start new project based in part on old material and drafts that were too long in the uncompleted state in the Forzee band. Currently, already for the last year, I'm trying to start the new project but the result is not so great as expected. Probably in the nearest future the situation may change.</p>
+<p>What about instruments, I've played electric guitar for as long as I have been involved in music. Then also I got experience in academic singing and independently educated in extreme singing.</p>
+<p><img alt="" src="/sites/default/files/articles/vlads_instruments.JPG" style="width: 600px; height: 800px;" /></p>
+<p><em>Vladimirs guitars</em></p>
+<p>Also all of the bass tracks for the album were played by me because most of the time our band lacked a bass player. Also I've tried to play violin and synthesizer but had not enough time to work with them, so I'm a very-very bad player for these instruments.</p>
+<p>I can surely say that I'm adherent of the ESP company. The quality of their instruments is high, even for their budget stuff. Also they are very comfortable for me, sound good and look out very nice (I prefer the classic super strat body). Currently I'm owner of two LTD electric guitars, one LTD XTone acoustic guitar and one LTD bass. Of course, original series of ESP products made in Japan are better and sound better, but currently my stuff is completely satisfying my needs.</p>
+<p><strong>Tell us a bit about your programming history?  </strong></p>
+<p>I started to become interested in computer technics when I was in the 3rd grade of school (about 10 years old). The first books I read were taken from the public library and described very odd platforms with <a href="https://en.wikipedia.org/wiki/BASIC">BASIC</a> onboard.</p>
+<p>I didn't see a real PC before then. Finally when I touched a real PC, I realized that all except the general computation principles were extremely different to that, what was described in those odd books. So I was very impressed and wanted to make the computer to things I told it to do.</p>
+<p>Also I understood that the era of BASIC computers was already over and there were much more powerful tools to write programs with. So I asked my parents to buy me a book explaining modern and easy to study programming languages, and it was a book about <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)">Pascal</a>. The book wasn't too big (about 200 pages) but it very well described the syntax and most basic functions of the language.</p>
+<p>The main problem at that time was that our family had not enough money to buy a personal computer, and so, there was no way to practice real programming. So at the first time I wrote programs was in my exercise book, on paper, by hand.</p>
+<p>At the 5th grade, our school opened a computer class. There was some time to practice but the teacher didn't stay for long periods at the job and has gone away from school, so the class was closed while the school was searching for new teacher.</p>
+<p>The great step of my evolution occurred when my stepfather gave me a PC from his workplace, specially for me. Now I had real chance to verify all the programs I had written by hand.</p>
+<p>I installed <a href="https://en.wikipedia.org/wiki/Turbo_Pascal">Borland Pascal</a> and practiced it a lot. Also I decided that I need to learn touch typing, so I drew the keyboard layout on a sheet of paper, stuck it near my monitor and began to type text. The only rule was not too look at the keyboard and keep the right initial position of the fingers.</p>
+<p>Some time later, I was already able to program in Delphi 3 and knew about the existence of such powerful languages as C++. So I asked again my parents to buy me a book about C++, from the same series as the book about Pascal, and started to study it. But that book wasn't as good as the Pascal book.</p>
+<p>I noticed that many instructions in C++ were similar to Pascal and I tried to write some programs in Borland C++ 3.1 but the compilation was too hard, the compiler was swearing with unclear messages and I lost my interest in C++ for some time.</p>
+<p>At the end of 7th grade my school had found a teacher and the computer class was opened again, so there was the chance to practice after classes. We learned in the language school a deep understanding of the German language and common use of English, so there was no chance that many students were interested in computer science. But finally there were about 4-5 students interested in programming, so a programming crew formed, and we could practice programming after the classes together.</p>
+<p>A very good chance to practice suddenly came. I think that the intelligence about the 'well-formed programming team' propagated over the school and soon our physics teacher thought us about writing demonstration programs of some physical processes like the motion of molecules, collision of objects, flight of comets, the advance of waves etc. He provided all formulas and we wrote, tested, debugged and optimized programs. That was a really cool period: we learned by playing and played computer games together when we had a rest.</p>
+<p>After some time, I realized that the standard VGA graphics driver (resolution of 640x480 pixels with only 16 colors) that came with Pascal was too poor and in most cases slow, and PCs could allow much more. There was a possibility to enlarge the screen resolution with a standard VGA driver but there was no documentation for it. I knew that the solution could be found by doing some low-level operations, so I started to learn the assembly language.</p>
+<p>After about the year of studying and practicing with it I got a complete Pascal Unit that allowed to switch to 256-bit, 16-bit and 24-bit graphic modes with different resolutions and corresponding procedures for drawing different primitives like lines, circles, bars etc. Different graphic modes were set by the BIOS service, and all information was directly written into video buffer mapped to memory. For large modes there was also automatic bank switching provided.</p>
+<p>At that time I already knew how to program the keyboard controller and another standard devices like RTC, so we also got much more powerful tools than the standard Pascal's CRT module. In parallel I was studying Stroustroup's third edition book about the C++ Language and practiced it more consciously after I got a deep understanding of the architecture of the PC. Also I interested myself in programming 3D applications with OpenGL and DirectX but had not enough knowledge in linear algebra. Also at that time internet was expensive and not available for all, so it was hard to collect any information except for buying printed books. There were so many problems related to the 3D graphics I couldn't solve at that time.</p>
+<p>When I was studying at the 9th grade, my mother asked the management of her company to try me in real enterprise development. The company was not too large but produced telephone exchanges starting with hardware and ending up with software.</p>
+<p>I have worked in various capacities since then using many different languages. I still practice in C++ and assembly language by writing LSP Plugins. I always like to do something new that will extend my knowledge base. And digital signal processing is one of the things that allows to do it. I'm not a true C++ developer because I don't like STL, Boost and the ugly metaprogramming offered by C++. I don't trust the exception handling mechanism in C++, so I avoid any framework that uses one of the mentioned things and use C++ only as 'C with classes'. If you read the <a href="http://yosefk.com/c++fqa/defective.html">'Defective C++' FAQ</a> in the network, I can admit that I'm about 99% of the same meaning about C++.</p>
+<p><img alt="" src="/sites/default/files/articles/vlad_forzee.JPG" style="width: 600px; height: 400px;" /></p>
+<p><em>Shot of Vladimir with his band, Forzee</em></p>
+<p><strong>What is your advice for someone interested in plugin development on Linux?</strong></p>
+<p>It's a bit hard to start in plugin development for Linux. The main problem is that the new <a href="/answer/lv2">LV2</a> standard aimed to be the out-of-the-box standard for Linux DSP processing is very<br />difficult for the novice. Yes, some problems are solved by official examples written by Robin Gareus and HOWTOs at the <a href="http://lv2plug.in/">lv2.plug.in</a> site, but when I tried to understand the official doc, I noticed that some things described there (for example, LV2 paths extension) are completely different to the implementation done by audio hosts.</p>
+<p>I think it was not the best idea to make LV2 as the successor of the LADSPA standard. There was already one successor - DSSI, and, I think, it has failed. Yes, LV2 is flexible and extensible but the VST 2.4 standard ported to Linux in most cases still allows to reach the same things for the shorter term with less 'blood'. Really, LV2 Atoms some time ago delivered me a lot of pain. Also there is a significant problem when trying to combine GTK2 and GTK3, QT4 and QT5 between plugins and host. LV2 allows any popular graphic framework for usage, and this makes development of the host more complex.</p>
+<p>So the first thing that novices should to do I think, is to look at already existing projects and understand how everything is done there. I can surely say that I've experimented for about 2 months until got the first LV2 release working as I wished.</p>
+<p><strong>What is your typical workflow when making music?</strong></p>
+<p>In most cases the workflow of most tracks follows the same steps. The Idea starts with the riff or with some melodic line. In most cases I immediately record them in Ardour and write the scores with <a href="/tools/tuxguitar">TuxGuitar</a>, so I don't forget the notes.</p>
+<p>Then I use Ardour to extend the track, it delivers the fine possibility to improvise and record at the same time.</p>
+<p>So, with short steps, for about four or eight bars I first improvise the track, then put it into tablature and go on to the next step.</p>
+<p>In most cases the first thing I do is one or two guitar tracks. Then I start to think about other instruments, especially bass and drums. The prepared tablature/score helps a lot.</p>
+<p>For drum tracks I previously used Hydrogen but it couldn't deliver some functionality for me. So I think in the nearest future for prototyping I'll use LSP Schlagzeug instead because it delivers for me all what I need.</p>
+<p>After all tracks are written and recorded, I perform reamping of guitars and bass. If I need live drums, I hire a drummer and record the drums with all my equipment.</p>
+<p>Then I perform mixing and mastering and finally get the complete track.</p>
+<p><strong>Tell us a bit about your hardware set up</strong></p>
+<p>For recordings I use Focusrite Saffire Pro 40 audio interface. Also additionally I've purchased Focusrite OctoPre MK II because eight channels are not enough for drum recordings.</p>
+<p>Some years ago I started to prefer AMD so my current workhorse that I use for mixing is an AMD FX-8350 with 16 GB RAM and two Seagate Barracudas combined into software RAID 0.</p>
+<p><img alt="" src="/sites/default/files/articles/vlads_studio.JPG" style="width: 600px; height: 800px;" /></p>
+<p><em>Vladimirs home studio set up</em></p>
+<p>Also for live playing and live recordings I use my old Benq Joybook R56 R21 with Core 2 Duo T7250.</p>
+<p>Sadly, it's now only suitable for recording or playback as serious sound processing becomes like a hell. Some years ago this notebook became famous in Russian media because I successfully completed the moneyback for the pre-installed Windows Vista when I purchased it (<a href="http://sadko4u.livejournal.com/32864.html">Vladimirs own story here</a> &amp; <a href="http://www.cnews.ru/news/top/rossijskij_pretsedent_pokupatelyu_vernuli">Russian news site report here</a> - both in Russian. English version <a href="http://rusnewsjournal.com/3/362069/">here</a>)</p>
+<p><strong>What is your history with Linux?</strong></p>
+<p>First time I came across Linux was in school. Our computer science teacher brought in a CD with SuSE Linux and gave it to me. I installed it but thought nothing special about it. At that time it was like a toy for me. The serious knowledge I started to acquire was when I changed job and moved to the company where I'm currently working.</p>
+<p>I still had Windows XP on my home computer and Linux at work. After some time I've noticed that all my needs have complete solutions under Linux and decided to change the platform at home.</p>
+<p>First of all, I changed proprietary software on my Windows platform to <a href="http://libremusicproduction.com/answer/floss">FLOSS</a> software and used it for a while. And only at the second step I've boot up Linux system and started to work.</p>
+<p>Also there was an opportunity to do a lot of work for the company and for the university (at that time I was still studying in the university) and I decided to do it under Linux.</p>
+<p>I quickly adapted because I already had experience with FLOSS software, and one nice day I found for myself that I don't need Windows anymore. No more cracks, no more warez, no more BSODs, no more viruses, anti-viruses and another malware.</p>
+<p>I felt completely pure of licensing. So when our government adopted the anti-piracy law, I already used software under free licensing. And some time ago, I returned the ugly Windows Vista licence to Steve Ballmer and got my money back that I paid for their software when purchasing a laptop.</p>
+<p><strong>Why do you feel open source is important, and what for you is the most important aspect of Linux audio?</strong></p>
+<p>Open source is important because it takes fair principles as the basis. I really don't understand the motivation to sell 'boxed software' to end-users. I think that things done once should be available to all other people for free.</p>
+<p>Many people currently misunderstand the FLOSS principles. For example, they think that open source is completely free of any fees or payment. It's not true because in most cases the development of FLOSS-code was paid, if it is non-enthusiastic project. So the more correct way to understand the FLOSS principle for some large projects is "once paid - available to all". It's completely fair and I approve such idea.</p>
+<p>The second stereotype is that FLOSS is developed by non-professional people and bad specialists. I completely disagree with it because I look at source code of interesting projects and can surely say that it was developed by high-quality and very professional developers.</p>
+<p><strong>What do you feel is currently lacking in Linux audio?</strong></p>
+<p>First of all, Linux is currently lacking such software as Melodyne, that is very useful when correcting the pitch of vocal tracks. It is possible to run Melodyne under <a href="https://en.wikipedia.org/wiki/Wine_(software)">WINE</a> but... when I tried it, I was a bit disappointed about Melodyne. It did the sound processing well but I didn’t like how it worked with UI and audio files... also I think the license is a bit overpriced. But having a similar program under FLOSS license would be a great step forward and a killer app.</p>
+<p>Also there still is a significantly large lack of diverse sound processing plugins. There are a lot of software synthesizers but small amount of plugins that process live sound.</p>
+<p>Third, Linux has problems with device support. Vendors still do not consider that Linux can be a powerful competitor to other platforms. Many sound producers think that there's nothing to do under Linux platform. That's why there is a great lack of drivers for the audio devices.</p>
+<p><strong>What is your favourite FLOSS plugin?</strong></p>
+<p>After I got some experience in sound production, I completed my list of preferred plugins. The best equalizers in my opinion are Black-EQ (RIP, linuxDSP) for tone correction and Calf 12-band EQ for cutting resonances.</p>
+<p>I also tried <a href="/tools/eq10q">EQ10Q</a> but the last time I've used it, it generated random noise on the zero input. Maybe this was already fixed.</p>
+<p>Also I often use multiband compressors like Calf Multiband Compressor for individual track processing and MBC2B (RIP, linuxDSP) for mastering.</p>
+<p>Also Calf Limiter and Calf Tape Simulator allow easily to pump the loudness of the final track.</p>
+<p><img alt="" src="/sites/default/files/articles/%D0%97%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%B0_album.jpg" style="width: 600px; height: 816px;" /></p>
+<p><em>Home-produced album 'Зеркала' ('Mirrors') by Forzee</em></p>
+<p><strong>Are there any FLOSS projects that you are excited about at the moment?</strong></p>
+<p>I'm really excited about Ardour. In the last four years it has become a very powerful tool for making music. I use it everywhere and belong to the list of it's regular subscribers.</p>
+<p>Also I'm impressed about what Filipe Coelho (falkTX) does with Carla and supplementary plugins.</p>
+<p>I was also very happy when TuxGuitar 3 came out. I thought that the project had died, so the recent news about TuxGuitar inspired me.</p>
+<p><strong>What changes, if any, would you like to see within the Linux Audio community?</strong></p>
+<p>I think the best change in the Linux Audio community would be a foundation of development teams that will develop the missing audio software that currently does not have any alternatives under Linux.</p>
+<p><strong>What advice would you give to a new Linux Audio user?</strong></p>
+<p>Hmm... Really hard to say... Maybe to not be afraid. Linux has really good tools but the amount of these tools currently is not so huge like on commercial platforms.<br /> </p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-19-interview-vladimir-sadovnikov" st_title="LMP Asks #19: An interview with Vladimir Sadovnikov" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/lmp-asks-19-interview-vladimir-sadovnikov" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-zMBa6NADzrRL6vvomhGQrXXieyddjxFK5BqWpqE6ldQ" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/lmp-asks-19-interview-vladimir-sadovnikov" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-c2T5j6CiM7HCbAyp9uY7BhGThk_4Tdnm9RJEKWlnRoY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

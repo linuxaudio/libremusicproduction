@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - recording" href="http://libremusicproduction.com/taxonomy/term/17/feed" />
+<link rel="canonical" href="/area/recording" />
+<link rel="shortlink" href="/taxonomy/term/17" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/area/recording" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="recording" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>recording | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"jBibnOy86Npvly5evMTjxnJqxpRYc2sCV9HvvUXU3vY","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/area\/recording?page=4":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-17" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>recording</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  recording                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-17" class="taxonomy-term vocabulary-category">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-256" class="node node-tool node-teaser clearfix" about="/tools/giada" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/giada">Giada</a>
+    </h2>
+    <span property="dc:title" content="Giada" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/giada"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/giada-latest.png?itok=8JjCGG6o" alt="Giada" title="Giada" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Giada is a free, minimal, hardcore audio tool for DJs, live performers and electronic musicians. How does it work? Just pick up your channel, fill it with samples or MIDI events and start the show by using this tiny piece of software as a loop machine, drum machine, sequencer, live sampler or yet as a plugin/effect host.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/giada" rel="tag" title="Giada">Read more<span class="element-invisible"> about Giada</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-255" class="node node-news node-promoted node-teaser clearfix" about="/news/20141124-qtractor-sees-new-release" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20141124-qtractor-sees-new-release">Qtractor sees new release</a>
+    </h2>
+    <span property="dc:title" content="Qtractor sees new release" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-11-24T17:45:19+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2014-11-24 17:46</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20141124-qtractor-sees-new-release"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/qtractor.png?itok=DaZ1_TqP" alt="Qtractor sees new release" title="Qtractor sees new release" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div><span style="line-height: 1.538em;"><a href="/articles/friday-interview-12-rui-nuno-capela">Rui Nuno Capela</a> has just announced a new release of <a href="/tools/qtractor">Qtractor</a>, this time codenamed 'The Baryon Throne'. </span></div>
+<div> </div>
+<div><span style="line-height: 1.538em;"></span></div>
+<div> </div></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20141124-qtractor-sees-new-release" rel="tag" title="Qtractor sees new release">Read more<span class="element-invisible"> about Qtractor sees new release</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-254" class="node node-news node-promoted node-teaser clearfix" about="/news/20141120-guitarix-0320-released" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20141120-guitarix-0320-released">Guitarix 0.32.0 released </a>
+    </h2>
+    <span property="dc:title" content="Guitarix 0.32.0 released " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-11-20T15:50:19+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2014-11-20 15:52</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20141120-guitarix-0320-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/news/GxMultiBandReverb.png?itok=fEGWpe31" alt="Guitarix 0.32.0 released " title="Guitarix 0.32.0 released " /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div>The Guitarix developers have just announced the release of Guitarix version 0.32.0. For the uninitiated, Guitarix is a tube amplifier simulation for JACK, with an additional mono and a stereo effect rack. Guitarix includes a large list of plugins and also supports LADSPA/LV2 plugins.</div>
+<div> </div>
+<div>This release fixes some bugs. It adds new tuning scales (19- and 31-TET) to guitarix and Gxtuner.lv2 and also includes a new LV2 plugin, GxMultiBandReverb.</div>
+<div> </div></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20141120-guitarix-0320-released" rel="tag" title="Guitarix 0.32.0 released ">Read more<span class="element-invisible"> about Guitarix 0.32.0 released </span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-252" class="node node-answer node-teaser clearfix" about="/answer/jack-aware" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/jack-aware">JACK Aware</a>
+    </h2>
+    <span property="dc:title" content="JACK Aware" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-11-13T14:36:31+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2014-11-13 14:37</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div>Any program that supports <a href="/answer/jack">JACK</a> is said to be JACK Aware. This means that it not only has support for JACK audio and <a href="/answer/midi">MIDI</a> ports, but that is also is capable of having it's timeline synced up via JACK. </div>
+<div> </div>
+<div>The combination of these two allow for <a href="/answer/modular">modular set ups</a> where programs can be interconnected, as well as being kept in sync. </div>
+<div> </div>
+<div>A list of JACK Aware programs can be found at <a href="http://jackaudio.org/applications/">jackaudio.org</a></div>
+<div> </div>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/jack-aware" rel="tag" title="JACK Aware">Read more<span class="element-invisible"> about JACK Aware</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-251" class="node node-tool node-teaser clearfix" about="/tools/non-software-suite" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/non-software-suite">Non software suite</a>
+    </h2>
+    <span property="dc:title" content="Non software suite" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/non-software-suite"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/non.png?itok=NZB7vOgX" alt="Non software suite" title="Non software suite" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div>The Non software suite is a compilation of 4 separate pieces of software intended to be used as part of <a href="/answer/modular">modular</a> recording set ups. The suite includes the following programs - </div>
+<div> </div>
+<ul><li>Non Timeline </li>
+<li>Non Mixer </li>
+<li>Non Sequencer</li>
+<li><a href="/tools/nsm-non-session-manager">Non Session Manager </a></li>
+</ul><div> </div></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/non-software-suite" rel="tag" title="Non software suite">Read more<span class="element-invisible"> about Non software suite</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-249" class="node node-tutorial node-promoted node-teaser clearfix" about="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager">Modular set ups, concepts and practices, using Non Session Manager</a>
+    </h2>
+    <span property="dc:title" content="Modular set ups, concepts and practices, using Non Session Manager" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="12" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-11-12T09:16:04+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 13:58</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tutorials/nsm.png?itok=1dBGNtv_" alt="Modular set ups, concepts and practices, using Non Session Manager" title="Modular set ups, concepts and practices, using Non Session Manager" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2><span style="line-height: 1.538em;">What is Session Management?</span></h2>
+<div><span style="line-height: 1.538em;"><a href="/answer/session-management">Session management</a> is used to solve the problems involved in managing <a href="/answer/modular">modular set ups</a>. Ultimately, it allows you to reopen multiple programs, their session files and instantly recall all connections between them.</span></div>
+<div> </div></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager" rel="tag" title="Modular set ups, concepts and practices, using Non Session Manager">Read more<span class="element-invisible"> about Modular set ups, concepts and practices, using Non Session Manager</span></a></li>
+<li class="comment-comments"><a href="/tutorials/modular-set-ups-concepts-and-practices-using-non-session-manager#comments" title="Jump to the first comment of this posting.">12 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-229" class="node node-news node-promoted node-teaser clearfix" about="/news/20141020-qjackctl-0312-released" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/news/20141020-qjackctl-0312-released">QjackCtl 0.3.12 released</a>
+    </h2>
+    <span property="dc:title" content="QjackCtl 0.3.12 released" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-20T07:45:07+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2014-10-20 07:45</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/news/20141020-qjackctl-0312-released"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/qjackctl.png?itok=ZeRU4Z9q" alt="QjackCtl 0.3.12 released" title="QjackCtl 0.3.12 released" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<p><a href="/tools/qjackctl">Qjackctl</a> version 0.3.12 has just been announced. This release includes the following changes -</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/news/20141020-qjackctl-0312-released" rel="tag" title="QjackCtl 0.3.12 released">Read more<span class="element-invisible"> about QjackCtl 0.3.12 released</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-225" class="node node-tool node-teaser clearfix" about="/tools/pure-data" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/pure-data">Pure Data</a>
+    </h2>
+    <span property="dc:title" content="Pure Data" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="8" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/pure-data"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/pd.png?itok=ZGR7RT3P" alt="Pure Data" title="Pure Data" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Pure Data (aka Pd) is an open source visual programming language. Pd enables musicians, visual artists, performers, researchers, and developers to create software graphically, without writing lines of code.</p>
+<p>Pd is a so-called data flow programming language, where software called patches are developed graphically. Algorithmic functions are represented by objects, placed on a screen called canvas. Objects are connected together with cords, and data flows from one object to another through this cords.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/pure-data" rel="tag" title="Pure Data">Read more<span class="element-invisible"> about Pure Data</span></a></li>
+<li class="comment-comments"><a href="/tools/pure-data#comments" title="Jump to the first comment of this posting.">8 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-219" class="node node-tutorial node-teaser clearfix" about="/tutorials/jannis-pohlmann-how-i-produce-music-ardour" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tutorials/jannis-pohlmann-how-i-produce-music-ardour">Jannis Pohlmann: How I produce music with Ardour</a>
+    </h2>
+    <span property="dc:title" content="Jannis Pohlmann: How I produce music with Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="8" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-10T13:18:49+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-06-03 08:49</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/tutorials/jannis-pohlmann-how-i-produce-music-ardour"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tutorials/2014-10-09-ardour-editor-choice.png?itok=wrSjZXqu" alt="Jannis Pohlmann: How I produce music with Ardour" title="Jannis Pohlmann: How I produce music with Ardour" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This article is written for all those interested in setting up a Linux home studio and using <a href="/tools/ardour">Ardour</a> to record and mix their music, with the help of numerous free and open source tools and plugins.</p>
+<p>I will illustrate my setup and processes based on songs created with my solo band MÆNAD, covering the recording setup, miking, audio interfaces, Linux configuration, tracking different instruments with Ardour, various mixing tricks using pass filters, <a href="/answer/eq">equalizers</a>, compressors and more, as well as exporting to WAV and FLAC/MP3.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tutorials/jannis-pohlmann-how-i-produce-music-ardour" rel="tag" title="Jannis Pohlmann: How I produce music with Ardour">Read more<span class="element-invisible"> about Jannis Pohlmann: How I produce music with Ardour</span></a></li>
+<li class="comment-comments"><a href="/tutorials/jannis-pohlmann-how-i-produce-music-ardour#comments" title="Jump to the first comment of this posting.">8 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-215" class="node node-tutorial node-promoted node-teaser clearfix" about="/tutorials/ardroid-android-application-how-use-it-ardour" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tutorials/ardroid-android-application-how-use-it-ardour">Ardroid (Android application): How to use it with Ardour</a>
+    </h2>
+    <span property="dc:title" content="Ardroid (Android application): How to use it with Ardour" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-10-07T21:56:29+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-05-07 17:04</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/tutorials/ardroid-android-application-how-use-it-ardour"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tutorials/ardour-active-with-ardroid-770x330.png?itok=LVYDRddD" alt="Ardroid (Android application): How to use it with Ardour" title="Ardroid (Android application): How to use it with Ardour" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><br /><em>In this tutorial, I’ll go through how to use your Android device to control Ardour through your network.</em></p>
+<p>Hi!<br />There’s a great Android application called Ardroid, which is intended to allow your Android device to work as a remote control for Ardour. Ardroid does this by sending OSC messages from your Android device, to you computer running Ardour. Ardour then lets your Android device control it through those messages.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tutorials/ardroid-android-application-how-use-it-ardour" rel="tag" title="Ardroid (Android application): How to use it with Ardour">Read more<span class="element-invisible"> about Ardroid (Android application): How to use it with Ardour</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/area/recording">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/area/recording?page=3">‹ previous</a></li>
+<li class="pager-item"><a title="Go to page 1" href="/area/recording">1</a></li>
+<li class="pager-item"><a title="Go to page 2" href="/area/recording?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/area/recording?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/area/recording?page=3">4</a></li>
+<li class="pager-current">5</li>
+<li class="pager-item"><a title="Go to page 6" href="/area/recording?page=5">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/area/recording?page=6">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/area/recording?page=7">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/area/recording?page=8">9</a></li>
+<li class="pager-next"><a title="Go to next page" href="/area/recording?page=5">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/area/recording?page=9">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/17/feed" class="feed-icon" title="Subscribe to RSS - recording"><img typeof="foaf:Image" src="http://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - recording" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/area/recording?page=4" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-34g1T13vxonP3J1GzRPJ8t5Ptn37SxSRv6pxoJZA-xw" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/area/recording?page=4" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-azONt2F2xdgKPDzMXTVXhEX3wJyAJOb8xMdz19eC6NI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

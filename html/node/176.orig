@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-11-ras-tilo" />
+<link rel="shortlink" href="/node/176" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #11: Ras Tilo | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"kgGzgDI6Z83rD_Lo-ys8q-u6OihbdzeOEWbSwuA8mmg","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/176":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-176 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #11: Ras Tilo                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-176" class="node node-article node-promoted clearfix" about="/articles/friday-interview-11-ras-tilo" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #11: Ras Tilo" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-12-27T12:08:16+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 14:03</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 11th edition of the Friday Interview! This week, we're joined by a musician and studio technician, and member of the band Superdirt². I'm very happy to introduce the 11th participant of the series, interviewee #11: <em>Ras Tilo</em>! Lets get started!</p>
+<h2>Introducing Ras Tilo</h2>
+<div class="well"><strong>Ras Tilo</strong> is a musician and studio technician from France, currently residing in Germany.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is recording, mixing, and live performances.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys travelling, the nature, going to concerts, languages, and social life.</div>
+<div class="well"> </div>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/ras-tilo-studio.jpg"><img alt="ras-tilo-studio" class="size-large wp-image-466" height="768" src="http://www.zthmusic.com/wp-content/uploads/ras-tilo-studio-1024x768.jpg" width="1024" /></a> Ras Tilo in his studio.
+<p> </p>
+</div>
+<p><strong>Hi Ras Tilo! Thanks for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>Hey Gabe! For now I'm living in Freiburg im Breisgau, in the south-west of Germany (close to the french and swiss border).</p>
+<p>My main job is music ;) I have my own recording studio where I record other artists and I produce and play live in our new electro project called “Superdirt²”. Sometimes I go for other jobs like graphic design or gardening and I'm working twice a week in Bar.  </p>
+<p><b>What's your musical background like? What music do you like, and do you play any instruments?</b></p>
+<p>Well, it's a kind of interesting questions.. :) I try to answer all in one: First I lerned and played violin (12 years) in Paris, where I grew up, but early I was fascinated by synthesizers and electronic music. In that time I heard a lot of reggae stuff, especially in the dub music genre (I loved the effects and the electronic touch), but also french rock and metal music. When I went to Germany I switched to electric guitar and vocals in a band for 5 years. Finally I came to recording and music production at all, first for my solo project (Ras Tilo), then Superdirt².  </p>
+<p><b>What's your history with Linux, and with using Linux for audio?</b></p>
+<p>I get to know Linux 8 years ago. I figured out the strong audio community and all the amazing music software there.. Since that time I switch completely to GNU/Linux for everything and especially for music production.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/ras-tilo-superdirt2-screenshot.png"><img alt="ras-tilo-superdirt2-screenshot" class="size-large wp-image-460" height="640" src="http://www.zthmusic.com/wp-content/uploads/ras-tilo-superdirt2-screenshot-1024x640.png" width="1024" /></a> <em>A screenshot of the computer of Ras Tilo at work.</em>
+<p> </p>
+</div>
+<p><b>You're in a band called Superdirt². Could you talk to us a bit about what that band is like, how it was formed, and what you're currently up to?</b></p>
+<p>That's a cool story! I know Daniel (the cello player) sind a ling time and I recorded in the past 3 of his albums. Two years ago he got a request to play as support for a great german band (Guts Pie Earshot) and if I could build some nice electro beats and perform with him. I agreed and built 5 electro tracks. We performed them and it was crazy!! Straight after the gig the peaole came to us asking our name, where to buy a cd, etc, and we got straight away 2 new gigs. Superdirt² was born!</p>
+<p>For now we played a lot in Germany (have a look <a href="http://www.superdirt.net">www.superdirt.net</a>) and now we are going on tour to New Zealand from January to March 2014. After that we want to go on tour through Germany and hopefully we are going to play at the Linux Audio Conference 2014 in Karlsruhe!  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-3.jpg"><img alt="superdirt2-performing-3" class="size-large wp-image-462" height="630" src="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-3-1024x630.jpg" width="1024" /></a> <em>Superdirt² performing live!</em>
+<p> </p>
+</div>
+<p><b>You also recently released your debut album. Could you talk a bit about that, how you recorded it, what the album is like, and how it was to make?</b></p>
+<p>Yes, we just released our full-length Album called “Algoriddims”! It's a colorful mix of drum'n'bass deep house, techno, house, dub and much much more, with beautiful cello melodies and hard rock cello riffs, a lot of cello loops and crazy synthesizers.</p>
+<p>The album's story is quite crazy as well ;) Shortly after our first gigs, the people really wanted to have a CD, so we just recorded down some nice sessions. I was really busy with the studio in that time so I postpone the mix... on year later and after a lot of gigs we had a listen to the recording and we figured out: We can't release our songs in that early stage! We developed the songs so much during the gigs, we had to record the album again! So we did it, we re-arranged the tracks and re-recorded everything. Now it is here and we are really happy!  </p>
+<p><b>That's a great debut album, and I really hope you do play at LAC2014. If you do, I'll hopefully be enjoying it live ;). </b></p>
+<p><b>What's in the future for Superdirt² after your tours? Record new material? Where do you want to go from where you are today?</b></p>
+<p>Of course we want to work on new material, record our second album, and probably a small remix cd. They are already a couple of tracks ready for the new album... ;)</p>
+<p>I have no Idea where we are going in the future, we'll see. But sure is, we want to go on and create more amazing electro-cello-sound!  </p>
+<div style="width: 728px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/ras-tilo-screenshot.png"><img alt="ras-tilo-screenshot" class="size-large wp-image-461" height="1024" src="http://www.zthmusic.com/wp-content/uploads/ras-tilo-screenshot-718x1024.png" width="718" /></a> <em>Another screenshot of Ras Tilo at work.</em>
+<p> </p>
+</div>
+<p><b>Can you talk a bit more about your studio, Sonejo? What kind of setup do you have there, do you use Linux/FLOSS software, and do you record any type of music?</b></p>
+<p>In my studio I'm working only with FLOSS software. For now I'm running Linux Mint 13 Maya (MATE Edition) because I really like the old gnome 2.x because it is quite fast, mighty, tested since ages and really stable. I had a try to gnome 3 and Unity but I couldn't configure my studio desktop properly.</p>
+<p>But I have to say the most important for me are the <a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">KXStudio repositories</a> where I get all the softwares I need for my work.</p>
+<p>My studio setup for productive work is JACK, Ardour, Hydrogen, Yoshimi/<a href="/tools/zynaddsubfx">ZynAddSubFX</a>, JKMeter and mostly the <a href="/tools/calf-plugins">Calf</a> and Invada plug-ins. But of course I'm always looking around for new amazing stuff like <a href="/tools/qtractor">QTractor</a>, <a href="/tools/audacity">Audacity</a>, <a href="http://kxstudio.linuxaudio.org">KXStudio</a> and the Distrho Project etc etc.  </p>
+<p><b>What applications do you primarily use yourself, when you make music?</b></p>
+<p>For making music I mostly use the same setup as in the studio and SooperLooper a lot, too (and I'm really happy to try <a href="/tools/luppp">Luppp</a> asap!) I really enjoy jaming around with loop machines and figure out tons of new ideas. Then I listen to them I take only the best tracks/ideas and record them properly again in <a href="/tools/ardour">Ardour</a>.</p>
+<p>For Superdirt² I'm using <a href="/answer/jack">JACK</a>, <a href="/tools/hydrogen">Hydrogen</a> (I figured out a workaround to use it as a mighty (never crashed until now!) live performance tool), Yoshimi/ZynAddSubFX, SooperLooper and Jack-Midi-Clock.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-2.png"><img alt="superdirt2-performing-2" class="size-large wp-image-459" height="576" src="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-2-1024x576.png" width="1024" /></a> <em>Ras Tilo getting his groove on. Watch out LAC 2014!</em><br /><h2> </h2>
+</div>
+<h2>Final questions</h2>
+<p><b>Do you feel like anything is lacking in Linux audio today, and if so, what?</b></p>
+<p>Until now for me a good live performance tool was very lacking, but now Luppp just got released.. :)</p>
+<p>Otherwise I miss a proper Drum Replacement Tool (beat recognition (threshold) to MIDI signal), there is the mda vst Beatbox quite okay (drum synthesis) but has no MIDI signal output and no sampler capability.</p>
+<p>Oh yes, I really miss a Bass Enhancer, but one that synthesis high harmonics on the top of the bass line (instead in the sub bass section like Calf Bass Enhancer). This is really useful for mixing song versions for small speakers (laptops, phones, etc). Otherwise, nothing!  </p>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>I'm mostly using the Invada Plugins (especially the Compressor) and the <a href="/tools/calf-plugins">Calf suite</a> (especially the 5-Band-EQ, the Reverb and Vintage Delay, the Filer the Exciter and the Bass Enhancer). I really like the TAP AutoPanner as well.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-1.jpg"><img alt="superdirt2-performing-1" class="size-large wp-image-463" height="563" src="http://www.zthmusic.com/wp-content/uploads/superdirt2-performing-1-1024x563.jpg" width="1024" /></a> <em>Ras Tilo and his bandmate at hard work, performing live.</em>
+<p> </p>
+</div>
+<p><strong>Where can people get a hold of you? Is there anything you would like to add to the interview?</strong></p>
+<p>Mail: <a href="mailto:azvinz@yahoo.de">azvinz@yahoo.de</a></p>
+<p>Studio: <a href="http://www.sonejo.net/" target="_blank">http://www.sonejo.net/</a></p>
+<p>Diaspora: <a href="https://diasp.eu/u/vinz" target="_blank">https://diasp.eu/u/vinz</a></p>
+<p>Facebook: <a href="https://www.facebook.com/vinzrastilo" target="_blank">https://www.facebook.com/vinzrastilo</a></p>
+<p>More info Superdirt²: <a href="http://www.superdirt.net" target="_blank" title="Superdirt Website">www.superdirt.net</a></p>
+<p>Video: <a href="https://vimeo.com/76955070" target="_blank">https://vimeo.com/76955070</a></p>
+<p>
+</p><div class="video-filter">
+<iframe src="//www.youtube.com/embed/5YAFu7hgbE0?modestbranding=0&amp;html5=1&amp;rel=0&amp;autoplay=0&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;autohide=0&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;enablejsapi=0" width="400" height="400" class="video-filter video-youtube vf-5yafu7hgbe0" frameborder="0" allowfullscreen="true"></iframe></div>
+
+<p><strong>Is there anything you would like to add to the interview?</strong></p>
+<p>Thanks for the Friday Interviews Gabbe, that's a great thing for the community and I really enjoy reading them. For me it is a bit like the Linux Audio Conference, a great way to connect the developers and the musicians! :)  </p>
+<p><strong>Oh, thank you, I'm very glad this has been received so well, and that people are giving amazing interviews! :D Thanks to you all. And thank you very much for the interview Ras Tilo!</strong></p>
+<p class="well">That was Ras Tilo. Thanks to Ras Tilo for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-11-ras-tilo" st_title="Friday Interview #11: Ras Tilo" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/176" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-POdzvlKeAkXo-plTRjj6-c8tuxZ2DeGzLy1QcOSxZS4" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/176" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4oH9XPN4GgHzk8vlvY-QdGxKgEUgA8OnARx4sOJX3NI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

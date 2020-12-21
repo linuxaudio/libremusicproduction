@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - fx</title>
+ <link>http://libremusicproduction.com/category/fx</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>convoLV2</title>
+ <link>http://libremusicproduction.com/tools/convolv2</link>
+ <description></description>
+ <pubDate>Sun, 27 Aug 2017 20:16:09 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">570 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/convolv2#comments</comments>
+</item>
+<item>
+ <title>a-plugins</title>
+ <link>http://libremusicproduction.com/tools/plugins</link>
+ <description></description>
+ <pubDate>Sun, 27 Aug 2017 14:54:26 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">567 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tools/plugins#comments</comments>
+</item>
+<item>
+ <title>New overdrive stompbox plugin, GxSD1 LV2 released </title>
+ <link>http://libremusicproduction.com/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released</link>
+ <description></description>
+ <pubDate>Tue, 31 Jan 2017 20:48:01 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">537 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20170131-new-overdrive-stompbox-plugin-gxsd1-lv2-released#comments</comments>
+</item>
+<item>
+ <title> Vee One Suite 0.7.6 released</title>
+ <link>http://libremusicproduction.com/news/20160919-vee-one-suite-076-released</link>
+ <description></description>
+ <pubDate>Mon, 19 Sep 2016 16:35:14 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">497 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160919-vee-one-suite-076-released#comments</comments>
+</item>
+<item>
+ <title>Autotuning &amp; pitch correction with Zita-AT1 in Ardour</title>
+ <link>http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour</link>
+ <description></description>
+ <pubDate>Mon, 25 Jul 2016 08:20:37 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">483 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/autotuning-pitch-correction-zita-at1-ardour#comments</comments>
+</item>
+<item>
+ <title>Guitarix 0.35 released including much anticipated interface redesign</title>
+ <link>http://libremusicproduction.com/news/20160603-guitarix-035-released-including-much-anticipated-interface-redesign</link>
+ <description></description>
+ <pubDate>Tue, 03 May 2016 19:10:56 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">455 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160603-guitarix-035-released-including-much-anticipated-interface-redesign#comments</comments>
+</item>
+<item>
+ <title>New video tutorial describing a complete audio production workflow using Muse and Ardour</title>
+ <link>http://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour</link>
+ <description></description>
+ <pubDate>Sun, 17 Apr 2016 16:19:48 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">452 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160417-new-video-tutorial-describing-complete-audio-production-workflow-using-muse-and-ardour#comments</comments>
+</item>
+<item>
+ <title>A complete audio production workflow with Muse and Ardour</title>
+ <link>http://libremusicproduction.com/tutorials/complete-audio-production-workflow-muse-and-ardour</link>
+ <description></description>
+ <pubDate>Sun, 17 Apr 2016 14:51:37 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">449 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/tutorials/complete-audio-production-workflow-muse-and-ardour#comments</comments>
+</item>
+<item>
+ <title>New Guitarix preset from Sebastian Posch</title>
+ <link>http://libremusicproduction.com/news/20160318-new-guitarix-preset-sebastian-posch</link>
+ <description></description>
+ <pubDate>Fri, 18 Mar 2016 19:14:55 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">435 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20160318-new-guitarix-preset-sebastian-posch#comments</comments>
+</item>
+<item>
+ <title>Infamous Plugins v0.2.0 Released!</title>
+ <link>http://libremusicproduction.com/news/20151216-infamous-plugins-v020-released</link>
+ <description></description>
+ <pubDate>Wed, 16 Dec 2015 11:55:57 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">423 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/news/20151216-infamous-plugins-v020-released#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/tutorials/arduino-and-midi-in" />
+<link rel="shortlink" href="/node/368" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Arduino and MIDI in | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"QaAtBW93c07AnQOLzwgDh8qSQyWgeLVKS7wYwwHKBYc","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/368":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-368 node-type-tutorial" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Arduino and MIDI in                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-368" class="node node-tutorial clearfix" about="/tutorials/arduino-and-midi-in" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Arduino and MIDI in" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-06-01T20:37:55+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Wed, 2017-01-11 23:24</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-tutorial-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/electronics" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">electronics</a></div><div class="field-item odd"><a href="/area/sequencing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sequencing</a></div></div></div><div class="field field-name-field-tutorial-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div></div></div><div class="field field-name-field-tutorial-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/arduino">Arduino</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="Arduino circuit photo." src="/sites/default/files/tutorials/midi_in_photo.jpg" /></p>
+<p>In this second installment of our Arduino tutorial series, we will learn to use the Arduino micro-controller as a tool to control electronics by reading MIDI, in this case turning on the Arduino's built in LED when it receives MIDI note on messages. If you haven't already read <a href="/tutorials/arduino-and-midi-out">our first Arduino tutorial on MIDI out</a>, we suggest you at least give it a quick glance.</p>
+<p>The hardware of this tutorial is inspired by the <a href="http://www.instructables.com/id/Send-and-Receive-MIDI-with-Arduino">Send and Receive MIDI with Arduino tutorial</a>.</p>
+<h2>Building the MIDI in interface</h2>
+<p>You will need the following components to build the MIDI in interface:</p>
+<ul><li>1 x Arduino UNO R3 (or similar)</li>
+<li>1 x breadboard</li>
+<li>1 x MIDI DIN contact</li>
+<li>3 x 220 Ohm resistor</li>
+<li>1 x 1N4148 diode</li>
+<li>1 x 10kOhm resistor</li>
+<li>1 x 6N138 optocoupler</li>
+<li>and some wires</li>
+</ul><p>These components can be bought at your local electronics store or on Ebay. You will also need a MIDI keyboard/controller and <a href="http://arduino.cc/en/Guide/HomePage">a computer running the Arduino IDE</a>.</p>
+<p>The reason why we can't interface our MIDI gear with the Arduino directly is that the two electronic circuits (the Arduino and the MIDI gear) have to be electronically isolated from each other. This is done by the opto-coupler, shown as a black IC with 8 legs in the middle of the breadboard below. (If you are interested in what the opto-coupler does, <a href="http://www.datasheetdir.com/6N138+Optocouplers">check out the datasheet</a>, but in short it contains an LED and a photo detector, transferring the signal as light before turning it into electricity again.)</p>
+<p>You put the components together like this:</p>
+<p><img alt="Arduino Midi In Schema" src="/sites/default/files/tutorials/midi_in_schema_0.png" /></p>
+<p>or you can follow the circuit design by <a href="http://www.amandaghassaei.com/">Amanda Ghassaei</a> (although she uses D0 while we use D2 as the Arduino input pin, and a 470 Ohm resistor whle we use 2 x 220 Ohm resistors in series):</p>
+<p><img alt="Arduino graphic schema" src="/sites/default/files/tutorials/midi_in_schema_graph_600px.jpg" /></p>
+<p>You can test the interface with the following code, which turns on the built in LED on the Arduino for every MIDI Note On message it receives:</p>
+<div class="lmp-code">// midi_in_test.ino<br />// version 2015-06-01<br />// Arduino MIDI tutorial<br />// by Staffan Melin<br />// <a href="http://libremusicproduction.com/">http://libremusicproduction.com/</a>
+<p>// libraries</p>
+<p>#include &lt;SoftwareSerial.h&gt;</p>
+<p>// We will use the SoftwareSerial library instead of the Serial library, as this will let us control which pins our MIDI interface is connected to.<br />SoftwareSerial mySerial(2, 3); // RX, TX</p>
+<p>// constants</p>
+<p>const byte midiNoteOn = 144;</p>
+<p>const int midiSendDelay = 100; // give MIDI-device a short time to "digest" MIDI messages</p>
+<p>#define PIN_LED 13</p>
+<p>#define MIDI_NOTE_ON 144</p>
+<p>byte midiByte;<br />byte midiChannel;<br />byte midiCommand;</p>
+<p>void setup() {<br />    // setup SoftSerial for MIDI control<br />    mySerial.begin(31250);<br />    delay(midiSendDelay);</p>
+<p>    pinMode(PIN_LED, OUTPUT);<br />}</p>
+<p>void loop () {</p>
+<p>    // Is there any MIDI waiting to be read?</p>
+<p>    if (mySerial.available() &gt; 0) {</p>
+<p>        // read MIDI byte</p>
+<p>        midiByte = mySerial.read();<br />    <br />        // remove channel info<br />        midiChannel = midiByte &amp; B00001111;<br />        midiCommand = midiByte &amp; B11110000;</p>
+<p>        // if it is a MIDI note on commannd, blink the LED    <br />        if (midiCommand == MIDI_NOTE_ON)<br />        {<br />            digitalWrite(PIN_LED, HIGH);<br />            delay(100);<br />            digitalWrite(PIN_LED, LOW);<br />        }<br />    } // mySerial.available()</p>
+<p>} // loop</p></div>
+<h2>A state machine</h2>
+<p>We would like to have some more control over the input and when to trigger the LED. We would like to take some action only when we receive a MIDI Note On message for a specific note on a specific channel.</p>
+<p>A nice way to handle several incoming bytes in a row is to use the state machine model. This works by letting the program exist in several different states, depending on what kind of MIDI data it has already received. For our program it is:</p>
+<p><img alt="State diagram." src="/sites/default/files/tutorials/midi_in_states.png" /></p>
+<p>We can do that with the following code which only turns on the LED when the user presses middle C on a controller on MIDI channel 1 (called 0 on some devices):</p>
+<div class="lmp-code">// midi_in_state.ino<br />// version 2015-06-01<br />// Arduino MIDI tutorial<br />// by Staffan Melin<br />// <a href="http://libremusicproduction.com/">http://libremusicproduction.com/</a>
+<p>// libraries</p>
+<p>#include &lt;SoftwareSerial.h&gt;</p>
+<p>// We will use the SoftwareSerial library instead of the Serial library, as this will let us control which pins our MIDI interface is connected to.<br />SoftwareSerial mySerial(2, 3); // RX, TX</p>
+<p>// constants</p>
+<p>#define PIN_LED 13</p>
+<p>// MIDI commands<br />#define MIDI_NOTE_ON 144<br />#define MIDI_NOTE_OFF 128</p>
+<p>// filter MIDI events on channel and note number<br />const int filterChannel = 0; // MIDI channel 1<br />const int filterNote = 60; // middle C</p>
+<p>// states<br />#define STATE_NONE 0<br />#define STATE_NOTE_ON 1<br />#define STATE_NOTE 2<br />int state;</p>
+<p>// keep action (LED) going for actionDuration milliseconds<br />bool actionOn;<br />unsigned long actionTime;<br />unsigned long actionDuration = 100;</p>
+<p>// received MIDI data<br />byte midiByte;<br />byte midiChannel;<br />byte midiCommand;<br />byte midiNote;<br />byte midiVelocity;</p>
+<p>void setup() {</p>
+<p>    mySerial.begin(31250);<br />    delay(100);</p>
+<p>    pinMode(PIN_LED, OUTPUT);<br />    <br />    state = STATE_NONE;<br />    actionOn = false;    <br />}</p>
+<p>void loop () {</p>
+<p>    // Is there any MIDI waiting to be read?</p>
+<p>    if (mySerial.available() &gt; 0) {</p>
+<p>        // read MIDI byte</p>
+<p>        midiByte = mySerial.read();</p>
+<p>        switch (state) {</p>
+<p>        case STATE_NONE:<br />        <br />            // remove channel info<br />            midiChannel = midiByte &amp; B00001111;<br />            midiCommand = midiByte &amp; B11110000;</p>
+<p>            if (midiChannel == filterChannel)<br />            {<br />                if (midiCommand == MIDI_NOTE_ON)<br />                {<br />                    state = STATE_NOTE_ON;<br />                }<br />            }<br />            break;</p>
+<p>        case STATE_NOTE_ON:<br />            midiNote = midiByte;<br />            state = STATE_NOTE;<br />            break;<br />            <br />        case STATE_NOTE:<br />            midiVelocity = midiByte;<br />            state = STATE_NONE;<br />            <br />            if (midiNote == filterNote &amp;&amp; midiVelocity &gt; 0)<br />            {<br />                digitalWrite(PIN_LED, HIGH);<br />                actionTime = millis();<br />                actionOn = true;<br />            }<br />            <br />            break;<br />            <br />        } // switch</p>
+<p>    } // mySerial.available()</p>
+<p>    // turn action off after predetermined time</p>
+<p>    if (actionOn)<br />    {<br />        if ((millis() - actionTime) &gt; actionDuration)<br />        {<br />            actionOn = false;<br />            digitalWrite(PIN_LED, LOW);<br />        }<br />    }    </p>
+<p>} // loop</p></div>
+<h2>Resources and files</h2>
+<ul><li><a href="/sites/default/files/tutorials/midi_in.zip">Arduino sketches (code) for this tutorial</a></li>
+<li><a href="/sites/default/files/tutorials/midi_in_schema.pdf">Vector (PDF) version of the circuit diagram</a></li>
+<li><a href="/sites/default/files/tutorials/midi_in_schema_graph.jpg">Hi res version of the circuit diagram</a> by <a href="http://www.amandaghassaei.com/">Amanda Ghassaei</a></li>
+<li><a href="http://www.midi.org/techspecs/midimessages.php">MIDI messages</a></li>
+</ul><p>by <a href="mailto:staffan.melin@oscillator.se?subject=LMP%20Arduino%20Tutorial%20Midi%20In">Staffan Melin</a></p>
+<p> </p>
+<p> </p>
+</div></div></div><div class="field field-name-field-tutorial-related-content field-type-link-field field-label-above"><div class="field-label">Related content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://libremusicproduction.com/tutorials/arduino-and-midi-out">Arduino and MIDI out</a></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/tutorials/arduino-and-midi-in" st_title="Arduino and MIDI in" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/368" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-gYNJUbQ8JZTo4MvEixo38xgS-RcwvZB8axzZhJEWV0w" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/368" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-YVPor-rKczU7-taE6AcFJwtzuTemMt-kUoKeJrQrS5k" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-4-interview-infamous-spencer-jackson" />
+<link rel="shortlink" href="/node/274" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                      | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"rG1aiJedAXQ3XdQqL6yR4o3MPyVH8DPVeilp7h9V-9Q","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/lmp-asks-4-interview-infamous-spencer-jackson":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-274 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                                     </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-274" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-4-interview-infamous-spencer-jackson" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-01-07T09:05:54+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-07-28 14:00</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/alsa-modular-synth">Alsa Modular Synth</a></div><div class="field-item odd"><a href="/tools/ardour">Ardour</a></div><div class="field-item even"><a href="/tools/hydrogen">Hydrogen </a></div><div class="field-item odd"><a href="/tools/infamous-plugins">Infamous Plugins</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>In our first interview of the year, LMP talks to the brains behind the <a href="/tools/infamous-plugins">Infamous Plugins</a> suite, Spencer Jackson.</p>
+<p><img alt="" src="/sites/default/files/articles/spencer1.jpeg" /></p>
+<p><strong>Hi Spencer. Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>I live in Logan, Utah, USA. I’m an electrical engineer in the R&amp;D department at ICON Health and Fitness. I do a lot of embedded development and focus on maintaining product quality in our Freemotion brand.</p>
+<p><strong>What was the drive behind making the Infamous plugins? </strong></p>
+<p>To make a short story long, I read a book about modular synthesizers when I was in middle school. I thought that sounded like the coolest instrument ever! <a href="http://en.wikipedia.org/wiki/Styx_%28band%29">STYX</a> was my favorite group at the time and their use of synthesizers was inspiring. But when I saw the cost of these, I thought I would never own own a hardware synth (I still don’t own any). Fast forward a few years and I installed <a href="/tools/alsa-modular-synth">AMS</a> but didn’t have a clue even how to get audio out. I remember sitting in my in-laws during Christmas break when I got my first sound from the AMS example instruments (I had just started figuring out <a href="/articles/demystifying-jack-–-beginners-guide-getting-started-jack">JACK</a>). It took quite a while longer before I had a clue how to use <a href="/tools/ardour">Ardour</a>. After a short while I had tried out all the different synths in linux. I like most all of them, but very few were plugins.</p>
+<p>I heard people talking about a lack of <a href="/answer/lv2">LV2</a> instruments and wanted to help. With my engineering Coursework I had enough DSP know-how but I didn't really have programming experience to make my own soft synth. I looked at a few plugins and got frustrated with it and gave up. A couple months later <a href="https://github.com/x42?tab=repositories">Robin Gareus</a> was making the LV2 MIDI plugins which at the time only had a uniform random distribution in some of the "humanizing" plugins. I figured the task is really better served with a normal distribution so I contributed a function to do so. Robin helped me a little and just that final bit of experience gave me enough confidence to make my own plugins.</p>
+<p>Of course, my first plugin would be a synthesizer. I had recently run into cellular automatons on youtube and had coded up a tiny utility to generate them and decided that would be a good way to make my synth unique. So I spent a couple months coding in my free time and during my lunch break and the Cellular Automaton Synth was born. I still consider it the landmark plugin of the set.  Its by far the most complex and sophisticated.</p>
+<p>Most of the other plugins were either refinements of experiments and ideas I had (hip2b, cheap distortion) or the direct result of someone asking for something (envelope follower, power cut/up). Really though, the strongest thread between them is that they were interesting for me to make. I guess the other thing is when I want some piece of gear I can’t afford I’ll try to make my own with software (stuck).</p>
+<p><img alt="" src="/sites/default/files/articles/infamous_plugins.png" /></p>
+<p><em>The Infamous Plugins</em></p>
+<p>The name “infamous” came around because I know I still have lots to learn (I’m an engineer, not a programmer) and I figure I’ll make some mistakes. Some of the effects aren’t exactly conventional or at least I strive to make them each unique, so they’re bound to be infamous. Known for good or ill, I hope they get noticed and used creatively.</p>
+<p>Other projects I work on actively is the userland MIDI “driver” for rockband and guitar hero drumkits, and now the <a href="http://sourceforge.net/projects/osc2midi/">osc2midi utility</a> I’m currently developing. I do a bit of this and that and try to contribute to the community in the ways that are most useful, but usually it comes down to working on something when I want the end result. It works best that way because I’m excited to see a quality product come out of it.</p>
+<p>I don’t have the time or discipline to do a large project, so its mostly small plugins and utilities that have a fairly clear finish line of completion. Even with plugins, I have several that I have started, hit some obstacle, then got distracted by another project. I might come back to them. But I like the feeling when you can say “its done!” (of course there is some maintenance, still) and lots of small projects mean you get to say it more.</p>
+<p>One of my favorite non-code projects is being host of the <a href="http://opensourcemusician.com/index.php/Main_Page">Open Source Musician Podcast</a>. I love talking about linux audio and teaching people. The technical segments are my favorite parts. I don’t get episodes out nearly as often as I wish I did but I plan to continue releasing them as I can. Hopefully once I have a permanent home for my equipment I can get more episodes out. But I really hope we’ll get more user contributed content and even other hosts making some episodes.</p>
+<p><strong>Can you tell us about your release model and why you decided to use it?</strong></p>
+<p>When infamous originally launched, the “<a href="http://infamousplugins.sourceforge.net/donate.html">donate</a>” page just had links to <a href="http://kxstudio.linuxaudio.org">KXStudio</a>, Ardour, <a href="http://www.bandshed.net/AVLinux.html">AV Linux</a> and other notable audio projects’ donate pages. I also had some lines describing the bartering system I believe in. Trade me presets for plugins. Tutorials for utilities. Bug reports for bugfixes. I really like that system, but based on several conversations I’ve seen and heard, especially revolving around Ardour financing, I realize there is a real need for exchange of money to support large projects. Youtube tutorials won’t feed the one guy with the skills and experience to pull off something that complex. And a kickstarter won’t feed him long enough.</p>
+<p><a href="http://libremusicproduction.com/articles/friday-interview-1-harryhaaren">Harry Haaren</a> had several successful fund raisers using his unique bounty for time release model, so I thought I would try it. I didn’t really want to create GUIs for the infamous plugins (I’m kind of a vim, command line, i3wm type geek and the DSP is the fun part) but I thought GUIs would be valued by the community and increase my usership. So I based the project on the <a href="http://openavproductions.com/">OpenAV productions</a> model: completing the work without sharing, then making the announcement with a target date.</p>
+<p>I do have some variations on the model: Harry had each donor give the same amount, I felt that everyone should be able to give the amount they want, those with more can buy more time for everyone. So I prorated the days; you could donate as little as you like and every $2USD buys a day ($20 buys 10 days etc.). The other main variation is that I said you can email me and negotiate a barter exchange for some time. If someone made some tutorial video, a great song, preset bank, documentation, etc., any extra effort to help build linux audio, I would move the release closer.</p>
+<p>Unfortunately the donate or just wait release system is no silver bullet. I had some very generous contributions right after the announcement, but haven’t received any further donations since about the first month. Perhaps more discouraging is that no one has offered any bartering deals. The mistake I made was that I overvalued the work. I have told Harry he sells himself short by releasing for so cheap, but he is wise to make each donation buy back a significant amount of time. Its a difficult problem of predicting market demand.</p>
+<p>I’m still trying to decide what to do since I really just want people to use and enjoy my plugins, but an unscheduled release completely undermines the whole concept and I feel would be damaging to OpenAV or any other project that uses it. I like releasing the GUI-less version so people can use the plugin immediately, but perhaps that reduces demand enough to hurt the fund-raiser.</p>
+<p>My goal was that the next batch of GUIs would use the same model but all donations would go to KXStudio or Ardour. I need a way to make it a bit more successful first. Failure in fund-raising is fine when just trying to get myself some studio monitors, but once I involve another project I am impacting their image. I’m still thinking about what the next step should be.</p>
+<p><strong>What is your musical background?</strong></p>
+<p>I’ve always loved music. It really is my passion. I grew up in a musical family, so my folks put me in piano lessons while in grade school. For how long I took lessons I should be much better, but I still love playing piano (even though I keep getting rustier).</p>
+<p>I also started playing trombone at 12 and never stopped. I’ve never gone very long without being in some jazz or swing band. Currently thats my only fully active music project; playing with Larry Smith’s Jazz Kicks big band. Its a great opportunity to play with class players. I love jazz but it doesn’t show through my music as much as I wish it did.</p>
+<p>Through college I played with a ska band, Viewers Like You. We were active 6+ years, till we all started graduating and getting jobs away from the valley. We got together for a show last year but its becoming less and less frequent. But I definitely have a lot of ska influence in my music.</p>
+<p><img alt="" src="/sites/default/files/articles/spencer2.jpeg" /></p>
+<p><img alt="" src="/sites/default/files/articles/spencer_band.jpeg" /><br /><em>Spencer in action with the Viewers Like You</em></p>
+<p>I taught myself guitar in high school. Through my early years of college I didn’t have a piano at home so guitar is what I played all the time, so I got quite a bit better at it. Like piano, I love playing guitar, though I’m not the best.</p>
+<p><img alt="" src="/sites/default/files/articles/spencer_guitar.jpeg" /><br /><em>Spencer jamming with his younger brother</em></p>
+<p>I suppose I could say that about every instrument. I love learning new instruments and playing anything that makes music, but I don’t have as much time as I wish I did to become “fluent” in them. I spend most of my practice time trying to keep up my trombone, piano, and guitar chops up, in that order. Additionally I have a banjo, bass, trumpet, recorder flute and a few other things at home and want to incorporate all of them into my music.</p>
+<p>Because I knew I was graduating and wouldn’t be able to play in the university jazz bands any more I started getting into recording. I love playing live shows but it takes a lot of time and as I’ve gotten busier, I can’t sustain playing in 4 active performing groups any longer. I wasn’t even sure if there would be any groups for me to play with once I finished school as I thought I’d be moving away for a job. So over several Christmases I’ve been collecting the necessary parts for a bare-bones recording studio. Recording is the closest thing I’ve got to being able to jam with a live band. And I’ve written lots of songs that I’d like to share with the world.</p>
+<p>I like to listen to most kinds of music though there are several genres I simply don’t care for.  Favorites include classic rock, jazz, progressive rock, fusion, ska, deep funk. Thats kinda the short list of what I listen to though everything from Opera to Neil Diamond gets smattered in. I love to find a song that really moves me and try to make a song with the same sort of sound and feel. I can name the “influencing song” on many of my recordings. Some might say I’m just stealing others ideas, but I prefer to say I’m forking them. ;)</p>
+<p>I'll go on all day talking about music if you let me.</p>
+<p><img alt="" src="/sites/default/files/articles/spencer_halloween.jpeg" /><br /><em>Spencer prepares for a halloween show... wearing his every day attire</em></p>
+<p><strong>What is your history with Linux?</strong></p>
+<p>Like many I came for the free stuff and stayed for the freedom. I was studying engineering, living by the university, and my old windoze desktop just crashed. My dad brought up the recovery CD and brought up an Ubuntu live CD and helped me get it dual booting. I booted windows to use Visual Studio for my programming class that semester and then I don’t know if I ever booted it again. I’ve never owned a machine that I didn’t install linux on since that one. That was around 2008.</p>
+<p>When my dad first suggested installing linux I thought it was all terminal and reading source code, like doing linux from scratch. Once I saw what it really was like to use daily I loved that it was different and everything was free.</p>
+<p>Nowadays that I do development I love the openness . If something is broken I can always fix it  myself (though realistically some things would take me years, we all have to pick our battles). I can take any program I use and make it do what I need, or use pieces of it as examples for writing my own software. I recently read a saying: “if you can’t change it, you don’t own it.” I love that. I personally make an effort to use as many open source programs as possible, even if a free (gratis) tool might make the job easier. Since I’m just making music for myself I can do that. There isn’t always an option though, I realize that, and I allow everyone to use what they choose.</p>
+<p><strong>What is your typical workflow when making music?</strong></p>
+<p>It’s really still evolving. I don’t think I’ve even done 2 tracks the same way yet. I dabble with different things but typically I’m doing traditional instrument based audio recordings, so Ardour has been the best DAW for me.</p>
+<p>I sometimes record a scratch track, then sequence drums and make a bass part, then guitar, keyboard, horns, then vocal, and finally any filler licks that it still needs. I used to do sequencing in <a href="/tools/hydrogen">Hydrogen</a>, but since moving to ardour 3 I’ve really liked keeping everything inside with plugins so I just sequence in ardour. One thing I do thats a little different is that I make a separate MIDI track for the snare, kick, and cymbals and route them all to an empty MIDI track that hosts <a href="/tools/linuxsampler">linuxsampler</a>. That way I can just use the fader in one track to raise the velocity of all the notes to change the volume of the drum. Its not perfect but it works for me to simulate a multi-track drum. Once I start getting more particular about sculpting the kick or snare sound I’ll need another method.</p>
+<p>The  approach I took on the last recording (<a href="https://soundcloud.com/ssj71/1-ton-tomato">1 Ton Tomato</a>) is to actually just record several takes of each lick right in a row until I have enough to work with. Then I piece the arrangement together, this take for first verse, that one for second etc.. This seemed to take more time in the long run, but it enabled me to accomplish everything with less time actually sitting in the studio (but much more time at the laptop editing).</p>
+<p>I’m pretty good about not starting mixing until the tracks are all there. I think it helps to have a clear cutoff between the recording and mixing stages. I haven’t focused on mixing much simply because I haven’t had monitors. Once mixing I always HPF every track and add some vocal compression, and eq, and add a reverb bus.</p>
+<p>Any time I need to process something differently on different parts of a track I just make a separate track (i.e. “dist guitar chorus” and “dist guitar bridge”) rather than mess with automation. I’ve heard it called multing. It makes it quicker I think and more organized. Automation gets saved for fader rides or things where I want you to hear it changing (like a filter sweep).</p>
+<p>I don’t typically do any surgical or complex mixing, but my recipe yields decent results while I am getting started. I’d love have the time to do much more of it and get better and more analytical about it.</p>
+<p><strong>Tell us a bit about your hardware set up</strong></p>
+<p>For a long time all my recording was done on my Core2 Duo Lenovo T400. Just this year I got an old desktop for $20 at work. Its a Dell compact desktop with a Core2 Duo at 3.0Ghz, which is plenty fast for a linux DAW. I have yet to complete a recording with it though, simply for want of time. My work also just upgraded my laptop to a macbook pro so I’m excited to play with it during my lunch breaks where I do a lot of my plugin testing (with guitar samples I’ve made). I won’t really produce with it though.<br /> <br />As my audio interface, I have a presonus Firebox that I got second hand, though I also have a cheap $8 chinese guitar link that I occasionally use with machines that don’t have firewire.  I really like the presonus. Its definitely not the limiting factor in my recording quality.</p>
+<p>I only have 1 mic. Its an AT3500. Its been a good mic. I’m still learning how to place it (and mic technique while singing), but when I did my first trombone recording with it last winter, I loved it!</p>
+<p>I do all my keyboard work with a Casio CDP100 digital piano which was the first thing I ever got with the intention of using with linux (I was going to use it with linux sampler, though I’ve used the internal samples the most). Its good for practicing or recording MIDI for piano parts but a little out of place when doing synthesizers (a USB MIDI keyboard is on the wish list).</p>
+<p>I have 1 electric guitar: a Korean HSS strat knockoff that I got for $35 out of the classifieds. I have an acoustic I play a lot but don’t record with because I don’t have a good sounding room. The bridge pickup of my electric gives me a tolerably acoustic like sound in a mix. For bass last Christmas I scored a $50 Charvel bass guitar.  I have a gold tone banjo that I have yet to use in a recording, but I play it for the kids a bit. And I’ve got a borrowed classical guitar.</p>
+<p><img alt="" src="/sites/default/files/articles/spencers_guitars.jpeg" /><br /><em>Spencer’s “axe” collection</em></p>
+<p>I used my FCB1010 MIDI controller for a little while with my band, and am starting to use it again for guitar work with a wah, and just jamming. Also being used as a MIDI controller is a second hand rock band drum kit from my brother that I let the kids use to play along with me. I haven’t sequenced with it because the rock band 1 kits don’t have velocity and I’m such a rotten drummer its faster to sequence. I’m practicing a little though.</p>
+<p>Notably, just this Christmas, I finally got some Blue Sky EXO2 monitors that I got lucky and found on ebay for nearly half the retail price. I read Mike Senior’s <a href="http://www.soundonsound.com/sos/jun11/articles/mixing-secrets.htm">Mixing Secrets for the Small Studio</a> a few years ago and totally bought into the sealed speaker idea. Blue Sky is one of the few companies that are making them. I’m super excited to try them out. Until now I’ve used my CAD 210 or the AKG M80MKII headphones for my sole monitoring source.</p>
+<p><img alt="" src="/sites/default/files/articles/spencer_studio.jpeg" /></p>
+<p><em>One incarnation of the <em>Spencer’s</em> studio in his college apartment </em></p>
+<p>We’re also re-finishing our basement, and one of the rooms will hopefully be a studio. In another year or two I hope the studio will finally stop moving (its been moved to 5 times since I started collecting the equipment in our 1 bedroom apartment) and get a well treated room and really focus on making good recordings.</p>
+<p>I’m keeping the whole studio quite minimal for budget reasons. I record everything direct and do as much as possible in the box. Not that I wouldn’t love a full tube stack in my studio, but I’d never get to play it as studio time is scarce and always after the kids are in bed. I still mic vocals and horns of course. Who knows what the future will bring?</p>
+<p><strong>Why do you feel FLOSS is important, and what for you is the most important aspect of Linux audio?</strong></p>
+<p>I love that FLOSS levels the playing field. When we go to the forums, even though we bring different skills to the table, there is never a discussion along the lines of, “why did they decide to do THAT with the software I depend on? Please go back!” You can fork, or find an alternative.  If you want something fixed you have much more leverage to get it fixed, you can contribute something. Its no longer just a creator-consumer relationship. Its a community where anyone can be anything.</p>
+<p>Going back to the saying: “if you can’t change it, you don’t own it.” I love that I own everything I use in my studio. And I often do look at source code for my own education and to make projects that (hopefully) benefit the community. So to me openness matters and that’s what sets Linux Audio apart.</p>
+<p><strong>What do you feel is currently lacking in Linux audio?</strong></p>
+<p>In general I have what I NEED. There are many things though that would be nice to have. I’d really like the Hydrogen editor to be ported to LV2. That would make loop based music and drum sequencing in Ardour a bit easier for those who don’t like Ardour’s MIDI editing paradigm. For me I think it would make it quicker to make more “lifelike” drum sequences.</p>
+<p>Really, I’d love to see more presets as well. Not so much in things like EQ where presets don’t usually apply from one context to another, but reverbs and effects are things that could really benefit from a good collection of presets to show off their capabilities. When you are auditioning plugins and deciding which to use, you don’t want to have to turn any knobs, just select a few presets and decide if it fits.</p>
+<p><strong>Outside of your own plugins, what is your favourite FLOSS plugin?</strong></p>
+<p>Thats a tough question. Almost like asking a carpenter what his favorite hand-tool is. I need all of them sooner or later! Probably a toss up between FIL and Invada HPF. Simply because I never export anything without a few instances of these workhorses. Not fancy, but they are effective. SC4 is right there too.</p>
+<p><strong>What changes, if any, would you like to see within the Linux Audio community?</strong></p>
+<p>Well, I do wish everyone could get along. We all have different personalities and unfortunately some folks’ tend to grate on others. I wish all our forums were free of flame-fests and petty things, but they aren’t. I realize this isn’t really something anyone can change, but everyone can decide to try to give people the benefit of the doubt, be a little more patient, and just play nice.</p>
+<p><strong>What advise would you give to a new Linux Audio user?</strong></p>
+<p>Stick with it. Decide if you are willing to make some small sacrifices (using workarounds as necessary, selective hardware support, etc) to be independent of any specific manufacturer or corporation. If you are you’ll be very happy with Linux Audio. Reach out for help if you get stuck or confused. If you demand a perfectly smooth experience, that’s fine, try linux and if you find the challenges insurmountable, then its ok to go face the challenges of other operating systems.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &amp;#039;Infamous&amp;#039; Spencer Jackson                                     " class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-4-interview-infamous-spencer-jackson" st_title="LMP Asks #4: An interview with the &#039;Infamous&#039; Spencer Jackson                                     " class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/lmp-asks-4-interview-infamous-spencer-jackson" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-b-Iv8Sg9woYWv4oCJI1otiwFxHdi-wVXXfG0pP5iJtA" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/lmp-asks-4-interview-infamous-spencer-jackson" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-7XmBvRDTokuq9Zyl50WO3B5cc3AEuEcU9LUzl1Y3D1s" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

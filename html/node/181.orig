@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-15-edgar-aichinger" />
+<link rel="shortlink" href="/node/181" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #15: Edgar Aichinger  | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"6BZZLqfG8_H_rxZ5ogFZaGITvT40_u16pyI-YFKVOl0","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/181":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-181 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #15: Edgar Aichinger                 </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-181" class="node node-article node-promoted clearfix" about="/articles/friday-interview-15-edgar-aichinger" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #15: Edgar Aichinger " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-01-24T10:06:58+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2014-09-14 10:18</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 15th edition of the Friday Interview! This week, we're joined by musician and freelancing sound and lighting technician with many years of experience using Linux to make music. I'm very happy to introduce the 15th participant of the series, interviewee #15: <em>Edgar Aichinger</em>! Lets get started!</p>
+<h2>Introducing Edgar Aichinger</h2>
+<div class="well"><strong>Edgar Aichinger</strong> is a freelancing sound and lighting technician/designer from southern Austria.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is workflow/user experience, bug fixing, distro packaging, dev/user communities. Being both technically minded and musician, he is interested in a smooth and failure-safe, reliable working environment.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys woodworking, cooking, gardening, travelling, mountain walking, and a lot of other things.</div>
+<p> </p>
+<div style="width: 477px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/Edgar-Portrait.png"><img alt="Edgar-Portrait" class="size-full wp-image-596" height="652" src="http://www.zthmusic.com/wp-content/uploads/Edgar-Portrait.png" width="467" /></a> <em>Edgar Aichinger himself!</em>
+<p> </p>
+</div>
+<p><strong>Hi Edgar! Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>Hello Gabbe, I'm Edgar Aichinger, or edogawa @ freenode IRC. I currently live about 25 km outside the city of Vienna, Austria, in a very nice village near the danube, St. Andrä-Wördern. That area also geologically marks the northern end of the alps.</p>
+<p>I work as technician and/or designer for sound and lighting, mostly in theatre. I have my small studio at home, and can supply a few pieces of equipment if needed. But in most cases the theatres we work at well-equipped venues (my customers are usually "free" groups or artists, not associated to a house). After school I wanted to study guitar, applied for jazz guitar at the Vienna conservatory, but failed to pass the entry exam (i was nervous like hell, and hadn't played any jazz before).</p>
+<p>A year later I tried again at Music Highschool Graz, for classical guitar, and failed again, but got a hint to take lessons for one more year and try again. My father alas stopped to support me financially, and I had to look for something else. So I moved to Vienna in early 1983, and thanks to the help of a friend I had a job after just 3 days.</p>
+<p>I worked as roadie/stagehand at the hippest disco in town (U4), that regularly had local and international punk and new wave concerts, also at the legendary Arena <a href="http://arenavie.com/web/" target="_blank">http://arenavie.com/web/</a>, and on tour with a few of the most famous austrian rock acts (Hallucination Company, Drahdiwaberl, Hansi Lang). Half a year later Hansi's career ended abruptly due to drug problems and money fights, they had no need for me anymore, I started a 2-year course in audio engineering, and about a year later another one for electro-acoustic music, which i didn't finish, at the Vienna Music Highschool.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-wall-of-instruments.jpg"><img alt="edgar-aichinger-wall-of-instruments" class="size-large wp-image-583" height="579" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-wall-of-instruments-1024x579.jpg" width="1024" /></a> <em>Edgar's wall of instruments. Impressive!</em>
+<p> </p>
+</div>
+<p>Formally I am sound technician only, but during my first employment in 1988, at the big hall in this space: <a href="http://www.wuk.at/language/en-US/WUK" target="_blank">http://www.wuk.at/language/en-US/WUK</a>, I also had to learn to do lighting. That place is where i got in touch with theatre, dance and performing arts, met a lot of young artists, and eventually started to do my own lighting designs. During the '90s this went really well for me, and slowly I built my home studio, bought an Atari Falcon with Cubase Audio and an 8-track D/A interface, but around 2000 these golden times started to fade. In 2004 the city of Vienna changed their funding policy radically, to support less artists with higher funds, and that's where many of my clients stopped producing.</p>
+<p>Also I had become father, and spent quite a lot of time at home with both kids while their mother went working, which was very beneficial for the kids and me, but not so much in regard to jobs as you can probably imagine. Moving outside the city didn't exactly help either. I have a few bigger jobs that i can count on though, like that huge dance festival Impuls <a href="http://tanzwochen.at" target="_blank">http://tanzwochen.at</a> I work for as lighting tech, almost every summer since 1997, and the operas my friends at <a href="http://www.sirene.at" target="_blank">http://www.sirene.at</a> keep producing. But that still doesn't make a full living, therefore these days I occasionally work as carpenter, together with a friend here in the village. I've always loved to do woodworking, and working with Stephan is teaching me a lot, and much fun, too.  </p>
+<p><b>What's your musical background like? What music do you like, and do you play any instruments?</b></p>
+<p>I grew up in this beautiful castle <a href="http://de.wikipedia.org/wiki/Schloss_St._Georgen_am_Sandhof" target="_blank">http://de.wikipedia.org/wiki/Schloss_St._Georgen_am_Sandhof</a>, which at that time was in a more humble condition than these pictures show. It had been rented to my grandfather after World War II, when about 30 people were working in his botanical institute. My parents had rented a flat in the former stable, and at an age of 7 or 8 I started to seek rooms with big reverb to sing out loudly. There was especially the garage below our flat, where everyone could hear me, and I didn't even realize or care. My grandpa had this idea to apply for Vienna Boy's choir, and to prepare for that, I got singing lessons from a retired opera singer for a whole year. I hated that!</p>
+<p>During next summer I had to absolve a 3-week test period with them, at their summer camp at the lake near my hometown. Another few weeks later we drove to Vienna, and it turned out that I had passed with bravour, but nevertheless they would not take me because I was a year too old! Beside that I also had lessons in treble recorder at the conservatory, but after this incident I stopped all of that and turned away from music for three years, maybe also because of the divorce of my parents, and problems with changing to secondary school.</p>
+<p>At age of 14 I started to study guitar on my own, and from the very beginning was totally fascinated by classical music (i mean everything ancient from medieval to late romantic music). But I also played and sang Beatles and other rock/pop songs, took part in a few band projects during the '80s, recorded a few songs and instrumentals with a friend of mine (who sadly died just recently), but usually we didn't get anywhere beyond crazy wild jamming... Eventually I lost interest and started to work alone at home, multitracking myself; first in mono with the Uher Royal 1/4 inch reel tape machine my father had given to me, later in stereo, by doing ping-pong recordings with this and an Akai cassette tape deck.</p>
+<p>Another few years later, around 1992 I got hold of a Tascam 238 8-track cassette recorder. I just started recording an idea and looked where it would go to with overdubbing, usually rather repetitive minimalistic stuff played on my guitars and some self-built or modified instruments from the fleemarket. Almost noone ever has heard these works until now, but I plan to release them on bandcamp over time. The first EP has just gone online, at <a href="http://edogawa.bandcamp.com" target="_blank" title="Edogawa's bandcamp">http://edogawa.bandcamp.com</a> :). I also "composed" a few pieces using my guitar, score sheet and pencil, but always had this feeling that I was lacking education to do that properly. I also recorded renaissance/baroque music, and sold a few dozens of a music cassette containing an hour of renaissance and baroque lute/vihuela solos and duets. I also made a few soundtracks for stage works or art installations during the '90s, and will put them on bandcamp soon, too.   <a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute.jpg"><img alt="edgar-aichinger-the-lute" class="aligncenter size-large wp-image-584" height="579" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute-1024x579.jpg" width="1024" /></a></p>
+<p>Then in 1994 I played a few measures on the intro of a no.1 hit here in Austria - "Tell Me A Poem" by Papermoon. Also, around that time my interest for classical singing grew again, and I started to sing in a choir for a few years. At that time I bought the 10-course lute I still have, and started to study it, first in renaissance tuning (very close to standard guitar tuning), later in baroque d-minor tuning, but without teacher again. Around 2000 I compiled another CD with french early baroque lute music, that I subversively copied and sold myself again (also only a few dozens through all these years), bypassing the music business.</p>
+<p>Currently I do a bit of madrigal-singing again, and every few months meet with one or two of my best friends for an evening or a weekend to play stuff like Beatles or jazz and bossa nova standards, and to freely improvise, just for fun. Recently I haven't composed much anymore, probably because money jobs and family take a lot of my time. Anyway, I have a few linux-made tracks that I also want to release in the near future.  </p>
+<p><b>What's your history with Linux, and with using Linux for audio?</b></p>
+<p>My computer story started with buying a second-hand Atari 1040 ST back in 1989, together with a Yamaha FB-01 sound module, and the guy in that store passed along a CD with cracked versions of a FB-01 <a href="/answer/midi">MIDI</a> editor and Cubase 1.0, which soon got replaced by 2.0, again the MCA crack. I was totally fascinated by all the things I could do with it, and also taught myself to program Omikron BASIC which I also had gotten. Then around 1994 the Falcon came out, and I managed to buy one, along with a speed/resolution extension, an 8-channel AD/DA breakout box and Cubase Audio Falcon. Atari died soon after that, and my system started to fall in parts around 2001.</p>
+<p>Inspired by Linus' OS, someone had written a multitasking kernel called MiNT, and a BSD like OS environment. It took me quite a while to learn how to install that, but when I had it running I used it all the time, at least when not making music with cubase or other incompatible apps. There was also gcc 3.7 (i think), so I also taught myself a bit of C over time. If I remember correctly, I also downloaded a pre-1.0 version of linux for MC68000, which would fit on ca. 10 floppy disks, and even managed to boot that a few times before loosing interest (no way to work in any meaningful way with that). Then around 1999 someone ported RPM to MiNT, and the packaging fun began. I helped porting a lot of rpm packages from RedHat, to build up a maintainable distribution for the Atari platform. Some central OS concepts were missing there though, like shared libs and memory mapping (they use a.out binary format, not ELF).  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-screenshot-qtractor.png"><img alt="edgar-aichinger-screenshot-qtractor" class="size-large wp-image-585" height="576" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-screenshot-qtractor-1024x576.png" width="1024" /></a> <em>A project of Edgar's in Qtractor.</em>
+<p> </p>
+</div>
+<p>Around 2003 I had to face the fact that my hardware started to die, so I bought a cheap AthlonXP box with SuSE 8.2 preinstalled. Well, next to nothing worked, and everything was so much more complicated - I was just lucky that I didn't directly depend on the computer system for my money jobs. Then I found out about other guys starting this JackLab thing, a project to turn SuSE into a pro-audio friendly system, with RT kernel, package repositories, forum, wiki and all that. I went on board, and soon came into touch with most interesting people like <a href="/articles/friday-interview-7-dave-phillips">Dave Phillips</a>, <a href="/articles/friday-interview-6-glen-macarthur">Glen McArthur</a>, who later started <a href="http://www.bandshed.net/AVLinux.html">AVLinux</a>, danboid, Alex Stone and many more, visited LAC 2007, held a workshop in Cologne, wrote docs, offered support on the forum and <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a>.</p>
+<p>We also played a big role when wineasio was revoked and developed into it's current shape, mainly by bringing the devs together, and in beta testing of the EnergyXT linux port, and the jucetice stuff, which IIRC got the linuxvst ball rolling. Our project leader was a bit of a borderline personality though, constantly changing his mind about how productive he would be able to get with linux at all, and in the end dropped it all to buy a Mac, closed all our services, and disappeared completely.</p>
+<p>Well that's the main part of the story... when JackLab closed in 2008, things had already become a lot easier. All I'm doing now on that front is to maintain a relatively small repository of rather specialized applications like <a href="/answer/lv2">LV2</a> plugins, arpeggiators, score and tablature editors and other stuff i'm interested in, but cannot find elsewhere. Just recently I have started to explore how to use the Open Build Service to manage packages for Fedora and Debian/Ubuntu, but I doubt I'll invest much more time in that.</p>
+<p><a href="/tools/ardour">Ardour</a> 3 is the program I am using most often, and because I'm constantly on a tight budget I try to return stuff other than money to the project. So I try to help with IRC support as good as I can, I supply screenshots and other material for the website or do proofreading when needed, sometimes I'm involved in design discussions, and currently I'm the main german translator. Updating the (incomplete) 2.0 translation was quite an amount of work, also because the fuzzy system had led to confusing/ambiguous or totally wrong german strings. I think it took me 2-3 weeks with a few hours almost every day to fix and complete it.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-screenshot-movie-ardour.png"><img alt="edgar-aichinger-screenshot-movie-ardour" class="size-large wp-image-586" height="354" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-screenshot-movie-ardour-1024x354.png" width="1024" /></a> <em>Movie work in Ardour!</em>
+<p> </p>
+</div>
+<p><strong>Rumor has it you're building your own lute. That is mighty special! Could you talk a bit about how that project came about, and how it's progressing?</strong></p>
+<p>The 10-course lute I own is a bit of a special case. It was built around 1978, a while before the big boom about early music and historic instrument making took off. While it is a fine instrument, with attributes defining it as baroque lute, it still has a shorter neck with only seven gut frets, and misses a low C bass course for most of the french and german early baroque repertory. I have this other 12-string lute-like instrument, called Harp-lute I think, from early 20th century, but that's not the real thing either, so I desperately want to have an instrument for playing late baroque music, which asks for 13 courses.</p>
+<p>I always have had an interest for building instruments. In 1997 I was living in Mexico City for 3 months, and brought a few pieces of tone wood with me (red cedar guitar tops, and a few ebony/rosewood fretboards). Then around 2000 I was given a cheap new, trimmed to look old workbench that had been used as set piece on stage and wasn't needed anymore - I put it in my living room and soon started making this cute mandolino, from plans I found on the net. I just wanted to know if I'd be able to build such a thing, and it turned out to work reasonably well, a lutemaker I know was pretty excited when he saw it.</p>
+<p>I always wanted to attend a building course with exactly that luthier, but each year it takes place just when I work at the summer festival and have the chance to earn a lot of money, so I never was able to go. And through al that time I had collected pieces of wood I thought to be appropriate, be it pieces of fine-grained spruce from old pianos that otherwise would have been dumped, knife handle blanks from olive or tropical woods found in shops or on fleemarket, limewood carving blanks for the neck, or walnut, cherry, pear, plum and boxwood logs or trunks that friends or neighbours here had cut in their gardens.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute-under-construction.jpg"><img alt="edgar-aichinger-the-lute-under-construction" class="size-large wp-image-587" height="579" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute-under-construction-1024x579.jpg" width="1024" /></a> <em>The lute under construction.</em>
+<p> </p>
+</div>
+<p>About a year ago my partner Andrea was involved in a severe train crash, with brain concussion, you will remember. She wasn't able to get up for a month, and of course I cared for her and the kids all that time. In the end she wanted to give a present to me, and I knew about this course "Build your own baroque lute" by british lutemaker David Van Edwards, which she ordered then.</p>
+<p>It's a course that estimates a building time of one year, three hours per week. But if you're doing that for the first time there's a lot of additional stuff to take care for, you need to learn to sharpen your knife and plane blades and scrapers to the extreme, make or buy some highly specialized tools like a bending iron, glue pot, swivel stand, peg sharpener, a drying chamber, templates, jigs and so on.</p>
+<p>I started by building the mould that is used to construct the bowl, then made that swivel stand, carved the neck block and cut a few pieces for the top bracing, the pegbox and bass rider extension, the neck and the bowl strips into rough shape in spring. Then during summer I had my usual job and 3 weeks of holiday, and since September I've tried to build my own bending iron out of an electric boiler plate and a steel pipe attached to it. It basically works now, but still needs modifications and some welding to add pipes for smaller radii. Actually I think just should have bought a commercial product instead, but on the other hand you learn a lot by experimenting.</p>
+<p>So that's where I am at the moment. Right now it's too cold down in the basement to work there for longer periods, so it's going slow, but that's totally fine with me.  </p>
+<p><strong>You recently put out an EP of some instrumental music. I understand some of the material is quite ancient. Could you talk a bit about what inspired you to make that EP, how you think it came out, and where those who haven't heard it can find it?</strong></p>
+<p>It's a small album of four tracks, called "Four" and can be found on <a href="http://edogawa.bandcamp.com" target="_blank" title="Edogawa's EP &quot;Four&quot;">http://edogawa.bandcamp.com</a>.</p>
+<p>During my youth I had trained myself to play classical, virtuous music, but after my plans to study guitar hadn't worked out I got interested in a totally different thing, minimal music, and started to experiment with loops, variations, constructing "naive" music by overdubbing trivial simple building blocks, played on self made simple percussion, found objects, toys, kitchenware etc., doubling or halving playback speed while recording new tracks, and so on While I was doing these I wasn't very confident about the musical quality of that work, but something inside me needed to make these pieces.  </p>
+<div style="width: 360px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-EP.jpg"><img alt="edgar-aichinger-EP" class="size-full wp-image-588" height="350" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-EP.jpg" width="350" /></a> <em>The cover of the EP "Four". Check it out at <a href="http://edogawa.bandcamp.com" target="_blank" title="The EP &quot;Four&quot;">Bandcamp</a>.</em>
+<p> </p>
+</div>
+<p>With the birth of Lia in 2004 and Fynn in 2008, and our subsequent move out of the city there simply wasn't much time to do my own music anymore, and my focus shifted towards family life. But during all these years I kept listening to these old tracks, and continued to like them (well, most of them). In the meantime I've posted links to my tracks to several people on IRC, and got quite positive comments on it, so I seem to have lost my shyness and feel a growing desire to share that music, and now with platforms like bandcamp and soundcloud there is an infrastructure that simplifies releasing a lot, i think.</p>
+<p>So now I'm in the situation to have less than ideal stereo mixes of my unfinished 8-track tunes, but no access to the 8-track tapes until I can afford the 8-track repair (something I admittedly could have managed to get done by now, but there always were other investments that seemed more urgent to me). I set myself the goal to release *something* during this fall or winter, and when listening through my pieces again I had the feeling that these four 4-tracks would form an entity on their own, in a way mark the beginning of my solo homerecording work, and make a nice EP to start with.</p>
+<p>The cover art is part of a weird watercolour painting of mine from the same period the pieces were recorded, by the way. So far I got quite satisfying feedback on the album, both via my mail announcement on LAU mailing list, and on IRC. I'm really happy that I've done that now, and plan to continue releasing stuff. The next album will probably contain a few recent pieces I've done using linux. I also want the renaissance and baroque lute music albums to be available, but haven't decided yet if I'll do that under my real name or "edogawa"...  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute-under-construction-2.jpg"><img alt="edgar-aichinger-the-lute-under-construction-2" class="size-large wp-image-592" height="579" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-the-lute-under-construction-2-1024x579.jpg" width="1024" /></a> <em>Another picture of the lute under construction.</em>
+<p> </p>
+</div>
+<h2>Final questions</h2>
+<p><strong>Could you talk a bit about what hardware you use?</strong></p>
+<p>There's quite a bit of hardware i possess, partially for using at paid jobs:</p>
+<p>The lute, and around 20 other working or to-be repaired acoustic stringed instruments (classical and smaller "vienna model" guitars mostly, but also zithers, mandolines etc.)</p>
+<p>3 electric guitars: Ibanez Artcore AFS75T semi-hollow body, Hagström HIIN, and a really cheap Ibanez EX with the MIDI Hex pickup mounted to it</p>
+<p>Marshall ValveState 20W Amp, Ibanez Chorus Pedal, Line-6 POD 2.0 Amp simulation/effects unit, ART MultiVerb Alpha Multieffects unit, Behringer Exciter (first generation, before they started to build the ultra-cheap stuff), Behringer Autocom (ultra-cheap stereo compressor)</p>
+<p>Standalone DAT, MiniDisk and CD Audio recorders (served me really well during the 90's for mobile recordings but also for recording myself on lute - any computer i had was way to loud to have it running in the same room - these days I could just control ardour while sitting in the next room, and have visual feedback - using my smartphone and ardroid)</p>
+<p>M-Audio Delta 1010LT PCI sound card, M-Audio Midisport 2x2 USB MIDI interface, Doepfer MCV-4 MIDI-to-CV converter</p>
+<p>M-Audio Axiom 61 Keyboard controller</p>
+<p>Kawai MAV-8 MIDI Patchbay</p>
+<p>Digital H/W synths: Korg Wavestation A/D, including the Zadok SAM-1 sampler extension, Roland GR-33 MIDI Guitar synth, Yamaha FB-01 (4-op FM synth, 8 voices), E-mu SP-12 Sampler/Drum machine (Emulator companion, with 5,4 secs of 12 bit audio mono storage space and a commodore 5,25" floppy drive taking ~ 45 minutes for storing the whole RAM content :))</p>
+<p>Analog synths: Roland SH-09, Roland SPV-355 (both from late '70s, just before their first digital synths appeared I believe; one has a keyboard attached, the other is to be driven by any monophonic audio signal)</p>
+<p>Mackie 1604 Mk II mixing desk, Allen &amp; Heath ZED18 mixing desk with stereo USB interface, Behringer 802 mixer for small tasks</p>
+<p>2x AKG C460B mics with cardoid capsules, perfectly matched to form a stereo pair</p>
+<p>Shure SM58, AKG D310 dynamic mics</p>
+<p>2x lavallier type shure wireless mics, one refitted with a small but high quality AKG mic</p>
+<p>AKG K271Studio headphones</p>
+<p>A pair of Tannoy Venus MkII 2-Way HiFi speakers driven by a Onkyo HiFi amp</p>
+<p>A pair of Axys U-92 active PA speakers</p>
+<p>The broken Tascam 238 (DBX version) 8 track tape recorder, along with a MTS-1000 Synchronizer and an additional parallel interface unit for syncing big multitrack tape machines (I've never needed this one)</p>
+<p>The computer I have since last September: AsRock mainboard with dualcore AthlonX2 3.2 GHz CPU, NVIDIA chipset, NVIDIA GeForce GTX 275 graphics card, 4 GB RAM, openSUSE Tumbleweed  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-workspace.jpg"><img alt="edgar-aichinger-workspace" class="size-large wp-image-589" height="574" src="http://www.zthmusic.com/wp-content/uploads/edgar-aichinger-workspace-1024x574.jpg" width="1024" /></a> <em>Edgar's workspace. Where the magic happens!</em>
+<p> </p>
+</div>
+<p><b>Do you feel like anything is lacking in Linux audio today, and if so, what?</b></p>
+<p>I know there are several technologies that are underrepresented by FOSS software, if there exist free implementations at all, e.g. polyphonic pitch correction, modern sampled instrument libraries, score scanning software, audio to MIDI converters, audio restoration tools etc. From a technicians perspective I'd love to have these in my toolbox, as a musician I usually know my way around things to achieve the results I need. In some cases software exists, but there's a tremendous learning curve involved, and often you have to compile it yourself because it's not provided by your distro. But in general, during the last 12 years Linux has come a long way, and I'm sure it will continue to do so.  </p>
+<p><strong>What is your favorite free and open source plugin currently?</strong></p>
+<p>I've been using <a href="/tools/irlv2">IR</a> lately, feeding it rather strange response files to create extremely artificial sounding kind-of-reverb effect on a solo guitar composition i've recorded long time ago. I thought that was quite fascinating, creating the illusion of the IR being a second instrument in dialog with the original track. My MIDI synth has similar sounds, but this has a subtle quality that's new to me.</p>
+<p>I regularly use Fons' 4-band EQ, and occasionally some from the <a href="/tools/calf-plugins">Calf suite</a>, especially the modulated effects and the reverb which I quite like.  </p>
+<p><strong>Where can people get a hold of you, and where can they find your work and music?</strong></p>
+<p>On <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a> I am in #opensourcemusicians, #lad, #lau #ardour and a few other channels.</p>
+<p>I don't have a website, facebook, blog or anything like that.</p>
+<p>My software package collection can be found at <a href="http://download.opensuse.org/repositories/home:/edogawa/" target="_blank">http://download.opensuse.org/<wbr></wbr>repositories/home:/edogawa/</a>, since a month or so I am also building for Fedora 19 there.</p>
+<p>My bandcamp page is <a href="http://edogawa.bandcamp.com" target="_blank">http://edogawa.bandcamp.com</a>, and will fill up soon I hope.</p>
+<p>In the meantime the curious can point their browser to <a href="https://dl.dropboxusercontent.com/u/42502696/musik/index.html" target="_blank">https://dl.dropboxusercontent.<wbr></wbr>com/u/42502696/musik/index.<wbr></wbr>html</a></p>
+<p><strong>Anything you would like to add to the interview?</strong></p>
+<p>Ahem... not much comes to my mind right now. I think I've been answering your questions exhaustively. Many thanks for the opportunity to take part in this series, it was an amazing experience to look back and revisit various moments in my life. And I wish you good proceeding with these interviews, it's a great idea and helps a lot to learn to know our community, I think.  </p>
+<p><strong>Thank you very much for the interview Edgar!</strong></p>
+<p class="well">That was Edgar Aichinger. Thanks to Edgar for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-15-edgar-aichinger" st_title="Friday Interview #15: Edgar Aichinger " class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/181" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-Oeij5dALm5TE2GTm4cmZJSmH0O9Fh0GMPgP2aKliHU0" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/181" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-U3o0mpGGNGjUyrlyf2BT2zkrQ-NaGKC3lml6CzO92Ts" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

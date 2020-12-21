@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - progressive rock</title>
+ <link>http://libremusicproduction.com/genre/progressive-rock</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Majorana</title>
+ <link>http://libremusicproduction.com/music/majorana</link>
+ <description></description>
+ <pubDate>Fri, 05 May 2017 11:25:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">548 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/majorana#comments</comments>
+</item>
+<item>
+ <title>in giro</title>
+ <link>http://libremusicproduction.com/music/ingiro</link>
+ <description></description>
+ <pubDate>Fri, 02 Dec 2016 13:11:39 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">528 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/ingiro#comments</comments>
+</item>
+</channel>
+</rss>

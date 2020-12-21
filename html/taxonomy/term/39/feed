@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - ambient</title>
+ <link>http://libremusicproduction.com/genre/ambient</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>dj afifa</title>
+ <link>http://libremusicproduction.com/music/dj-afifa</link>
+ <description></description>
+ <pubDate>Sun, 23 Dec 2018 23:24:37 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">577 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/dj-afifa#comments</comments>
+</item>
+<item>
+ <title>Violizando</title>
+ <link>http://libremusicproduction.com/music/violizando</link>
+ <description></description>
+ <pubDate>Sat, 22 Jul 2017 08:30:49 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">558 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/violizando#comments</comments>
+</item>
+<item>
+ <title>Iurie</title>
+ <link>http://libremusicproduction.com/music/iurie</link>
+ <description></description>
+ <pubDate>Mon, 19 Dec 2016 23:32:09 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">529 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/iurie#comments</comments>
+</item>
+<item>
+ <title>Aisyk</title>
+ <link>http://libremusicproduction.com/music/aisyk</link>
+ <description></description>
+ <pubDate>Mon, 16 Feb 2015 07:47:37 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">312 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/aisyk#comments</comments>
+</item>
+<item>
+ <title>DoosC</title>
+ <link>http://libremusicproduction.com/music/doosc</link>
+ <description></description>
+ <pubDate>Mon, 10 Nov 2014 22:33:14 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">248 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/doosc#comments</comments>
+</item>
+<item>
+ <title>zthmusic</title>
+ <link>http://libremusicproduction.com/music/zthmusic</link>
+ <description></description>
+ <pubDate>Mon, 29 Sep 2014 18:06:36 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">201 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/zthmusic#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - general" href="http://libremusicproduction.com/taxonomy/term/10/feed" />
+<link rel="canonical" href="/area/general" />
+<link rel="shortlink" href="/taxonomy/term/10" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/area/general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="general" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>general | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"tGUCEybx475sRboMj7IhCowC-mk6J0drCo-KC7ac9Ow","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/area\/general?page=5":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-10" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>general</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  general                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-10" class="taxonomy-term vocabulary-category">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-137" class="node node-answer node-teaser clearfix" about="/answer/floss" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/floss">FLOSS</a>
+    </h2>
+    <span property="dc:title" content="FLOSS" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-25T09:16:59+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2014-07-25 09:16</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>FLOSS stands for Free/Libre/Open Source Software and is applied to any software that is free for the user to study, modify and redistribute to anyone and for any purpose.</p>
+<p>The Libre part is added to emphasize that it is referring to freedom of action, not just free as in no cost. FOSS is sometimes used as a varient of FLOSS, leaving out the Libre part. The two terms are often used interchangably.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/floss" rel="tag" title="FLOSS">Read more<span class="element-invisible"> about FLOSS</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-132" class="node node-article node-promoted node-teaser clearfix" about="/articles/advantages-choosing-audio-orientated-linux-distribution" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/advantages-choosing-audio-orientated-linux-distribution">The Advantages of Choosing an Audio Orientated Linux Distribution</a>
+    </h2>
+    <span property="dc:title" content="The Advantages of Choosing an Audio Orientated Linux Distribution" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-16T17:38:11+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Mon, 2016-05-16 15:15</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/advantages-choosing-audio-orientated-linux-distribution"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/LMMS.png?itok=_72cCtSS" alt="The Advantages of Choosing an Audio Orientated Linux Distribution" title="The Advantages of Choosing an Audio Orientated Linux Distribution" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Linux distributions have a lot to offer and some are geared more towards certain tasks than others. There is nothing wrong with stock distributions, and any distro can be tweaked to work well for whichever task you wish, provided that you know how to tailor them to that specific task. If you are working with audio, however, choosing a distro specifically geared towards that purpose can save you a lot of hassle.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/advantages-choosing-audio-orientated-linux-distribution" rel="tag" title="The Advantages of Choosing an Audio Orientated Linux Distribution">Read more<span class="element-invisible"> about The Advantages of Choosing an Audio Orientated Linux Distribution</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-129" class="node node-article node-promoted node-teaser clearfix" about="/articles/understanding-recording-hardware" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/understanding-recording-hardware">Understanding recording hardware</a>
+    </h2>
+    <span property="dc:title" content="Understanding recording hardware" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-16T09:00:21+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2015-02-21 11:50</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/understanding-recording-hardware"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/interfacef.jpg?itok=CZZqJfxB" alt="Understanding recording hardware" title="Understanding recording hardware" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>What hardware you need to get started recording is dependant on what type of music you want to make. In any case, you will need a <a href="/answer/daw">DAW</a>, but what about the hardware requirements? There are typically two ways to make music -</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/understanding-recording-hardware" rel="tag" title="Understanding recording hardware">Read more<span class="element-invisible"> about Understanding recording hardware</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-127" class="node node-tool node-teaser clearfix" about="/tools/xjadeo" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/xjadeo">Xjadeo</a>
+    </h2>
+    <span property="dc:title" content="Xjadeo" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/xjadeo"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/Xjadeo.png?itok=gLNeSqTa" alt="Xjadeo" title="Xjadeo" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Xjadeo (JAck viDEo mOnitor) is a software video player that displays a video-clip in sync with an external time source (MTC, LTC, <a href="/answer/jack">JACK</a>-transport).</p>
+<p>Xjadeo is useful in soundtrack composition, video monitoring or any task that requires synchronizing movie frames with audio events.</p>
+<p><a href="/tools/ardour">Ardour</a> now includes a built in version of Xjadeo, including a video timeline, since version 3.2.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/xjadeo" rel="tag" title="Xjadeo">Read more<span class="element-invisible"> about Xjadeo</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-120" class="node node-article node-promoted node-teaser clearfix" about="/articles/softsynths-and-samplers" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/softsynths-and-samplers">Softsynths and Samplers</a>
+    </h2>
+    <span property="dc:title" content="Softsynths and Samplers" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-04T20:20:46+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Fri, 2016-06-03 07:16</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>In addition to <a href="/answer/daw">DAWs</a>, drum machines, <a href="/answer/midi">MIDI</a> arrangers and a plethora of other varied applications for audio production that are available under the Linux platform, there is also a growing number of powerful software synthesizers (softsynths) and samplers available gratis in most Linux distribution <a href="/answer/software-repository">repositories</a>. In this discussion, we will focus in particular on one native Linux softsynth: TAL Noizem4k3r, and Petri-Foo, a useful Linux-based sampler or "ROMpler".</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/softsynths-and-samplers" rel="tag" title="Softsynths and Samplers">Read more<span class="element-invisible"> about Softsynths and Samplers</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-135" class="node node-article node-promoted node-teaser clearfix" about="/articles/how-contribute-libre-music-production" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/how-contribute-libre-music-production">How to contribute to Libre Music Production</a>
+    </h2>
+    <span property="dc:title" content="How to contribute to Libre Music Production" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-07-01T14:11:35+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2014-09-14 11:39</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>As Libre Music Production (LMP) is a community driven project, we need contributions from people like you, the user, to make it successful. The following is a list of areas to which you can contribute.</p>
+<h2>Articles and Tutorials</h2>
+<p>A big focus of LMP is providing articles and tutorials, to help users learn how to get the most out of Libre music software. Articles and tutorials can either be in written form, or presented as a video, whichever is your preference.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/how-contribute-libre-music-production" rel="tag" title="How to contribute to Libre Music Production">Read more<span class="element-invisible"> about How to contribute to Libre Music Production</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-116" class="node node-answer node-teaser clearfix" about="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">I am running Ubuntu/Debian. How do I update to KXStudio without having to do a reinstall? </a>
+    </h2>
+    <span property="dc:title" content="I am running Ubuntu/Debian. How do I update to KXStudio without having to do a reinstall? " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="17" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-06-28T23:44:25+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Thu, 2015-07-23 10:27</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div><a href="http://kxstudio.linuxaudio.org/">KXStudio</a> is available as an <a href="http://kxstudio.linuxaudio.org/Downloads#LiveDVD">installable download</a> but its <a href="/answer/software-repository">software repositories</a> can also be added to a current installation of Ubuntu (version 14.04 and above) or Debian (Jessie and above). Once you have the repositories enabled, you will have access to a large amount of up-to-date applications and software, a lot of which isn't available in stock versions of Ubuntu or Debian.</div>
+<div> </div>
+<h2>Enabling the repositories</h2></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall" rel="tag" title="I am running Ubuntu/Debian. How do I update to KXStudio without having to do a reinstall? ">Read more<span class="element-invisible"> about I am running Ubuntu/Debian. How do I update to KXStudio without having to do a reinstall? </span></a></li>
+<li class="comment-comments"><a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall#comments" title="Jump to the first comment of this posting.">17 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-115" class="node node-answer node-teaser clearfix" about="/answer/software-repository" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/software-repository">Software Repository</a>
+    </h2>
+    <span property="dc:title" content="Software Repository" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-06-28T23:15:25+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2014-09-13 14:18</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Software repositories, sometimes called repos, are locations from which software applications are downloaded from and installed onto your computer. A Linux install has default repositories but additional repositories can be added so that more/newer versions of software can be installed onto your system.</p>
+<p>An example of a software repository is the <a href="/answer/i-am-running-ubuntudebian-how-do-i-update-kxstudio-without-having-do-reinstall">KXStudio repositories</a>.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/software-repository" rel="tag" title="Software Repository">Read more<span class="element-invisible"> about Software Repository</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-101" class="node node-tool node-teaser clearfix" about="/tools/gtklick" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/tools/gtklick">Gtklick</a>
+    </h2>
+    <span property="dc:title" content="Gtklick" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <a href="/tools/gtklick"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/tools/gtklick.png?itok=EI-KMSWT" alt="Gtklick" title="Gtklick" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Gtklick is a simple metronome with an easy to use interface. Along with what you would expect from a metronome, it also includes a speed trainer, arbitrary meters and beat patterns, customisable sounds and it can also save profiles. Keyboard shortcuts make it very useful as a practice tool as you can control it and vary the tempo without ever having to look at the screen.</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/tools/gtklick" rel="tag" title="Gtklick">Read more<span class="element-invisible"> about Gtklick</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-100" class="node node-answer node-teaser clearfix" about="/answer/what-irc-what-it-used-and-how-do-i-use-it" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">What is IRC? What is it used for and how do I use it?</a>
+    </h2>
+    <span property="dc:title" content="What is IRC? What is it used for and how do I use it?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-05-30T15:54:02+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2014-08-19 09:42</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>IRC, which stands for Internet Relay Chat, is a realtime chat facility that many open source projects use to discuss bugs, features, etc. This is useful as developers are often in different parts of the world and different timezones. It is a way for them to communicate and work on solutions in real time.</p>
+<p>As a user of a particular piece of software, you may have some questions, or you may simply not be able to get something to work. Using IRC you can chat to the developers, and other users of the software, to troubleshoot, or just generally discuss the software, in realtime.</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/answer/what-irc-what-it-used-and-how-do-i-use-it" rel="tag" title="What is IRC? What is it used for and how do I use it?">Read more<span class="element-invisible"> about What is IRC? What is it used for and how do I use it?</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/area/general">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/area/general?page=4">‹ previous</a></li>
+<li class="pager-item"><a title="Go to page 1" href="/area/general">1</a></li>
+<li class="pager-item"><a title="Go to page 2" href="/area/general?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/area/general?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/area/general?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/area/general?page=4">5</a></li>
+<li class="pager-current">6</li>
+<li class="pager-item"><a title="Go to page 7" href="/area/general?page=6">7</a></li>
+<li class="pager-next"><a title="Go to next page" href="/area/general?page=6">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/area/general?page=6">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/10/feed" class="feed-icon" title="Subscribe to RSS - general"><img typeof="foaf:Image" src="http://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - general" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/area/general?page=5" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-rh3vniSL0UzdGQPn0FohVCfPDQHrqmgNChIKLKc862M" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/area/general?page=5" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-83ee5M8OsSRDVXChqCM_z6n5mjflFLniLemqrATJKxU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

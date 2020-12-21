@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-13-bent-bisballe-nyeng" />
+<link rel="shortlink" href="/node/179" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #13: Bent Bisballe Nyeng | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"pkEXaxdnpyA2iAIA1wV5J6TYg55uXBN33ZzhwAl98Rk","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/friday-interview-13-bent-bisballe-nyeng":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-179 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #13: Bent Bisballe Nyeng                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-179" class="node node-article node-promoted clearfix" about="/articles/friday-interview-13-bent-bisballe-nyeng" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #13: Bent Bisballe Nyeng" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="3" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2014-01-10T11:49:10+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sun, 2014-09-14 10:16</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 13th edition of the Friday Interview! This week, we're joined by a drummer and developer, and the author of <a href="/tools/drumgizmo" target="_blank" title="DrumGizmo website">DrumGizmo</a>. I'm very happy to introduce the 13th participant of the series, interviewee #13: <em>Bent Bisballe Nyeng</em>! Lets get started!</p>
+<h2>Introducing Bent Bisballe Nyeng</h2>
+<div class="well"><strong>Bent Bisballe Nyeng</strong> is a freelance software consultant living in Aarhus, Denmark.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is recording and composing songs with his own bands.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, he enjoys spending time with his family, listening to metal music, maintaining a house, and recently some hardware hacking.</div>
+<p> </p>
+<div style="width: 876px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-himself.jpg"><img alt="deva-himself" class="size-large wp-image-556" height="1024" src="http://www.zthmusic.com/wp-content/uploads/deva-himself-866x1024.jpg" width="866" /></a> <em>Bent, aka "deva"!</em>
+<p> </p>
+</div>
+<p><strong>Hi Bent! Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>Hello Gabriel, and hello fellow friday-interview enthusiasts! I'm happy to be granted the honour of being the interviewee of this enlightening interview series. My name is Bent Bisballe Nyeng and I live with my lovely wife and two wonderful kids in Aarhus the second largest city of Denmark.</p>
+<p>I have a masters degree in computer science from the university of Aarhus (DAIMI), and my daytime work is that of a freelance software consultant, mainly in the fields of open source, linux and multimedia.</p>
+<p>Recently I have worked with the department of ophtalmology (eye surgery) in the University Hospital of Aarhus on a project for collecting data from medical equipment. But my work has taken me from everything from database design, GUI development, USB communication, driver development, CMS system design, and so on... so far nothing linux audio related as I make a point of not making work out of my hobbies. Imagine waking up one day after working with your hobby and just not wanting to do it anymore.</p>
+<p>Then what should you do to have fun?  </p>
+<p><b>What's your musical background like? What music do you like, and do you play any instruments?</b></p>
+<p>I'm a drummer since the age of 9 (phew! - that's 25 years, now that I start counting), and I mainly play extreme metal music. My persuasion in my playing as well as what I listen to is that of high tempo and technical riffing, often jazz inspired death metal. I also enjoy classical music and especially the combination of the two.</p>
+<p>In order to broaden my musicianship a bit I also played some guitar, piano and did some singing, but these are only on a "I know how it works" basis.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-in-concert.jpg"><img alt="deva-in-concert" class="size-large wp-image-557" height="683" src="http://www.zthmusic.com/wp-content/uploads/deva-in-concert-1024x683.jpg" width="1024" /></a> <em>Bent playing live with his band DIE, in 2010.</em>
+<p> </p>
+</div>
+<p><strong>Are you playing in any constellations right now? Any bands?</strong></p>
+<p>Yes, I am currently in a band called "Seed of Heresy". It's a new startup with two of my old bandmates from my prior band "DIE". We only just started recording our upcoming, yet untitled EP, so I have nothing yet for you to listen to. DIE on the other hand existed for approximately 8 years and did a number of recordings.</p>
+<p>Some of these recordings can be found on our old <a href="http://executionroom.com/?page=discography" target="_blank" title="Executionroom.com">website</a>. Both bands can be categorised as "Brutal death metal" so it's not for the faint of heart ;) All drum recordings for the DIE "Rise of the Rotten" record were done using <a href="/tools/ardour">Ardour</a>, as will be the case with the upcoming Seed of Heresy EP.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-workspace.jpg"><img alt="deva-workspace" class="size-large wp-image-554" height="770" src="http://www.zthmusic.com/wp-content/uploads/deva-workspace-1024x770.jpg" width="1024" /></a> <em>Me working on a mix of the upcoming "Seed of Heresy" EP.</em>
+<p> </p>
+</div>
+<p><b>What's your history with Linux, and with using Linux for audio?</b></p>
+<p>I first tried Linux back in 1996, when kernel 2.0 had just been released (some variant of Suse if I recall correctly). It was a mess, but fun to play with. I especially remember how we used to spend hours and hours trying to get X11 to work and the sheer joy of seeing the mouse X-cursor move on the black and white dotted pattern background in 1024x768 resolution...</p>
+<p>Audiowise I started following the community sometime around 2000, but did not start to seriously use Linux audio tools until the release of Ardour 2.0 with which I did my first serious recording in 2007. During most of that time I used computers for composing drums and found the Linux audio utilities highly lacking in that area. I especially remember following the Hydrogen project closely, but unfortunately its path diverged quite a bit from what I needed so I never did anything serious with it.  </p>
+<h2>DrumGizmo</h2>
+<p><strong>You're the author of <a href="/tools/drumgizmo">DrumGizmo</a>, an up-and-coming FLOSS drum plugin with big ambitions. Could you talk a bit about DrumGizmo, how it came about, and how it works?</strong></p>
+<p>Well my conclusion to the missing real-feel drumming software was that if I wanted it, I'd have to write it myself. So I started out writing a simple engine that could play random notes from the commandline, using a simple drumkit format in XML. This was back in the summer of 2008 where no <a href="/answer/daw">DAWs</a> had the possibility to work as the MIDI editor I needed.</p>
+<p>It took me years to actually get to a point where I could run the engine as a plugin but then again so did the development of <a href="/answer/midi">MIDI</a> support in Ardour. Currently I consider the DrumGizmo <a href="/answer/lv2">LV2</a> plugin and the Ardour MIDI editor to be the main target of the project, but many other variants have popped up along the way. Currently we have full VSTi support for Windows, a <a href="/answer/jack">JACK</a> client, direct <a href="/answer/alsa">ALSA</a> support and offline MIDI file to audio file rendering.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-screenshot.png"><img alt="deva-screenshot" class="size-large wp-image-553" height="640" src="http://www.zthmusic.com/wp-content/uploads/deva-screenshot-1024x640.png" width="1024" /></a> <em>DrumGizmo as an LV2 in Ardour 3.</em>
+<p> </p>
+</div>
+<p><strong>For us users with less drum experience, what are the main differences between DrumGizmo and Hydrogen? Why was Hydrogen not satisfactory for you?</strong></p>
+<p>The biggest difference is that <a href="/tools/hydrogen">Hydrogen</a> aims to be a composing tool as well as a sampler. It is based on patterns and loops which is never or at least rarely used in my kind of music.</p>
+<p>Furthermore it does not integrate well with the DAW, since MIDI cannot (to my knowledge) be sent into Hydrogen from e.g. Ardour because Hydrogen doesn't support JACK MIDI (<em>note</em>: Hydrogen now does support JACK MIDI). It is vital for me in my workflow to have all editing assembled in one application in order to maintain an overview of the entire project. Hydrogen also lacks the ability to play randomised samples. When a sample is played, it is simply the same audiofile being played with the volume altered according to the velocity, producing very artificial sounding drums. This didn't work for me.</p>
+<p>What I wanted was a system that could produce as natural sounding drums as possible using samples that I recorded myself. DrumGizmo plays a different sample on each note depending on the velocity and a random number, making the result sound more as if a real drummer was playing.  </p>
+<p><strong>What does the future hold for DrumGizmo? What are you working on with it currently?</strong></p>
+<p>The current goal is to stabilise the software. We have had reports of many weird bugs as people have started using the plugin. They simply use it in different setups than we use when developing. For example, I never actually tried the plugin in a 64bit setup, since I didn't have access to 64bit hardware. Using a 64bit setup uncovered some previously unknown bugs. But all this is remedied now, since I recently acquired a 64bit server, on which I am currently setting up Jenkins-ci on 4 different platforms, using virtual machines. All this is dead boring, but in combination with some decent unit tests, it should provide us with a solid foundation for introduction of new features in the future.</p>
+<p>The goal with DrumGizmo is not just to give the Linux audio people the opportunity to create a workflow otherwise only supported on the proprietary platforms, but also to create a community in which people can record and share their own drumkits. For this purpose we created an editor in order to automate as much of the sample bookkeeping as possible (I did the first drumkit by hand and it took me months to get to the final result). This editor has more or less been neglected so far, but will get a major overhaul in the coming months.</p>
+<p>A completely new website with forum and bugtracker should be launched during the spring so we will be working on many things at once.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-developing.png"><img alt="deva-developing" class="size-large wp-image-555" height="640" src="http://www.zthmusic.com/wp-content/uploads/deva-developing-1024x640.png" width="1024" /></a> <em>A common look on the screen when Bent is developing.</em>
+<p> </p>
+</div>
+<p> </p>
+<h2>Final questions</h2>
+<p><strong>Could you talk a little about what kind of hardware setup you are using?</strong></p>
+<p>I have two rigs on which I do audio work. One of them is in the studio: an old Intel Core 2 Mobile with two Presonus FireStudio Project FireWire interfaces. 16 channels in total (the units are daisy chained). This PC is not up to much when it comes to performing filtering and such, but was built with a low noise level in mind.</p>
+<p>The other PC is an Intel Core 2 Duo running at 3GHz with 4Gb RAM and an SSD harddrive. It is fitted with a 2 channel M-Audio Delta 2496 soundcard. This PC is mainly used for mixing, so I almost never do recording on it and the low channel count suits me fine. Both rigs run Gentoo and Ardour.</p>
+<p>In the studio I have of course a lot of michrophones. I use RØDE-NT5 for the overheads, Shure SM57 for the snare, AKG D112 for the kickdrums, AKG C518M for the toms (they are small so I don't hit them when playing fast) and finally T-Bone RB500 for ambience.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-studio.jpg"><img alt="deva-studio" class="size-large wp-image-558" height="768" src="http://www.zthmusic.com/wp-content/uploads/deva-studio-1024x768.jpg" width="1024" /></a> <em><strong>Bent</strong>: "This is my studio, and one of my two drumkits. The other one is "The<br />Aasimonster" as can be downloaded in the drumkits section on the<br /><a href="http://www.drumgizmo.org" target="_blank" title="DrumGizmo website">drumgizmo.org</a> website."</em>
+<p> </p>
+</div>
+<p><b>Do you feel like anything is lacking in Linux audio today, and if so, what?</b></p>
+<p>In my composing workflow I really miss a decent MIDI editor integrated in a DAW. Ardour is currently the best shot, but it has still got a long way to go before it is as usable as I would like it to be. Several times I considered doing a design document on how I think a MIDI editor should work, in order to pinpoint some of the features I feel are missing. But I never got around to it.  </p>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>The <a href="/tools/calf-plugins">Calf suite</a> is by far my favorite plugin suite. I use them for absolutely everything. They have a good intuitive GUI and have never let me down on the processing quality.</p>
+<p>I mainly use the 5-band parametric equaliser, the compressor and the limiter. Sometimes I have as many as 20 instances of the equaliser in a single drum project but usually only one instance of the limiter on the master channel.</p>
+<p>I guess <a href="/tools/guitarix">Guitarix</a> could be a candidate as well, but I generally only do drums, so I haven't got much experience with guitar processing.</p>
+<p>The DrumGizmo plugin is not my favorite by a longshot. It's far too unstable to my temper; the developers really should get themselves together and get all those bugs fixed! ;)  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><a href="http://www.zthmusic.com/wp-content/uploads/deva-in-concert-2.jpg"><img alt="deva-in-concert-2" class="size-large wp-image-559" height="683" src="http://www.zthmusic.com/wp-content/uploads/deva-in-concert-2-1024x683.jpg" width="1024" /></a> <em>Bent from the same concert as the last live picture, but this time with the entire band visible.</em>
+<p> </p>
+</div>
+<p><strong>Where can people get a hold of you? Is there anything you would like to add to the interview?</strong></p>
+<p>I go by the nick 'deva' on freenode <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a> where I try to be as active as possible on both the #drumgizmo and #lad channels. But should I not be available, I can be reached by email at <a href="mailto:deva@aasimon.org">deva@aasimon.org</a>.</p>
+<p>I would like to send out a great thank you to all of the community. I think it is impressive how much we have acheived over relatively short period of time and all in the spirit of the free world and not for some monetary reasons.</p>
+<p>I hope to meet a lot you at the LAC2014 at Karlsruhe in May.</p>
+<p>Cheers!</p>
+<p>Finally, a big thank you to Gabriel for this wonderful interview series. I'm looking forward to seeing who you've dug out for next week's interview ;)  </p>
+<p><strong>Thank you very much for the interview Bent!</strong></p>
+<p class="well">That was Bent Bisballe Nyeng. Thanks to Bent for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-13-bent-bisballe-nyeng" st_title="Friday Interview #13: Bent Bisballe Nyeng" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/friday-interview-13-bent-bisballe-nyeng" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-tqVb38EmPbQsmTAlHImo4mEEbjk2J0_jZHYgoo2fAhc" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/friday-interview-13-bent-bisballe-nyeng" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-G6iVCzraM1M7GVF2cc5j-eno6JZoBMLDK7dQfFsA2tg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

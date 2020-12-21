@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - interview" href="http://libremusicproduction.com/taxonomy/term/25/feed" />
+<link rel="canonical" href="/category/interview" />
+<link rel="shortlink" href="/taxonomy/term/25" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta about="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="interview" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>interview | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/taxonomy/taxonomy.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"-jPSpw6nmjtgSa5TQaw_L-VDi6aG8_OUyT_NABCc-2c","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/category\/interview?page=3":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-25" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a><span class="sep">»</span>interview</div></div>
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  interview                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-25" class="taxonomy-term vocabulary-category">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-177" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-10-devin-anderson" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-10-devin-anderson">Friday Interview #10: Devin Anderson </a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #10: Devin Anderson " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-12-20T07:58:02+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:37</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-10-devin-anderson"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/devin-anderson-headshot-768x1024.png?itok=I0PVSD69" alt="Friday Interview #10: Devin Anderson " title="Friday Interview #10: Devin Anderson " /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 10th edition of the Friday Interview! This week, we're joined by a programmer and musician, author of Synthclone and other contributions to the Linux audio landscape. I'm very happy to introduce the 10th participant of the series, interviewee #10: <em>Devin Anderson</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-10-devin-anderson" rel="tag" title="Friday Interview #10: Devin Anderson ">Read more<span class="element-invisible"> about Friday Interview #10: Devin Anderson </span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-10-devin-anderson#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-174" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-9-nils-gey" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-9-nils-gey">Friday Interview #9: Nils Gey</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #9: Nils Gey" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-12-13T11:59:21+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:30</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-9-nils-gey"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/nils-gey-picture.jpg?itok=L5voBjiO" alt="Friday Interview #9: Nils Gey" title="Friday Interview #9: Nils Gey" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 9th edition of the Friday Interview! This week, we're joined by a musician and programmer who is writing his own notation software, sampler, and has made numerous other contributions to the Linux audio ecosystem. I'm very happy to introduce the 9th participant of the series, interviewee #9: <em>Nils Gey</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-9-nils-gey" rel="tag" title="Friday Interview #9: Nils Gey">Read more<span class="element-invisible"> about Friday Interview #9: Nils Gey</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-9-nils-gey#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-175" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-8-julien-claassen" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-8-julien-claassen">Friday Interview #8: Julien Claassen</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #8: Julien Claassen" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="7" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-22T13:35:25+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:27</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-8-julien-claassen"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/Julien-Claassen-1024x768.jpg?itok=aGsMQkOo" alt="Friday Interview #8: Julien Claassen" title="Friday Interview #8: Julien Claassen" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the 8th edition of the Friday Interview! This week, we're joined by a talented musician with a knack for doing big, epic compositions, who also always has time over for delivering great feedback on other people's work. He is also a shining example that you can make very complex and good music using Linux, even if you're actually blind. I'm very happy to introduce the eighth participant of the series, interviewee #8: <em>Julien Claassen</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-8-julien-claassen" rel="tag" title="Friday Interview #8: Julien Claassen">Read more<span class="element-invisible"> about Friday Interview #8: Julien Claassen</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-8-julien-claassen#comments" title="Jump to the first comment of this posting.">7 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-173" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-7-dave-phillips" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-7-dave-phillips">Friday Interview #7: Dave Phillips</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #7: Dave Phillips" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="7" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-15T10:36:02+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:19</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-7-dave-phillips"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/Dave-Phillips-photo-1.jpg?itok=qcOky-6y" alt="Friday Interview #7: Dave Phillips" title="Friday Interview #7: Dave Phillips" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the seventh edition of the Friday Interview! This week, we're joined by a true veteran of the game. He has time to be a journalist and an educator, as well as crank out great music in several forms. I'm very happy to introduce the seventh participant of the series, interviewee #7: <em>Dave Phillips</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-7-dave-phillips" rel="tag" title="Friday Interview #7: Dave Phillips">Read more<span class="element-invisible"> about Friday Interview #7: Dave Phillips</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-7-dave-phillips#comments" title="Jump to the first comment of this posting.">7 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-171" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-6-glen-macarthur" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-6-glen-macarthur">Friday Interview #6: Glen MacArthur</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #6: Glen MacArthur" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="15" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-08T12:54:23+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:14</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-6-glen-macarthur"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/Bandshed-1024x576.jpg?itok=hBrotXdm" alt="Friday Interview #6: Glen MacArthur" title="Friday Interview #6: Glen MacArthur" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the sixth edition of the Friday Interview! This week, we're joined by a guy who's had the time to create and maintain the Linux distribution AVLinux, while at the same time being a kickass musician. I'm very happy to introduce the sixth participant of the series, interviewee #6: <em>Glen MacArthur</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-6-glen-macarthur" rel="tag" title="Friday Interview #6: Glen MacArthur">Read more<span class="element-invisible"> about Friday Interview #6: Glen MacArthur</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-6-glen-macarthur#comments" title="Jump to the first comment of this posting.">15 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-172" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-5-louigi-verona" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-5-louigi-verona">Friday Interview #5: Louigi Verona</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #5: Louigi Verona" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="6" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-01T09:26:52+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:07</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-5-louigi-verona"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/louigi-verona-picture.jpg?itok=-FOa_ifq" alt="Friday Interview #5: Louigi Verona" title="Friday Interview #5: Louigi Verona" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the fifth edition of the Friday Interview! This week, we're joined by a well known musician in the Linux audio community. I'm very glad to introduce the fifth participant of new series, interviewee #5: <em>Louigi Verona</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-5-louigi-verona" rel="tag" title="Friday Interview #5: Louigi Verona">Read more<span class="element-invisible"> about Friday Interview #5: Louigi Verona</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-5-louigi-verona#comments" title="Jump to the first comment of this posting.">6 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-169" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-4-jonathan-liles" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-4-jonathan-liles">Friday Interview #4: Jonathan Liles</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #4: Jonathan Liles" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-25T11:28:08+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:46</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-4-jonathan-liles"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/male-workstation-300x198.jpg?itok=4kM7byI8" alt="Friday Interview #4: Jonathan Liles" title="Friday Interview #4: Jonathan Liles" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the fourth edition of the Friday Interview! This week, we're joined by the creator of <a href="http://non.tuxfamily.org/" target="_blank" title="The Non website">the Non tools</a>, a modular <a href="/answer/daw">digital audio workstation</a>. I'm very happy to introduce the fourth participant of this series, interviewee #4: <em>Jonathan Liles</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-4-jonathan-liles" rel="tag" title="Friday Interview #4: Jonathan Liles">Read more<span class="element-invisible"> about Friday Interview #4: Jonathan Liles</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-4-jonathan-liles#comments" title="Jump to the first comment of this posting.">4 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-168" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-3-j%C3%B6rn-nettingsmeier" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-3-j%C3%B6rn-nettingsmeier">Friday Interview #3: Jörn Nettingsmeier</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #3: Jörn Nettingsmeier" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="26" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-18T10:46:15+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:55</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-3-j%C3%B6rn-nettingsmeier"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/nettings-at-work-2-300x199.jpg?itok=FX0sb_Ck" alt="Friday Interview #3: Jörn Nettingsmeier" title="Friday Interview #3: Jörn Nettingsmeier" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the third edition of the Friday Interview! This week, we're joined by a freelance audio engineer specialized in ambisonics, that has been around the Linux audio world for a long long time. I'm very happy to introduce the third participant of this series, interviewee #3: <em>nettings</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-3-j%C3%B6rn-nettingsmeier" rel="tag" title="Friday Interview #3: Jörn Nettingsmeier">Read more<span class="element-invisible"> about Friday Interview #3: Jörn Nettingsmeier</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-3-j%C3%B6rn-nettingsmeier#comments" title="Jump to the first comment of this posting.">26 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-167" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-2-falktx" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-2-falktx">Friday Interview #2: falkTX</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #2: falkTX" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-11T09:31:22+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:44</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-2-falktx"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/falktx.jpg?itok=OB6_LLNX" alt="Friday Interview #2: falkTX" title="Friday Interview #2: falkTX" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the second edition of the Friday Interview! This week, we're joined by the creator and maintainer of <a href="http://kxstudio.linuxaudio.org/" target="_blank" title="KXStudio website">KXStudio</a>. I'm very happy to introduce the second participant of this new series, interviewee #2: <em>falkTX</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-2-falktx" rel="tag" title="Friday Interview #2: falkTX">Read more<span class="element-invisible"> about Friday Interview #2: falkTX</span></a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-166" class="node node-article node-promoted node-teaser clearfix" about="/articles/friday-interview-1-harryhaaren" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/articles/friday-interview-1-harryhaaren">Friday Interview #1: HarryHaaren</a>
+    </h2>
+    <span property="dc:title" content="Friday Interview #1: HarryHaaren" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="3" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-10-04T11:32:53+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 22:45</span>    </div>
+  
+  <div class="content clearfix">
+    <a href="/articles/friday-interview-1-harryhaaren"><img class="teaserimage" typeof="foaf:Image" src="http://libremusicproduction.com/sites/default/files/styles/teaser/public/articles/harryhaaren_picture-201x300.jpg?itok=ObCI_Hq1" alt="Friday Interview #1: HarryHaaren" title="Friday Interview #1: HarryHaaren" /></a><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the first edition of the Friday Interview! I'm very stoked to actually be doing this, as this is something I personally find very interesting. There's a lot of very knowledgable and talented people around our community, but I personally feel like I don't know nearly enough about these great people.</p>
+<p>I'm very glad to announce the first participant of this new series, interviewee #1 *drumroll*: <em>HarryHaaren</em>! Lets get started!</p></div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/articles/friday-interview-1-harryhaaren" rel="tag" title="Friday Interview #1: HarryHaaren">Read more<span class="element-invisible"> about Friday Interview #1: HarryHaaren</span></a></li>
+<li class="comment-comments"><a href="/articles/friday-interview-1-harryhaaren#comments" title="Jump to the first comment of this posting.">3 comments</a></li>
+<li class="comment_forbidden last"></li>
+</ul>    </div>
+  
+  
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="/category/interview">« first</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="/category/interview?page=2">‹ previous</a></li>
+<li class="pager-item"><a title="Go to page 1" href="/category/interview">1</a></li>
+<li class="pager-item"><a title="Go to page 2" href="/category/interview?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/category/interview?page=2">3</a></li>
+<li class="pager-current last">4</li>
+</ul></div>  </div>
+</div>
+  </div>
+                <a href="/taxonomy/term/25/feed" class="feed-icon" title="Subscribe to RSS - interview"><img typeof="foaf:Image" src="http://libremusicproduction.com/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - interview" /></a>                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/category/interview?page=3" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-kvfLBEUadAe5sfaVvzRN2KJSh7bCspge_fWjKFQtftw" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/category/interview?page=3" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-pt1jNeJu1aiw0xeCdFbKVHZDM32tqdwj49lzFD2rCgE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

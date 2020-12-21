@@ -1,0 +1,624 @@
+// midi_sequencer.ino
+// version 2015-04-09
+// Arduino MIDI tutorial
+// by Staffan Melin
+// http://libremusicproduction.com/
+
+	
+
+// libraries
+
+#include <SoftwareSerial.h>
+
+// We will use the SoftwareSerial library instead of the Serial library, as this will let us control which pins our MIDI interface is connected to.
+
+SoftwareSerial mySerial(2, 3); // RX, TX
+
+// constants
+
+const int pinLed = 13;
+const int pinLedYellow = 8;
+const int pinLedGreen = 9;
+const int pinLedRed = 10;
+const int pinDown = 4;
+const int pinUp = 5;
+
+const byte midiNoteOn = 144;
+const byte midiNoteOff = 128;
+
+const int midiSendDelay = 100; // give MIDI-device a short time to "digest" MIDI messages
+const byte midiRest = 255; // internal value for rest (as opposed to a note)
+
+// note lengths
+const int bpm = 128; // tempo, BPM (beats per minute), a value that makes t16 an integer
+const int t1 = 1024 * (bpm/64); // 1 whole beat = 512
+const int t2 = t1/2; // 256
+const int t4 = t2/2; // 128
+const int t8 = t4/2; // 64
+const int t16 = t8/2; // 32
+
+const int maxNotes = 16; // max # of voices in sequence
+
+const byte sequenceIntro = 1;
+const byte sequenceVerse = 2;
+const byte sequenceChorus = 3;
+const byte sequenceOutro = 4;
+byte song[] = {sequenceIntro, sequenceVerse, sequenceChorus, sequenceVerse, sequenceChorus, sequenceChorus, sequenceOutro};
+int maxSequences = 7;
+int sequenceIndex = 0;
+
+const int voiceKickId = 0;
+const int voiceSnareId = 1;
+const int voiceHihatId = 2;
+const int voiceDrumsMidiChannel = 9;
+const int voiceDrumsMidiBank = 0;
+const int voiceDrumsMidiPatch = 0;
+const int voiceDrumsMidiVolume = 80;
+const int voiceDrumsMidiPan = 63;
+	
+const int voiceBassId = 3;
+const int voiceBassMidiChannel = 3;
+const int voiceBassMidiBank = 0;
+const int voiceBassMidiPatch = 38; // often program # - 1 !!!
+const int voiceBassMidiVolume = 80;
+const int voiceBassMidiPan = 63; // center
+
+const int voiceArpId = 4;
+const int voiceArpMidiChannel = 4;
+const int voiceArpMidiBank = 0;
+const int voiceArpMidiPatch = 90;
+const int voiceArpMidiVolume = 60;
+const int voiceArpMidiPan = 30;
+
+const int voicePadId = 5;
+const int voicePadMidiChannel = 5;
+const int voicePadMidiBank = 0;
+const int voicePadMidiPatch = 95;
+const int voicePadMidiVolume = 60;
+const int voicePadMidiPan = 50;
+
+const int voiceMelodyId = 6;
+const int voiceMelodyMidiChannel = 6;
+const int voiceMelodyMidiBank = 0;
+const int voiceMelodyMidiPatch = 99;
+const int voiceMelodyMidiVolume = 90;
+const int voiceMelodyMidiPan = 100;
+
+
+
+/*
+MIDI
+----------------------------------------------
+*/
+
+void midiNote(int aMidiCommand, int aMidiPitch, int aMidiVelocity) {
+	mySerial.write(aMidiCommand);
+	mySerial.write(aMidiPitch);
+	mySerial.write(aMidiVelocity);
+}
+
+void midiData1(int aMidiCommand, int aData1) {
+	mySerial.write(aMidiCommand);
+	mySerial.write(aData1);
+}
+
+void midiData2(int aMidiCommand, int aData1, int aData2) {
+	mySerial.write(aMidiCommand);
+	mySerial.write(aData1);
+	mySerial.write(aData2);
+}
+
+
+
+// note: MIDI note value, length, velocity
+
+typedef struct
+{
+    byte note;
+    unsigned long length; // noted in millis; use t4, t32 constants; 
+    byte velocity;
+} note;
+
+
+
+// class that defines our voice objects
+
+class Voice {
+public:
+	Voice();
+	~Voice();
+	void init(byte, byte);
+	void noteNext(unsigned long);
+private:
+	void noteFill();
+	void noteStart();
+	void noteStop();
+	void initSynthVoice(byte, int, int, int, int);
+
+private:
+  byte voiceId; // unique id
+  byte midiChannel; // MIDI channel
+  note notes[maxNotes]; // the notes in the currently playing sequence
+  int numberOfNotes; // number of notes in notes[]
+  int currentNote; // note currently playing - index into notes[]
+  unsigned long currentNoteStart; // time in ms when current note started playing
+};
+
+// constructor - does nothing
+Voice::Voice()
+{
+}
+
+// destructor - does nothing
+Voice::~Voice()
+{
+}
+
+// voice setup
+void Voice::init(byte aVoiceId, byte aMidiChannel)
+{
+	voiceId = aVoiceId;
+	midiChannel = aMidiChannel;
+
+	// setup voices
+
+	switch (aVoiceId)
+	{
+	case voiceKickId:
+	case voiceSnareId:
+	case voiceHihatId:
+		initSynthVoice(midiChannel, voiceDrumsMidiVolume, voiceDrumsMidiBank, voiceDrumsMidiPatch, voiceDrumsMidiPan);
+		break;
+		
+	case voiceBassId:
+		initSynthVoice(midiChannel, voiceBassMidiVolume, voiceBassMidiBank, voiceBassMidiPatch, voiceBassMidiPan);
+		break;
+
+	case voiceArpId:
+		initSynthVoice(midiChannel, voiceArpMidiVolume, voiceArpMidiBank, voiceArpMidiPatch, voiceArpMidiPan);
+		break;
+
+	case voicePadId:
+		initSynthVoice(midiChannel, voicePadMidiVolume, voicePadMidiBank, voicePadMidiPatch, voicePadMidiPan);
+		break;
+
+	case voiceMelodyId:
+		initSynthVoice(midiChannel, voiceMelodyMidiVolume, voiceMelodyMidiBank, voiceMelodyMidiPatch, voiceMelodyMidiPan);
+		break;
+
+	}
+
+	// start with values that tells the nextNote function that we aren't playing anything right now, and that nextNote should fill the notes array
+	currentNote = 1;
+	numberOfNotes = 0;
+}
+
+// initialize a voice in our synth: set volume, patch/sound and pan
+void Voice::initSynthVoice(byte aMidiChannel, int aMidiVolume, int aMidiBank, int aMidiPatch, int aMidiPan)
+{
+	// volume
+	midiData2((0xB0 | aMidiChannel), 07, aMidiVolume);
+	delay(midiSendDelay);
+
+	// bank
+	// send bank select message
+	
+	// sound/patch
+	midiData1((0xC0 | aMidiChannel), aMidiPatch);
+	delay(midiSendDelay);
+
+	// pan
+	midiData2((0xB0 | aMidiChannel), 10, aMidiPan);
+	delay(midiSendDelay);
+
+}
+
+
+// play next note
+// if sequennce is empty or finished, load next sequence depending on the state (sequenceInde)
+void Voice::noteNext(unsigned long tCurrent)
+{
+	// is current sequence empty?	
+	if (currentNote > numberOfNotes) {
+		noteFill();
+		currentNoteStart = tCurrent;
+        currentNote = 0; 
+		noteStart();
+	} else
+
+    // is current note finshed?
+
+    if ((tCurrent - currentNoteStart) > notes[currentNote].length)
+    {
+      
+        // if so, stop the note and fill the notes array
+        noteStop();
+        currentNoteStart = currentNoteStart + notes[currentNote].length;  
+        currentNote++; 
+
+        if (currentNote >= numberOfNotes)
+        {
+			noteFill();
+	        currentNote = 0; 
+        }
+
+        // and play it (whether it is new or not)
+		noteStart();
+    }
+	
+}
+
+// This is the core composition method. Fill note array.
+// If a voice should be silent, it is important to fill the notes array with a rest (midiRest pseudo note value) so that the voices remain in sync
+void Voice::noteFill()
+{
+	byte sequenceType;
+
+	numberOfNotes = 0;
+	currentNote = 0;
+
+	if (sequenceIndex <= maxSequences) {
+		sequenceType = song[sequenceIndex];
+
+		switch (voiceId)
+		{
+		case voiceKickId:
+	
+			if ((sequenceType == sequenceVerse) || (sequenceType == sequenceChorus)) {
+				notes[0] = {36, t4+t8, 120};
+				notes[1] = {36, t2, 120};
+				notes[2] = {36, t8, 120};
+			
+				notes[3] = {36, t4+t8, 120};
+				notes[4] = {36, t4+t8, 120};
+				notes[5] = {36, t8, 120};
+				notes[6] = {36, t8, 120};
+			
+				numberOfNotes = 7;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+
+		case voiceSnareId:
+			if ((sequenceType == sequenceVerse) || (sequenceType == sequenceChorus)) {
+				notes[0] = {midiRest, t4, 100};
+				notes[1] = {38, t4, 100};
+				notes[2] = {midiRest, t4, 100};
+				notes[3] = {38, t4, 100};
+				
+				notes[4] = {midiRest, t4, 100};
+				notes[5] = {38, t4, 100};
+				notes[6] = {midiRest, t4, 100};
+				notes[7] = {38, t8, 100};
+				notes[8] = {38, t16, 100};
+				notes[9] = {38, t16, 100};
+
+				numberOfNotes = 10;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+
+		case voiceHihatId:
+			if ((sequenceType == sequenceVerse) || (sequenceType == sequenceChorus)) {
+				notes[0] = {42, t8, 100};
+				notes[1] = {42, t8, 100};
+				notes[2] = {42, t8, 100};
+				notes[3] = {42, t8, 100};
+				notes[4] = {42, t8, 100};
+				notes[5] = {42, t8, 100};
+				notes[6] = {42, t8, 100};
+				notes[7] = {42, t8, 100};
+				
+				notes[8] = {42, t8, 100};
+				notes[9] = {42, t8, 100};
+				notes[10] = {42, t8, 100};
+				notes[11] = {42, t8, 100};
+				notes[12] = {42, t8, 100};
+				notes[13] = {42, t8, 100};
+				notes[14] = {42, t8, 100};
+				notes[15] = {42, t8, 100};
+				numberOfNotes = 16;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+	
+		case voiceBassId:
+			if (sequenceType == sequenceVerse) {
+				notes[0] = {36, t8, 100};
+				notes[1] = {36, t4, 100};
+				notes[2] = {36, t4, 100};
+				notes[3] = {36, t8, 100};
+				notes[4] = {36, t8, 100};
+				notes[5] = {36, t8, 100};
+
+				notes[6] = {31, t8, 100};
+				notes[7] = {31, t4, 100};
+				notes[8] = {31, t4, 100};
+				notes[9] = {31, t8, 100};
+				notes[10] = {31, t8, 100};
+				notes[11] = {31, t8, 100};
+
+				numberOfNotes = 12;
+
+			} else if (sequenceType == sequenceChorus) {
+
+				notes[0] = {36, t8, 100};
+				notes[1] = {36, t8, 100};
+				notes[2] = {36, t8, 100};
+				notes[3] = {36, t8, 100};
+				notes[4] = {33, t8, 100};
+				notes[5] = {33, t8, 100};
+				notes[6] = {33, t8, 100};
+				notes[7] = {33, t8, 100};
+
+				notes[8] = {29, t8, 100};
+				notes[9] = {29, t8, 100};
+				notes[10] = {29, t8, 100};
+				notes[11] = {29, t8, 100};
+				notes[12] = {31, t8, 100};
+				notes[13] = {31, t8, 100};
+				notes[14] = {31, t8, 100};
+				notes[15] = {31, t8, 100};
+		
+				numberOfNotes = 16;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+
+		case voiceArpId:
+			if (sequenceType == sequenceChorus) {
+
+				notes[0] = {72, t8, 100};
+				notes[1] = {71, t8, 100};
+				notes[2] = {72, t8, 100};
+				notes[3] = {74, t8, 100};
+				notes[4] = {72, t8, 100};
+				notes[5] = {71, t8, 100};
+				notes[6] = {72, t8, 100};
+				notes[7] = {74, t8, 100};
+
+				notes[8] = {72, t8, 100};
+				notes[9] = {71, t8, 100};
+				notes[10] = {72, t8, 100};
+				notes[11] = {74, t8, 100};
+				notes[12] = {74, t8, 100};
+				notes[13] = {72, t8, 100};
+				notes[14] = {71, t8, 100};
+				notes[15] = {74, t8, 100};
+
+				numberOfNotes = 16;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+
+			break;
+
+		case voicePadId:
+			if ((sequenceType == sequenceIntro) || (sequenceType == sequenceOutro)) {
+
+				notes[0] = {48, t2, 100};
+				notes[1] = {45, t2, 100};
+				notes[2] = {41, t2, 100};
+				notes[3] = {43, t2, 100};
+				numberOfNotes = 4;
+			} else if (sequenceType == sequenceChorus) {
+				notes[0] = {48, t2, 100};
+				notes[1] = {50, t2, 100};
+				notes[2] = {50, t2, 100};
+				notes[3] = {48, t2, 100};
+				numberOfNotes = 4;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+
+		case voiceMelodyId:
+			if ((sequenceType == sequenceIntro) || (sequenceType == sequenceOutro)) {
+				notes[0] = {midiRest, t4+t8, 100};
+				notes[1] = {74, t4, 100};
+				notes[2] = {74, t4, 100};
+				notes[3] = {midiRest, t8, 100};
+
+				notes[0] = {midiRest, t4+t8, 100};
+				notes[1] = {74, t4, 100};
+				notes[2] = {74, t4, 100};
+				notes[3] = {midiRest, t8, 100};
+
+				numberOfNotes = 8;
+			
+			} else if (sequenceType == sequenceVerse) {
+
+				notes[0] = {midiRest, t4+t8, 100};
+				notes[1] = {74, t4, 100};
+				notes[2] = {74, t4, 100};
+				notes[3] = {midiRest, t8, 100};
+
+				notes[4] = {midiRest, t4+t8, 100};
+				notes[5] = {74, t4, 100};
+				notes[6] = {72, t4, 100};
+				notes[7] = {midiRest, t8, 100};
+
+				numberOfNotes = 8;
+
+			} else if (sequenceType == sequenceChorus) {
+				notes[0] = {midiRest, t4+t8, 100};
+				notes[1] = {74, t4, 100};
+				notes[2] = {74, t4, 100};
+				notes[3] = {midiRest, t8, 100};
+
+				notes[4] = {midiRest, t4+t8, 100};
+				notes[5] = {74, t4, 100};
+				notes[6] = {76, t4, 100};
+				notes[7] = {midiRest, t8, 100};
+
+				numberOfNotes = 8;
+			} else {
+				notes[0] = {midiRest, t1+t1, 0};
+				numberOfNotes = 1;
+			}
+			break;
+		}
+	}	
+}
+
+
+// play the current note
+void Voice::noteStart()
+{
+	note aNote;
+
+	if (numberOfNotes > 0) {
+
+		aNote = notes[currentNote];
+		if (aNote.note != midiRest) {
+			midiNote((0x90 | midiChannel), aNote.note, aNote.velocity);
+		}
+	
+	}
+}
+
+// silence the current note
+void Voice::noteStop()
+{
+	note aNote;
+
+	if (numberOfNotes > 0) {
+		aNote = notes[currentNote];
+
+		if (aNote.note != midiRest) {
+			midiNote((0x80 | midiChannel), aNote.note, 0); 
+		}
+	}
+
+}
+
+
+// turn on the correct LEDs depending on which sequence we are playing
+void lightLeds(byte index)
+{
+	switch (song[sequenceIndex])
+	{
+	case sequenceIntro:
+		digitalWrite(pinLedYellow, HIGH);
+		digitalWrite(pinLedGreen, LOW);
+		digitalWrite(pinLedRed, LOW);
+		break;
+	case sequenceOutro:
+		digitalWrite(pinLedYellow, HIGH);
+		digitalWrite(pinLedGreen, LOW);
+		digitalWrite(pinLedRed, LOW);
+		break;
+	case sequenceVerse:
+		digitalWrite(pinLedYellow, LOW);
+		digitalWrite(pinLedGreen, HIGH);
+		digitalWrite(pinLedRed, LOW);
+		break;
+	case sequenceChorus:
+		digitalWrite(pinLedYellow, LOW);
+		digitalWrite(pinLedGreen, LOW);
+		digitalWrite(pinLedRed, HIGH);
+		break;
+	default:
+		digitalWrite(pinLedYellow, HIGH);
+		digitalWrite(pinLedGreen, HIGH);
+		digitalWrite(pinLedRed, HIGH);
+	}
+}
+
+
+
+// Create the voices (objects)
+
+Voice voiceKick;
+Voice voiceSnare;
+Voice voiceHihat;
+Voice voiceBass;
+Voice voiceArp;
+Voice voicePad;
+Voice voiceMelody;
+
+
+
+void setup() {
+
+	pinMode(pinLedYellow, OUTPUT);
+	pinMode(pinLedGreen, OUTPUT);
+	pinMode(pinLedRed, OUTPUT);
+
+	pinMode(pinDown, INPUT);
+	pinMode(pinUp, INPUT);
+
+	// setup SoftSerial for MIDI control
+	mySerial.begin(31250);
+	delay(midiSendDelay);
+
+	// all sounds off on all 16 channels (can be synth-specific)
+	for (int i = 0; i < 16; i++) {
+		midiData2((0xB0 | i), 0x78, 0);
+		delay(midiSendDelay);
+		midiData1((0xB0 | i), 0x7B);
+		delay(midiSendDelay);
+	}
+
+	// init all voices (objects)
+	
+	voiceKick.init(voiceKickId, voiceDrumsMidiChannel);
+	voiceSnare.init(voiceSnareId, voiceDrumsMidiChannel);
+	voiceHihat.init(voiceHihatId, voiceDrumsMidiChannel);
+	voiceBass.init(voiceBassId, voiceBassMidiChannel);
+	voiceArp.init(voiceArpId, voiceArpMidiChannel);
+	voicePad.init(voicePadId, voicePadMidiChannel);
+	voiceMelody.init(voiceMelodyId, voiceMelodyMidiChannel);
+
+	lightLeds(sequenceIndex);
+}
+
+
+unsigned long pushTime = millis();
+unsigned long currentTime;
+
+void loop() {
+	
+	currentTime = millis();
+
+	// update state of voice and play next note if necessary
+	voiceKick.noteNext(currentTime);
+	voiceSnare.noteNext(currentTime);
+	voiceHihat.noteNext(currentTime);
+	voiceBass.noteNext(currentTime);
+	voiceArp.noteNext(currentTime);
+	voicePad.noteNext(currentTime);
+	voiceMelody.noteNext(currentTime);
+
+	// let the user control which sequence should be played
+	if ((digitalRead(pinDown) == HIGH) && (currentTime - pushTime > 500))
+	{
+		sequenceIndex--;
+		pushTime = millis();
+		if (sequenceIndex < 0) {
+			sequenceIndex = 0;
+		}
+		lightLeds(sequenceIndex);
+	}
+
+	if ((digitalRead(pinUp) == HIGH) && (currentTime - pushTime > 500))
+	{
+		sequenceIndex++;
+		pushTime = millis();
+		if (sequenceIndex > maxSequences) {
+			sequenceIndex = maxSequences;
+		}
+		lightLeds(sequenceIndex);
+	}
+
+} // void loop()

@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/lmp-asks-7-interview-giovanni-zuliani" />
+<link rel="shortlink" href="/node/339" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>LMP Asks #7: An interview with Giovanni A. Zuliani | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"FjoT0a5W2LC32i5Wl7t52ivmNEMV-nUklfSMu7577mo","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/node\/339":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-339 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  LMP Asks #7: An interview with Giovanni A. Zuliani                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-339" class="node node-article node-promoted clearfix" about="/articles/lmp-asks-7-interview-giovanni-zuliani" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="LMP Asks #7: An interview with Giovanni A. Zuliani" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2015-04-07T06:54:53+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Tue, 2015-04-07 07:46</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div><div class="field-item odd"><a href="/level/intermediate" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Intermediate</a></div><div class="field-item even"><a href="/level/expert" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Expert</a></div></div></div><div class="field field-name-field-article-tools field-type-entityreference field-label-inline clearfix"><div class="field-label">Tools:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/tools/giada">Giada</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This month we talked to Giovanni A. Zuliani, the founder and project manager of <a href="/tools/giada">Giada LoopMachine</a>, a minimal, hardcore audio tool for DJs, live performers and electronic musicians.</p>
+<p><img alt="" src="/sites/default/files/articles/giovanni.jpg" /></p>
+<p><strong>Hi Giovanni, thank you for taking the time to do this interview. Where do you live, and what do you do for a living?</strong></p>
+<p>I, along with my team live in Milan (northern Italy), working as a freelancer/IT consultant. Lately I’m doing a lot of web development, with pleasure I must say.</p>
+<p><strong>Can you tell us a bit about the history of Giada Loopmachine</strong></p>
+<p>I would date Giada back to late 2009 - early 2010, when I decided to move my whole setup toward the Linux world. I needed a piece of software to fire samples with my PC keyboard, so I sketched down a draft prototype in a couple of days. It all started with a ridiculous console-only mockup, with the GUI drawn with a series of printf and escape sequences. Actually I was brave enough to do a couple of live shows with that stuff.</p>
+<p>Then it started to grow slowly, passing from a ncurses interface with samples loaded via .ini files to a complete refactoring with FLTK and other libraries (RtAudio in the beginning) which led to the first official release for the masses (0.0.1), on September 09, 2010. It’s still in the changelog!</p>
+<p><img alt="" src="/sites/default/files/articles/giada_internal_alpha_0.0.1.png" /></p>
+<p><img alt="" src="/sites/default/files/articles/giada_internal_alpha_0.0.11.png" /></p>
+<p><img alt="" src="/sites/default/files/articles/giada_internal_alpha_0.2.7.png" /></p>
+<p><img alt="" src="/sites/default/files/articles/giada_internal_alpha_0.3.4.png" /></p>
+<p>Nowadays I would define myself as the “project manager” of Giada, while several people and technologies are helping its maturation. Even if Giada is still in an early stage of life, the whole experience is teaching us a lot about software development in general.  </p>
+<p>The core team is made up by me and two other guys, Valerio Costantini and Stefano Milani. I write the ~80% of the code, they do the rest and give a hand with the web/social development. We all commit on Github under the same account (<a href="https://github.com/monocasual">monocasual</a>).</p>
+<p>I would also include the precious help of "external" people like <a href="/articles/lmp-asks-3-interview-aurélien-leblond">Blablack</a> (<a href="https://github.com/blablack">https://github.com/blablack</a>) with his MIDI lightning support or John Derry (<a href="https://github.com/johndderry">https://github.com/johndderry</a>) with his MIDI tunneling, to name a few. Those features are still experimental but will be merged soon in the master branch.</p>
+<p><img alt="" src="/sites/default/files/articles/giada-latest.png" /><br /><em>Giada LoopMachine as it is today!</em></p>
+<p><strong>Can you tell us a bit about any other projects you are involved in?</strong></p>
+<p>I gather all of my works under a collector named <a href="http://www.monocasual.com/">Monocasual Laboratories</a>. On that page you may find another fairly tasty project called <a href="http://www.ladolcevitacooking.com/">La Dolce Vita Cooking Book</a>: an emerging web magazine about the Italian way of living, of which I am the co-founder.</p>
+<p><strong>What is your musical background?</strong></p>
+<p>I’ve been always interested in what I call “processed music”. I mean, any kind of sound that goes through a manipulation, elaboration, distortion or filtering. That description fits naturally with the concept of electronic music, a genre I am really involved into, but it can be broaden to other styles as well.</p>
+<p>My main music project, TBLR Orchestra (<a href="https://www.youtube.com/user/toblerOrchestra">youtube</a>, <a href="https://soundcloud.com/tblr_orchestra">soundcloud</a>), is a sort of experimental ground where I test things, ideas and soundscapes. Persistence of Vision does the same with video processing. At the moment they are both on hold: one can think of them as “pointers”, or future references for something more serious as soon as Giada becomes ready for my own production standards.</p>
+<p>Currently I don’t play any instruments in the traditional way and I lack of any execution skills, even if I have some basics for piano playing (and piano lessons in my personal roadmap).</p>
+<p><strong>What is your typical workflow when making music?</strong></p>
+<p>Everything starts from a psychological factor: I must be committed to a project. I dislike the idea of doing some random tracks, put them on the Internet, see what happens and whatever. Once the scope and the directions are set, I start with defining the method.</p>
+<p>Being systematic about that is very enjoyable in my opinion, because each time I have to plan the actual workflow: the software involved, the sources I will sample from, the physical tools used. It also gives me the great opportunity to self-impose some boundaries to the creative process: I believe that the best outcome flourishes in limited conditions. At least that’s how I enjoy creating stuff.</p>
+<p>As I said before my purpose is to include Giada as the main sequencer, MIDI controller and sampler, eventually supported by a DAW for recording and mastering. I really like Reaper speaking of that. Hardware like cheap preamps, tape recorders, low-quality microphones and low-priced guitar amps are used as sound processors. Lo-fi approach is my cup of tea, I tend to use any piece of junk that can output sounds.</p>
+<p><strong>Tell us a bit about your hardware set up</strong></p>
+<p>The “core” is my laptop. I bring it anywhere needed. It features Ubuntu 14.04 with LXDE. I use it both for music production and software/web development. At home I dock it on my desk, linked to a couple of M-Audio amplified studio monitors through a (cheap, of course) Phonic mixer.</p>
+<p>Three noteworthy items: MXL Cube Condenser microphone, Tube Ultragain MIC200 mic-preamp by Behringer (I know, Behringer means crap by I really dig that tool) and Pro VLA 2 analog compressor by ART. I recently bought the AKAI LPD8, a compact MIDI controller with pad and knobs. Very useful for drum programming and sampling.</p>
+<p><img alt="" src="/sites/default/files/articles/monocasual-laboratories.jpg" /></p>
+<p><strong>What is your history with Linux?</strong></p>
+<p>As I said before it all started in late 2009. I needed a slick tool for development purposes and Windows was too bloated. I’m not an evangelist nor a fanboy, I just need the best tool for solving problems without time waste. I found in Linux a good partner. I especially love the power of the command line.</p>
+<p><strong>Why do you feel open source is important, and what for you is the most important aspect of Linux audio?</strong></p>
+<p>I like the open source way for its hacking-oriented approach. Everyone interested can submit his/her own code, ideas, suggestions, or browse the existing one to gain knowledge. You don’t have to wait for the big, corporate and obscure release to come out if you want to test: just clone the source code from the repo and start your experiments.</p>
+<p>In my opinion it’s also a way to build a stronger community around a particular product. In addition, and I still don’t know why, open source projects seem less packed with crapware and useless functions. Maybe it’s just my stroke of luck, though :)</p>
+<p>To be honest, I don’t perceive any philosophical urgencies in the Linux audio approach of making music with free tools. I mean: I don’t want to change anyone’s mind about that, people should be free to use the best tools they can get to solve their own problems. And yet I totally respect those who try to spread the open source word at their best. I just find it useful for making stuff together, having fun with new people and ideas and keep the technological progress running.</p>
+<p><strong>What do you feel is currently lacking in Linux audio?</strong></p>
+<p>Speaking of functionality, there are tons of great projects out there in the Linux audio land. I would say nothing is currently lacking, then. I also appreciate the recent improvements in usability and care for what concern the “corporate image” of many of them, shaking off the past feeling of something too complex, difficult, or maybe not so cool for a newcomer.</p>
+<p>Moreover you guys are filling another small gap from the past: a place where to find great documentation, tutorial, tools and goodies with a fresh interface and a modern look. Linux audio is on the right track from my personal point of view.</p>
+<p><strong>What is your favourite FLOSS plugin?</strong></p>
+<p>I find MDA plugins to be very cool, too bad they don’t have a GUI. I’m also keeping an eye on the <a href="/tools/calf-plugins">CALF suite</a>, it looks absolutely promising. It surely will be my first choice as soon as we will implement <a href="/answer/lv2">LV2</a> hosting in Giada (and it will happen soon).</p>
+<p><strong>Are there any FLOSS projects that you are excited about at the moment?</strong></p>
+<p>Apart from the Linux audio environment I deeply enjoy following <a href="https://www.winehq.org/">WINE</a>’s evolution. <a href="/tools/ardour">Ardour</a> is another great piece of software: it could substitute Reaper in my setup shortly. Plus I’m intrigued by its paid vs free philosophy. Finally I’m discovering the tremendous power of <a href="https://www.ffmpeg.org/">FFmpeg</a> even if I’ve just scratched its surface.</p>
+<p><strong>What changes, if any, would you like to see within the Linux Audio community?</strong></p>
+<p>Being a newbie in the Linux Audio community, I had no chances to fully check its status. So far I’ve found very capable guys willing to help with great ideas. No changes required, then :)</p>
+<p><strong>What advice would you give to a new Linux Audio user?</strong></p>
+<p>A straightforward two-folded one: browse libremusicproduction.com on a daily basis and grab the latest package of Giada LoopMachine as soon as possible. What else?</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/lmp-asks-7-interview-giovanni-zuliani" st_title="LMP Asks #7: An interview with Giovanni A. Zuliani" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/node/339" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-nC5oAS9iN5kKEvBwzSzFQh9mYUsXAw5Wnn6t2sTfpEk" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/node/339" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-K-XfUXTl2H1WGNFbgj1T2STZQeDzIRspaF1NzQVgjis" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>

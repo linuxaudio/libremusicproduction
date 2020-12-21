@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://libremusicproduction.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Libre Music Production - hardcore</title>
+ <link>http://libremusicproduction.com/genre/hardcore</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>unfa</title>
+ <link>http://libremusicproduction.com/music/unfa</link>
+ <description></description>
+ <pubDate>Sat, 14 Feb 2015 18:03:06 +0000</pubDate>
+ <dc:creator>Conor</dc:creator>
+ <guid isPermaLink="false">308 at http://libremusicproduction.com</guid>
+ <comments>http://libremusicproduction.com/music/unfa#comments</comments>
+</item>
+</channel>
+</rss>

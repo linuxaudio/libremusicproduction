@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/articles/friday-interview-6-glen-macarthur" />
+<link rel="shortlink" href="/node/171" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://libremusicproduction.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml" rel="alternate" type="application/rss+xml" />
+<link href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml" rel="alternate" type="application/rss+xml" />
+  <title>Friday Interview #6: Glen MacArthur | Libre Music Production</title>
+  <style type="text/css" media="all">
+@import url("http://libremusicproduction.com/modules/system/system.base.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.menus.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.messages.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/system/system.theme.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/simplenews/simplenews.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/comment/comment.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_api/date.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/field/theme/field.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/node/node.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/search/search.css?pxt43l");
+@import url("http://libremusicproduction.com/modules/user/user.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/video_filter/video_filter.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/modules/views/css/views.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/modules/ctools/css/ctools.css?pxt43l");
+</style>
+<style type="text/css" media="all">
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/skeleton.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/style.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/buttons.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/all/themes/skeletontheme/css/layout.css?pxt43l");
+@import url("http://libremusicproduction.com/sites/default/files/color/skeletontheme-909523ec/colors.css?pxt43l");
+</style>
+  <script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/misc/drupal.js?pxt43l"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+	
+	$("#navigation .content > ul").mobileMenu({
+		prependTo: "#navigation",
+		combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+	});
+	
+	});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/mediaelement/mediaelement.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var switchTo5x = true;var useFastShare = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof stLight !== 'undefined') { stLight.options({"publisher":"dr-b0c4b56e-3ceb-6c10-8cc5-7b74984a8e30","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true,"onhover":false,"lang":"en"}); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://libremusicproduction.com/sites/all/modules/google_analytics/googleanalytics.js?pxt43l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47803594-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"7XyrN9XQ9TlBY9rpOx3Uhk0dtt4X6aUNAkUMEEgX96w","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"1":1,"2":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"mediaelementAll":true,"urlIsAjaxTrusted":{"\/articles\/friday-interview-6-glen-macarthur":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-171 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/" title="Home" rel="home" id="logo">
+                    <img src="http://libremusicproduction.com/sites/default/files/logo.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/" title="Home" rel="home">Libre Music Production</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+        
+            <div class="menu-header">
+                            				<div class="content">
+				<ul class="menu"><li class="first leaf"><a href="/workflow">Workflow</a></li>
+<li class="leaf"><a href="/articles" title="">Articles</a></li>
+<li class="leaf"><a href="/tutorials">Tutorials</a></li>
+<li class="leaf"><a href="/interviews">Interviews</a></li>
+<li class="leaf"><a href="/tools">Tools</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="last leaf"><a href="/about">About</a></li>
+</ul>                </div>
+                        </div>
+            
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                        
+            <div id="main">
+            
+                                
+                                
+                                <h1 class="title" id="page-title">
+                  Friday Interview #6: Glen MacArthur                </h1>
+                                
+                                
+                                <div class="tabs">
+                                  </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-171" class="node node-article node-promoted clearfix" about="/articles/friday-interview-6-glen-macarthur" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Friday Interview #6: Glen MacArthur" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="15" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2013-11-08T12:54:23+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">Updated: Sat, 2017-09-16 23:14</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-article-area field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Category:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/category/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">interview</a></div></div></div><div class="field field-name-field-article-level field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Level:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/level/beginner" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Beginner</a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, and welcome to the sixth edition of the Friday Interview! This week, we're joined by a guy who's had the time to create and maintain the Linux distribution AVLinux, while at the same time being a kickass musician. I'm very happy to introduce the sixth participant of the series, interviewee #6: <em>Glen MacArthur</em>! Lets get started!</p>
+<h2>Introducing Glen MacArthur</h2>
+<div class="well"><strong>Glen MacArthur</strong>, aka <strong>avlinux</strong>, is a self-employed Canadian, running a family farm with his wife in Ontario.</div>
+<div class="well"> </div>
+<div class="well">His primary interest in Linux audio is creating a scalable, fully-featured Audio/Video platform, aimed at both the casual enthusiast, and the commercial grade professional.</div>
+<div class="well"> </div>
+<div class="well">Outside of Linux audio, being a part-time musician, he loves to play music, especially with his kids. He also enjoys riding motorcycles and ATV's.</div>
+<div class="well"> </div>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Bandshed-1024x576.jpg" /> Here's Glen in his self-built little studio shed. From Glen himself: <em>My little studio and our band rehearsal space is in a separate little building I built called the 'Band Shed'. My setup isn't too impressive really but it gets the job done.</em>
+<p> </p>
+</div>
+<p><strong>Hi Glen! Thanks a lot for doing this interview! Where do you live, and what do you do for a living?</strong></p>
+<p>No Gabbe the thanks goes to you for starting this great series!</p>
+<blockquote><p>"I'm pretty sure I'm the only farmer in Canada with a Linux Distribution..."</p></blockquote>
+<p>I live in rural Southwestern Ontario Canada, curiously I live on the same farm I grew up on. My wife and I run 300 acres of crops and livestock for our living. Farming is very seasonal work and the hours vary significantly so I have some time for geekly activities during the winter months. I'm pretty sure I'm the only farmer in Canada with a Linux Distribution...  </p>
+<p><strong>What's your musical background like? What music do you like, and do you play any instruments?</strong></p>
+<p>I must have inherited a recessive musical gene because there are no musicians in my family. I was a late bloomer and didn't catch the music bug until I was 18 or so and then started playing in a band with some friends.  We managed to get a repertoire up to speed quite quickly and had a great few years doing the bar circuit and learned volumes about performing and even more about personality conflicts :)</p>
+<p>For the last 18 years or so I have sang and played guitar with 'Movin' Groovin' and Verhoeven' a local cover band that despite it's ridiculous name plays about 30 shows a year and stays quite busy. Recently I have joined another band called 'The Roadies' (it's an inside joke) as drummer and we have recently played a few gigs which has been very fun as well. I also play drums and record occasionally with some former bandmates in a Rockabilly band called Wally &amp; the Spaz Rockets.</p>
+<p>Instrument-wise I play guitar, drums and was cajoled into singing although I never really intended to be much of a singer. I can play bass in a pinch and dabble very lamely with keyboards. I don't have any formal music training which is a mixed blessing/curse.</p>
+<p>I listen to and enjoy a lot of different musical styles from jazz to dubstep. Some artists that have influenced me are John Fogerty and all the amazing artists from the American Soul era both on Motown and Stax/Volt in the late 60's. I also really dig Kings of Leon, The Black Keys and the Foo Fighters. Recently a very talented Swede with a gift for melodic Electronic music made on Linux has gotten me more interested in that genre, perhaps you've heard of him?</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Farm1-1024x576.jpg" /><em>The Farm. Looks awesome, and I subscribe to the idea that Glen likely is the only farmer with a Linux distribution. He should do a workshop on "Linux for farmers".</em>
+<p> </p>
+</div>
+<p><strong>What's your history with Linux, and with using Linux for audio?</strong></p>
+<p>Hmmm well to start my history with Windows probably should be mentioned as there is a correlation. To be honest I have no computer schooling or training and my daily work other than some record and book-keeping has nothing to do with computers. Like many people I got interested in computers in the mid 90's mostly because I could see the potential for Audio Recording and I have always been fascinated with recording and used reel to reel and cassette multitrack recorders for years.</p>
+<p>So I did a lot of research and we got our first PC in 1996 or so, I really wanted to ensure that for recording I had a pro-quality Sound Card so after much reading and saving my pennies I purchased a Turtle Beach Pinnacle ISA Card for $800.00CDN, yes it was a lot of money but this sucker had an onboard Kurzweil MA-1 Synth chip, onboard optional memory slots for Wavetable Sampling and 20bit AD Converters that could actually handle 24bit Audio (well OK, 20bits with 4 null bits).</p>
+<p>This was space-age stuff for home PC's in the late 90's! I also read that the Pinnacle required 2 <a href="http://en.wikipedia.org/wiki/Interrupt_request" target="_blank" title="What IRQ is">IRQ</a>'s... Wow, 2 must be better than 1 right?! Wrong!! Long story short although it was a great bit of hardware it was extremely difficult to install and the 2 IRQ's were a major headache so right off the bat with our first PC I had to roll up my sleeves and learn very quickly about how computer's work, most nearby computer stores knew absolutely nothing about dedicated Audio Recording so I was on my own. Shortly after that I went to a local music store seminar on Steinberg's CubaseVST and plunked down another $300.00 for CubaseVST 3.5, Oh yes those were the heady early days of VST Plugins with GUI's. So for a few years I was in <a href="/answer/daw">DAW</a> bliss and could very quickly and easily get songs and ideas together, create sampled drumkits and all sorts of Audio and MIDI mayhem. It didn't last long...</p>
+<p>Windows XP came out and Steinberg held out their hands for another $300.00 or so for a new Cubase for XP, then ISA slots disappeared from PC motherboards and killed my Pinnacle. This was my introduction to the short shelf-life of PC-based music production and I was supremely pissed and disappointed!</p>
+<p>I staved off the inevitability of XP as long as I could and after trying N-Track and some other lower-priced DAW programs I gave up on DAW's in frustration and bought a used Tascam DA-88 Hi8 tape-based Digital Recorder and a Digital mixer. I started a new interest in computer Video Editing and joined the Videohelp.com forums which had a 'Linux' video section.</p>
+<p>One day I started following a seemingly endless and acrimonious forum thread on switching to Linux and got curious, the OP of the thread recommended <a href="http://www.mepis.org/" target="_blank" title="MEPIS OS">MEPIS</a> so I tried a MEPIS LiveCD, that little bouncing KDE3 cursor was the cutest thing ever! MEPIS was a great intro to Desktop Linux but a decidedly non-multimedia focused OS.</p>
+<p>Ubuntu Studio 7.10 (Gutsy) came out shortly after and I was properly introduced to the (then) state of Linux Audio. I tried <a href="/tools/ardour" target="_blank" title="Ardour Website">Ardour</a> 2.0 and was very surprised and impressed and was inspired to get back into the DAW world, this time with Linux. I was excited that with Linux I could dig in and get involved on both sides of the computer screen and if I asked questions on the Ardour forum or <a href="/answer/what-irc-what-it-used-and-how-do-i-use-it">IRC</a> more often than not I got answered by Paul Davis (the author of Ardour) himself, many of us Linux users take this close contact with developers for granted but this was far different than my experience with Steinberg. Linux being 'free' has never appealed to me as the foremost reason to choose it personally but I appreciated that I could decide how much I wanted to pay at any given time and could choose whichever projects I wanted to donate to.</p>
+<p>Like my previous experience with the Pinnacle Card, and like many new Linux users it became obvious to me that to get the most out of the new and quickly evolving landscape of Linux Audio I was going to need to roll up my sleeves and learn to compile my own apps to fix issues and enjoy the latest offerings. I used Ubuntu 7.10 for as long as I could but quickly learned that there was no longevity to the in-between '.10' Ubuntu releases but in the meantime I had discovered Tony Brijeski's '<a href="http://www.remastersys.com/" target="_blank" title="Remastersys website, unfortunately closed">Remastersys</a>' and created my own customized ISO of Ubuntu 7.10 with all my latest compiled apps. In that time I also tried <a href="http://www.64studio.com/" target="_blank" title="64studio Website">64Studio</a> and JACKLab which were both incredible Distributions in their time but by 2007 they were both starting to show developer fatigue and lagging hardware support. I was very much enjoying learning to use Ardour and talking to other users on it's forum and I really wanted to show other people what the fuss was all about so on a whim I uploaded my customized 7.10 ISO to my wife's webspace and half-jokingly called it 'AV Linux'. Shortly after that I switched over to Debian and have been using it as a base ever since.  </p>
+<h2>AVLinux</h2>
+<p><strong>You're the creator and maintainer of <a href="http://www.bandshed.net/AVLinux.html">AVLinux</a>. Could you explain what AVLinux is, and what it sets out to do, for the people who don't know it? When did you start working on it? </strong></p>
+<p>I started working on AVLinux in late 2006.</p>
+<p>Well at a glance AV Linux is similar to 64/Ubuntu/Tango/Dream/KXStudio and is a custom tailored Live or Installable Linux OS specializing in Audio and Video creation. I guess it is more distinguished by it's differences to the others than by it's similarities. Some key differences:</p>
+<ul><li>AV Linux is heavily customized, complete and pre-configured so that even people without internet can install and use it to it's full potential.</li>
+<li>AV Linux is scalable from 10-12 year old single core computers up to recent new PCs and has optional PAE Kernels for new machines with 4+ Gb of RAM. I believe VERY strongly that older computers can be productive appliances instead of toxic landfill.</li>
+<li>AV Linux comes with a complete development environment in the default install, if I can build and package it...so can the user. This makes compiling much less intimidating to new users.</li>
+<li>AV Linux is released in meticulously compiled snapshots with large amounts of custom GIT/BZR/SVN fixes done in direct consultation with many of the upstream developers, A great deal of time is taken to make sure the apps are in the best state possible and reflect well on their developers. It also features some packages not found anywhere else like ArdourVST, the only available demo version of Mixbus, Transcribe and a lot of useful WinFF and CinelerraCV presets.</li>
+<li>AV Linux celebrates and promotes Open-Source but also introduces the user to the foremost Commercial Linux Audio apps by presenting their demos on the LiveDVD. linuxDSP, Loomer, Harrison Mixbus, Pianoteq, Renoise are also all there configured and ready to evaluate.</li>
+</ul><div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Packaging-1024x640.png" /><em>Maintenance of AVLinux in action. Packaging!</em>
+<p> </p>
+</div>
+<p><strong>I know you've been talking about not having the proper time to put into AVLinux lately. What's the future for AVLinux? How would you personally like to see it play out? </strong></p>
+<p>I'm sure I'm in the same boat as many software people who do it as a hobby, You do it because you love it, but other priorities pay the bills and therefore demand the higher share of your time, add in the obvious higher priorities of a family and suddenly time is a scarce, precious commodity. My wife and kids are very supportive and understanding of my 'weird' hobby, but even that doesn't create more than 24 hours in a day. The way AV Linux is developed requires huge amounts of custom packaging, many packaging maintainers find it a handful maintaining 4 or 5 packages, In AV Linux I am maintaining more than 40, it has been my own choice to do things this way and to use Debian's "Stable' branch as a base.</p>
+<blockquote><p>"My wife and kids are very supportive and understanding of my 'weird' hobby, but even that doesn't create more than 24 hours in a day."</p></blockquote>
+<p>For those who don't know how Debian works the 'Stable' distribution is very selectively worked on through a long testing phase and then released with maintenance and security updates but no true application updates except for a small selection of backports. All of the multimedia update packaging for Debian is handled by their own excellent 'pkg-multimedia' team but 99% of their work goes directly to the 'Testing' and 'Unstable' Debian branches thus  since I chose Stable for all of it's merits as a reliable base I had to take the initiative to do the packaging. I'm certainly not complaining, merely pointing out why a customized 'distro' can be so time consuming.</p>
+<p>When AV Linux 6.0 was released last year I was completely burned out and was becoming very resentful of the time required and also of the various changes going on in the underlying Linux support structure. I had to take my hands off the wheel for a while and regain my perspective. After I got my head back on straight I picked up where I left off and for the time being am continuing work and improvements to the AV Linux 6.X series. To be clear AV Linux is still in active development and maintenance.</p>
+<p>As far as the future for AV Linux it has already been decided for me by other factors which to be honest are probably better in the long term for future Linux Audio users. AV Linux is currently based on Debian 6.0 (Squeeze) which was replaced by Debian 7.0 (Wheezy) late last spring. I was not really in a hurry to move to 7.0 because I had put a lot of work into honing and improving the 6.X base and in my opinion things were just getting to the level of quality I had always envisioned.</p>
+<p>In the meantime <a href="/articles/friday-interview-2-falktx">falkTX</a> of KXStudio who I have a great and mutually respectful relationship with made a wise decision to move his KXStudio repositories to Debian 7.0 from Ubuntu. So in reality now KXStudio is not a Ubuntu or KDE entity only, it will service both Debian and Ubuntu and by extension will also most likely service Dream Studio as well since it makes use of KXStudio packaging. On top of that in the meantime Tango Studio has also moved to Debian so regardless of what I would or wouldn't do Debian 7.0 has it's multimedia packaging needs more than covered and continuing with AV Linux on Debian 7.0 would be just be self-serving and redundant.</p>
+<p>I respect, admire and appreciate the efforts of falkTX, Jof Thibaut and others and I think Debian/Ubuntu Linux Audio users are in very good hands. When I feel my work on AV Linux 6.X is finally finished and after I complete a music album I've left unfinished for far too long I will probably pitch in to lend a hand with packaging for KXStudio if I can be of use at that time.</p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/AVLinuxMama-1024x576.jpg" /><em>The AVLinux Mama. This is the machine that AVLinux is made from, and Glen says AVLinux actually is a complete copy of the system on this computer.</em>
+<p> </p>
+</div>
+<p><strong>If people want to contribute to AVLinux, how can they do that? And where can we find AVLinux online? Do you have a Facebook page, Google+ page or similar?</strong></p>
+<p>The AV Linux website is here: <a href="http://www.bandshed.net/AVLinux.html" target="_blank">http://www.bandshed.net/<wbr></wbr>AVLinux.html</a></p>
+<p>Clicking the 'Donate' button is encouraged! :)</p>
+<p>The AV Linux forum community is here: <a href="http://geekconnection.org/remastersys/forums/index.php">http://geekconnection.org/remastersys/forums/index.php</a></p>
+<p>I don't have Facebook and can be found on Google+ as '<a href="https://plus.google.com/115075096728151567863/posts" target="_blank" title="Glen MacArthur on G+">Glen MacArthur</a>'  </p>
+<h2>Your music</h2>
+<p><strong>It's no secret I'm a big fan of you and your music, which I'm sure the "plays by country"-statistics on Soundcloud shows ;) Rumors are you're working on an album, and have been for quite a while. Could you tell us a bit about that project? </strong></p>
+<p>Well you know the feeling is mutual on that! Your music has been very inspiring to me as well.</p>
+<p>I have a large backlog of original music that I started writing back in my early DAW days with the Cubase setup I described previously. Many of the songs were never finished and life got busy and until I got into Linux I really had lost a lot of the inspiration to work on original music because of losing my previous familiar workflow.</p>
+<p>Linux Audio in general has progressed to such a great and productive level now and AV Linux itself has evolved for me personally to a point where I have found a new workflow that makes sense and I want to finally pick up where I left off in the late 90's.</p>
+<p>Of course now being in my mid-forties I've decided to harness the energy of mid-life crisis and finish a complete album in the next year. The way things are going it may have to be a double-album..  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/SunStudios.jpg" /><em>Glen: An old analog picture from an instamatic camera in 1989 of me recording at Sun Studios in Memphis Tennessee, this is the studio where Elvis, Johnny Cash, Jerry Lee Lewis, Carl Perkins etc, got their start. A sad story... my friend and I went to Memphis, toured the studio and took the opportunity to record there, this was back in the 1980's so we got the masters on Cassette tapes, when I got home I put the cassette in my tape deck which promptly ate the tape and destroyed it. :(</em>
+<p> </p>
+</div>
+<p><strong>What kind of musical projects are you involved in right now?</strong></p>
+<p>Other than trying out stuff and working on my album I had the profound pleasure earlier this year to collaborate on a song with the amazing Dave Phillips, his voice on that track still gives me shivers. He is such a wealth of musical knowledge (Linux and otherwise) and such a humble, wise and encouraging person. Performing with him live someday is on my bucket list and I'd do another song with Dave any day of the week!</p>
+<p>I also was asked by Irwin Cespedes (a.k.a. altiplane) to contribute a song this past year to a great Linux Audio compilation album 'Ondas Libres' produced by some folks at the Hispasonic forum.</p>
+<p>I'm looking forward to a collaboration with another Linux Audio phenomenon in the near future and taking that opportunity to learn some new tricks. Occasionally I do some small commercial recording jobs with other bands in my small studio but these are very few and far between.  </p>
+<p><strong>What software do you mainly use when making music?</strong></p>
+<p>As a packager/distributor I get an opportunity to see the work of a lot of great developers and there are too many great Apps and Plugins to count.</p>
+<p>As a musician my needs are fairly spartan. I routinely use <a href="/tools/hydrogen">Hydrogen</a>, Ardour, ArdourVST and Harrison Mixbus with linuxDSP, Loomer, <a href="/tools/calf-plugins">Calf</a>, and various other FOSS Plugins. I never use or require <a href="/answer/session-management">Session Management</a> so that keeps things pretty simple.</p>
+<p>I am becoming very interested in moving to <a href="/tools/qtractor">Qtractor</a> on my aging laptop computer since both Ardour3 and Mixbus are creeping up on their CPU usage.  </p>
+<p><strong>Is there any type of musical project you haven't done, that you'd like to do in the future?</strong></p>
+<p>At some point I'd like to do a multitrack and multi-camera HD concert video and post produce it all with Linux tools. With recent improvements to Kdenlive and the Video Timeline features on Ardour3 I think this would be easily achieved but it would still be a very time-consuming project so who knows...?  </p>
+<h2>Final questions</h2>
+<p><strong>Do you feel like anything is lacking in Linux audio today, and if so, what?</strong></p>
+<p>Things have come so far since I've been involved with Linux Audio and the huge amount of new territory that has been conquered makes it difficult to focus on the 'have-not' side of things.</p>
+<p>One thing I would personally love to see is <a href="/answer/lv2">LV2</a> plugin support in the mixer strips of Hydrogen, having that sort of processing DSP power inside of Hydrogen would be an incredible addition to an already phenomenal Drum Sequencer IMHO.  </p>
+<div style="width: 1034px;display:block;margin:0 auto;"><img alt="" src="/sites/default/files/articles/Farm2-1024x576.jpg" /><em>The Farm Awesomeness #2. Great way to justify spending a lot of time in front of the computer. "But... I'm always outdoors working..... Pleeeeaseee..!".</em>
+<p> </p>
+</div>
+<p><strong>What's your favorite free and open source plugin currently?</strong></p>
+<p>Barry's Satan Maximizer...no contest.  </p>
+<p><strong>Where can people get a hold of you, and where can they find your work and music? </strong></p>
+<p>Well you can find me as 'GMaq' on the AV Linux, Ardour and Linux Musicians forums, and as 'avlinux' on IRC although I'm on IRC very sporadically.</p>
+<p>Music links: Soundcloud: <a href="https://soundcloud.com/glen-macarthur" target="_blank"> https://soundcloud.com/glen-<wbr></wbr>macarthur</a></p>
+<p>MG&amp;V: <a href="http://www.bandshed.net/mgv/index.html" target="_blank">http://www.bandshed.net/mgv/<wbr></wbr>index.html</a></p>
+<p>Wally &amp; the Spaz Rockets: <a href="http://www.youtube.com/watch?v=ZNL4jaORPpM" target="_blank"> http://www.youtube.com/watch?<wbr></wbr>v=ZNL4jaORPpM</a></p>
+<p><strong>Is there anything you would like to add to the interview?</strong></p>
+<p>I'd like to add that I'm working on an updated AV Linux 6.0.2 ISO which will feature XFCE 4.10 as a D.E. and it will have many important updates, hotfixes, convenience features and new plugins. This release will be  focused on well-established Hosts+plugins and feature a bit less in the way of modular apps. I hope to release it between now and Christmas.</p>
+<p>I'm also hoping to attend LAC 2014 and meet as many Linux Audio developers and users as possible!  </p>
+<p><strong>Thank you very much for the interview!</strong></p>
+<p class="well">That was Glen MacArthur (aka avlinux). Thanks to Glen for participating, and thank you for reading!</p>
+</div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first"></li>
+<li class="sharethis last"><span><div class="sharethis-wrapper"><span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_facebook_button" displayText="facebook"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_googleplus_button" displayText="googleplus"></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_twitter_button" displayText="twitter" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_linkedin_button" displayText="linkedin" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_tumblr_button" displayText="tumblr" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_pinterest_button" displayText="pinterest" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_email_button" displayText="email" st_via="" st_username=""></span>
+<span st_url="http://libremusicproduction.com/articles/friday-interview-6-glen-macarthur" st_title="Friday Interview #6: Glen MacArthur" class="st_sharethis_button" displayText="sharethis" st_via="" st_username=""></span>
+</div></span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+    <h2>Get involved</h2>
+  
+  <div class="content">
+    <p>Libre Music Production is a community driven project. <a href="/articles/how-contribute-libre-music-production">If you are interested in contributing, you can find all the information you need here</a>.</p>
+  </div>
+</div>
+<div id="block-simplenews-23" class="block block-simplenews">
+
+    <h2>Subscribe to our newsletter</h2>
+  
+  <div class="content">
+          <p>Sign up to our newsletter and receive updates about the latest news, tutorials, interviews and articles on LMP. A great way to make sure that you don&#039;t miss anything!</p>
+  
+      <form class="simplenews-subscribe" action="/articles/friday-interview-6-glen-macarthur" method="post" id="simplenews-block-form-23" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-ET-pAAKmrJYVJqJo0J0sc0wDK5en_ukAnsqKqmerqEs" />
+<input type="hidden" name="form_id" value="simplenews_block_form_23" />
+</div></form>  
+  
+  
+    </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                  <div class="region region-footer-second">
+    <div id="block-search-form" class="block block-search">
+
+    <h2>Search</h2>
+  
+  <div class="content">
+    <form action="/articles/friday-interview-6-glen-macarthur" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Bbg7TTAazb9PU0_Or9gn15wPIeplGZztv1GcD_Sv9qo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Questions?</h2>
+  
+  <div class="content">
+    <p>Look up words, terms and concepts in our <a href="/jargonbuster">Jargon buster</a>. You can find more answers in our <a href="/faq">FAQ</a> section. If you are missing something, please <a href="/contact">suggest additions</a>!</p>
+  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-block-10" class="block block-block">
+
+    <h2>Follow us on Social media!</h2>
+  
+  <div class="content">
+    <p>Follow us on social media and make sure you don't miss any new content.</p>
+<p><a href="http://libremusicproduction.com/rss.xml"><img alt="RSS Feed icon." src="/sites/default/files/icon_rss.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /></a><a href="http://libremusicproduction.com/feeds/articles-and-tutorials.xml">Subscribe to our feed</a> with articles and tutorials (including news)! We also have a <a href="http://libremusicproduction.com/feeds/articles-tutorials-news-full.xml">full text feed</a> available.</p>
+<p><img alt="Facebook icon." src="/sites/default/files/icon_facebook.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://www.facebook.com/libremusicproduction">Join us on Facebook</a>. Get the news, comment and share!</p>
+<p><img alt="Twiiter icon." src="/sites/default/files/icon_twitter.png" style="width: 32px; height: 32px; float: left; margin-right: 6px;padding-top:4px;" /><a href="https://twitter.com/lmp_music">Follow us on Twitter</a> for the latest news.</p>
+  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <div id="credits">
+                2019                                 Libre Music Production- This is a Free Drupal Theme<br/>
+                                Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->  </body>
+</html>
